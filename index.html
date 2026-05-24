@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{SUBTITLE}}">
+<link rel="alternate" type="application/atom+xml" title="{{TITLE}}" href="{{FEED_URL}}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%2314B78F'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg:        #0a0a0a;
+    --panel:     #111111;
+    --line:      #1f1f1f;
+    --line-soft: #181818;
+    --fg:        #e8e8e6;
+    --muted:     #757373;
+    --dim:       #4a4847;
+    --accent:    #14b78f;
+    --accent-d:  #0e8b6d;
+    --hot:       #f59e0b;
+    --serif:     'Fraunces', Georgia, serif;
+    --sans:      'Outfit', system-ui, sans-serif;
+    --mono:      'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { background: var(--bg); }
+  body {
+    font-family: var(--sans);
+    font-weight: 400;
+    color: var(--fg);
+    line-height: 1.55;
+    background:
+      radial-gradient(circle at 20% -10%, rgba(20,183,143,0.07), transparent 50%),
+      radial-gradient(circle at 100% 0%, rgba(245,158,11,0.04), transparent 40%),
+      var(--bg);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 28px; }
+
+  /* ── Header ─────────────────────────────────────────────── */
+
+  header { padding: 80px 0 60px; border-bottom: 1px solid var(--line); }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--accent);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.35; }
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(40px, 7vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+  }
+  h1 em {
+    font-style: italic;
+    color: var(--accent);
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    color: var(--muted);
+    max-width: 56ch;
+    line-height: 1.45;
+  }
+
+  .controls {
+    display: flex; gap: 12px; flex-wrap: wrap;
+    margin-top: 36px;
+  }
+  .btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding: 10px 16px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--fg);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.18s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .btn.primary {
+    background: var(--accent);
+    color: #0a0a0a;
+    border-color: var(--accent);
+    font-weight: 500;
+  }
+  .btn.primary:hover {
+    background: var(--accent-d);
+    border-color: var(--accent-d);
+    color: #0a0a0a;
+  }
+
+  /* ── Meta strip ─────────────────────────────────────────── */
+
+  .meta-strip {
+    display: flex;
+    gap: 32px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+    letter-spacing: 0.04em;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  .meta-strip span strong {
+    color: var(--fg);
+    font-weight: 500;
+    margin-left: 6px;
+  }
+
+  /* ── Entries ────────────────────────────────────────────── */
+
+  main { padding: 40px 0 120px; }
+
+  .entry {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .entry:last-child { border-bottom: none; }
+
+  .entry .meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .entry .meta .date { color: var(--muted); }
+  .entry .meta .source {
+    color: var(--accent);
+    text-transform: lowercase;
+  }
+  .entry .meta .score {
+    margin-left: auto;
+    font-weight: 500;
+    color: var(--fg);
+    font-size: 13px;
+  }
+  .entry .meta .score .muted { color: var(--dim); font-weight: 400; }
+
+  .entry .title {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .entry .title a {
+    color: var(--fg);
+    text-decoration: none;
+    background-image: linear-gradient(var(--accent), var(--accent));
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  .entry .title a:hover {
+    color: var(--accent);
+    background-size: 100% 1px;
+  }
+
+  .entry .summary {
+    color: var(--muted);
+    font-size: 15.5px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+
+  .entry .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--muted);
+    background: var(--panel);
+    padding: 3px 9px;
+    border-radius: 3px;
+    border: 1px solid var(--line);
+  }
+
+  .empty {
+    color: var(--muted);
+    font-style: italic;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  /* ── Footer ─────────────────────────────────────────────── */
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 40px 0 80px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+    letter-spacing: 0.04em;
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+
+  /* ── Mobile ─────────────────────────────────────────────── */
+
+  @media (max-width: 600px) {
+    header { padding: 56px 0 40px; }
+    .wrap { padding: 0 20px; }
+    .entry { padding: 24px 0; }
+    .entry .title { font-size: 21px; }
+    .entry .meta .score { font-size: 12px; }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">watchtower / live</div>
+    <h1>{{TITLE}}</h1>
+    <p class="subtitle">{{SUBTITLE}}</p>
+    <div class="controls">
+      <a class="btn primary" href="{{FEED_URL}}">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M4 4v4a12 12 0 0112 12h4A16 16 0 004 4zm0 8v4a4 4 0 014 4h4a8 8 0 00-8-8zm2 6.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/>
+        </svg>
+        Subscribe to Atom
+      </a>
+      <a class="btn" href="{{FEED_URL}}" download="atom.xml">Download feed.xml</a>
+    </div>
+  </header>
+
+  <div class="meta-strip">
+    <span>Items<strong>{{COUNT}}</strong></span>
+    <span>Updated<strong>{{UPDATED}}</strong></span>
+    <span style="margin-left:auto">Min score<strong>6/10</strong></span>
+  </div>
+
+  <main>
+{{ENTRIES}}
+  </main>
+
+  <footer>
+    <p>Curated by Claude Haiku · published from a Mac Mini on launchd · point your RSS reader at <a href="{{FEED_URL}}">atom.xml</a></p>
+  </footer>
+
+</div>
+
+</body>
+</html>
