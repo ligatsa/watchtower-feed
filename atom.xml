@@ -5,8 +5,216 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-25T04:26:20+00:00</updated>
+  <updated>2026-05-25T13:50:13+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d0cf8f120e21d1f3</id>
+    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
+    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
+    <published>2026-05-25T13:33:26Z</published>
+    <updated>2026-05-25T13:33:26Z</updated>
+    <author><name>nexu-io</name></author>
+    <category term="prototype"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="agent-sdk"/>
+    <summary>Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</summary>
+    <content type="html"><![CDATA[<p>Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4d57ccc22fb9192e</id>
+    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
+    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
+    <published>2026-05-25T13:33:26Z</published>
+    <updated>2026-05-25T13:33:26Z</updated>
+    <author><name>nexu-io</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</summary>
+    <content type="html"><![CDATA[<p>Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:245385ede3e7c1c2</id>
+    <title>tokens-studio/figma-plugin — Official repository of the plugin &#x27;Tokens Studio for Figma&#x27; (Figma Tokens)</title>
+    <link rel="alternate" href="https://github.com/tokens-studio/figma-plugin"/>
+    <published>2026-05-25T13:29:57Z</published>
+    <updated>2026-05-25T13:29:57Z</updated>
+    <author><name>tokens-studio</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="plugin"/>
+    <category term="figma-make"/>
+    <summary>Tokens Studio is a mature, production-grade Figma plugin for design-token management and sync—essential infrastructure for designers scaling component libraries and design systems with code.</summary>
+    <content type="html"><![CDATA[<p>Tokens Studio is a mature, production-grade Figma plugin for design-token management and sync—essential infrastructure for designers scaling component libraries and design systems with code.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/tokens-studio/figma-plugin">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:94559356b5a7129e</id>
+    <title>channel-io/bezier-react — React components library that implements Bezier design system.</title>
+    <link rel="alternate" href="https://github.com/channel-io/bezier-react"/>
+    <published>2026-05-25T13:09:39Z</published>
+    <updated>2026-05-25T13:09:39Z</updated>
+    <author><name>channel-io</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <category term="frontend"/>
+    <category term="shadcn"/>
+    <summary>Open-source React component library implementing a production design system with Figma integration and Storybook documentation.</summary>
+    <content type="html"><![CDATA[<p>Open-source React component library implementing a production design system with Figma integration and Storybook documentation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/channel-io/bezier-react">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2e9e2d7628d0be18</id>
+    <title>mui/base-ui — Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and</title>
+    <link rel="alternate" href="https://github.com/mui/base-ui"/>
+    <published>2026-05-25T12:35:59Z</published>
+    <updated>2026-05-25T12:35:59Z</updated>
+    <author><name>mui</name></author>
+    <category term="design-system"/>
+    <category term="shadcn"/>
+    <summary>Unstyled component library from MUI team for design-system building; strong foundation but no AI/Claude angle or new design workflow.</summary>
+    <content type="html"><![CDATA[<p>Unstyled component library from MUI team for design-system building; strong foundation but no AI/Claude angle or new design workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/mui/base-ui">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a7efb6770f7757b3</id>
+    <title>Figma plugin for applying opacity to colour variables.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tn78wc/figma_plugin_for_applying_opacity_to_colour/"/>
+    <published>2026-05-25T12:09:04+00:00</published>
+    <updated>2026-05-25T12:09:04+00:00</updated>
+    <author><name>Own-Statistician1899</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Sheer: a Figma plugin that solves the opacity-variable bottleneck by automating non-destructive opacity scales, smart sync, and CSS output—enabling designers to build cleaner design systems without duplicating variables.</summary>
+    <content type="html"><![CDATA[<p>Sheer: a Figma plugin that solves the opacity-variable bottleneck by automating non-destructive opacity scales, smart sync, and CSS output—enabling designers to build cleaner design systems without duplicating variables.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tn78wc/figma_plugin_for_applying_opacity_to_colour/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:87a20fdee8d58ae1</id>
+    <title>I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tn5w5r/i_built_animotion_a_new_figma_plugin_for_advanced/"/>
+    <published>2026-05-25T11:06:46+00:00</published>
+    <updated>2026-05-25T11:06:46+00:00</updated>
+    <author><name>General-Plankton-332</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Solo designer-dev releases AniMotion, a Figma plugin for creating and exporting UI micro-animations directly to WebM with 30+ presets, custom easing curves, and alpha-channel support—eliminating the Figma→After Effects workflow.</summary>
+    <content type="html"><![CDATA[<p>Solo designer-dev releases AniMotion, a Figma plugin for creating and exporting UI micro-animations directly to WebM with 30+ presets, custom easing curves, and alpha-channel support—eliminating the Figma→After Effects workflow.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tn5w5r/i_built_animotion_a_new_figma_plugin_for_advanced/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ed53b397ee89116e</id>
+    <title>Reduce token burn by generating .rules.md &amp;amp; tailwind.v4.css file using FigSpecs. FOR FREE</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tn5vvk/reduce_token_burn_by_generating_rulesmd/"/>
+    <published>2026-05-25T11:06:25+00:00</published>
+    <updated>2026-05-25T11:06:25+00:00</updated>
+    <author><name>Old-Wolf-2491</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="figma-make"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>FigSpecs generates AI-readable design tokens, rules, and Tailwind CSS from Figma, reducing Claude token overhead by 74% through structured handoff.</summary>
+    <content type="html"><![CDATA[<p>FigSpecs generates AI-readable design tokens, rules, and Tailwind CSS from Figma, reducing Claude token overhead by 74% through structured handoff.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tn5vvk/reduce_token_burn_by_generating_rulesmd/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dbffc26fe1d557d1</id>
+    <title>I built a design system generator that export to Shadcn. Foundry</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1tn5qw8/i_built_a_design_system_generator_that_export_to/"/>
+    <published>2026-05-25T11:00:07+00:00</published>
+    <updated>2026-05-25T11:00:07+00:00</updated>
+    <author><name>Pretty_Ad4344</name></author>
+    <category term="design-system"/>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Designer built Foundry, an AI tool that generates full design systems (tokens, typography, accessibility) and exports directly to shadcn/ui + Tailwind with a working demo.</summary>
+    <content type="html"><![CDATA[<p>Designer built Foundry, an AI tool that generates full design systems (tokens, typography, accessibility) and exports directly to shadcn/ui + Tailwind with a working demo.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tn5qw8/i_built_a_design_system_generator_that_export_to/">Read on reddit/r/designsystems →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:985833b6cf791acd</id>
+    <title>gluestack/gluestack-ui — React &amp; React Native Components &amp; Patterns (copy-paste components &amp; patterns crafted with Tailwind CSS (NativeWind))</title>
+    <link rel="alternate" href="https://github.com/gluestack/gluestack-ui"/>
+    <published>2026-05-25T10:00:22Z</published>
+    <updated>2026-05-25T10:00:22Z</updated>
+    <author><name>gluestack</name></author>
+    <category term="design-system"/>
+    <category term="shadcn"/>
+    <category term="frontend"/>
+    <summary>Copy-paste component library for React &amp; React Native with Tailwind/NativeWind—useful for rapid UI prototyping but not a design+AI tool.</summary>
+    <content type="html"><![CDATA[<p>Copy-paste component library for React &amp; React Native with Tailwind/NativeWind—useful for rapid UI prototyping but not a design+AI tool.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/gluestack/gluestack-ui">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:43f8c3c99db4aaae</id>
+    <title>sugarcube-sh/sugarcube — Design tokens in, CSS and components out.</title>
+    <link rel="alternate" href="https://github.com/sugarcube-sh/sugarcube"/>
+    <published>2026-05-25T09:55:14Z</published>
+    <updated>2026-05-25T09:55:14Z</updated>
+    <author><name>sugarcube-sh</name></author>
+    <category term="design-system"/>
+    <category term="design-tokens"/>
+    <category term="ui-craft"/>
+    <category term="shadcn"/>
+    <summary>Design-tokens-in, CSS-and-components-out CLI tool targeting design systems and component libraries—directly relevant for Steven&#x27;s UI craft workflow.</summary>
+    <content type="html"><![CDATA[<p>Design-tokens-in, CSS-and-components-out CLI tool targeting design systems and component libraries—directly relevant for Steven&#x27;s UI craft workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/sugarcube-sh/sugarcube">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:51349afc4d26f2ec</id>
+    <title>How is this settings UI for a open source dev tool? Can anyone with experience in UI/UX give there feedback?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1tn3x8r/how_is_this_settings_ui_for_a_open_source_dev/"/>
+    <published>2026-05-25T09:24:13+00:00</published>
+    <updated>2026-05-25T09:24:13+00:00</updated>
+    <author><name>Hari-Prasad-12</name></author>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Developer shares a settings UI for an open-source tool and asks for design feedback—shows craft intent, but lacks depth or AI/design-tool context.</summary>
+    <content type="html"><![CDATA[<p>Developer shares a settings UI for an open-source tool and asks for design feedback—shows craft intent, but lacks depth or AI/design-tool context.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tn3x8r/how_is_this_settings_ui_for_a_open_source_dev/">Read on reddit/r/UI_Design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d38f57e730cd6f5e</id>
+    <title>cosscom/coss — coss.com/ui is the official design system of Cal.com</title>
+    <link rel="alternate" href="https://github.com/cosscom/coss"/>
+    <published>2026-05-25T08:55:50Z</published>
+    <updated>2026-05-25T08:55:50Z</updated>
+    <author><name>cosscom</name></author>
+    <category term="design-system"/>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>Cal.com&#x27;s official design system built on shadcn/Radix/TailwindCSS — production-grade component library for designers and developers.</summary>
+    <content type="html"><![CDATA[<p>Cal.com&#x27;s official design system built on shadcn/Radix/TailwindCSS — production-grade component library for designers and developers.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/cosscom/coss">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dd57df12d4375bc1</id>
+    <title>ruucm/shadergradient — Create beautiful moving gradients on Framer, Figma and React</title>
+    <link rel="alternate" href="https://github.com/ruucm/shadergradient"/>
+    <published>2026-05-25T08:12:59Z</published>
+    <updated>2026-05-25T08:12:59Z</updated>
+    <author><name>ruucm</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="frontend"/>
+    <category term="framer-ai"/>
+    <summary>Figma plugin + React component for procedural animated gradients; directly useful for designers building motion UI in Figma, Framer, and code.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin + React component for procedural animated gradients; directly useful for designers building motion UI in Figma, Framer, and code.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/ruucm/shadergradient">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f9a09c4a00fd6241</id>
+    <title>How is my website i made for my community ? please rate it and tell me how i can improve it !</title>
+    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1tn0jy3/how_is_my_website_i_made_for_my_community_please/"/>
+    <published>2026-05-25T06:22:10+00:00</published>
+    <updated>2026-05-25T06:22:10+00:00</updated>
+    <author><name>bthavanish</name></author>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <category term="prototype"/>
+    <summary>Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</summary>
+    <content type="html"><![CDATA[<p>Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tn0jy3/how_is_my_website_i_made_for_my_community_please/">Read on reddit/r/UI_Design →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00</id>
     <title>JesusIgnacio18/nodaysidle-neuralcanvas — 🎨 Transform sketches into polished UI wireframes with NeuralCanvas, a privacy-first macOS tool that ensures your designs</title>
