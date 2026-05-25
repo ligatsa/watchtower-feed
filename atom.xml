@@ -5,8 +5,73 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-25T04:06:58+00:00</updated>
+  <updated>2026-05-25T04:26:20+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00</id>
+    <title>JesusIgnacio18/nodaysidle-neuralcanvas — 🎨 Transform sketches into polished UI wireframes with NeuralCanvas, a privacy-first macOS tool that ensures your designs</title>
+    <link rel="alternate" href="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas"/>
+    <published>2026-05-25T04:10:16Z</published>
+    <updated>2026-05-25T04:10:16Z</updated>
+    <author><name>JesusIgnacio18</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:22c40612aabc8d70</id>
+    <title>Remy349/shadcn-ui-multi-form — Shadcn UI Multi Form is a modern, visual form builder for React that lets you craft single and multi-step flows with sha</title>
+    <link rel="alternate" href="https://github.com/Remy349/shadcn-ui-multi-form"/>
+    <published>2026-05-25T04:05:41Z</published>
+    <updated>2026-05-25T04:05:41Z</updated>
+    <author><name>Remy349</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</summary>
+    <content type="html"><![CDATA[<p>Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/Remy349/shadcn-ui-multi-form">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1d74dd2e21392856</id>
+    <title>RAHUL-PRSATH/calwall — 🖼️ Generate and customize dynamic calendar wallpapers effortlessly with CalWall Studio, combining real-time preview and </title>
+    <link rel="alternate" href="https://github.com/RAHUL-PRSATH/calwall"/>
+    <published>2026-05-25T04:04:45Z</published>
+    <updated>2026-05-25T04:04:45Z</updated>
+    <author><name>RAHUL-PRSATH</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="shadcn"/>
+    <summary>Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</summary>
+    <content type="html"><![CDATA[<p>Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/RAHUL-PRSATH/calwall">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:67c74a208f15eea0</id>
+    <title>dayuer/aicard — 🎴 高美学知识卡片生成系统 — SVG 矢量渲染 → 300dpi 高清 PNG → 可编辑 PPTX → 微信公众号贴图一键发布。28 个内置主题，14 套配色方案。</title>
+    <link rel="alternate" href="https://github.com/dayuer/aicard"/>
+    <published>2026-05-25T04:00:23Z</published>
+    <updated>2026-05-25T04:00:23Z</updated>
+    <author><name>dayuer</name></author>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</summary>
+    <content type="html"><![CDATA[<p>Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/dayuer/aicard">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0419b1de4f68c00c</id>
+    <title>phcdevworks/spectre-tokens — @phcdevworks/spectre-tokens is the design-token package of the Spectre system for downstream Spectre packages and compat</title>
+    <link rel="alternate" href="https://github.com/phcdevworks/spectre-tokens"/>
+    <published>2026-05-25T03:52:47Z</published>
+    <updated>2026-05-25T03:52:47Z</updated>
+    <author><name>phcdevworks</name></author>
+    <category term="design-system"/>
+    <category term="design-token"/>
+    <summary>Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</summary>
+    <content type="html"><![CDATA[<p>Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/phcdevworks/spectre-tokens">Read on github →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:356cfb5ed3dba93e</id>
     <title>carlomigueldy/atelier-studio — Premium software solutions agency website — Next.js 16, Tailwind CSS v4, Playfair Display + Forest &amp; Linen design system</title>
@@ -206,6 +271,20 @@
     <content type="html"><![CDATA[<p>Designer-developer seeks best practices for production Flutter UI with Claude Code; asks about prompt strategies and design-system enforcement tools.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tmsjyi/best_practices_custom_skills_for_getting/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:937556a5c28d9bce</id>
+    <title>Claude issues with design and MCP</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/"/>
+    <published>2026-05-24T21:02:55+00:00</published>
+    <updated>2026-05-24T21:02:55+00:00</updated>
+    <author><name>Adventurous_Run_6310</name></author>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="mcp"/>
+    <category term="technique"/>
+    <summary>Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</summary>
+    <content type="html"><![CDATA[<p>Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:ed729c2b31fe2295</id>
     <title>Manzela/Atelier — Atelier — autonomous design agent for the Google for Startups AI Agents Challenge 2026. Stitch generates. Atelier asks, </title>
     <link rel="alternate" href="https://github.com/Manzela/Atelier"/>
@@ -379,5 +458,31 @@
     <category term="claude-code"/>
     <summary>Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</summary>
     <content type="html"><![CDATA[<p>Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/tathagat22/plumb-mcp">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9f2a8d8d827504a8</id>
+    <title>Mad House — Usborne Creepy Computer Games</title>
+    <link rel="alternate" href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"/>
+    <published>2026-05-24T17:14:11+00:00</published>
+    <updated>2026-05-24T17:14:11+00:00</updated>
+    <author><name>simonwillison</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</summary>
+    <content type="html"><![CDATA[<p>Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</p><p><strong>Source:</strong> simonwillison · <strong>Score:</strong> 6/10</p><p><a href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything">Read on simonwillison →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f1d2f387f89b6779</id>
+    <title>When shape-outside meets `shape()`, it sparks endless inspiration. As always, @cgqaq.bsky.social has implemented it in C…</title>
+    <link rel="alternate" href="https://bsky.app/profile/yisibl.bsky.social/post/3mlqlfz7mb22r"/>
+    <published>2026-05-13T15:07:51.754Z</published>
+    <updated>2026-05-13T15:07:51.754Z</updated>
+    <author><name>yisibl.bsky.social</name></author>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <category term="technique"/>
+    <summary>CSS shape() function enables advanced layouts for UI designers; Chrome 149 implementation with live Codepen demo shows practical design applications.</summary>
+    <content type="html"><![CDATA[<p>CSS shape() function enables advanced layouts for UI designers; Chrome 149 implementation with live Codepen demo shows practical design applications.</p><p><strong>Source:</strong> bluesky_user · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/yisibl.bsky.social/post/3mlqlfz7mb22r">Read on bluesky_user →</a></p>]]></content>
   </entry>
 </feed>
