@@ -151,6 +151,40 @@
     margin-left: 6px;
   }
 
+  /* ── Source filter chips ────────────────────────────────── */
+
+  .chips {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    padding: 20px 0 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .chip {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    padding: 7px 12px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--muted);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .chip:hover { color: var(--fg); border-color: var(--dim); }
+  .chip.active {
+    color: #0a0a0a;
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 500;
+  }
+  .chip .ct {
+    font-size: 10px;
+    color: inherit;
+    opacity: 0.7;
+  }
+  .chip.active .ct { opacity: 0.85; }
+
   /* ── Entries ────────────────────────────────────────────── */
 
   main { padding: 40px 0 120px; }
@@ -183,6 +217,21 @@
     font-size: 13px;
   }
   .entry .meta .score .muted { color: var(--dim); font-weight: 400; }
+
+  .entry .meta .readmark {
+    display: none;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--dim);
+    padding: 2px 7px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+  }
+  .entry.is-read .meta .readmark { display: inline-block; }
+  .entry.is-read { opacity: 0.45; }
+  .entry.is-read:hover { opacity: 1; }
+  .entry.is-read .title a { color: var(--muted); }
 
   .entry .title {
     font-family: var(--serif);
@@ -223,6 +272,8 @@
     border-radius: 3px;
     border: 1px solid var(--line);
   }
+
+  .entry.is-hidden { display: none; }
 
   .empty {
     color: var(--muted);
@@ -275,17 +326,139 @@
     </div>
   </header>
 
+  <div class="chips" id="chips"><button class="chip active" data-source="all">All<span class="ct">60</span></button><button class="chip" data-source="github">GitHub<span class="ct">45</span></button><button class="chip" data-source="reddit">Reddit<span class="ct">13</span></button><button class="chip" data-source="x">X<span class="ct">2</span></button></div>
+
   <div class="meta-strip">
     <span>Items<strong>60</strong></span>
-    <span>Updated<strong>2026-05-25T14:14:01+00:00</strong></span>
+    <span>Updated<strong>2026-05-26T01:14:51+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
   </div>
 
-  <main>
-        <article class="entry">
+  <main id="entries">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f">
+          <div class="meta">
+            <span class="date">May 26</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">7<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/" target="_blank" rel="noopener">Anyone else dread keeping web, Android, and iOS releases in sync?</a>
+          </h2>
+          <p class="summary">Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</p>
+          <div class="tags"><span class="tag">claude-code</span><span class="tag">frontend</span><span class="tag">technique</span></div>
+        </article>
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:58d7921a1167fe77">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/ClaudeAI</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">9<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener">Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </a>
+          </h2>
+          <p class="summary">Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</p>
+          <div class="tags"><span class="tag">skill</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">anti-slop</span></div>
+        </article>
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:655586cb173b29a2">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">9<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener">Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </a>
+          </h2>
+          <p class="summary">Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</p>
+          <div class="tags"><span class="tag">skill</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">design</span></div>
+        </article>
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:19fc902a8bb3821e">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">9<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener">nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</a>
+          </h2>
+          <p class="summary">Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</p>
+          <div class="tags"><span class="tag">claude-code</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">skill</span></div>
+        </article>
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">8<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/" target="_blank" rel="noopener">Struggling to maintain Figma design fidelity with Claude Code / MCP</a>
+          </h2>
+          <p class="summary">Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</p>
+          <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
+        </article>
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:c099978a87345c10">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">X</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">7<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://x.com/raunofreiberg/status/2059018087127543837" target="_blank" rel="noopener">RT @joshpuckett: Added two new Practical Demonstrations to http://interfacecraft.dev, including a deep dive on the Libra…</a>
+          </h2>
+          <p class="summary">interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</p>
+          <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span><span class="tag">technique</span></div>
+        </article>
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">X</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">7<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://x.com/jh3yy/status/2058983282587422946" target="_blank" rel="noopener">made the input smoothing configurable
+
+jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍🍳 (w/ some example…</a>
+          </h2>
+          <p class="summary">Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</p>
+          <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">interaction-design</span></div>
+        </article>
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">9<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://github.com/bergside/design-md-figma" target="_blank" rel="noopener">bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude</a>
+          </h2>
+          <p class="summary">Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</p>
+          <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">mcp</span><span class="tag">skill</span><span class="tag">figma-make</span></div>
+        </article>
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7be82d23658acd4a">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
+            <span class="score">9<span class="muted">/10</span></span>
+          </div>
+          <h2 class="title">
+            <a href="https://github.com/bergside/design-md-chrome" target="_blank" rel="noopener">bergside/design-md-chrome — Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeU</a>
+          </h2>
+          <p class="summary">Chrome extension that reverse-engineers any website&#x27;s design language into DESIGN.md + Claude design skills—directly amplifies Steven&#x27;s design-audit and brand-extraction workflows.</p>
+          <div class="tags"><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">technique</span><span class="tag">plugin</span></div>
+        </article>
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:0ddf86cc2b454d87">
+          <div class="meta">
+            <span class="date">May 25</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -294,10 +467,11 @@
           <p class="summary">Designer-creator using Claude Code + Remotion (React video) to generate motion graphics JSX components, halving edit time and ensuring visual consistency across YouTube videos.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:75e6a077e8fa271e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github_watched</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">9<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -306,10 +480,11 @@
           <p class="summary">Local-first, open-source design tool with 19 Claude skills, 71 design systems, and multi-format prototype export (web/desktop/mobile/video). Runs on Claude Code, Cursor, Codex—direct alternative to proprietary design agents.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">design-system</span><span class="tag">prototype</span><span class="tag">skill</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7f3eed4b137dd62a">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -318,10 +493,11 @@
           <p class="summary">monday.com&#x27;s open-source React design system with component library, icons, and MCP server support — useful for production UI but not design-AI-specific.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">mcp</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d0cf8f120e21d1f3">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -330,10 +506,11 @@
           <p class="summary">Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</p>
           <div class="tags"><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">agent-sdk</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4d57ccc22fb9192e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github_watched</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">8<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -342,10 +519,11 @@
           <p class="summary">Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">agent-sdk</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:245385ede3e7c1c2">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -354,10 +532,11 @@
           <p class="summary">Tokens Studio is a mature, production-grade Figma plugin for design-token management and sync—essential infrastructure for designers scaling component libraries and design systems with code.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">plugin</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:94559356b5a7129e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -366,10 +545,11 @@
           <p class="summary">Open-source React component library implementing a production design system with Figma integration and Storybook documentation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">figma</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:2e9e2d7628d0be18">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -378,10 +558,11 @@
           <p class="summary">Unstyled component library from MUI team for design-system building; strong foundation but no AI/Claude angle or new design workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a7efb6770f7757b3">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/FigmaDesign</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">9<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -390,10 +571,11 @@
           <p class="summary">Sheer: a Figma plugin that solves the opacity-variable bottleneck by automating non-destructive opacity scales, smart sync, and CSS output—enabling designers to build cleaner design systems without duplicating variables.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">plugin</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:87a20fdee8d58ae1">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/FigmaDesign</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">8<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -402,10 +584,11 @@
           <p class="summary">Solo designer-dev releases AniMotion, a Figma plugin for creating and exporting UI micro-animations directly to WebM with 30+ presets, custom easing curves, and alpha-channel support—eliminating the Figma→After Effects workflow.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">plugin</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed53b397ee89116e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/FigmaDesign</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -414,10 +597,11 @@
           <p class="summary">FigSpecs generates AI-readable design tokens, rules, and Tailwind CSS from Figma, reducing Claude token overhead by 74% through structured handoff.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">figma-make</span><span class="tag">technique</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:dbffc26fe1d557d1">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/designsystems</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">8<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -426,10 +610,11 @@
           <p class="summary">Designer built Foundry, an AI tool that generates full design systems (tokens, typography, accessibility) and exports directly to shadcn/ui + Tailwind with a working demo.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:985833b6cf791acd">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -438,10 +623,11 @@
           <p class="summary">Copy-paste component library for React &amp; React Native with Tailwind/NativeWind—useful for rapid UI prototyping but not a design+AI tool.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:43f8c3c99db4aaae">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -450,10 +636,11 @@
           <p class="summary">Design-tokens-in, CSS-and-components-out CLI tool targeting design systems and component libraries—directly relevant for Steven&#x27;s UI craft workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">ui-craft</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:51349afc4d26f2ec">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/UI_Design</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -462,10 +649,11 @@
           <p class="summary">Developer shares a settings UI for an open-source tool and asks for design feedback—shows craft intent, but lacks depth or AI/design-tool context.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d38f57e730cd6f5e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -474,10 +662,11 @@
           <p class="summary">Cal.com&#x27;s official design system built on shadcn/Radix/TailwindCSS — production-grade component library for designers and developers.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dd57df12d4375bc1">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -486,10 +675,11 @@
           <p class="summary">Figma plugin + React component for procedural animated gradients; directly useful for designers building motion UI in Figma, Framer, and code.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span><span class="tag">framer-ai</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:f9a09c4a00fd6241">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/UI_Design</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -498,10 +688,11 @@
           <p class="summary">Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -510,10 +701,11 @@
           <p class="summary">Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:22c40612aabc8d70">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -522,10 +714,11 @@
           <p class="summary">Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1d74dd2e21392856">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -534,10 +727,11 @@
           <p class="summary">Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:67c74a208f15eea0">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -546,10 +740,11 @@
           <p class="summary">Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">prototype</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:0419b1de4f68c00c">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -558,10 +753,11 @@
           <p class="summary">Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-token</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:356cfb5ed3dba93e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -570,10 +766,11 @@
           <p class="summary">Production agency website built with Next.js 16, shadcn-ui, and a custom Forest &amp; Linen design system—a real, polished UI artifact showing modern frontend + design craft.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">shadcn</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4a4db84c2c18e6b7">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -582,10 +779,11 @@
           <p class="summary">Design system monorepo template with Storybook, visual regression tests, and CI/CD — useful reference for teams scaling component libraries.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:83dbce9cf9d53e8f">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -594,10 +792,11 @@
           <p class="summary">Repo showcasing 11 modern frontend design styles with master prompts and production-ready code—solid resource for design-to-code workflows, though lacks visible artifacts or build story.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c78f1802674380c1">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -606,10 +805,11 @@
           <p class="summary">Neo-brutalist React component library with shadcn-style design system. Production-ready UI kit for designers building bold, minimal interfaces.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">frontend</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8622ae82e3eda855">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -618,10 +818,11 @@
           <p class="summary">A complete open-source design system with dark-first tokens, React components, Tailwind config, and a texture pipeline—built with AI aesthetics in mind (dithering, Midjourney prompts).</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:42b20ea1592e48ad">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/ClaudeAI</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">8<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -630,10 +831,11 @@
           <p class="summary">Designer-developer built a production iOS/watchOS app with Claude Code—1,500+ users, real UX/design decisions shown (location accuracy, Apple Watch responsiveness, information hierarchy under stress).</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:81f0c64092afa802">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/ClaudeAI</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -642,10 +844,11 @@
           <p class="summary">Designer-developer built a playable turn-based RPG game using Claude iteratively over 170+ versions, demonstrating concrete AI-assisted game UI/UX craft with working artifact.</p>
           <div class="tags"><span class="tag">prototype</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e8906f01dae9cc9e">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -654,10 +857,11 @@
           <p class="summary">Tool to extract colors and fonts from websites for design-system consistency; useful for designers reverse-engineering brand assets, though execution clarity unclear.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7596db1e7f523fce">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -666,10 +870,11 @@
           <p class="summary">Framework-agnostic 4px grid linter &amp; transpiler that audits, analyzes, and converts design-to-code—directly targets design-system enforcement and quality for production UI.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">plugin</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e744a9b30069715f">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -678,10 +883,11 @@
           <p class="summary">AI vision tool that reverse-engineers design systems from websites into machine-readable DESIGN.md files—directly bridges visual inspection to design-token extraction.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">technique</span><span class="tag">plugin</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e24e9d576ede2727">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -690,10 +896,11 @@
           <p class="summary">Claude skill that extracts live CSS variables and design specs from websites to auto-generate design tokens—bridges design-to-code workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:426edbbf185f6137">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -702,10 +909,11 @@
           <p class="summary">A design-system tool for applying dynamic skins to UI components via data attributes—built with Claude Code, integrates shadcn/Radix, and targets the exact workflow Steven uses.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">claude-code</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c6ec03998196651a">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -714,10 +922,11 @@
           <p class="summary">Headless component library for building design systems across frameworks; enables designers to own visual language without fighting opinionated styles.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ad807d997fadb919">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -726,10 +935,11 @@
           <p class="summary">A registry explorer for shadcn/ui components — helpful discovery tool for designers building with component libraries, but light on craft/technique.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">design-system</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:da17f981f419f1bf">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -738,10 +948,11 @@
           <p class="summary">A 6-phase design-to-code pipeline bridging Figma to React using Claude skills and MCP servers—concrete workflow for translating designs at scale.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-to-code</span><span class="tag">mcp</span><span class="tag">skill</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:9be4eb0050ff80b1">
           <div class="meta">
             <span class="date">May 25</span>
-            <span class="source">reddit/r/ClaudeAI</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -750,10 +961,11 @@
           <p class="summary">Designer-developer seeks best practices for production Flutter UI with Claude Code; asks about prompt strategies and design-system enforcement tools.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:937556a5c28d9bce">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">reddit/r/ClaudeAI</span>
+            <span class="source">Reddit</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -762,10 +974,11 @@
           <p class="summary">Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">mcp</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1ee3fe625a1b2e95">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -774,10 +987,11 @@
           <p class="summary">Type-safe CSS-in-JS framework purpose-built for design systems with design-tokens, theming, and compiler primitives—directly enables token-to-code workflows Steven uses.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed729c2b31fe2295">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -786,10 +1000,11 @@
           <p class="summary">Autonomous design agent that converges on UI/UX through iterative refinement—design-to-code workflow powered by Claude and Anthropic.</p>
           <div class="tags"><span class="tag">design-to-code</span><span class="tag">agent-sdk</span><span class="tag">anthropic</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:673e2c205ec2a258">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -798,10 +1013,11 @@
           <p class="summary">AI-driven workflow combining Figma MCP + agent-browser to convert wireframes to code matching design systems—bridges design intent to implementation.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">mcp</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3f13dcee45cb0c55">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -810,10 +1026,11 @@
           <p class="summary">A prompt library for generating production UI (landing pages, SaaS dashboards, components) with React, Tailwind, shadcn/ui—useful reference for designers prompting AI tools like v0/Lovable.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">prototype</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:706f9fde799710ac">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -822,10 +1039,11 @@
           <p class="summary">A production dev portfolio built with shadcn/ui components and registry patterns—concrete example of modern design-to-code workflow with TailwindCSS and motion.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8a49a55280a6f281">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -834,10 +1052,11 @@
           <p class="summary">Tool to extract and apply visual design identity as machine-readable Design DNA across tokens, styles, and effects—directly targets design-system automation and token sync.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:209eb807db83e4c0">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -846,10 +1065,11 @@
           <p class="summary">Tool to extract website design systems into Markdown guides and validation demos for AI-generated UIs — directly bridges design analysis and Claude Code workflows.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8ef0715154890961">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -858,10 +1078,11 @@
           <p class="summary">Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">typography</span><span class="tag">figma</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:f27a3899b1920e19">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -870,10 +1091,11 @@
           <p class="summary">Ready-to-use Apple bento grid component library for AI agents—pixel-perfect HTML output, shadcn/Framer Motion integration, eliminates design-tool friction for rapid UI prototyping.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">component</span><span class="tag">shadcn</span><span class="tag">claude-code</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:fc9ee5722987547c">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">6<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -882,10 +1104,11 @@
           <p class="summary">A visual builder for pixel-art React components with animation—design-system tooling for retro UI craft with a builder interface.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9865d197c02a4362">
           <div class="meta">
             <span class="date">May 24</span>
-            <span class="source">github</span>
+            <span class="source">GitHub</span>
+            <span class="readmark" aria-hidden="true">read</span>
             <span class="score">7<span class="muted">/10</span></span>
           </div>
           <h2 class="title">
@@ -894,116 +1117,63 @@
           <p class="summary">MCP server bridging Claude Code to v0 for multi-screen UI prototyping with design-token sync and Figma integration.</p>
           <div class="tags"><span class="tag">v0</span><span class="tag">mcp</span><span class="tag">design-tokens</span><span class="tag">figma</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 24</span>
-            <span class="source">github</span>
-            <span class="score">7<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/ar27111994/penpot-mcp" target="_blank" rel="noopener">ar27111994/penpot-mcp — AI-agent skill for creating &amp; maintaining production-grade Penpot design systems via the official Penpot MCP Server</a>
-          </h2>
-          <p class="summary">MCP server enabling Claude agents to create and maintain production Penpot design systems—directly bridges design tooling and AI-assisted design workflow.</p>
-          <div class="tags"><span class="tag">mcp</span><span class="tag">design-system</span><span class="tag">penpot</span><span class="tag">agent-sdk</span><span class="tag">design-to-code</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 24</span>
-            <span class="source">github</span>
-            <span class="score">8<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/tathagat22/plumb-mcp" target="_blank" rel="noopener">tathagat22/plumb-mcp — Local Figma MCP server with no REST rate limits, no metered tool-call quotas, and a verification loop. Drop-in alternati</a>
-          </h2>
-          <p class="summary">Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</p>
-          <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">design-to-code</span><span class="tag">claude-code</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 24</span>
-            <span class="source">simonwillison</span>
-            <span class="score">6<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything" target="_blank" rel="noopener">Mad House — Usborne Creepy Computer Games</a>
-          </h2>
-          <p class="summary">Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</p>
-          <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">ui-craft</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 24</span>
-            <span class="source">github</span>
-            <span class="score">7<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/penpot/penpot-exporter-figma-plugin" target="_blank" rel="noopener">penpot/penpot-exporter-figma-plugin — Penpot exporter Figma plugin</a>
-          </h2>
-          <p class="summary">Figma plugin that exports designs to Penpot, enabling cross-tool design workflows and format interoperability.</p>
-          <div class="tags"><span class="tag">figma</span><span class="tag">plugin</span><span class="tag">design-system</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 24</span>
-            <span class="source">github</span>
-            <span class="score">8<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/ZSeven-W/openpencil" target="_blank" rel="noopener">ZSeven-W/openpencil — The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Co</a>
-          </h2>
-          <p class="summary">Open-source AI-native vector design tool with concurrent Agent Teams, prompt-to-UI canvas rendering, and Claude integration—a Pencil alternative built for design-as-code workflows.</p>
-          <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">claude-code</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 22</span>
-            <span class="source">github_watched</span>
-            <span class="score">9<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/southleft/figma-console-mcp" target="_blank" rel="noopener">southleft/figma-console-mcp — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</a>
-          </h2>
-          <p class="summary">Official design-system MCP exposing Figma as an API for AI-driven extraction, creation, and debugging—directly matches Steven&#x27;s installed figma-desktop + design-systems-mcp stack.</p>
-          <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">mcp</span><span class="tag">figma-make</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 22</span>
-            <span class="source">github</span>
-            <span class="score">7<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/nexu-io/html-anything" target="_blank" rel="noopener">nexu-io/html-anything — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck </a>
-          </h2>
-          <p class="summary">Agentic HTML editor with 75 design skills and 9 output surfaces (magazine, deck, poster, prototype, etc.). Local-first, multi-model support, sandboxed preview, 1-click export.</p>
-          <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">skill</span><span class="tag">agent-sdk</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 18</span>
-            <span class="source">github</span>
-            <span class="score">8<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/figma/mcp-server-guide" target="_blank" rel="noopener">figma/mcp-server-guide — A guide on how to use the Figma MCP server</a>
-          </h2>
-          <p class="summary">Official Figma MCP server guide — direct path to design↔code automation and Figma-Claude integration.</p>
-          <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">figma-make</span><span class="tag">design-system</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <span class="date">May 18</span>
-            <span class="source">github</span>
-            <span class="score">8<span class="muted">/10</span></span>
-          </div>
-          <h2 class="title">
-            <a href="https://github.com/LottieFiles/motion-design-skill" target="_blank" rel="noopener">LottieFiles/motion-design-skill — Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted</a>
-          </h2>
-          <p class="summary">Claude skill for motion design &amp; animation principles (timing, easing, Disney choreography)—directly applicable to polishing UI interactions and micromotion craft.</p>
-          <div class="tags"><span class="tag">skill</span><span class="tag">ui-craft</span><span class="tag">animation</span><span class="tag">claude-code</span></div>
-        </article>
 
   </main>
+
+  <script>
+  (function () {
+    var READ_KEY = 'watchtower:read';
+    var SRC_KEY  = 'watchtower:source';
+
+    function loadRead() {
+      try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]')); }
+      catch (e) { return new Set(); }
+    }
+    function saveRead(set) {
+      try { localStorage.setItem(READ_KEY, JSON.stringify([].slice.call(set))); }
+      catch (e) {}
+    }
+
+    var read = loadRead();
+    var entries = document.querySelectorAll('.entry');
+
+    // Restore read state
+    entries.forEach(function (el) {
+      if (read.has(el.dataset.id)) el.classList.add('is-read');
+      var a = el.querySelector('.title a');
+      if (a) {
+        a.addEventListener('click', function () {
+          read.add(el.dataset.id);
+          saveRead(read);
+          el.classList.add('is-read');
+        });
+      }
+    });
+
+    // Source filter
+    var chips = document.querySelectorAll('.chip');
+    function applyFilter(src) {
+      entries.forEach(function (el) {
+        var match = (src === 'all') || (el.dataset.source === src);
+        el.classList.toggle('is-hidden', !match);
+      });
+      chips.forEach(function (c) {
+        c.classList.toggle('active', c.dataset.source === src);
+      });
+      try { localStorage.setItem(SRC_KEY, src); } catch (e) {}
+    }
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () { applyFilter(c.dataset.source); });
+    });
+
+    // Restore last source filter
+    var savedSrc = null;
+    try { savedSrc = localStorage.getItem(SRC_KEY); } catch (e) {}
+    if (savedSrc && document.querySelector('.chip[data-source="' + savedSrc + '"]')) {
+      applyFilter(savedSrc);
+    }
+  })();
+  </script>
 
   <footer>
     <p>Curated by Claude Haiku · published from a Mac Mini on launchd · point your RSS reader at <a href="https://ligatsa.github.io/watchtower-feed/atom.xml">atom.xml</a></p>
