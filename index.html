@@ -412,10 +412,10 @@
     letter-spacing: 0.04em;
   }
 
-  /* prefs panel pinned in header */
+  /* prefs panel pinned in header — always visible so sync is reachable */
   .prefs-bar {
     margin-top: 24px;
-    display: none;
+    display: flex;
     align-items: center;
     gap: 14px;
     font-family: var(--mono);
@@ -423,7 +423,6 @@
     color: var(--muted);
     flex-wrap: wrap;
   }
-  .prefs-bar.show { display: flex; }
   .prefs-bar strong { color: var(--fg); font-weight: 500; }
   .prefs-bar .pref-action {
     background: transparent;
@@ -587,7 +586,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>82</strong></span>
-    <span>Updated<strong>2026-05-26T02:29:56+00:00</strong></span>
+    <span>Updated<strong>2026-05-26T03:02:18+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
@@ -2398,13 +2397,10 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     });
 
     // ── prefs bar counts + actions ──
-    var prefsBar = document.getElementById('prefsBar');
     function refreshCounts() {
       document.getElementById('moreCount').textContent    = more.length;
       document.getElementById('lessCount').textContent    = less.length;
       document.getElementById('excludeCount').textContent = exclude.length;
-      var hasAny = more.length + less.length + exclude.length > 0;
-      prefsBar.classList.toggle('show', hasAny);
     }
     refreshCounts();
 
