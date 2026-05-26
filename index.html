@@ -435,6 +435,9 @@
     font: inherit;
   }
   .prefs-bar .pref-action:hover { color: var(--accent); border-color: var(--accent); }
+  .prefs-bar .sync-status { color: var(--dim); }
+  .prefs-bar .sync-status.on  { color: var(--accent); }
+  .prefs-bar .sync-status.err { color: var(--hot); }
 
   /* toast on action */
   #toast {
@@ -567,7 +570,9 @@
       <span><strong id="moreCount">0</strong> liked</span>
       <span><strong id="lessCount">0</strong> down-voted</span>
       <span><strong id="excludeCount">0</strong> excluded</span>
-      <button class="pref-action" id="exportPrefs">Export prefs JSON</button>
+      <span id="syncStatus" class="sync-status">Sync: off</span>
+      <button class="pref-action" id="syncBtn">Set up sync</button>
+      <button class="pref-action" id="exportPrefs">Export</button>
       <button class="pref-action" id="clearPrefs">Clear all</button>
     </div>
 
@@ -582,7 +587,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>82</strong></span>
-    <span>Updated<strong>2026-05-26T01:49:51+00:00</strong></span>
+    <span>Updated<strong>2026-05-26T02:29:56+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
@@ -2248,6 +2253,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
       MORE:    'watchtower:more',
       LESS:    'watchtower:less',
       EXCLUDE: 'watchtower:exclude',
+      NTFY:    'watchtower:ntfy_topic',
     };
 
     function loadJSON(k, def) {
@@ -2264,7 +2270,94 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     var more    = loadJSON(K.MORE, []);      // [{id,title,author,url,source,exclude_key}]
     var less    = loadJSON(K.LESS, []);
     var exclude = loadJSON(K.EXCLUDE, []);   // [{key,label,source}]
+    var ntfyTopic = null;
+    try { ntfyTopic = localStorage.getItem(K.NTFY); } catch (e) {}
     var entries = document.querySelectorAll('.entry');
+
+    // ── ntfy sync ──
+    var syncStatusEl = document.getElementById('syncStatus');
+    var syncBtn = document.getElementById('syncBtn');
+    var syncTimer = null;
+    var lastSyncAt = 0;
+
+    function setSyncStatus(state, detail) {
+      syncStatusEl.classList.remove('on', 'err');
+      if (state === 'on')  syncStatusEl.classList.add('on');
+      if (state === 'err') syncStatusEl.classList.add('err');
+      syncStatusEl.textContent = 'Sync: ' + (detail || state);
+    }
+    function updateSyncUI() {
+      if (ntfyTopic) {
+        var preview = ntfyTopic.length > 24 ? ntfyTopic.slice(0, 8) + '…' : ntfyTopic;
+        var ago = lastSyncAt ? Math.max(0, Math.round((Date.now() - lastSyncAt) / 1000)) + 's ago' : 'pending';
+        setSyncStatus('on', 'on (' + preview + ' · ' + ago + ')');
+        syncBtn.textContent = 'Manage sync';
+      } else {
+        setSyncStatus('off', 'off');
+        syncBtn.textContent = 'Set up sync';
+      }
+    }
+    function syncNow() {
+      if (!ntfyTopic) return;
+      var body = JSON.stringify({ more: more, less: less, exclude: exclude });
+      fetch('https://ntfy.sh/' + encodeURIComponent(ntfyTopic), {
+        method: 'POST',
+        body: body,
+        headers: { 'Title': 'watchtower-prefs', 'Tags': 'gear' },
+      }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        lastSyncAt = Date.now();
+        updateSyncUI();
+      }).catch(function (e) {
+        setSyncStatus('err', 'error');
+        console.error('[ntfy] sync failed', e);
+      });
+    }
+    function scheduleSync() {
+      if (!ntfyTopic) return;
+      clearTimeout(syncTimer);
+      syncTimer = setTimeout(syncNow, 800);   // debounce
+    }
+    function genTopic() {
+      var bytes = new Uint8Array(16);
+      crypto.getRandomValues(bytes);
+      var hex = [].map.call(bytes, function (b) {
+        return ('0' + b.toString(16)).slice(-2);
+      }).join('');
+      return 'watchtower-prefs-' + hex;
+    }
+
+    syncBtn.addEventListener('click', function () {
+      var msg = ntfyTopic
+        ? 'Current sync topic:\n\n' + ntfyTopic +
+          '\n\nLeave blank to keep it. Type DISCONNECT to turn off.\n' +
+          'Or paste a topic from another device to share.'
+        : 'Paste an existing topic to join a sync group, or leave blank to generate a new one.\n\n' +
+          '(Copy this topic onto your other devices to vote-sync them.)';
+      var resp = prompt(msg, '');
+      if (resp === null) return;
+      resp = resp.trim();
+      if (resp.toUpperCase() === 'DISCONNECT') {
+        ntfyTopic = null;
+        try { localStorage.removeItem(K.NTFY); } catch (e) {}
+        updateSyncUI();
+        showToast('Sync disconnected');
+        return;
+      }
+      if (resp === '') {
+        if (!ntfyTopic) ntfyTopic = genTopic();
+      } else {
+        ntfyTopic = resp;
+      }
+      try { localStorage.setItem(K.NTFY, ntfyTopic); } catch (e) {}
+      updateSyncUI();
+      syncNow();      // immediate push of current state
+      // Show topic so user can copy it to other devices
+      setTimeout(function () {
+        prompt('Sync topic (copy this to your other devices):', ntfyTopic);
+      }, 100);
+    });
+    updateSyncUI();
 
     function excludeKeySet() { return new Set(exclude.map(function (e) { return e.key; })); }
 
@@ -2331,6 +2424,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
       if (!confirm('Clear all liked / down-voted / excluded preferences?')) return;
       more = []; less = []; exclude = [];
       saveJSON(K.MORE, more); saveJSON(K.LESS, less); saveJSON(K.EXCLUDE, exclude);
+      scheduleSync();
       entries.forEach(paintEntry);
       refreshCounts();
       applyFilters();
@@ -2414,10 +2508,10 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
               more.push(info);
               showToast('Will see more like this', function () {
                 more = more.filter(function (m) { return m.id !== info.id; });
-                saveJSON(K.MORE, more); paintEntry(el); refreshCounts();
+                saveJSON(K.MORE, more); paintEntry(el); refreshCounts(); scheduleSync();
               });
             }
-            saveJSON(K.MORE, more); saveJSON(K.LESS, less);
+            saveJSON(K.MORE, more); saveJSON(K.LESS, less); scheduleSync();
           } else if (action === 'less') {
             var j = less.findIndex(function (m) { return m.id === info.id; });
             if (j >= 0) { less.splice(j, 1); showToast('Removed from "less like"'); }
@@ -2426,10 +2520,10 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
               less.push(info);
               showToast('Will see less like this', function () {
                 less = less.filter(function (m) { return m.id !== info.id; });
-                saveJSON(K.LESS, less); paintEntry(el); refreshCounts();
+                saveJSON(K.LESS, less); paintEntry(el); refreshCounts(); scheduleSync();
               });
             }
-            saveJSON(K.MORE, more); saveJSON(K.LESS, less);
+            saveJSON(K.MORE, more); saveJSON(K.LESS, less); scheduleSync();
           } else if (action === 'exclude') {
             var existing = excludeKeySet();
             if (existing.has(info.exclude_key)) {
@@ -2439,10 +2533,10 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
               exclude.push({ key: info.exclude_key, label: info.exclude_key, source: info.source });
               showToast('Excluded ' + info.exclude_key, function () {
                 exclude = exclude.filter(function (e) { return e.key !== info.exclude_key; });
-                saveJSON(K.EXCLUDE, exclude); entries.forEach(paintEntry); refreshCounts();
+                saveJSON(K.EXCLUDE, exclude); entries.forEach(paintEntry); refreshCounts(); scheduleSync();
               });
             }
-            saveJSON(K.EXCLUDE, exclude);
+            saveJSON(K.EXCLUDE, exclude); scheduleSync();
           }
 
           entries.forEach(paintEntry);
