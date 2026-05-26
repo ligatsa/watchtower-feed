@@ -233,6 +233,160 @@
   .entry.is-read:hover { opacity: 1; }
   .entry.is-read .title a { color: var(--muted); }
 
+  /* prefmark — small chip showing more/less liked */
+  .entry .meta .prefmark {
+    display: none;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 3px;
+    border: 1px solid var(--line);
+  }
+  .entry.is-more .meta .prefmark {
+    display: inline-block;
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .entry.is-more .meta .prefmark::before { content: '▲ more'; }
+  .entry.is-less .meta .prefmark {
+    display: inline-block;
+    color: var(--hot);
+    border-color: var(--hot);
+  }
+  .entry.is-less .meta .prefmark::before { content: '▼ less'; }
+  .entry.is-less { opacity: 0.55; }
+  .entry.is-less:hover { opacity: 1; }
+
+  /* overflow menu button */
+  .entry .meta .overflow {
+    margin-left: 4px;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--dim);
+    cursor: pointer;
+    padding: 0 8px;
+    height: 22px;
+    line-height: 1;
+    border-radius: 3px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    transition: all 0.15s ease;
+  }
+  .entry .meta .overflow:hover {
+    color: var(--fg);
+    border-color: var(--line);
+    background: var(--panel);
+  }
+
+  .entry .meta { position: relative; }   /* anchor for the dropdown */
+
+  .menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px;
+    min-width: 220px;
+    z-index: 10;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    font-family: var(--sans);
+    font-size: 13px;
+  }
+  .menu button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    background: transparent;
+    color: var(--fg);
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px;
+    font: inherit;
+  }
+  .menu button:hover { background: var(--line); }
+  .menu button .ico {
+    font-size: 12px;
+    color: var(--muted);
+    width: 12px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .menu button.danger:hover { color: var(--hot); }
+  .menu button.danger:hover .ico { color: var(--hot); }
+  .menu .sep { height: 1px; background: var(--line); margin: 4px 2px; }
+  .menu .target {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--dim);
+    padding: 6px 10px 4px;
+    letter-spacing: 0.04em;
+  }
+
+  /* prefs panel pinned in header */
+  .prefs-bar {
+    margin-top: 24px;
+    display: none;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    flex-wrap: wrap;
+  }
+  .prefs-bar.show { display: flex; }
+  .prefs-bar strong { color: var(--fg); font-weight: 500; }
+  .prefs-bar .pref-action {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font: inherit;
+  }
+  .prefs-bar .pref-action:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* toast on action */
+  #toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 11px 18px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--fg);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.25s ease;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  #toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+  }
+  #toast button {
+    margin-left: 14px;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--accent);
+    padding: 3px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    font: inherit;
+  }
+
   .entry .title {
     font-family: var(--serif);
     font-size: 24px;
@@ -324,23 +478,37 @@
       </a>
       <a class="btn" href="https://ligatsa.github.io/watchtower-feed/atom.xml" download="atom.xml">Download feed.xml</a>
     </div>
+
+    <div class="prefs-bar" id="prefsBar">
+      <span><strong id="moreCount">0</strong> liked</span>
+      <span><strong id="lessCount">0</strong> down-voted</span>
+      <span><strong id="excludeCount">0</strong> excluded</span>
+      <button class="pref-action" id="exportPrefs">Export prefs JSON</button>
+      <button class="pref-action" id="clearPrefs">Clear all</button>
+    </div>
   </header>
 
   <div class="chips" id="chips"><button class="chip active" data-source="all">All<span class="ct">82</span></button><button class="chip" data-source="github">GitHub<span class="ct">62</span></button><button class="chip" data-source="reddit">Reddit<span class="ct">14</span></button><button class="chip" data-source="x">X<span class="ct">4</span></button><button class="chip" data-source="sw">Simon Willison<span class="ct">1</span></button><button class="chip" data-source="bluesky">Bluesky<span class="ct">1</span></button></div>
 
   <div class="meta-strip">
     <span>Items<strong>82</strong></span>
-    <span>Updated<strong>2026-05-26T01:27:12+00:00</strong></span>
+    <span>Updated<strong>2026-05-26T01:40:08+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
   </div>
 
   <main id="entries">
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f"
+                 data-exclude-key="@MightyBig-Dev"
+                 data-exclude-label="@MightyBig-Dev"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/"
+                 data-title="Anyone else dread keeping web, Android, and iOS releases in sync?">
           <div class="meta">
             <span class="date">May 26</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/" target="_blank" rel="noopener">Anyone else dread keeping web, Android, and iOS releases in sync?</a>
@@ -348,12 +516,18 @@
           <p class="summary">Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">frontend</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:58d7921a1167fe77">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:58d7921a1167fe77"
+                 data-exclude-key="Leonxlnx/taste-skill"
+                 data-exclude-label="Leonxlnx/taste-skill"
+                 data-url="https://github.com/Leonxlnx/taste-skill"
+                 data-title="Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener">Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </a>
@@ -361,12 +535,18 @@
           <p class="summary">Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">anti-slop</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:655586cb173b29a2">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:655586cb173b29a2"
+                 data-exclude-key="Leonxlnx/taste-skill"
+                 data-exclude-label="Leonxlnx/taste-skill"
+                 data-url="https://github.com/Leonxlnx/taste-skill"
+                 data-title="Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener">Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </a>
@@ -374,12 +554,18 @@
           <p class="summary">Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">design</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:19fc902a8bb3821e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:19fc902a8bb3821e"
+                 data-exclude-key="nexu-io/open-design"
+                 data-exclude-label="nexu-io/open-design"
+                 data-url="https://github.com/nexu-io/open-design"
+                 data-title="nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener">nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</a>
@@ -387,12 +573,18 @@
           <p class="summary">Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">skill</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b"
+                 data-exclude-key="@Particular_Toe7497"
+                 data-exclude-label="@Particular_Toe7497"
+                 data-url="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/"
+                 data-title="Struggling to maintain Figma design fidelity with Claude Code / MCP">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/" target="_blank" rel="noopener">Struggling to maintain Figma design fidelity with Claude Code / MCP</a>
@@ -400,12 +592,18 @@
           <p class="summary">Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:c099978a87345c10">
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:c099978a87345c10"
+                 data-exclude-key="@raunofreiberg"
+                 data-exclude-label="@raunofreiberg"
+                 data-url="https://x.com/raunofreiberg/status/2059018087127543837"
+                 data-title="RT @joshpuckett: Added two new Practical Demonstrations to http://interfacecraft.dev, including a deep dive on the Libra…">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">X</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://x.com/raunofreiberg/status/2059018087127543837" target="_blank" rel="noopener">RT @joshpuckett: Added two new Practical Demonstrations to http://interfacecraft.dev, including a deep dive on the Libra…</a>
@@ -413,12 +611,20 @@
           <p class="summary">interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797">
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797"
+                 data-exclude-key="@jh3yy"
+                 data-exclude-label="@jh3yy"
+                 data-url="https://x.com/jh3yy/status/2058983282587422946"
+                 data-title="made the input smoothing configurable
+
+jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍🍳 (w/ some example…">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">X</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://x.com/jh3yy/status/2058983282587422946" target="_blank" rel="noopener">made the input smoothing configurable
@@ -428,12 +634,18 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
           <p class="summary">Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">interaction-design</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94"
+                 data-exclude-key="bergside/design-md-figma"
+                 data-exclude-label="bergside/design-md-figma"
+                 data-url="https://github.com/bergside/design-md-figma"
+                 data-title="bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/bergside/design-md-figma" target="_blank" rel="noopener">bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude</a>
@@ -441,12 +653,18 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
           <p class="summary">Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">mcp</span><span class="tag">skill</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7be82d23658acd4a">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7be82d23658acd4a"
+                 data-exclude-key="bergside/design-md-chrome"
+                 data-exclude-label="bergside/design-md-chrome"
+                 data-url="https://github.com/bergside/design-md-chrome"
+                 data-title="bergside/design-md-chrome — Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeU">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/bergside/design-md-chrome" target="_blank" rel="noopener">bergside/design-md-chrome — Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeU</a>
@@ -454,12 +672,18 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
           <p class="summary">Chrome extension that reverse-engineers any website&#x27;s design language into DESIGN.md + Claude design skills—directly amplifies Steven&#x27;s design-audit and brand-extraction workflows.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">technique</span><span class="tag">plugin</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:1bb397eda4e740b8">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:1bb397eda4e740b8"
+                 data-exclude-key="@General-Plankton-332"
+                 data-exclude-label="@General-Plankton-332"
+                 data-url="https://www.reddit.com/r/FigmaDesign/comments/1tndoa8/i_built_animotion_a_new_figma_plugin_for_advanced/"
+                 data-title="I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/FigmaDesign/comments/1tndoa8/i_built_animotion_a_new_figma_plugin_for_advanced/" target="_blank" rel="noopener">I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export</a>
@@ -467,12 +691,18 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
           <p class="summary">A Figma plugin for exporting micro-interactions directly to WebM with 30+ animation presets, bezier editor, and alpha-channel support—eliminates the Figma→AE→export loop.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">plugin</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:ab014320bf033e28">
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:ab014320bf033e28"
+                 data-exclude-key="@framer"
+                 data-exclude-label="@framer"
+                 data-url="https://x.com/framer/status/2058943548997923068"
+                 data-title="Step 3. Tweak property controls and adjust values for full control over motion https://t.co/mRoK6OxDcW">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">X</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://x.com/framer/status/2058943548997923068" target="_blank" rel="noopener">Step 3. Tweak property controls and adjust values for full control over motion https://t.co/mRoK6OxDcW</a>
@@ -480,12 +710,19 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
           <p class="summary">Framer motion controls UI — tweaking property panels for animation craft. Likely a tutorial or feature demo with visual examples.</p>
           <div class="tags"><span class="tag">framer-ai</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:b980ec08fd09e408">
+        <article class="entry" data-source="x" data-id="tag:ligatsa.github.io,2026:watchtower:item:b980ec08fd09e408"
+                 data-exclude-key="@michalmalewicz"
+                 data-exclude-label="@michalmalewicz"
+                 data-url="https://x.com/michalmalewicz/status/2058930086225539155"
+                 data-title="AI speeds my design processes by around 25%. 
+Nothing is &quot;automated&quot; except for actually boring work, but everything is …">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">X</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://x.com/michalmalewicz/status/2058930086225539155" target="_blank" rel="noopener">AI speeds my design processes by around 25%. 
@@ -494,12 +731,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer shares concrete ROI of AI in design workflows: 25% efficiency gain reinvested in quality, not speed. Thoughtful take on manual supervision and client value.</p>
           <div class="tags"><span class="tag">analysis</span><span class="tag">designer-post</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:0ddf86cc2b454d87">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:0ddf86cc2b454d87"
+                 data-exclude-key="@Silver-Range-8108"
+                 data-exclude-label="@Silver-Range-8108"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/"
+                 data-title="I&#x27;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/" target="_blank" rel="noopener">I&#x27;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</a>
@@ -507,12 +750,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer-creator using Claude Code + Remotion (React video) to generate motion graphics JSX components, halving edit time and ensuring visual consistency across YouTube videos.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:75e6a077e8fa271e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:75e6a077e8fa271e"
+                 data-exclude-key="nexu-io/open-design"
+                 data-exclude-label="nexu-io/open-design"
+                 data-url="https://github.com/nexu-io/open-design"
+                 data-title="nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener">nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</a>
@@ -520,12 +769,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Local-first, open-source design tool with 19 Claude skills, 71 design systems, and multi-format prototype export (web/desktop/mobile/video). Runs on Claude Code, Cursor, Codex—direct alternative to proprietary design agents.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">design-system</span><span class="tag">prototype</span><span class="tag">skill</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7f3eed4b137dd62a">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7f3eed4b137dd62a"
+                 data-exclude-key="mondaycom/vibe"
+                 data-exclude-label="mondaycom/vibe"
+                 data-url="https://github.com/mondaycom/vibe"
+                 data-title="mondaycom/vibe — 🎨 Vibe Design System - Official monday.com UI resources for application development in React.js">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/mondaycom/vibe" target="_blank" rel="noopener">mondaycom/vibe — 🎨 Vibe Design System - Official monday.com UI resources for application development in React.js</a>
@@ -533,12 +788,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">monday.com&#x27;s open-source React design system with component library, icons, and MCP server support — useful for production UI but not design-AI-specific.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">mcp</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d0cf8f120e21d1f3">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d0cf8f120e21d1f3"
+                 data-exclude-key="nexu-io/open-design"
+                 data-exclude-label="nexu-io/open-design"
+                 data-url="https://github.com/nexu-io/open-design"
+                 data-title="nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener">nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</a>
@@ -546,12 +807,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</p>
           <div class="tags"><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">agent-sdk</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4d57ccc22fb9192e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4d57ccc22fb9192e"
+                 data-exclude-key="nexu-io/open-design"
+                 data-exclude-label="nexu-io/open-design"
+                 data-url="https://github.com/nexu-io/open-design"
+                 data-title="nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener">nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</a>
@@ -559,12 +826,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">agent-sdk</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:245385ede3e7c1c2">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:245385ede3e7c1c2"
+                 data-exclude-key="tokens-studio/figma-plugin"
+                 data-exclude-label="tokens-studio/figma-plugin"
+                 data-url="https://github.com/tokens-studio/figma-plugin"
+                 data-title="tokens-studio/figma-plugin — Official repository of the plugin &#x27;Tokens Studio for Figma&#x27; (Figma Tokens)">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/tokens-studio/figma-plugin" target="_blank" rel="noopener">tokens-studio/figma-plugin — Official repository of the plugin &#x27;Tokens Studio for Figma&#x27; (Figma Tokens)</a>
@@ -572,12 +845,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Tokens Studio is a mature, production-grade Figma plugin for design-token management and sync—essential infrastructure for designers scaling component libraries and design systems with code.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">plugin</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:94559356b5a7129e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:94559356b5a7129e"
+                 data-exclude-key="channel-io/bezier-react"
+                 data-exclude-label="channel-io/bezier-react"
+                 data-url="https://github.com/channel-io/bezier-react"
+                 data-title="channel-io/bezier-react — React components library that implements Bezier design system.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/channel-io/bezier-react" target="_blank" rel="noopener">channel-io/bezier-react — React components library that implements Bezier design system.</a>
@@ -585,12 +864,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Open-source React component library implementing a production design system with Figma integration and Storybook documentation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">figma</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:2e9e2d7628d0be18">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:2e9e2d7628d0be18"
+                 data-exclude-key="mui/base-ui"
+                 data-exclude-label="mui/base-ui"
+                 data-url="https://github.com/mui/base-ui"
+                 data-title="mui/base-ui — Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/mui/base-ui" target="_blank" rel="noopener">mui/base-ui — Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and</a>
@@ -598,12 +883,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Unstyled component library from MUI team for design-system building; strong foundation but no AI/Claude angle or new design workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a7efb6770f7757b3">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:a7efb6770f7757b3"
+                 data-exclude-key="@Own-Statistician1899"
+                 data-exclude-label="@Own-Statistician1899"
+                 data-url="https://www.reddit.com/r/FigmaDesign/comments/1tn78wc/figma_plugin_for_applying_opacity_to_colour/"
+                 data-title="Figma plugin for applying opacity to colour variables.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/FigmaDesign/comments/1tn78wc/figma_plugin_for_applying_opacity_to_colour/" target="_blank" rel="noopener">Figma plugin for applying opacity to colour variables.</a>
@@ -611,12 +902,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Sheer: a Figma plugin that solves the opacity-variable bottleneck by automating non-destructive opacity scales, smart sync, and CSS output—enabling designers to build cleaner design systems without duplicating variables.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">plugin</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:87a20fdee8d58ae1">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:87a20fdee8d58ae1"
+                 data-exclude-key="@General-Plankton-332"
+                 data-exclude-label="@General-Plankton-332"
+                 data-url="https://www.reddit.com/r/FigmaDesign/comments/1tn5w5r/i_built_animotion_a_new_figma_plugin_for_advanced/"
+                 data-title="I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/FigmaDesign/comments/1tn5w5r/i_built_animotion_a_new_figma_plugin_for_advanced/" target="_blank" rel="noopener">I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export</a>
@@ -624,12 +921,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Solo designer-dev releases AniMotion, a Figma plugin for creating and exporting UI micro-animations directly to WebM with 30+ presets, custom easing curves, and alpha-channel support—eliminating the Figma→After Effects workflow.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">plugin</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed53b397ee89116e">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed53b397ee89116e"
+                 data-exclude-key="@Old-Wolf-2491"
+                 data-exclude-label="@Old-Wolf-2491"
+                 data-url="https://www.reddit.com/r/FigmaDesign/comments/1tn5vvk/reduce_token_burn_by_generating_rulesmd/"
+                 data-title="Reduce token burn by generating .rules.md &amp;amp; tailwind.v4.css file using FigSpecs. FOR FREE">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/FigmaDesign/comments/1tn5vvk/reduce_token_burn_by_generating_rulesmd/" target="_blank" rel="noopener">Reduce token burn by generating .rules.md &amp;amp; tailwind.v4.css file using FigSpecs. FOR FREE</a>
@@ -637,12 +940,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">FigSpecs generates AI-readable design tokens, rules, and Tailwind CSS from Figma, reducing Claude token overhead by 74% through structured handoff.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">figma-make</span><span class="tag">technique</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:dbffc26fe1d557d1">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:dbffc26fe1d557d1"
+                 data-exclude-key="@Pretty_Ad4344"
+                 data-exclude-label="@Pretty_Ad4344"
+                 data-url="https://www.reddit.com/r/DesignSystems/comments/1tn5qw8/i_built_a_design_system_generator_that_export_to/"
+                 data-title="I built a design system generator that export to Shadcn. Foundry">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/DesignSystems/comments/1tn5qw8/i_built_a_design_system_generator_that_export_to/" target="_blank" rel="noopener">I built a design system generator that export to Shadcn. Foundry</a>
@@ -650,12 +959,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer built Foundry, an AI tool that generates full design systems (tokens, typography, accessibility) and exports directly to shadcn/ui + Tailwind with a working demo.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:985833b6cf791acd">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:985833b6cf791acd"
+                 data-exclude-key="gluestack/gluestack-ui"
+                 data-exclude-label="gluestack/gluestack-ui"
+                 data-url="https://github.com/gluestack/gluestack-ui"
+                 data-title="gluestack/gluestack-ui — React &amp; React Native Components &amp; Patterns (copy-paste components &amp; patterns crafted with Tailwind CSS (NativeWind))">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/gluestack/gluestack-ui" target="_blank" rel="noopener">gluestack/gluestack-ui — React &amp; React Native Components &amp; Patterns (copy-paste components &amp; patterns crafted with Tailwind CSS (NativeWind))</a>
@@ -663,12 +978,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Copy-paste component library for React &amp; React Native with Tailwind/NativeWind—useful for rapid UI prototyping but not a design+AI tool.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:43f8c3c99db4aaae">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:43f8c3c99db4aaae"
+                 data-exclude-key="sugarcube-sh/sugarcube"
+                 data-exclude-label="sugarcube-sh/sugarcube"
+                 data-url="https://github.com/sugarcube-sh/sugarcube"
+                 data-title="sugarcube-sh/sugarcube — Design tokens in, CSS and components out.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/sugarcube-sh/sugarcube" target="_blank" rel="noopener">sugarcube-sh/sugarcube — Design tokens in, CSS and components out.</a>
@@ -676,12 +997,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Design-tokens-in, CSS-and-components-out CLI tool targeting design systems and component libraries—directly relevant for Steven&#x27;s UI craft workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">ui-craft</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:51349afc4d26f2ec">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:51349afc4d26f2ec"
+                 data-exclude-key="@Hari-Prasad-12"
+                 data-exclude-label="@Hari-Prasad-12"
+                 data-url="https://www.reddit.com/r/UI_Design/comments/1tn3x8r/how_is_this_settings_ui_for_a_open_source_dev/"
+                 data-title="How is this settings UI for a open source dev tool? Can anyone with experience in UI/UX give there feedback?">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/UI_Design/comments/1tn3x8r/how_is_this_settings_ui_for_a_open_source_dev/" target="_blank" rel="noopener">How is this settings UI for a open source dev tool? Can anyone with experience in UI/UX give there feedback?</a>
@@ -689,12 +1016,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Developer shares a settings UI for an open-source tool and asks for design feedback—shows craft intent, but lacks depth or AI/design-tool context.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d38f57e730cd6f5e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d38f57e730cd6f5e"
+                 data-exclude-key="cosscom/coss"
+                 data-exclude-label="cosscom/coss"
+                 data-url="https://github.com/cosscom/coss"
+                 data-title="cosscom/coss — coss.com/ui is the official design system of Cal.com">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/cosscom/coss" target="_blank" rel="noopener">cosscom/coss — coss.com/ui is the official design system of Cal.com</a>
@@ -702,12 +1035,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Cal.com&#x27;s official design system built on shadcn/Radix/TailwindCSS — production-grade component library for designers and developers.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dd57df12d4375bc1">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dd57df12d4375bc1"
+                 data-exclude-key="ruucm/shadergradient"
+                 data-exclude-label="ruucm/shadergradient"
+                 data-url="https://github.com/ruucm/shadergradient"
+                 data-title="ruucm/shadergradient — Create beautiful moving gradients on Framer, Figma and React">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ruucm/shadergradient" target="_blank" rel="noopener">ruucm/shadergradient — Create beautiful moving gradients on Framer, Figma and React</a>
@@ -715,12 +1054,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Figma plugin + React component for procedural animated gradients; directly useful for designers building motion UI in Figma, Framer, and code.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span><span class="tag">framer-ai</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:f9a09c4a00fd6241">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:f9a09c4a00fd6241"
+                 data-exclude-key="@bthavanish"
+                 data-exclude-label="@bthavanish"
+                 data-url="https://www.reddit.com/r/UI_Design/comments/1tn0jy3/how_is_my_website_i_made_for_my_community_please/"
+                 data-title="How is my website i made for my community ? please rate it and tell me how i can improve it !">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/UI_Design/comments/1tn0jy3/how_is_my_website_i_made_for_my_community_please/" target="_blank" rel="noopener">How is my website i made for my community ? please rate it and tell me how i can improve it !</a>
@@ -728,12 +1073,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">designer-post</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00"
+                 data-exclude-key="JesusIgnacio18/nodaysidle-neuralcanvas"
+                 data-exclude-label="JesusIgnacio18/nodaysidle-neuralcanvas"
+                 data-url="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas"
+                 data-title="JesusIgnacio18/nodaysidle-neuralcanvas — 🎨 Transform sketches into polished UI wireframes with NeuralCanvas, a privacy-first macOS tool that ensures your designs">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas" target="_blank" rel="noopener">JesusIgnacio18/nodaysidle-neuralcanvas — 🎨 Transform sketches into polished UI wireframes with NeuralCanvas, a privacy-first macOS tool that ensures your designs</a>
@@ -741,12 +1092,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">design-system</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:22c40612aabc8d70">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:22c40612aabc8d70"
+                 data-exclude-key="Remy349/shadcn-ui-multi-form"
+                 data-exclude-label="Remy349/shadcn-ui-multi-form"
+                 data-url="https://github.com/Remy349/shadcn-ui-multi-form"
+                 data-title="Remy349/shadcn-ui-multi-form — Shadcn UI Multi Form is a modern, visual form builder for React that lets you craft single and multi-step flows with sha">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Remy349/shadcn-ui-multi-form" target="_blank" rel="noopener">Remy349/shadcn-ui-multi-form — Shadcn UI Multi Form is a modern, visual form builder for React that lets you craft single and multi-step flows with sha</a>
@@ -754,12 +1111,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1d74dd2e21392856">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1d74dd2e21392856"
+                 data-exclude-key="RAHUL-PRSATH/calwall"
+                 data-exclude-label="RAHUL-PRSATH/calwall"
+                 data-url="https://github.com/RAHUL-PRSATH/calwall"
+                 data-title="RAHUL-PRSATH/calwall — 🖼️ Generate and customize dynamic calendar wallpapers effortlessly with CalWall Studio, combining real-time preview and ">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/RAHUL-PRSATH/calwall" target="_blank" rel="noopener">RAHUL-PRSATH/calwall — 🖼️ Generate and customize dynamic calendar wallpapers effortlessly with CalWall Studio, combining real-time preview and </a>
@@ -767,12 +1130,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:67c74a208f15eea0">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:67c74a208f15eea0"
+                 data-exclude-key="dayuer/aicard"
+                 data-exclude-label="dayuer/aicard"
+                 data-url="https://github.com/dayuer/aicard"
+                 data-title="dayuer/aicard — 🎴 高美学知识卡片生成系统 — SVG 矢量渲染 → 300dpi 高清 PNG → 可编辑 PPTX → 微信公众号贴图一键发布。28 个内置主题，14 套配色方案。">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/dayuer/aicard" target="_blank" rel="noopener">dayuer/aicard — 🎴 高美学知识卡片生成系统 — SVG 矢量渲染 → 300dpi 高清 PNG → 可编辑 PPTX → 微信公众号贴图一键发布。28 个内置主题，14 套配色方案。</a>
@@ -780,12 +1149,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">prototype</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:0419b1de4f68c00c">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:0419b1de4f68c00c"
+                 data-exclude-key="phcdevworks/spectre-tokens"
+                 data-exclude-label="phcdevworks/spectre-tokens"
+                 data-url="https://github.com/phcdevworks/spectre-tokens"
+                 data-title="phcdevworks/spectre-tokens — @phcdevworks/spectre-tokens is the design-token package of the Spectre system for downstream Spectre packages and compat">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/phcdevworks/spectre-tokens" target="_blank" rel="noopener">phcdevworks/spectre-tokens — @phcdevworks/spectre-tokens is the design-token package of the Spectre system for downstream Spectre packages and compat</a>
@@ -793,12 +1168,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-token</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:356cfb5ed3dba93e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:356cfb5ed3dba93e"
+                 data-exclude-key="carlomigueldy/atelier-studio"
+                 data-exclude-label="carlomigueldy/atelier-studio"
+                 data-url="https://github.com/carlomigueldy/atelier-studio"
+                 data-title="carlomigueldy/atelier-studio — Premium software solutions agency website — Next.js 16, Tailwind CSS v4, Playfair Display + Forest &amp; Linen design system">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/carlomigueldy/atelier-studio" target="_blank" rel="noopener">carlomigueldy/atelier-studio — Premium software solutions agency website — Next.js 16, Tailwind CSS v4, Playfair Display + Forest &amp; Linen design system</a>
@@ -806,12 +1187,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Production agency website built with Next.js 16, shadcn-ui, and a custom Forest &amp; Linen design system—a real, polished UI artifact showing modern frontend + design craft.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">shadcn</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4a4db84c2c18e6b7">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:4a4db84c2c18e6b7"
+                 data-exclude-key="rafacdomin/design-system"
+                 data-exclude-label="rafacdomin/design-system"
+                 data-url="https://github.com/rafacdomin/design-system"
+                 data-title="rafacdomin/design-system — Design System monorepo example, handling complex packages publications with unit tests, visual regression, documentation">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/rafacdomin/design-system" target="_blank" rel="noopener">rafacdomin/design-system — Design System monorepo example, handling complex packages publications with unit tests, visual regression, documentation</a>
@@ -819,12 +1206,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Design system monorepo template with Storybook, visual regression tests, and CI/CD — useful reference for teams scaling component libraries.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:83dbce9cf9d53e8f">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:83dbce9cf9d53e8f"
+                 data-exclude-key="MaxyExpert/frontend-design-pro-demo"
+                 data-exclude-label="MaxyExpert/frontend-design-pro-demo"
+                 data-url="https://github.com/MaxyExpert/frontend-design-pro-demo"
+                 data-title="MaxyExpert/frontend-design-pro-demo — 🎨 Showcase 11 modern frontend design styles with master prompts and production-ready code to elevate your web projects.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/MaxyExpert/frontend-design-pro-demo" target="_blank" rel="noopener">MaxyExpert/frontend-design-pro-demo — 🎨 Showcase 11 modern frontend design styles with master prompts and production-ready code to elevate your web projects.</a>
@@ -832,12 +1225,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Repo showcasing 11 modern frontend design styles with master prompts and production-ready code—solid resource for design-to-code workflows, though lacks visible artifacts or build story.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c78f1802674380c1">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c78f1802674380c1"
+                 data-exclude-key="dev-snake/brutalist-ui"
+                 data-exclude-label="dev-snake/brutalist-ui"
+                 data-url="https://github.com/dev-snake/brutalist-ui"
+                 data-title="dev-snake/brutalist-ui — Neo-brutalist React UI kit built with Next.js, Tailwind CSS and shadcn-style components.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/dev-snake/brutalist-ui" target="_blank" rel="noopener">dev-snake/brutalist-ui — Neo-brutalist React UI kit built with Next.js, Tailwind CSS and shadcn-style components.</a>
@@ -845,12 +1244,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Neo-brutalist React component library with shadcn-style design system. Production-ready UI kit for designers building bold, minimal interfaces.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">shadcn</span><span class="tag">frontend</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8622ae82e3eda855">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8622ae82e3eda855"
+                 data-exclude-key="thedavidmurray/nous-inspired-design-system"
+                 data-exclude-label="thedavidmurray/nous-inspired-design-system"
+                 data-url="https://github.com/thedavidmurray/nous-inspired-design-system"
+                 data-title="thedavidmurray/nous-inspired-design-system — Nous Inspired Design System — dark-first tokens, components, texture pipeline, and 300 prompts for structurally dithered">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/thedavidmurray/nous-inspired-design-system" target="_blank" rel="noopener">thedavidmurray/nous-inspired-design-system — Nous Inspired Design System — dark-first tokens, components, texture pipeline, and 300 prompts for structurally dithered</a>
@@ -858,12 +1263,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A complete open-source design system with dark-first tokens, React components, Tailwind config, and a texture pipeline—built with AI aesthetics in mind (dithering, Midjourney prompts).</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:42b20ea1592e48ad">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:42b20ea1592e48ad"
+                 data-exclude-key="@alion94"
+                 data-exclude-label="@alion94"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tmwizd/i_used_claude_code_to_build_an_iphone_app_apple/"
+                 data-title="I used Claude Code to build an iPhone app, Apple Watch app, and landing page… now it has 1,500+ users">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tmwizd/i_used_claude_code_to_build_an_iphone_app_apple/" target="_blank" rel="noopener">I used Claude Code to build an iPhone app, Apple Watch app, and landing page… now it has 1,500+ users</a>
@@ -871,12 +1282,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer-developer built a production iOS/watchOS app with Claude Code—1,500+ users, real UX/design decisions shown (location accuracy, Apple Watch responsiveness, information hierarchy under stress).</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:81f0c64092afa802">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:81f0c64092afa802"
+                 data-exclude-key="@Reckonerxy"
+                 data-exclude-label="@Reckonerxy"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tmwcw3/170_versions_later_i_was_able_to_create_a_cool/"
+                 data-title="170+ versions later, I was able to create a cool RPG inspired by Aztec mythology, playable now!">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tmwcw3/170_versions_later_i_was_able_to_create_a_cool/" target="_blank" rel="noopener">170+ versions later, I was able to create a cool RPG inspired by Aztec mythology, playable now!</a>
@@ -884,12 +1301,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer-developer built a playable turn-based RPG game using Claude iteratively over 170+ versions, demonstrating concrete AI-assisted game UI/UX craft with working artifact.</p>
           <div class="tags"><span class="tag">prototype</span><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">designer-post</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e8906f01dae9cc9e">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e8906f01dae9cc9e"
+                 data-exclude-key="keyb88/development-toolbox-web-style-extractor"
+                 data-exclude-label="keyb88/development-toolbox-web-style-extractor"
+                 data-url="https://github.com/keyb88/development-toolbox-web-style-extractor"
+                 data-title="keyb88/development-toolbox-web-style-extractor — 🎨 Extract colors and fonts from any website to create consistent, branded internal sites and documentation with ease.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/keyb88/development-toolbox-web-style-extractor" target="_blank" rel="noopener">keyb88/development-toolbox-web-style-extractor — 🎨 Extract colors and fonts from any website to create consistent, branded internal sites and documentation with ease.</a>
@@ -897,12 +1320,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Tool to extract colors and fonts from websites for design-system consistency; useful for designers reverse-engineering brand assets, though execution clarity unclear.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7596db1e7f523fce">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7596db1e7f523fce"
+                 data-exclude-key="Roma345-ux/grid-smith"
+                 data-exclude-label="Roma345-ux/grid-smith"
+                 data-url="https://github.com/Roma345-ux/grid-smith"
+                 data-title="Roma345-ux/grid-smith — Framework Agnostic 4px Grid Design Toolkit 2026 – Analyze, Audit, Transpile Code">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Roma345-ux/grid-smith" target="_blank" rel="noopener">Roma345-ux/grid-smith — Framework Agnostic 4px Grid Design Toolkit 2026 – Analyze, Audit, Transpile Code</a>
@@ -910,12 +1339,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Framework-agnostic 4px grid linter &amp; transpiler that audits, analyzes, and converts design-to-code—directly targets design-system enforcement and quality for production UI.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">plugin</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e744a9b30069715f">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e744a9b30069715f"
+                 data-exclude-key="romanr3314/designpull"
+                 data-exclude-label="romanr3314/designpull"
+                 data-url="https://github.com/romanr3314/designpull"
+                 data-title="romanr3314/designpull — Extract design systems from any website using AI vision to generate Google Stitch compatible DESIGN.md files.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/romanr3314/designpull" target="_blank" rel="noopener">romanr3314/designpull — Extract design systems from any website using AI vision to generate Google Stitch compatible DESIGN.md files.</a>
@@ -923,12 +1358,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">AI vision tool that reverse-engineers design systems from websites into machine-readable DESIGN.md files—directly bridges visual inspection to design-token extraction.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">technique</span><span class="tag">plugin</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e24e9d576ede2727">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:e24e9d576ede2727"
+                 data-exclude-key="Shantimdx/design-extract"
+                 data-exclude-label="Shantimdx/design-extract"
+                 data-url="https://github.com/Shantimdx/design-extract"
+                 data-title="Shantimdx/design-extract — Extract design specifications and CSS variables from websites to generate accurate style tokens.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Shantimdx/design-extract" target="_blank" rel="noopener">Shantimdx/design-extract — Extract design specifications and CSS variables from websites to generate accurate style tokens.</a>
@@ -936,12 +1377,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Claude skill that extracts live CSS variables and design specs from websites to auto-generate design tokens—bridges design-to-code workflow.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:426edbbf185f6137">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:426edbbf185f6137"
+                 data-exclude-key="ENDERMITA12/styleseed"
+                 data-exclude-label="ENDERMITA12/styleseed"
+                 data-url="https://github.com/ENDERMITA12/styleseed"
+                 data-title="ENDERMITA12/styleseed — Apply dynamic design system skins to UI components using a single data attribute.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ENDERMITA12/styleseed" target="_blank" rel="noopener">ENDERMITA12/styleseed — Apply dynamic design system skins to UI components using a single data attribute.</a>
@@ -949,12 +1396,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A design-system tool for applying dynamic skins to UI components via data attributes—built with Claude Code, integrates shadcn/Radix, and targets the exact workflow Steven uses.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">claude-code</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c6ec03998196651a">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:c6ec03998196651a"
+                 data-exclude-key="chakra-ui/ark"
+                 data-exclude-label="chakra-ui/ark"
+                 data-url="https://github.com/chakra-ui/ark"
+                 data-title="chakra-ui/ark — Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/chakra-ui/ark" target="_blank" rel="noopener">chakra-ui/ark — Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.</a>
@@ -962,12 +1415,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Headless component library for building design systems across frameworks; enables designers to own visual language without fighting opinionated styles.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">shadcn</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ad807d997fadb919">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ad807d997fadb919"
+                 data-exclude-key="rbadillap/registry.directory"
+                 data-exclude-label="rbadillap/registry.directory"
+                 data-url="https://github.com/rbadillap/registry.directory"
+                 data-title="rbadillap/registry.directory — Explore your favorite shadcn/ui registries.">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/rbadillap/registry.directory" target="_blank" rel="noopener">rbadillap/registry.directory — Explore your favorite shadcn/ui registries.</a>
@@ -975,12 +1434,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A registry explorer for shadcn/ui components — helpful discovery tool for designers building with component libraries, but light on craft/technique.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">design-system</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:da17f981f419f1bf">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:da17f981f419f1bf"
+                 data-exclude-key="giovannisacca/pixel-mcp-workflow"
+                 data-exclude-label="giovannisacca/pixel-mcp-workflow"
+                 data-url="https://github.com/giovannisacca/pixel-mcp-workflow"
+                 data-title="giovannisacca/pixel-mcp-workflow — 🔧 AI-Powered Design-to-Code Pipeline 2026: Figma to React in 6-Phase Parallel Workflow">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/giovannisacca/pixel-mcp-workflow" target="_blank" rel="noopener">giovannisacca/pixel-mcp-workflow — 🔧 AI-Powered Design-to-Code Pipeline 2026: Figma to React in 6-Phase Parallel Workflow</a>
@@ -988,12 +1453,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A 6-phase design-to-code pipeline bridging Figma to React using Claude skills and MCP servers—concrete workflow for translating designs at scale.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-to-code</span><span class="tag">mcp</span><span class="tag">skill</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:9be4eb0050ff80b1">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:9be4eb0050ff80b1"
+                 data-exclude-key="@Sensitive_Drink_4050"
+                 data-exclude-label="@Sensitive_Drink_4050"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tmsjyi/best_practices_custom_skills_for_getting/"
+                 data-title="Best practices &amp;amp; custom skills for getting high-quality Flutter UI/UX output from Claude Code?">
           <div class="meta">
             <span class="date">May 25</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tmsjyi/best_practices_custom_skills_for_getting/" target="_blank" rel="noopener">Best practices &amp;amp; custom skills for getting high-quality Flutter UI/UX output from Claude Code?</a>
@@ -1001,12 +1472,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer-developer seeks best practices for production Flutter UI with Claude Code; asks about prompt strategies and design-system enforcement tools.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:937556a5c28d9bce">
+        <article class="entry" data-source="reddit" data-id="tag:ligatsa.github.io,2026:watchtower:item:937556a5c28d9bce"
+                 data-exclude-key="@Adventurous_Run_6310"
+                 data-exclude-label="@Adventurous_Run_6310"
+                 data-url="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/"
+                 data-title="Claude issues with design and MCP">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">Reddit</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/" target="_blank" rel="noopener">Claude issues with design and MCP</a>
@@ -1014,12 +1491,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">mcp</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1ee3fe625a1b2e95">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:1ee3fe625a1b2e95"
+                 data-exclude-key="chakra-ui/panda"
+                 data-exclude-label="chakra-ui/panda"
+                 data-url="https://github.com/chakra-ui/panda"
+                 data-title="chakra-ui/panda — 🐼 Universal, Type-Safe, CSS-in-JS Framework for Design Systems ⚡️">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/chakra-ui/panda" target="_blank" rel="noopener">chakra-ui/panda — 🐼 Universal, Type-Safe, CSS-in-JS Framework for Design Systems ⚡️</a>
@@ -1027,12 +1510,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Type-safe CSS-in-JS framework purpose-built for design systems with design-tokens, theming, and compiler primitives—directly enables token-to-code workflows Steven uses.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed729c2b31fe2295">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ed729c2b31fe2295"
+                 data-exclude-key="Manzela/Atelier"
+                 data-exclude-label="Manzela/Atelier"
+                 data-url="https://github.com/Manzela/Atelier"
+                 data-title="Manzela/Atelier — Atelier — autonomous design agent for the Google for Startups AI Agents Challenge 2026. Stitch generates. Atelier asks, ">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Manzela/Atelier" target="_blank" rel="noopener">Manzela/Atelier — Atelier — autonomous design agent for the Google for Startups AI Agents Challenge 2026. Stitch generates. Atelier asks, </a>
@@ -1040,12 +1529,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Autonomous design agent that converges on UI/UX through iterative refinement—design-to-code workflow powered by Claude and Anthropic.</p>
           <div class="tags"><span class="tag">design-to-code</span><span class="tag">agent-sdk</span><span class="tag">anthropic</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:673e2c205ec2a258">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:673e2c205ec2a258"
+                 data-exclude-key="Signpainterreverberation581/ux-collab"
+                 data-exclude-label="Signpainterreverberation581/ux-collab"
+                 data-url="https://github.com/Signpainterreverberation581/ux-collab"
+                 data-title="Signpainterreverberation581/ux-collab — Build AI-driven UI collaboration with agent-browser, Figma MCP, and Lucid to turn wireframes into code that matches your">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Signpainterreverberation581/ux-collab" target="_blank" rel="noopener">Signpainterreverberation581/ux-collab — Build AI-driven UI collaboration with agent-browser, Figma MCP, and Lucid to turn wireframes into code that matches your</a>
@@ -1053,12 +1548,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">AI-driven workflow combining Figma MCP + agent-browser to convert wireframes to code matching design systems—bridges design intent to implementation.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">mcp</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3f13dcee45cb0c55">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:3f13dcee45cb0c55"
+                 data-exclude-key="melinaclincherbuilt937/ui-prompt-library"
+                 data-exclude-label="melinaclincherbuilt937/ui-prompt-library"
+                 data-url="https://github.com/melinaclincherbuilt937/ui-prompt-library"
+                 data-title="melinaclincherbuilt937/ui-prompt-library — Build production-ready UI prompts for landing pages, SaaS dashboards, and components with React, Tailwind CSS, shadcn/ui">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/melinaclincherbuilt937/ui-prompt-library" target="_blank" rel="noopener">melinaclincherbuilt937/ui-prompt-library — Build production-ready UI prompts for landing pages, SaaS dashboards, and components with React, Tailwind CSS, shadcn/ui</a>
@@ -1066,12 +1567,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A prompt library for generating production UI (landing pages, SaaS dashboards, components) with React, Tailwind, shadcn/ui—useful reference for designers prompting AI tools like v0/Lovable.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">shadcn</span><span class="tag">prototype</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:706f9fde799710ac">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:706f9fde799710ac"
+                 data-exclude-key="ncdai/chanhdai.com"
+                 data-exclude-label="ncdai/chanhdai.com"
+                 data-url="https://github.com/ncdai/chanhdai.com"
+                 data-title="ncdai/chanhdai.com — A pixel-perfect dev portfolio and shadcn registry.">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ncdai/chanhdai.com" target="_blank" rel="noopener">ncdai/chanhdai.com — A pixel-perfect dev portfolio and shadcn registry.</a>
@@ -1079,12 +1586,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A production dev portfolio built with shadcn/ui components and registry patterns—concrete example of modern design-to-code workflow with TailwindCSS and motion.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8a49a55280a6f281">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8a49a55280a6f281"
+                 data-exclude-key="Tricholomaaurantiumknottiness355/design-dna"
+                 data-exclude-label="Tricholomaaurantiumknottiness355/design-dna"
+                 data-url="https://github.com/Tricholomaaurantiumknottiness355/design-dna"
+                 data-title="Tricholomaaurantiumknottiness355/design-dna — Extract, structure, and apply visual design identity as machine-readable Design DNA across tokens, style, and effects">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Tricholomaaurantiumknottiness355/design-dna" target="_blank" rel="noopener">Tricholomaaurantiumknottiness355/design-dna — Extract, structure, and apply visual design identity as machine-readable Design DNA across tokens, style, and effects</a>
@@ -1092,12 +1605,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Tool to extract and apply visual design identity as machine-readable Design DNA across tokens, styles, and effects—directly targets design-system automation and token sync.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">design-tokens</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:209eb807db83e4c0">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:209eb807db83e4c0"
+                 data-exclude-key="Melisa6532/ui-style-extractor"
+                 data-exclude-label="Melisa6532/ui-style-extractor"
+                 data-url="https://github.com/Melisa6532/ui-style-extractor"
+                 data-title="Melisa6532/ui-style-extractor — Extract website design systems into reusable Markdown guides and validation demos for AI-generated pages">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Melisa6532/ui-style-extractor" target="_blank" rel="noopener">Melisa6532/ui-style-extractor — Extract website design systems into reusable Markdown guides and validation demos for AI-generated pages</a>
@@ -1105,12 +1624,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Tool to extract website design systems into Markdown guides and validation demos for AI-generated UIs — directly bridges design analysis and Claude Code workflows.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">claude-code</span><span class="tag">skill</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8ef0715154890961">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8ef0715154890961"
+                 data-exclude-key="amohavarshansankar/google-fonts-skill"
+                 data-exclude-label="amohavarshansankar/google-fonts-skill"
+                 data-url="https://github.com/amohavarshansankar/google-fonts-skill"
+                 data-title="amohavarshansankar/google-fonts-skill — Generate Google Fonts typography systems with font search, pair suggestions, and CSS/Tailwind output from 1,923 curated ">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/amohavarshansankar/google-fonts-skill" target="_blank" rel="noopener">amohavarshansankar/google-fonts-skill — Generate Google Fonts typography systems with font search, pair suggestions, and CSS/Tailwind output from 1,923 curated </a>
@@ -1118,12 +1643,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">typography</span><span class="tag">figma</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:f27a3899b1920e19">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:f27a3899b1920e19"
+                 data-exclude-key="NxProxyStudios/apple-bento-grid"
+                 data-exclude-label="NxProxyStudios/apple-bento-grid"
+                 data-url="https://github.com/NxProxyStudios/apple-bento-grid"
+                 data-title="NxProxyStudios/apple-bento-grid — Create Apple-style bento grid cards as self-contained HTML files for AI coding agents, with pixel-perfect output and no ">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/NxProxyStudios/apple-bento-grid" target="_blank" rel="noopener">NxProxyStudios/apple-bento-grid — Create Apple-style bento grid cards as self-contained HTML files for AI coding agents, with pixel-perfect output and no </a>
@@ -1131,12 +1662,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Ready-to-use Apple bento grid component library for AI agents—pixel-perfect HTML output, shadcn/Framer Motion integration, eliminates design-tool friction for rapid UI prototyping.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">component</span><span class="tag">shadcn</span><span class="tag">claude-code</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:fc9ee5722987547c">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:fc9ee5722987547c"
+                 data-exclude-key="winfbmlg/pxlkit"
+                 data-exclude-label="winfbmlg/pxlkit"
+                 data-url="https://github.com/winfbmlg/pxlkit"
+                 data-title="winfbmlg/pxlkit — Deliver pixel art icons and React UI components with animation and a visual builder to create retro-style web interfaces">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/winfbmlg/pxlkit" target="_blank" rel="noopener">winfbmlg/pxlkit — Deliver pixel art icons and React UI components with animation and a visual builder to create retro-style web interfaces</a>
@@ -1144,12 +1681,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A visual builder for pixel-art React components with animation—design-system tooling for retro UI craft with a builder interface.</p>
           <div class="tags"><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9865d197c02a4362">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9865d197c02a4362"
+                 data-exclude-key="Enfluranehighbloodpressure470/v0-platform-mcp"
+                 data-exclude-label="Enfluranehighbloodpressure470/v0-platform-mcp"
+                 data-url="https://github.com/Enfluranehighbloodpressure470/v0-platform-mcp"
+                 data-title="Enfluranehighbloodpressure470/v0-platform-mcp — Enable rapid multi-screen UI prototyping and incremental development using Vercel’s Model Context Protocol with v0-platf">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Enfluranehighbloodpressure470/v0-platform-mcp" target="_blank" rel="noopener">Enfluranehighbloodpressure470/v0-platform-mcp — Enable rapid multi-screen UI prototyping and incremental development using Vercel’s Model Context Protocol with v0-platf</a>
@@ -1157,12 +1700,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">MCP server bridging Claude Code to v0 for multi-screen UI prototyping with design-token sync and Figma integration.</p>
           <div class="tags"><span class="tag">v0</span><span class="tag">mcp</span><span class="tag">design-tokens</span><span class="tag">figma</span><span class="tag">prototype</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9e751b789618fab3">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9e751b789618fab3"
+                 data-exclude-key="ar27111994/penpot-mcp"
+                 data-exclude-label="ar27111994/penpot-mcp"
+                 data-url="https://github.com/ar27111994/penpot-mcp"
+                 data-title="ar27111994/penpot-mcp — AI-agent skill for creating &amp; maintaining production-grade Penpot design systems via the official Penpot MCP Server">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ar27111994/penpot-mcp" target="_blank" rel="noopener">ar27111994/penpot-mcp — AI-agent skill for creating &amp; maintaining production-grade Penpot design systems via the official Penpot MCP Server</a>
@@ -1170,12 +1719,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">MCP server enabling Claude agents to create and maintain production Penpot design systems—directly bridges design tooling and AI-assisted design workflow.</p>
           <div class="tags"><span class="tag">mcp</span><span class="tag">design-system</span><span class="tag">penpot</span><span class="tag">agent-sdk</span><span class="tag">design-to-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:38b33a2245974d4a">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:38b33a2245974d4a"
+                 data-exclude-key="tathagat22/plumb-mcp"
+                 data-exclude-label="tathagat22/plumb-mcp"
+                 data-url="https://github.com/tathagat22/plumb-mcp"
+                 data-title="tathagat22/plumb-mcp — Local Figma MCP server with no REST rate limits, no metered tool-call quotas, and a verification loop. Drop-in alternati">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/tathagat22/plumb-mcp" target="_blank" rel="noopener">tathagat22/plumb-mcp — Local Figma MCP server with no REST rate limits, no metered tool-call quotas, and a verification loop. Drop-in alternati</a>
@@ -1183,12 +1738,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">design-to-code</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="sw" data-id="tag:ligatsa.github.io,2026:watchtower:item:9f2a8d8d827504a8">
+        <article class="entry" data-source="sw" data-id="tag:ligatsa.github.io,2026:watchtower:item:9f2a8d8d827504a8"
+                 data-exclude-key="simonwillison"
+                 data-exclude-label="simonwillison"
+                 data-url="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"
+                 data-title="Mad House — Usborne Creepy Computer Games">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">Simon Willison</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything" target="_blank" rel="noopener">Mad House — Usborne Creepy Computer Games</a>
@@ -1196,12 +1757,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">prototype</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dab3c4ac75fdbc48">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dab3c4ac75fdbc48"
+                 data-exclude-key="penpot/penpot-exporter-figma-plugin"
+                 data-exclude-label="penpot/penpot-exporter-figma-plugin"
+                 data-url="https://github.com/penpot/penpot-exporter-figma-plugin"
+                 data-title="penpot/penpot-exporter-figma-plugin — Penpot exporter Figma plugin">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/penpot/penpot-exporter-figma-plugin" target="_blank" rel="noopener">penpot/penpot-exporter-figma-plugin — Penpot exporter Figma plugin</a>
@@ -1209,12 +1776,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Figma plugin that exports designs to Penpot, enabling cross-tool design workflows and format interoperability.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">plugin</span><span class="tag">design-system</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dcfa3f1385a266a1">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:dcfa3f1385a266a1"
+                 data-exclude-key="ZSeven-W/openpencil"
+                 data-exclude-label="ZSeven-W/openpencil"
+                 data-url="https://github.com/ZSeven-W/openpencil"
+                 data-title="ZSeven-W/openpencil — The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Co">
           <div class="meta">
             <span class="date">May 24</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ZSeven-W/openpencil" target="_blank" rel="noopener">ZSeven-W/openpencil — The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Co</a>
@@ -1222,12 +1795,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Open-source AI-native vector design tool with concurrent Agent Teams, prompt-to-UI canvas rendering, and Claude integration—a Pencil alternative built for design-as-code workflows.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:b23950a3a56f133d">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:b23950a3a56f133d"
+                 data-exclude-key="southleft/figma-console-mcp"
+                 data-exclude-label="southleft/figma-console-mcp"
+                 data-url="https://github.com/southleft/figma-console-mcp"
+                 data-title="southleft/figma-console-mcp — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.">
           <div class="meta">
             <span class="date">May 22</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/southleft/figma-console-mcp" target="_blank" rel="noopener">southleft/figma-console-mcp — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</a>
@@ -1235,12 +1814,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Official design-system MCP exposing Figma as an API for AI-driven extraction, creation, and debugging—directly matches Steven&#x27;s installed figma-desktop + design-systems-mcp stack.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">design-system</span><span class="tag">mcp</span><span class="tag">figma-make</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:26f6568267669ee3">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:26f6568267669ee3"
+                 data-exclude-key="nexu-io/html-anything"
+                 data-exclude-label="nexu-io/html-anything"
+                 data-url="https://github.com/nexu-io/html-anything"
+                 data-title="nexu-io/html-anything — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck ">
           <div class="meta">
             <span class="date">May 22</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/nexu-io/html-anything" target="_blank" rel="noopener">nexu-io/html-anything — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck </a>
@@ -1248,12 +1833,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Agentic HTML editor with 75 design skills and 9 output surfaces (magazine, deck, poster, prototype, etc.). Local-first, multi-model support, sandboxed preview, 1-click export.</p>
           <div class="tags"><span class="tag">claude-code</span><span class="tag">ui-craft</span><span class="tag">prototype</span><span class="tag">skill</span><span class="tag">agent-sdk</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:34dfc0bd647078ec">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:34dfc0bd647078ec"
+                 data-exclude-key="figma/mcp-server-guide"
+                 data-exclude-label="figma/mcp-server-guide"
+                 data-url="https://github.com/figma/mcp-server-guide"
+                 data-title="figma/mcp-server-guide — A guide on how to use the Figma MCP server">
           <div class="meta">
             <span class="date">May 18</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/figma/mcp-server-guide" target="_blank" rel="noopener">figma/mcp-server-guide — A guide on how to use the Figma MCP server</a>
@@ -1261,12 +1852,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Official Figma MCP server guide — direct path to design↔code automation and Figma-Claude integration.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">figma-make</span><span class="tag">design-system</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:32e92b969e50c9d6">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:32e92b969e50c9d6"
+                 data-exclude-key="LottieFiles/motion-design-skill"
+                 data-exclude-label="LottieFiles/motion-design-skill"
+                 data-url="https://github.com/LottieFiles/motion-design-skill"
+                 data-title="LottieFiles/motion-design-skill — Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted">
           <div class="meta">
             <span class="date">May 18</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/LottieFiles/motion-design-skill" target="_blank" rel="noopener">LottieFiles/motion-design-skill — Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted</a>
@@ -1274,12 +1871,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Claude skill for motion design &amp; animation principles (timing, easing, Disney choreography)—directly applicable to polishing UI interactions and micromotion craft.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">ui-craft</span><span class="tag">animation</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:515c45480a38af3c">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:515c45480a38af3c"
+                 data-exclude-key="ZeroZ-lab/cc-design"
+                 data-exclude-label="ZeroZ-lab/cc-design"
+                 data-url="https://github.com/ZeroZ-lab/cc-design"
+                 data-title="ZeroZ-lab/cc-design — High-fidelity HTML design and prototype guidance skill for AI agents">
           <div class="meta">
             <span class="date">May 18</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/ZeroZ-lab/cc-design" target="_blank" rel="noopener">ZeroZ-lab/cc-design — High-fidelity HTML design and prototype guidance skill for AI agents</a>
@@ -1287,12 +1890,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A Claude skill for guiding AI agents to produce high-fidelity HTML prototypes and designs—directly targets the design-to-code workflow Steven uses.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">prototype</span><span class="tag">ui-craft</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9b0176df3b9ab9ad">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:9b0176df3b9ab9ad"
+                 data-exclude-key="educlopez/thegridcn-ui"
+                 data-exclude-label="educlopez/thegridcn-ui"
+                 data-url="https://github.com/educlopez/thegridcn-ui"
+                 data-title="educlopez/thegridcn-ui — An authentic Tron: Ares inspired theme system for shadcn/ui">
           <div class="meta">
             <span class="date">May 18</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/educlopez/thegridcn-ui" target="_blank" rel="noopener">educlopez/thegridcn-ui — An authentic Tron: Ares inspired theme system for shadcn/ui</a>
@@ -1300,12 +1909,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">A production shadcn/ui theme system with authentic Tron: Ares visual language—design taste + component library craft combined.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">ui-craft</span><span class="tag">design-system</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8f7b47f1182163b3">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:8f7b47f1182163b3"
+                 data-exclude-key="maxbogo/awesome-ai-tools-for-ui"
+                 data-exclude-label="maxbogo/awesome-ai-tools-for-ui"
+                 data-url="https://github.com/maxbogo/awesome-ai-tools-for-ui"
+                 data-title="maxbogo/awesome-ai-tools-for-ui — Curated list of awesome AI tools to build beautiful UI/UX.">
           <div class="meta">
             <span class="date">May 17</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/maxbogo/awesome-ai-tools-for-ui" target="_blank" rel="noopener">maxbogo/awesome-ai-tools-for-ui — Curated list of awesome AI tools to build beautiful UI/UX.</a>
@@ -1313,12 +1928,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Curated list of AI tools for UI/UX design—direct match to Steven&#x27;s interests in design-focused Claude skills, MCPs, and vibe-design.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">skill</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7c01e484efd468fa">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:7c01e484efd468fa"
+                 data-exclude-key="marvkr/better-design"
+                 data-exclude-label="marvkr/better-design"
+                 data-url="https://github.com/marvkr/better-design"
+                 data-title="marvkr/better-design — Open-source design systems for shadcn/ui. 27 themed component libraries (Linear, Airbnb, Stripe, Vercel, Notion, Apple, ">
           <div class="meta">
             <span class="date">May 15</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/marvkr/better-design" target="_blank" rel="noopener">marvkr/better-design — Open-source design systems for shadcn/ui. 27 themed component libraries (Linear, Airbnb, Stripe, Vercel, Notion, Apple, </a>
@@ -1326,12 +1947,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">27 production design-system themes for shadcn/ui (Linear, Stripe, Vercel, Notion, Apple, etc.) — directly enables UI craft by providing ready-to-use, taste-forward component libraries.</p>
           <div class="tags"><span class="tag">shadcn</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">frontend</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ddb35af02cbcff32">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ddb35af02cbcff32"
+                 data-exclude-key="Owl-Listener/designer-skills"
+                 data-exclude-label="Owl-Listener/designer-skills"
+                 data-url="https://github.com/Owl-Listener/designer-skills"
+                 data-title="Owl-Listener/designer-skills — Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction">
           <div class="meta">
             <span class="date">May 14</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Owl-Listener/designer-skills" target="_blank" rel="noopener">Owl-Listener/designer-skills — Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction</a>
@@ -1339,12 +1966,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Steven&#x27;s installed designer-skills repo—26 design skills (figma-reconstruct, design-audit, refactoring-ui, high-end-visual-design, etc.). Major signal: this IS his taste library.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">figma</span><span class="tag">claude-code</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:6c28df7523b906ab">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:6c28df7523b906ab"
+                 data-exclude-key="Owl-Listener/designer-skills"
+                 data-exclude-label="Owl-Listener/designer-skills"
+                 data-url="https://github.com/Owl-Listener/designer-skills"
+                 data-title="Owl-Listener/designer-skills — Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction">
           <div class="meta">
             <span class="date">May 14</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Owl-Listener/designer-skills" target="_blank" rel="noopener">Owl-Listener/designer-skills — Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction</a>
@@ -1352,12 +1985,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Steven&#x27;s already-installed designer-skills collection — the flagship agentic skills library for UI/UX, spanning research, systems, interaction, and delivery. Core match to his taste.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">design-system</span><span class="tag">ui-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="bluesky" data-id="tag:ligatsa.github.io,2026:watchtower:item:f1d2f387f89b6779">
+        <article class="entry" data-source="bluesky" data-id="tag:ligatsa.github.io,2026:watchtower:item:f1d2f387f89b6779"
+                 data-exclude-key="@yisibl.bsky.social"
+                 data-exclude-label="@yisibl.bsky.social"
+                 data-url="https://bsky.app/profile/yisibl.bsky.social/post/3mlqlfz7mb22r"
+                 data-title="When shape-outside meets `shape()`, it sparks endless inspiration. As always, @cgqaq.bsky.social has implemented it in C…">
           <div class="meta">
             <span class="date">May 13</span>
             <span class="source">Bluesky</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://bsky.app/profile/yisibl.bsky.social/post/3mlqlfz7mb22r" target="_blank" rel="noopener">When shape-outside meets `shape()`, it sparks endless inspiration. As always, @cgqaq.bsky.social has implemented it in C…</a>
@@ -1365,12 +2004,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">CSS shape() function enables advanced layouts for UI designers; Chrome 149 implementation with live Codepen demo shows practical design applications.</p>
           <div class="tags"><span class="tag">ui-craft</span><span class="tag">frontend</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ce58ce7016306dbe">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:ce58ce7016306dbe"
+                 data-exclude-key="Antonytm/figma-mcp-server"
+                 data-exclude-label="Antonytm/figma-mcp-server"
+                 data-url="https://github.com/Antonytm/figma-mcp-server"
+                 data-title="Antonytm/figma-mcp-server">
           <div class="meta">
             <span class="date">May 13</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Antonytm/figma-mcp-server" target="_blank" rel="noopener">Antonytm/figma-mcp-server</a>
@@ -1378,12 +2023,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Official-style Figma MCP server enabling design ↔ code workflows; directly matches Steven&#x27;s installed figma-desktop MCP and design-systems-mcp. High signal for Figma-to-Claude integration.</p>
           <div class="tags"><span class="tag">figma</span><span class="tag">mcp</span><span class="tag">design-system</span><span class="tag">ui-craft</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d5c74aeadbfb3928">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:d5c74aeadbfb3928"
+                 data-exclude-key="Owl-Listener/ai-design-skills"
+                 data-exclude-label="Owl-Listener/ai-design-skills"
+                 data-url="https://github.com/Owl-Listener/ai-design-skills"
+                 data-title="Owl-Listener/ai-design-skills — AI Design Skills Collection: agentic skills, commands, and plugins for designing AI products — from interaction patterns">
           <div class="meta">
             <span class="date">May 12</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/Owl-Listener/ai-design-skills" target="_blank" rel="noopener">Owl-Listener/ai-design-skills — AI Design Skills Collection: agentic skills, commands, and plugins for designing AI products — from interaction patterns</a>
@@ -1391,12 +2042,18 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
           <p class="summary">Collection of agentic skills and plugins specifically for designing AI products, covering interaction patterns, alignment, and prompt architecture—directly extends Steven&#x27;s installed designer-skills ecosystem.</p>
           <div class="tags"><span class="tag">skill</span><span class="tag">plugin</span><span class="tag">ai-craft</span><span class="tag">technique</span></div>
         </article>
-        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:6b174bf381eb5b12">
+        <article class="entry" data-source="github" data-id="tag:ligatsa.github.io,2026:watchtower:item:6b174bf381eb5b12"
+                 data-exclude-key="southleft/design-systems-mcp"
+                 data-exclude-label="southleft/design-systems-mcp"
+                 data-url="https://github.com/southleft/design-systems-mcp"
+                 data-title="southleft/design-systems-mcp — I&#x27;m your specialized design systems assistant. Ask me about components, tokens, patterns, and best practices.">
           <div class="meta">
             <span class="date">Nov 25</span>
             <span class="source">GitHub</span>
             <span class="readmark" aria-hidden="true">read</span>
+            <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
             <a href="https://github.com/southleft/design-systems-mcp" target="_blank" rel="noopener">southleft/design-systems-mcp — I&#x27;m your specialized design systems assistant. Ask me about components, tokens, patterns, and best practices.</a>
@@ -1407,55 +2064,226 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
 
   </main>
 
+  <div id="toast" role="status" aria-live="polite"></div>
+
   <script>
   (function () {
-    var READ_KEY = 'watchtower:read';
-    var SRC_KEY  = 'watchtower:source';
+    var K = {
+      READ:    'watchtower:read',
+      SRC:     'watchtower:source',
+      MORE:    'watchtower:more',
+      LESS:    'watchtower:less',
+      EXCLUDE: 'watchtower:exclude',
+    };
 
-    function loadRead() {
-      try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]')); }
-      catch (e) { return new Set(); }
+    function loadJSON(k, def) {
+      try { return JSON.parse(localStorage.getItem(k) || JSON.stringify(def)); }
+      catch (e) { return def; }
     }
-    function saveRead(set) {
-      try { localStorage.setItem(READ_KEY, JSON.stringify([].slice.call(set))); }
-      catch (e) {}
+    function saveJSON(k, v) {
+      try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {}
     }
+    function asSet(arr) { return new Set(arr || []); }
+    function fromSet(set) { return [].slice.call(set); }
 
-    var read = loadRead();
+    var read    = asSet(loadJSON(K.READ, []));
+    var more    = loadJSON(K.MORE, []);      // [{id,title,author,url,source,exclude_key}]
+    var less    = loadJSON(K.LESS, []);
+    var exclude = loadJSON(K.EXCLUDE, []);   // [{key,label,source}]
     var entries = document.querySelectorAll('.entry');
 
-    // Restore read state
+    function excludeKeySet() { return new Set(exclude.map(function (e) { return e.key; })); }
+
+    // ── render: read / pref / excluded state ──
+    function paintEntry(el) {
+      var id = el.dataset.id;
+      var exKey = el.dataset.excludeKey;
+      el.classList.toggle('is-read', read.has(id));
+      el.classList.toggle('is-more', more.some(function (m) { return m.id === id; }));
+      el.classList.toggle('is-less', less.some(function (m) { return m.id === id; }));
+      el.classList.toggle('is-hidden', excludeKeySet().has(exKey));
+    }
+    entries.forEach(paintEntry);
+
+    // Track read clicks
     entries.forEach(function (el) {
-      if (read.has(el.dataset.id)) el.classList.add('is-read');
       var a = el.querySelector('.title a');
-      if (a) {
-        a.addEventListener('click', function () {
-          read.add(el.dataset.id);
-          saveRead(read);
-          el.classList.add('is-read');
-        });
+      if (!a) return;
+      a.addEventListener('click', function () {
+        read.add(el.dataset.id);
+        saveJSON(K.READ, fromSet(read));
+        el.classList.add('is-read');
+      });
+    });
+
+    // ── prefs bar counts + actions ──
+    var prefsBar = document.getElementById('prefsBar');
+    function refreshCounts() {
+      document.getElementById('moreCount').textContent    = more.length;
+      document.getElementById('lessCount').textContent    = less.length;
+      document.getElementById('excludeCount').textContent = exclude.length;
+      var hasAny = more.length + less.length + exclude.length > 0;
+      prefsBar.classList.toggle('show', hasAny);
+    }
+    refreshCounts();
+
+    document.getElementById('exportPrefs').addEventListener('click', function () {
+      var blob = new Blob(
+        [JSON.stringify({ more: more, less: less, exclude: exclude }, null, 2)],
+        { type: 'application/json' }
+      );
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'watchtower-preferences.json';
+      a.click();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    });
+    document.getElementById('clearPrefs').addEventListener('click', function () {
+      if (!confirm('Clear all liked / down-voted / excluded preferences?')) return;
+      more = []; less = []; exclude = [];
+      saveJSON(K.MORE, more); saveJSON(K.LESS, less); saveJSON(K.EXCLUDE, exclude);
+      entries.forEach(paintEntry);
+      refreshCounts();
+    });
+
+    // ── toast ──
+    var toast = document.getElementById('toast');
+    var toastTimer = null;
+    function showToast(msg, undoFn) {
+      toast.innerHTML = '';
+      toast.appendChild(document.createTextNode(msg));
+      if (undoFn) {
+        var u = document.createElement('button');
+        u.textContent = 'Undo';
+        u.addEventListener('click', function () { undoFn(); hideToast(); });
+        toast.appendChild(u);
+      }
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(hideToast, 4500);
+    }
+    function hideToast() { toast.classList.remove('show'); }
+
+    // ── overflow menu ──
+    var openMenu = null;
+    function closeMenu() {
+      if (openMenu) { openMenu.remove(); openMenu = null; }
+    }
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.menu') && !e.target.classList.contains('overflow')) {
+        closeMenu();
       }
     });
 
-    // Source filter
+    function summarize(el) {
+      return {
+        id:           el.dataset.id,
+        title:        el.dataset.title,
+        author:       el.querySelector('.source') ? el.querySelector('.source').textContent : '',
+        url:          el.dataset.url,
+        source:       el.dataset.source,
+        exclude_key:  el.dataset.excludeKey,
+      };
+    }
+
+    entries.forEach(function (el) {
+      var btn = el.querySelector('.overflow');
+      if (!btn) return;
+      btn.addEventListener('click', function (ev) {
+        ev.stopPropagation();
+        if (openMenu && openMenu.dataset.owner === el.dataset.id) {
+          closeMenu();
+          return;
+        }
+        closeMenu();
+
+        var info = summarize(el);
+        var menu = document.createElement('div');
+        menu.className = 'menu';
+        menu.dataset.owner = info.id;
+        menu.innerHTML =
+          '<button data-action="more"><span class="ico">▲</span>More like this</button>' +
+          '<button data-action="less"><span class="ico">▼</span>Less like this</button>' +
+          '<div class="sep"></div>' +
+          '<div class="target">' + (info.exclude_key || '(unknown)') + '</div>' +
+          '<button class="danger" data-action="exclude"><span class="ico">✕</span>Exclude</button>';
+
+        menu.addEventListener('click', function (mev) {
+          var actBtn = mev.target.closest('button');
+          if (!actBtn) return;
+          mev.stopPropagation();
+          var action = actBtn.dataset.action;
+
+          if (action === 'more') {
+            // Toggle off if already
+            var i = more.findIndex(function (m) { return m.id === info.id; });
+            if (i >= 0) { more.splice(i, 1); showToast('Removed from "more like"'); }
+            else {
+              // Remove from less if present
+              less = less.filter(function (m) { return m.id !== info.id; });
+              more.push(info);
+              showToast('Will see more like this', function () {
+                more = more.filter(function (m) { return m.id !== info.id; });
+                saveJSON(K.MORE, more); paintEntry(el); refreshCounts();
+              });
+            }
+            saveJSON(K.MORE, more); saveJSON(K.LESS, less);
+          } else if (action === 'less') {
+            var j = less.findIndex(function (m) { return m.id === info.id; });
+            if (j >= 0) { less.splice(j, 1); showToast('Removed from "less like"'); }
+            else {
+              more = more.filter(function (m) { return m.id !== info.id; });
+              less.push(info);
+              showToast('Will see less like this', function () {
+                less = less.filter(function (m) { return m.id !== info.id; });
+                saveJSON(K.LESS, less); paintEntry(el); refreshCounts();
+              });
+            }
+            saveJSON(K.MORE, more); saveJSON(K.LESS, less);
+          } else if (action === 'exclude') {
+            var existing = excludeKeySet();
+            if (existing.has(info.exclude_key)) {
+              exclude = exclude.filter(function (e) { return e.key !== info.exclude_key; });
+              showToast('Removed exclusion for ' + info.exclude_key);
+            } else {
+              exclude.push({ key: info.exclude_key, label: info.exclude_key, source: info.source });
+              showToast('Excluded ' + info.exclude_key, function () {
+                exclude = exclude.filter(function (e) { return e.key !== info.exclude_key; });
+                saveJSON(K.EXCLUDE, exclude); entries.forEach(paintEntry); refreshCounts();
+              });
+            }
+            saveJSON(K.EXCLUDE, exclude);
+          }
+
+          entries.forEach(paintEntry);
+          refreshCounts();
+          closeMenu();
+        });
+
+        el.querySelector('.meta').appendChild(menu);
+        openMenu = menu;
+      });
+    });
+
+    // ── source filter chips ──
     var chips = document.querySelectorAll('.chip');
     function applyFilter(src) {
       entries.forEach(function (el) {
-        var match = (src === 'all') || (el.dataset.source === src);
-        el.classList.toggle('is-hidden', !match);
+        var srcMatch = (src === 'all') || (el.dataset.source === src);
+        var excluded = excludeKeySet().has(el.dataset.excludeKey);
+        el.classList.toggle('is-hidden', !srcMatch || excluded);
       });
       chips.forEach(function (c) {
         c.classList.toggle('active', c.dataset.source === src);
       });
-      try { localStorage.setItem(SRC_KEY, src); } catch (e) {}
+      try { localStorage.setItem(K.SRC, src); } catch (e) {}
     }
     chips.forEach(function (c) {
       c.addEventListener('click', function () { applyFilter(c.dataset.source); });
     });
-
-    // Restore last source filter
     var savedSrc = null;
-    try { savedSrc = localStorage.getItem(SRC_KEY); } catch (e) {}
+    try { savedSrc = localStorage.getItem(K.SRC); } catch (e) {}
     if (savedSrc && document.querySelector('.chip[data-source="' + savedSrc + '"]')) {
       applyFilter(savedSrc);
     }
