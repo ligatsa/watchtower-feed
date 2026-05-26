@@ -5,8 +5,178 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-25T14:14:01+00:00</updated>
+  <updated>2026-05-26T01:22:34+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f</id>
+    <title>Anyone else dread keeping web, Android, and iOS releases in sync?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/"/>
+    <published>2026-05-26T00:37:17+00:00</published>
+    <updated>2026-05-26T00:37:17+00:00</updated>
+    <author><name>MightyBig-Dev</name></author>
+    <category term="claude-code"/>
+    <category term="frontend"/>
+    <category term="technique"/>
+    <summary>Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</summary>
+    <content type="html"><![CDATA[<p>Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:58d7921a1167fe77</id>
+    <title>Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </title>
+    <link rel="alternate" href="https://github.com/Leonxlnx/taste-skill"/>
+    <published>2026-05-25T22:31:30Z</published>
+    <updated>2026-05-25T22:31:30Z</updated>
+    <author><name>Leonxlnx</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="anti-slop"/>
+    <summary>Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</summary>
+    <content type="html"><![CDATA[<p>Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/Leonxlnx/taste-skill">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:655586cb173b29a2</id>
+    <title>Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </title>
+    <link rel="alternate" href="https://github.com/Leonxlnx/taste-skill"/>
+    <published>2026-05-25T22:31:30Z</published>
+    <updated>2026-05-25T22:31:30Z</updated>
+    <author><name>Leonxlnx</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="design"/>
+    <summary>Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</summary>
+    <content type="html"><![CDATA[<p>Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/Leonxlnx/taste-skill">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:19fc902a8bb3821e</id>
+    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
+    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
+    <published>2026-05-25T22:31:15Z</published>
+    <updated>2026-05-25T22:31:15Z</updated>
+    <author><name>nexu-io</name></author>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="skill"/>
+    <summary>Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</summary>
+    <content type="html"><![CDATA[<p>Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b</id>
+    <title>Struggling to maintain Figma design fidelity with Claude Code / MCP</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/"/>
+    <published>2026-05-25T21:26:30+00:00</published>
+    <updated>2026-05-25T21:26:30+00:00</updated>
+    <author><name>Particular_Toe7497</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</summary>
+    <content type="html"><![CDATA[<p>Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c099978a87345c10</id>
+    <title>RT @joshpuckett: Added two new Practical Demonstrations to http://interfacecraft.dev, including a deep dive on the Libra…</title>
+    <link rel="alternate" href="https://x.com/raunofreiberg/status/2059018087127543837"/>
+    <published>2026-05-25T21:05:41+00:00</published>
+    <updated>2026-05-25T21:05:41+00:00</updated>
+    <author><name>raunofreiberg</name></author>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</summary>
+    <content type="html"><![CDATA[<p>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/raunofreiberg/status/2059018087127543837">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797</id>
+    <title>made the input smoothing configurable
+
+jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍🍳 (w/ some example…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2058983282587422946"/>
+    <published>2026-05-25T18:47:23+00:00</published>
+    <updated>2026-05-25T18:47:23+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="interaction-design"/>
+    <summary>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</summary>
+    <content type="html"><![CDATA[<p>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2058983282587422946">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94</id>
+    <title>bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude</title>
+    <link rel="alternate" href="https://github.com/bergside/design-md-figma"/>
+    <published>2026-05-25T18:28:41Z</published>
+    <updated>2026-05-25T18:28:41Z</updated>
+    <author><name>bergside</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="mcp"/>
+    <category term="skill"/>
+    <category term="figma-make"/>
+    <summary>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/bergside/design-md-figma">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7be82d23658acd4a</id>
+    <title>bergside/design-md-chrome — Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeU</title>
+    <link rel="alternate" href="https://github.com/bergside/design-md-chrome"/>
+    <published>2026-05-25T18:28:25Z</published>
+    <updated>2026-05-25T18:28:25Z</updated>
+    <author><name>bergside</name></author>
+    <category term="claude-code"/>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="plugin"/>
+    <summary>Chrome extension that reverse-engineers any website&#x27;s design language into DESIGN.md + Claude design skills—directly amplifies Steven&#x27;s design-audit and brand-extraction workflows.</summary>
+    <content type="html"><![CDATA[<p>Chrome extension that reverse-engineers any website&#x27;s design language into DESIGN.md + Claude design skills—directly amplifies Steven&#x27;s design-audit and brand-extraction workflows.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/bergside/design-md-chrome">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1bb397eda4e740b8</id>
+    <title>I built AniMotion: A new Figma plugin for advanced web animations and direct WebM export</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tndoa8/i_built_animotion_a_new_figma_plugin_for_advanced/"/>
+    <published>2026-05-25T16:09:45+00:00</published>
+    <updated>2026-05-25T16:09:45+00:00</updated>
+    <author><name>General-Plankton-332</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>A Figma plugin for exporting micro-interactions directly to WebM with 30+ animation presets, bezier editor, and alpha-channel support—eliminates the Figma→AE→export loop.</summary>
+    <content type="html"><![CDATA[<p>A Figma plugin for exporting micro-interactions directly to WebM with 30+ animation presets, bezier editor, and alpha-channel support—eliminates the Figma→AE→export loop.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tndoa8/i_built_animotion_a_new_figma_plugin_for_advanced/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ab014320bf033e28</id>
+    <title>Step 3. Tweak property controls and adjust values for full control over motion https://t.co/mRoK6OxDcW</title>
+    <link rel="alternate" href="https://x.com/framer/status/2058943548997923068"/>
+    <published>2026-05-25T16:09:30+00:00</published>
+    <updated>2026-05-25T16:09:30+00:00</updated>
+    <author><name>framer</name></author>
+    <category term="framer-ai"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Framer motion controls UI — tweaking property panels for animation craft. Likely a tutorial or feature demo with visual examples.</summary>
+    <content type="html"><![CDATA[<p>Framer motion controls UI — tweaking property panels for animation craft. Likely a tutorial or feature demo with visual examples.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/framer/status/2058943548997923068">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b980ec08fd09e408</id>
+    <title>AI speeds my design processes by around 25%. 
+Nothing is &quot;automated&quot; except for actually boring work, but everything is …</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2058930086225539155"/>
+    <published>2026-05-25T15:16:00+00:00</published>
+    <updated>2026-05-25T15:16:00+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <summary>Designer shares concrete ROI of AI in design workflows: 25% efficiency gain reinvested in quality, not speed. Thoughtful take on manual supervision and client value.</summary>
+    <content type="html"><![CDATA[<p>Designer shares concrete ROI of AI in design workflows: 25% efficiency gain reinvested in quality, not speed. Thoughtful take on manual supervision and client value.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2058930086225539155">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0ddf86cc2b454d87</id>
     <title>I&#x27;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</title>
@@ -677,176 +847,5 @@
     <category term="technique"/>
     <summary>Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</summary>
     <content type="html"><![CDATA[<p>Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/amohavarshansankar/google-fonts-skill">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f27a3899b1920e19</id>
-    <title>NxProxyStudios/apple-bento-grid — Create Apple-style bento grid cards as self-contained HTML files for AI coding agents, with pixel-perfect output and no </title>
-    <link rel="alternate" href="https://github.com/NxProxyStudios/apple-bento-grid"/>
-    <published>2026-05-24T18:31:47Z</published>
-    <updated>2026-05-24T18:31:47Z</updated>
-    <author><name>NxProxyStudios</name></author>
-    <category term="ui-craft"/>
-    <category term="component"/>
-    <category term="shadcn"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <summary>Ready-to-use Apple bento grid component library for AI agents—pixel-perfect HTML output, shadcn/Framer Motion integration, eliminates design-tool friction for rapid UI prototyping.</summary>
-    <content type="html"><![CDATA[<p>Ready-to-use Apple bento grid component library for AI agents—pixel-perfect HTML output, shadcn/Framer Motion integration, eliminates design-tool friction for rapid UI prototyping.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/NxProxyStudios/apple-bento-grid">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fc9ee5722987547c</id>
-    <title>winfbmlg/pxlkit — Deliver pixel art icons and React UI components with animation and a visual builder to create retro-style web interfaces</title>
-    <link rel="alternate" href="https://github.com/winfbmlg/pxlkit"/>
-    <published>2026-05-24T18:26:58Z</published>
-    <updated>2026-05-24T18:26:58Z</updated>
-    <author><name>winfbmlg</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="frontend"/>
-    <summary>A visual builder for pixel-art React components with animation—design-system tooling for retro UI craft with a builder interface.</summary>
-    <content type="html"><![CDATA[<p>A visual builder for pixel-art React components with animation—design-system tooling for retro UI craft with a builder interface.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/winfbmlg/pxlkit">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9865d197c02a4362</id>
-    <title>Enfluranehighbloodpressure470/v0-platform-mcp — Enable rapid multi-screen UI prototyping and incremental development using Vercel’s Model Context Protocol with v0-platf</title>
-    <link rel="alternate" href="https://github.com/Enfluranehighbloodpressure470/v0-platform-mcp"/>
-    <published>2026-05-24T18:24:31Z</published>
-    <updated>2026-05-24T18:24:31Z</updated>
-    <author><name>Enfluranehighbloodpressure470</name></author>
-    <category term="v0"/>
-    <category term="mcp"/>
-    <category term="design-tokens"/>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <summary>MCP server bridging Claude Code to v0 for multi-screen UI prototyping with design-token sync and Figma integration.</summary>
-    <content type="html"><![CDATA[<p>MCP server bridging Claude Code to v0 for multi-screen UI prototyping with design-token sync and Figma integration.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Enfluranehighbloodpressure470/v0-platform-mcp">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9e751b789618fab3</id>
-    <title>ar27111994/penpot-mcp — AI-agent skill for creating &amp; maintaining production-grade Penpot design systems via the official Penpot MCP Server</title>
-    <link rel="alternate" href="https://github.com/ar27111994/penpot-mcp"/>
-    <published>2026-05-24T18:04:40Z</published>
-    <updated>2026-05-24T18:04:40Z</updated>
-    <author><name>ar27111994</name></author>
-    <category term="mcp"/>
-    <category term="design-system"/>
-    <category term="penpot"/>
-    <category term="agent-sdk"/>
-    <category term="design-to-code"/>
-    <summary>MCP server enabling Claude agents to create and maintain production Penpot design systems—directly bridges design tooling and AI-assisted design workflow.</summary>
-    <content type="html"><![CDATA[<p>MCP server enabling Claude agents to create and maintain production Penpot design systems—directly bridges design tooling and AI-assisted design workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/ar27111994/penpot-mcp">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:38b33a2245974d4a</id>
-    <title>tathagat22/plumb-mcp — Local Figma MCP server with no REST rate limits, no metered tool-call quotas, and a verification loop. Drop-in alternati</title>
-    <link rel="alternate" href="https://github.com/tathagat22/plumb-mcp"/>
-    <published>2026-05-24T18:04:26Z</published>
-    <updated>2026-05-24T18:04:26Z</updated>
-    <author><name>tathagat22</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="design-to-code"/>
-    <category term="claude-code"/>
-    <summary>Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</summary>
-    <content type="html"><![CDATA[<p>Local Figma MCP server enabling design-to-code workflows in Claude Code/Cursor without rate limits; direct alternative to official Figma Dev Mode.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/tathagat22/plumb-mcp">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9f2a8d8d827504a8</id>
-    <title>Mad House — Usborne Creepy Computer Games</title>
-    <link rel="alternate" href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"/>
-    <published>2026-05-24T17:14:11+00:00</published>
-    <updated>2026-05-24T17:14:11+00:00</updated>
-    <author><name>simonwillison</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</summary>
-    <content type="html"><![CDATA[<p>Simon Willison recreates a 1980s text adventure game with Claude, producing a playable retro HTML/JS artifact with mobile-friendly design and period aesthetic.</p><p><strong>Source:</strong> simonwillison · <strong>Score:</strong> 6/10</p><p><a href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything">Read on simonwillison →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:dab3c4ac75fdbc48</id>
-    <title>penpot/penpot-exporter-figma-plugin — Penpot exporter Figma plugin</title>
-    <link rel="alternate" href="https://github.com/penpot/penpot-exporter-figma-plugin"/>
-    <published>2026-05-24T16:40:52Z</published>
-    <updated>2026-05-24T16:40:52Z</updated>
-    <author><name>penpot</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <summary>Figma plugin that exports designs to Penpot, enabling cross-tool design workflows and format interoperability.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that exports designs to Penpot, enabling cross-tool design workflows and format interoperability.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/penpot/penpot-exporter-figma-plugin">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:dcfa3f1385a266a1</id>
-    <title>ZSeven-W/openpencil — The world&#x27;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Co</title>
-    <link rel="alternate" href="https://github.com/ZSeven-W/openpencil"/>
-    <published>2026-05-24T15:34:12Z</published>
-    <updated>2026-05-24T15:34:12Z</updated>
-    <author><name>ZSeven-W</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="claude-code"/>
-    <summary>Open-source AI-native vector design tool with concurrent Agent Teams, prompt-to-UI canvas rendering, and Claude integration—a Pencil alternative built for design-as-code workflows.</summary>
-    <content type="html"><![CDATA[<p>Open-source AI-native vector design tool with concurrent Agent Teams, prompt-to-UI canvas rendering, and Claude integration—a Pencil alternative built for design-as-code workflows.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/ZSeven-W/openpencil">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b23950a3a56f133d</id>
-    <title>southleft/figma-console-mcp — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</title>
-    <link rel="alternate" href="https://github.com/southleft/figma-console-mcp"/>
-    <published>2026-05-22T15:15:32Z</published>
-    <updated>2026-05-22T15:15:32Z</updated>
-    <author><name>southleft</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="mcp"/>
-    <category term="figma-make"/>
-    <summary>Official design-system MCP exposing Figma as an API for AI-driven extraction, creation, and debugging—directly matches Steven&#x27;s installed figma-desktop + design-systems-mcp stack.</summary>
-    <content type="html"><![CDATA[<p>Official design-system MCP exposing Figma as an API for AI-driven extraction, creation, and debugging—directly matches Steven&#x27;s installed figma-desktop + design-systems-mcp stack.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/southleft/figma-console-mcp">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26f6568267669ee3</id>
-    <title>nexu-io/html-anything — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck </title>
-    <link rel="alternate" href="https://github.com/nexu-io/html-anything"/>
-    <published>2026-05-22T06:04:05Z</published>
-    <updated>2026-05-22T06:04:05Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="skill"/>
-    <category term="agent-sdk"/>
-    <summary>Agentic HTML editor with 75 design skills and 9 output surfaces (magazine, deck, poster, prototype, etc.). Local-first, multi-model support, sandboxed preview, 1-click export.</summary>
-    <content type="html"><![CDATA[<p>Agentic HTML editor with 75 design skills and 9 output surfaces (magazine, deck, poster, prototype, etc.). Local-first, multi-model support, sandboxed preview, 1-click export.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/nexu-io/html-anything">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:34dfc0bd647078ec</id>
-    <title>figma/mcp-server-guide — A guide on how to use the Figma MCP server</title>
-    <link rel="alternate" href="https://github.com/figma/mcp-server-guide"/>
-    <published>2026-05-18T17:43:32Z</published>
-    <updated>2026-05-18T17:43:32Z</updated>
-    <author><name>figma</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Official Figma MCP server guide — direct path to design↔code automation and Figma-Claude integration.</summary>
-    <content type="html"><![CDATA[<p>Official Figma MCP server guide — direct path to design↔code automation and Figma-Claude integration.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/figma/mcp-server-guide">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:32e92b969e50c9d6</id>
-    <title>LottieFiles/motion-design-skill — Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted</title>
-    <link rel="alternate" href="https://github.com/LottieFiles/motion-design-skill"/>
-    <published>2026-05-18T11:30:13Z</published>
-    <updated>2026-05-18T11:30:13Z</updated>
-    <author><name>LottieFiles</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="animation"/>
-    <category term="claude-code"/>
-    <summary>Claude skill for motion design &amp; animation principles (timing, easing, Disney choreography)—directly applicable to polishing UI interactions and micromotion craft.</summary>
-    <content type="html"><![CDATA[<p>Claude skill for motion design &amp; animation principles (timing, easing, Disney choreography)—directly applicable to polishing UI interactions and micromotion craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/LottieFiles/motion-design-skill">Read on github →</a></p>]]></content>
   </entry>
 </feed>
