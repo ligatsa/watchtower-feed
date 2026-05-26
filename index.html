@@ -258,6 +258,90 @@
   .entry.is-less { opacity: 0.55; }
   .entry.is-less:hover { opacity: 1; }
 
+  /* per-entry mark-as-read button */
+  .entry .meta .markread {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--dim);
+    cursor: pointer;
+    padding: 0 9px;
+    height: 22px;
+    line-height: 1;
+    border-radius: 3px;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .entry .meta .markread::before { content: '✓'; font-size: 11px; }
+  .entry .meta .markread:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .entry.is-read .meta .markread {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(20,183,143,0.08);
+  }
+  .entry.is-read .meta .markread::after { content: 'read'; }
+
+  /* view-mode tabs */
+  .view-tabs {
+    display: flex;
+    gap: 0;
+    margin-top: 28px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 3px;
+    width: max-content;
+    background: var(--panel);
+  }
+  .view-tabs button {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.15s ease;
+  }
+  .view-tabs button:hover { color: var(--fg); }
+  .view-tabs button.active {
+    background: var(--accent);
+    color: #0a0a0a;
+    font-weight: 500;
+  }
+  .view-tabs button .ct {
+    font-size: 10px;
+    margin-left: 6px;
+    opacity: 0.7;
+  }
+
+  /* meta-strip "mark all read" button */
+  .meta-strip .mark-all {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    cursor: pointer;
+    padding: 5px 11px;
+    border-radius: 3px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    margin-left: 16px;
+    transition: all 0.15s ease;
+  }
+  .meta-strip .mark-all:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
   /* overflow menu button */
   .entry .meta .overflow {
     margin-left: 4px;
@@ -486,14 +570,21 @@
       <button class="pref-action" id="exportPrefs">Export prefs JSON</button>
       <button class="pref-action" id="clearPrefs">Clear all</button>
     </div>
+
+    <div class="view-tabs" id="viewTabs">
+      <button data-view="unread" class="active">Unread<span class="ct" id="viewUnreadCt"></span></button>
+      <button data-view="all">All<span class="ct" id="viewAllCt"></span></button>
+      <button data-view="read">Read<span class="ct" id="viewReadCt"></span></button>
+    </div>
   </header>
 
   <div class="chips" id="chips"><button class="chip active" data-source="all">All<span class="ct">82</span></button><button class="chip" data-source="github">GitHub<span class="ct">62</span></button><button class="chip" data-source="reddit">Reddit<span class="ct">14</span></button><button class="chip" data-source="x">X<span class="ct">4</span></button><button class="chip" data-source="sw">Simon Willison<span class="ct">1</span></button><button class="chip" data-source="bluesky">Bluesky<span class="ct">1</span></button></div>
 
   <div class="meta-strip">
     <span>Items<strong>82</strong></span>
-    <span>Updated<strong>2026-05-26T01:40:08+00:00</strong></span>
+    <span>Updated<strong>2026-05-26T01:47:51+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
+    <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
 
   <main id="entries">
@@ -508,6 +599,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -527,6 +619,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -546,6 +639,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -565,6 +659,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -584,6 +679,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -603,6 +699,7 @@
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -624,6 +721,7 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -645,6 +743,7 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -664,6 +763,7 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -683,6 +783,7 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -702,6 +803,7 @@ jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍�
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -722,6 +824,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -742,6 +845,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -761,6 +865,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -780,6 +885,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -799,6 +905,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -818,6 +925,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -837,6 +945,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -856,6 +965,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -875,6 +985,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -894,6 +1005,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -913,6 +1025,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -932,6 +1045,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -951,6 +1065,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -970,6 +1085,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -989,6 +1105,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1008,6 +1125,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1027,6 +1145,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1046,6 +1165,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1065,6 +1185,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1084,6 +1205,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1103,6 +1225,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1122,6 +1245,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1141,6 +1265,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1160,6 +1285,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1179,6 +1305,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1198,6 +1325,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1217,6 +1345,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1236,6 +1365,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1255,6 +1385,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1274,6 +1405,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1293,6 +1425,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1312,6 +1445,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1331,6 +1465,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1350,6 +1485,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1369,6 +1505,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1388,6 +1525,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1407,6 +1545,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1426,6 +1565,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1445,6 +1585,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1464,6 +1605,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1483,6 +1625,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1502,6 +1645,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1521,6 +1665,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1540,6 +1685,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1559,6 +1705,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1578,6 +1725,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1597,6 +1745,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1616,6 +1765,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1635,6 +1785,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1654,6 +1805,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1673,6 +1825,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1692,6 +1845,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1711,6 +1865,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1730,6 +1885,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1749,6 +1905,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1768,6 +1925,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1787,6 +1945,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1806,6 +1965,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1825,6 +1985,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1844,6 +2005,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1863,6 +2025,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1882,6 +2045,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1901,6 +2065,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1920,6 +2085,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1939,6 +2105,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1958,6 +2125,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1977,6 +2145,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">9<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -1996,6 +2165,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">6<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -2015,6 +2185,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -2034,6 +2205,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">7<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -2053,6 +2225,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
             <span class="readmark" aria-hidden="true">read</span>
             <span class="prefmark" aria-hidden="true"></span>
             <span class="score">8<span class="muted">/10</span></span>
+            <button class="markread" aria-label="Mark as read" type="button" title="Mark as read">✓</button>
             <button class="overflow" aria-label="Actions" type="button">⋯</button>
           </div>
           <h2 class="title">
@@ -2071,6 +2244,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     var K = {
       READ:    'watchtower:read',
       SRC:     'watchtower:source',
+      VIEW:    'watchtower:view',
       MORE:    'watchtower:more',
       LESS:    'watchtower:less',
       EXCLUDE: 'watchtower:exclude',
@@ -2094,25 +2268,39 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
 
     function excludeKeySet() { return new Set(exclude.map(function (e) { return e.key; })); }
 
-    // ── render: read / pref / excluded state ──
+    // Per-entry state (is-read/is-more/is-less). Visibility (is-hidden)
+    // is owned by applyFilters() — single source of truth.
     function paintEntry(el) {
       var id = el.dataset.id;
-      var exKey = el.dataset.excludeKey;
       el.classList.toggle('is-read', read.has(id));
       el.classList.toggle('is-more', more.some(function (m) { return m.id === id; }));
       el.classList.toggle('is-less', less.some(function (m) { return m.id === id; }));
-      el.classList.toggle('is-hidden', excludeKeySet().has(exKey));
     }
     entries.forEach(paintEntry);
 
-    // Track read clicks
+    function setRead(el, isRead) {
+      if (isRead) read.add(el.dataset.id);
+      else read.delete(el.dataset.id);
+      saveJSON(K.READ, fromSet(read));
+      el.classList.toggle('is-read', isRead);
+    }
+
+    // Track read on link click + on explicit ✓ button
     entries.forEach(function (el) {
       var a = el.querySelector('.title a');
-      if (!a) return;
-      a.addEventListener('click', function () {
-        read.add(el.dataset.id);
-        saveJSON(K.READ, fromSet(read));
-        el.classList.add('is-read');
+      if (a) a.addEventListener('click', function () {
+        setRead(el, true);
+        refreshViewCounts();
+        // intentionally NOT calling applyFilters() so the entry stays
+        // visible (just dimmed) right after click — disappearing mid-click is jarring.
+      });
+
+      var mr = el.querySelector('.markread');
+      if (mr) mr.addEventListener('click', function (ev) {
+        ev.stopPropagation();
+        setRead(el, !read.has(el.dataset.id));
+        refreshViewCounts();
+        applyFilters();
       });
     });
 
@@ -2145,6 +2333,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
       saveJSON(K.MORE, more); saveJSON(K.LESS, less); saveJSON(K.EXCLUDE, exclude);
       entries.forEach(paintEntry);
       refreshCounts();
+      applyFilters();
     });
 
     // ── toast ──
@@ -2258,6 +2447,7 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
 
           entries.forEach(paintEntry);
           refreshCounts();
+          applyFilters();
           closeMenu();
         });
 
@@ -2266,27 +2456,98 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
       });
     });
 
-    // ── source filter chips ──
+    // ── combined filter: source chip + view tab + exclusions ──
     var chips = document.querySelectorAll('.chip');
-    function applyFilter(src) {
+    var viewTabs = document.querySelectorAll('#viewTabs button');
+    var currentSource = 'all';
+    var currentView   = 'unread';
+
+    function applyFilters() {
+      var excl = excludeKeySet();
       entries.forEach(function (el) {
-        var srcMatch = (src === 'all') || (el.dataset.source === src);
-        var excluded = excludeKeySet().has(el.dataset.excludeKey);
-        el.classList.toggle('is-hidden', !srcMatch || excluded);
+        var srcMatch = (currentSource === 'all') || (el.dataset.source === currentSource);
+        var excluded = excl.has(el.dataset.excludeKey);
+        var isRead = read.has(el.dataset.id);
+        var viewMatch =
+          currentView === 'all'    ? true :
+          currentView === 'unread' ? !isRead :
+          /* read */                  isRead;
+        el.classList.toggle('is-hidden', !srcMatch || excluded || !viewMatch);
       });
       chips.forEach(function (c) {
-        c.classList.toggle('active', c.dataset.source === src);
+        c.classList.toggle('active', c.dataset.source === currentSource);
       });
-      try { localStorage.setItem(K.SRC, src); } catch (e) {}
+      viewTabs.forEach(function (b) {
+        b.classList.toggle('active', b.dataset.view === currentView);
+      });
     }
+
+    function refreshViewCounts() {
+      var total = entries.length;
+      var readN = 0;
+      entries.forEach(function (el) {
+        if (read.has(el.dataset.id)) readN++;
+      });
+      document.getElementById('viewUnreadCt').textContent = total - readN;
+      document.getElementById('viewAllCt').textContent    = total;
+      document.getElementById('viewReadCt').textContent   = readN;
+    }
+
     chips.forEach(function (c) {
-      c.addEventListener('click', function () { applyFilter(c.dataset.source); });
+      c.addEventListener('click', function () {
+        currentSource = c.dataset.source;
+        try { localStorage.setItem(K.SRC, currentSource); } catch (e) {}
+        applyFilters();
+      });
     });
-    var savedSrc = null;
-    try { savedSrc = localStorage.getItem(K.SRC); } catch (e) {}
-    if (savedSrc && document.querySelector('.chip[data-source="' + savedSrc + '"]')) {
-      applyFilter(savedSrc);
-    }
+    viewTabs.forEach(function (b) {
+      b.addEventListener('click', function () {
+        currentView = b.dataset.view;
+        try { localStorage.setItem(K.VIEW, currentView); } catch (e) {}
+        applyFilters();
+      });
+    });
+
+    // Restore saved state
+    try {
+      var savedSrc = localStorage.getItem(K.SRC);
+      if (savedSrc && document.querySelector('.chip[data-source="' + savedSrc + '"]')) {
+        currentSource = savedSrc;
+      }
+      var savedView = localStorage.getItem(K.VIEW);
+      if (savedView && (savedView === 'unread' || savedView === 'all' || savedView === 'read')) {
+        currentView = savedView;
+      }
+    } catch (e) {}
+
+    // ── Mark all visible read ──
+    document.getElementById('markAll').addEventListener('click', function () {
+      // Only act on currently-visible entries (respects source chip + view).
+      var snapshot = [];
+      entries.forEach(function (el) {
+        if (!el.classList.contains('is-hidden') && !read.has(el.dataset.id)) {
+          snapshot.push(el.dataset.id);
+          setRead(el, true);
+        }
+      });
+      if (!snapshot.length) {
+        showToast('Nothing to mark — all visible items already read');
+        return;
+      }
+      showToast('Marked ' + snapshot.length + ' read', function () {
+        snapshot.forEach(function (id) {
+          var el = document.querySelector('.entry[data-id="' + CSS.escape(id) + '"]');
+          if (el) setRead(el, false);
+        });
+        refreshViewCounts();
+        applyFilters();
+      });
+      refreshViewCounts();
+      applyFilters();
+    });
+
+    refreshViewCounts();
+    applyFilters();
   })();
   </script>
 
