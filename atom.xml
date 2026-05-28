@@ -5,22 +5,36 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-28T19:21:39+00:00</updated>
+  <updated>2026-05-28T22:50:01+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fe4b92eb28147d8d</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5f8f55a88cbb160d</id>
+    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
+    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
+    <published>2026-05-28T22:08:42Z</published>
+    <updated>2026-05-28T22:08:42Z</updated>
+    <author><name>pbakaus</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Impeccable — the design-language framework Steven already has installed. Major update (31k stars, fresh push). Anti-AI-slop rules for building better AI design tools.</summary>
+    <content type="html"><![CDATA[<p>Impeccable — the design-language framework Steven already has installed. Major update (31k stars, fresh push). Anti-AI-slop rules for building better AI design tools.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dc8de773804c79a4</id>
     <title>nexu-io/open-design — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ We</title>
     <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-28T18:47:58Z</published>
-    <updated>2026-05-28T18:47:58Z</updated>
+    <published>2026-05-28T20:37:26Z</published>
+    <updated>2026-05-28T20:37:26Z</updated>
     <author><name>nexu-io</name></author>
     <category term="claude-code"/>
     <category term="design-system"/>
     <category term="prototype"/>
     <category term="figma-alternative"/>
-    <category term="agent-sdk"/>
-    <summary>Local-first open-source design app with 259+ Claude skills, 142+ design systems, native desktop, multi-format export. Steven&#x27;s #1 liked repo — direct Claude Design alternative built for design + code agents.</summary>
-    <content type="html"><![CDATA[<p>Local-first open-source design app with 259+ Claude skills, 142+ design systems, native desktop, multi-format export. Steven&#x27;s #1 liked repo — direct Claude Design alternative built for design + code agents.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+    <category term="skill"/>
+    <summary>Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-model support (Claude/Cursor/Codex), and full export pipeline—directly matches Steven&#x27;s installed taste and represents a major design+AI platform.</summary>
+    <content type="html"><![CDATA[<p>Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-model support (Claude/Cursor/Codex), and full export pipeline—directly matches Steven&#x27;s installed taste and represents a major design+AI platform.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:880ba789f535619a</id>
@@ -93,20 +107,6 @@ Try it at https://v0.app https://t.co/G76bQY89GD</title>
     <category term="technique"/>
     <summary>Figma plugin that generates polished UX microcopy in-context—bridges design-to-copy workflow gap, useful for Steven&#x27;s design+code practice.</summary>
     <content type="html"><![CDATA[<p>Figma plugin that generates polished UX microcopy in-context—bridges design-to-copy workflow gap, useful for Steven&#x27;s design+code practice.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tq6p2j/plugin_that_generates_expert_ux_copy_built_for/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:da1729cc38c4754e</id>
-    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
-    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-05-28T14:53:27Z</published>
-    <updated>2026-05-28T14:53:27Z</updated>
-    <author><name>pbakaus</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="anti-pattern"/>
-    <summary>pbakaus/impeccable is Steven&#x27;s installed flagship design-language skill—a curated catalog of 27 anti-AI-slop rules for crafting distinctiveness. This update signals active maintenance and community trust (30k+ stars).</summary>
-    <content type="html"><![CDATA[<p>pbakaus/impeccable is Steven&#x27;s installed flagship design-language skill—a curated catalog of 27 anti-AI-slop rules for crafting distinctiveness. This update signals active maintenance and community trust (30k+ stars).</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:6653e0b09fed5bbe</id>
@@ -812,74 +812,72 @@ Animat…</title>
     <content type="html"><![CDATA[<p>Designer prototypes pressure-reactive button UI with tactile feedback—explores future interaction trends beyond visual gimmicks.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2059298839215972592">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f</id>
-    <title>Anyone else dread keeping web, Android, and iOS releases in sync?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/"/>
-    <published>2026-05-26T00:37:17+00:00</published>
-    <updated>2026-05-26T00:37:17+00:00</updated>
-    <author><name>MightyBig-Dev</name></author>
-    <category term="claude-code"/>
-    <category term="frontend"/>
-    <category term="technique"/>
-    <summary>Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</summary>
-    <content type="html"><![CDATA[<p>Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b</id>
-    <title>Struggling to maintain Figma design fidelity with Claude Code / MCP</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/"/>
-    <published>2026-05-25T21:26:30+00:00</published>
-    <updated>2026-05-25T21:26:30+00:00</updated>
-    <author><name>Particular_Toe7497</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="claude-code"/>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7b58034916057299</id>
+    <title>this week&#x27;s episode with @andymadrick is for designers who want to own more of the frontend 💪
+
+It&#x27;s a deep dive into:
+✧ …</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2059296192778158466"/>
+    <published>2026-05-26T15:30:46+00:00</published>
+    <updated>2026-05-26T15:30:46+00:00</updated>
+    <author><name>ridd_design</name></author>
     <category term="ui-craft"/>
     <category term="technique"/>
-    <summary>Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</summary>
-    <content type="html"><![CDATA[<p>Designer shares real friction using Figma MCP + Claude Code for fidelity &amp; asset scaling; seeks prompting strategies and file-setup best practices.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tnmgcf/struggling_to_maintain_figma_design_fidelity_with/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+    <category term="designer-post"/>
+    <summary>Podcast episode on designers owning frontend work with AI prototyping, engineering collaboration, and code-level craft.</summary>
+    <content type="html"><![CDATA[<p>Podcast episode on designers owning frontend work with AI prototyping, engineering collaboration, and code-level craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ridd_design/status/2059296192778158466">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c099978a87345c10</id>
-    <title>RT @joshpuckett: Added two new Practical Demonstrations to http://interfacecraft.dev, including a deep dive on the Libra…</title>
-    <link rel="alternate" href="https://x.com/raunofreiberg/status/2059018087127543837"/>
-    <published>2026-05-25T21:05:41+00:00</published>
-    <updated>2026-05-25T21:05:41+00:00</updated>
-    <author><name>raunofreiberg</name></author>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b69c4e537e677056</id>
+    <title>I’m building an icon plugin — what features do designers/devs actually want?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1toa3ii/im_building_an_icon_plugin_what_features_do/"/>
+    <published>2026-05-26T15:19:46+00:00</published>
+    <updated>2026-05-26T15:19:46+00:00</updated>
+    <author><name>CleanFall943</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Designer building a Figma icon plugin with workflow focus (search, export, state pairs, collections). Early-stage ask for feedback; shows genuine UX thinking but no artifact/demo yet.</summary>
+    <content type="html"><![CDATA[<p>Designer building a Figma icon plugin with workflow focus (search, export, state pairs, collections). Early-stage ask for feedback; shows genuine UX thinking but no artifact/demo yet.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1toa3ii/im_building_an_icon_plugin_what_features_do/">Read on reddit/r/UI_Design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b026d907a3fa2de7</id>
+    <title>✨ Have you ever wondered whether JavaScript animation libraries like GSAP or Motion are as performant as raw CSS transit…</title>
+    <link rel="alternate" href="https://bsky.app/profile/joshwcomeau.com/post/3mmr77zq4vs2f"/>
+    <published>2026-05-26T14:27:37.435Z</published>
+    <updated>2026-05-26T14:27:37.435Z</updated>
+    <author><name>joshwcomeau.com</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="frontend"/>
+    <summary>Josh Comeau deep-dive on CSS vs JS animation performance — practical craft knowledge for building smooth UI with Claude/v0.</summary>
+    <content type="html"><![CDATA[<p>Josh Comeau deep-dive on CSS vs JS animation performance — practical craft knowledge for building smooth UI with Claude/v0.</p><p><strong>Source:</strong> bluesky_user · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/joshwcomeau.com/post/3mmr77zq4vs2f">Read on bluesky_user →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2eae480338149c5c</id>
+    <title>Data Analyst tries to design a B2B SaaS modal for Zoom/Meet and probably fails. Roast my UI</title>
+    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1to72qo/data_analyst_tries_to_design_a_b2b_saas_modal_for/"/>
+    <published>2026-05-26T13:31:56+00:00</published>
+    <updated>2026-05-26T13:31:56+00:00</updated>
+    <author><name>razornne</name></author>
     <category term="ui-craft"/>
     <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</summary>
-    <content type="html"><![CDATA[<p>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/raunofreiberg/status/2059018087127543837">Read on x_getxapi →</a></p>]]></content>
+    <category term="analysis"/>
+    <summary>Designer-developer sharing a real B2B SaaS modal redesign with dark theme + Phosphor Mint accents; seeks honest craft critique on spacing, card density, toggle clarity.</summary>
+    <content type="html"><![CDATA[<p>Designer-developer sharing a real B2B SaaS modal redesign with dark theme + Phosphor Mint accents; seeks honest craft critique on spacing, card density, toggle clarity.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1to72qo/data_analyst_tries_to_design_a_b2b_saas_modal_for/">Read on reddit/r/UI_Design →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797</id>
-    <title>made the input smoothing configurable
-
-jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍🍳 (w/ some example…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2058983282587422946"/>
-    <published>2026-05-25T18:47:23+00:00</published>
-    <updated>2026-05-25T18:47:23+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="interaction-design"/>
-    <summary>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</summary>
-    <content type="html"><![CDATA[<p>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2058983282587422946">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94</id>
-    <title>bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude</title>
-    <link rel="alternate" href="https://github.com/bergside/design-md-figma"/>
-    <published>2026-05-25T18:28:41Z</published>
-    <updated>2026-05-25T18:28:41Z</updated>
-    <author><name>bergside</name></author>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0b2b1ce38773780c</id>
+    <title>I built a Figma plugin to simulate premium analog textures live.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1to1bky/i_built_a_figma_plugin_to_simulate_premium_analog/"/>
+    <published>2026-05-26T09:04:05+00:00</published>
+    <updated>2026-05-26T09:04:05+00:00</updated>
+    <author><name>TourPale8639</name></author>
     <category term="figma"/>
-    <category term="design-system"/>
-    <category term="mcp"/>
-    <category term="skill"/>
-    <category term="figma-make"/>
-    <summary>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/bergside/design-md-figma">Read on github →</a></p>]]></content>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Designer built Soft Print Lab, a Figma plugin that applies live, editable analog textures (grain, ink bleed, bloom) without flattening layers—solving a real workflow gap between Figma and Adobe.</summary>
+    <content type="html"><![CDATA[<p>Designer built Soft Print Lab, a Figma plugin that applies live, editable analog textures (grain, ink bleed, bloom) without flattening layers—solving a real workflow gap between Figma and Adobe.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1to1bky/i_built_a_figma_plugin_to_simulate_premium_analog/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
   </entry>
 </feed>
