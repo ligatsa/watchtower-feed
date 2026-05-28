@@ -5,8 +5,272 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-26T03:02:18+00:00</updated>
+  <updated>2026-05-28T04:33:23+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4f221aaa06fcb5e3</id>
+    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
+    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
+    <published>2026-05-28T04:03:22Z</published>
+    <updated>2026-05-28T04:03:22Z</updated>
+    <author><name>nexu-io</name></author>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <summary>Local-first Claude Design alternative with 19 design skills, 71 brand design systems, and multi-platform prototype generation (web/desktop/mobile/video). Steven already likes this repo.</summary>
+    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 19 design skills, 71 brand design systems, and multi-platform prototype generation (web/desktop/mobile/video). Steven already likes this repo.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:55b1df257b880d43</id>
+    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
+    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
+    <published>2026-05-28T03:38:51Z</published>
+    <updated>2026-05-28T03:38:51Z</updated>
+    <author><name>pbakaus</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="anthropic"/>
+    <summary>pbakaus&#x27;s impeccable — a design-language harness with 30k+ stars teaching AI to avoid anti-patterns. Steven already installed this; major signal.</summary>
+    <content type="html"><![CDATA[<p>pbakaus&#x27;s impeccable — a design-language harness with 30k+ stars teaching AI to avoid anti-patterns. Steven already installed this; major signal.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cf4acf7fe6c0fb38</id>
+    <title>southleft/design-systems-mcp — I&#x27;m your specialized design systems assistant. Ask me about components, tokens, patterns, and best practices.</title>
+    <link rel="alternate" href="https://github.com/southleft/design-systems-mcp"/>
+    <published>2026-05-28T00:59:06Z</published>
+    <updated>2026-05-28T00:59:06Z</updated>
+    <author><name>southleft</name></author>
+    <category term="mcp"/>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <summary>Specialized design-systems MCP from southleft (recognized author, 162⭐). Direct match to Steven&#x27;s installed MCP taste — components, tokens, patterns expertise.</summary>
+    <content type="html"><![CDATA[<p>Specialized design-systems MCP from southleft (recognized author, 162⭐). Direct match to Steven&#x27;s installed MCP taste — components, tokens, patterns expertise.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/southleft/design-systems-mcp">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dd3c04e31959023c</id>
+    <title>southleft/design-systems-mcp — I&#x27;m your specialized design systems assistant. Ask me about components, tokens, patterns, and best practices.</title>
+    <link rel="alternate" href="https://github.com/southleft/design-systems-mcp"/>
+    <published>2026-05-28T00:59:06Z</published>
+    <updated>2026-05-28T00:59:06Z</updated>
+    <author><name>southleft</name></author>
+    <category term="design-system"/>
+    <category term="mcp"/>
+    <category term="anthropic"/>
+    <summary>Design-systems MCP from southleft (recognized author) — specialized assistant for components, tokens, patterns, DS knowledge. 162 stars, actively maintained.</summary>
+    <content type="html"><![CDATA[<p>Design-systems MCP from southleft (recognized author) — specialized assistant for components, tokens, patterns, DS knowledge. 162 stars, actively maintained.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/southleft/design-systems-mcp">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:44268c7348fd81ef</id>
+    <title>added configurable color ink accents + thickness 🧑‍🍳
+
+again, the difference with this is that the output timing matches …</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2059780214347976914"/>
+    <published>2026-05-27T23:34:06+00:00</published>
+    <updated>2026-05-27T23:34:06+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>jh3yy adds configurable ink accent colors &amp; thickness to input smoothing UI—pure CSS/SVG craft with 1:1 input-output timing synchronization.</summary>
+    <content type="html"><![CDATA[<p>jh3yy adds configurable ink accent colors &amp; thickness to input smoothing UI—pure CSS/SVG craft with 1:1 input-output timing synchronization.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2059780214347976914">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:78fce2f7a9dd6268</id>
+    <title>GLips/Figma-Context-MCP — MCP server to provide Figma layout information to AI coding agents like Cursor</title>
+    <link rel="alternate" href="https://github.com/GLips/Figma-Context-MCP"/>
+    <published>2026-05-27T22:18:23Z</published>
+    <updated>2026-05-27T22:18:23Z</updated>
+    <author><name>GLips</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="cursor"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <summary>MCP server bridging Figma design data to AI coding agents (Cursor/Claude Code) — direct match to Steven&#x27;s installed figma-desktop MCP and designer-skills ecosystem.</summary>
+    <content type="html"><![CDATA[<p>MCP server bridging Figma design data to AI coding agents (Cursor/Claude Code) — direct match to Steven&#x27;s installed figma-desktop MCP and designer-skills ecosystem.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/GLips/Figma-Context-MCP">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:826652b53696eb3c</id>
+    <title>Anti-slop design skill for Claude Code
+
+https://t.co/Ygrb8d83cK https://t.co/6WcaaSIs3w</title>
+    <link rel="alternate" href="https://x.com/tom_doerr/status/2059755798348136908"/>
+    <published>2026-05-27T21:57:05+00:00</published>
+    <updated>2026-05-27T21:57:05+00:00</updated>
+    <author><name>tom_doerr</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="anti-slop"/>
+    <summary>New Claude Code skill targeting anti-AI-slop design patterns — directly matches Steven&#x27;s installed taste (pbakaus/impeccable) and top design-skill interests.</summary>
+    <content type="html"><![CDATA[<p>New Claude Code skill targeting anti-AI-slop design patterns — directly matches Steven&#x27;s installed taste (pbakaus/impeccable) and top design-skill interests.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/tom_doerr/status/2059755798348136908">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ebbd0ae42778cfca</id>
+    <title>How we made vector editing up to 10x faster, with @lbudorick 
+
+0:00 Intro 
+0:17 Instanced rendering 
+0:38 Fast path for …</title>
+    <link rel="alternate" href="https://x.com/figma/status/2059730421693518276"/>
+    <published>2026-05-27T20:16:15+00:00</published>
+    <updated>2026-05-27T20:16:15+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="anthropic"/>
+    <summary>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</summary>
+    <content type="html"><![CDATA[<p>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/figma/status/2059730421693518276">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ddd159e587d928b7</id>
+    <title>gethopp/figma-mcp-bridge — Figma Plugin &amp; MCP server to bypass API limits</title>
+    <link rel="alternate" href="https://github.com/gethopp/figma-mcp-bridge"/>
+    <published>2026-05-27T20:03:23Z</published>
+    <updated>2026-05-27T20:03:23Z</updated>
+    <author><name>gethopp</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="plugin"/>
+    <summary>Figma plugin + MCP server that bypasses API limits—direct enabler for design-code workflows at scale.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin + MCP server that bypasses API limits—direct enabler for design-code workflows at scale.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/gethopp/figma-mcp-bridge">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:62cd4ee7f8fc5fe8</id>
+    <title>The Deployments list was one of the earliest views I built on the (zeit) platform. 
+
+One of the earliest &#x27;acid tests&#x27; of…</title>
+    <link rel="alternate" href="https://x.com/rauchg/status/2059683670609285188"/>
+    <published>2026-05-27T17:10:28+00:00</published>
+    <updated>2026-05-27T17:10:28+00:00</updated>
+    <author><name>rauchg</name></author>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <category term="anthropic"/>
+    <summary>Vercel&#x27;s Deployments UI redesign: a thoughtful look at balancing app dynamism with web speed, touching on Next.js as a framework acid test.</summary>
+    <content type="html"><![CDATA[<p>Vercel&#x27;s Deployments UI redesign: a thoughtful look at balancing app dynamism with web speed, touching on Next.js as a framework acid test.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/rauchg/status/2059683670609285188">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f39d0b670bcb885c</id>
+    <title>And if you want to skip AI for a bit and just chill and think about where digital products can be going in their UI, go …</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2059671449007218828"/>
+    <published>2026-05-27T16:21:54+00:00</published>
+    <updated>2026-05-27T16:21:54+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</summary>
+    <content type="html"><![CDATA[<p>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2059671449007218828">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cc78001d766bc81f</id>
+    <title>Consultas sobre plugins</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tpahw6/consultas_sobre_plugins/"/>
+    <published>2026-05-27T16:21:34+00:00</published>
+    <updated>2026-05-27T16:21:34+00:00</updated>
+    <author><name>Ryuwuu</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="design-system"/>
+    <summary>Designer seeking guidance on building a Figma plugin that audits design variables against configurable criteria—aligned with Steven&#x27;s design-system + audit interests.</summary>
+    <content type="html"><![CDATA[<p>Designer seeking guidance on building a Figma plugin that audits design variables against configurable criteria—aligned with Steven&#x27;s design-system + audit interests.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tpahw6/consultas_sobre_plugins/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7fc030b013740bc3</id>
+    <title>geekjourneyx/claude-design-card — Claude Code skill for generating design cards in 14 formats — platform   covers, social sharing cards, and editorial lay</title>
+    <link rel="alternate" href="https://github.com/geekjourneyx/claude-design-card"/>
+    <published>2026-05-27T16:17:35Z</published>
+    <updated>2026-05-27T16:17:35Z</updated>
+    <author><name>geekjourneyx</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <summary>Claude skill that generates 14 card formats (covers, social, editorial) — directly useful for designers building marketing &amp; content layouts.</summary>
+    <content type="html"><![CDATA[<p>Claude skill that generates 14 card formats (covers, social, editorial) — directly useful for designers building marketing &amp; content layouts.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/geekjourneyx/claude-design-card">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f0c8a12ca23a055f</id>
+    <title>AI UX Writer - Figma plugin</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tpa5y9/ai_ux_writer_figma_plugin/"/>
+    <published>2026-05-27T16:10:04+00:00</published>
+    <updated>2026-05-27T16:10:04+00:00</updated>
+    <author><name>Ragnak8</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Figma plugin using AI to generate UX copy directly in design workflows—reduces tool-switching and helps designers write clearer microcopy.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin using AI to generate UX copy directly in design workflows—reduces tool-switching and helps designers write clearer microcopy.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tpa5y9/ai_ux_writer_figma_plugin/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2e3bbc33bc02bb14</id>
+    <title>Bolt is now in the Claude Marketplace.
+
+The fastest way from prompt to production, on the AI you already pay for.
+
+Don&#x27;t…</title>
+    <link rel="alternate" href="https://x.com/boltdotnew/status/2059667660565082315"/>
+    <published>2026-05-27T16:06:51+00:00</published>
+    <updated>2026-05-27T16:06:51+00:00</updated>
+    <author><name>boltdotnew</name></author>
+    <category term="bolt"/>
+    <category term="claude-code"/>
+    <category term="anthropic"/>
+    <category term="v0"/>
+    <summary>Bolt launches in Claude Marketplace — direct integration for building production-ready full-stack apps from prompts, expanding Claude&#x27;s design-to-code capabilities.</summary>
+    <content type="html"><![CDATA[<p>Bolt launches in Claude Marketplace — direct integration for building production-ready full-stack apps from prompts, expanding Claude&#x27;s design-to-code capabilities.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/boltdotnew/status/2059667660565082315">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c69d87dd00f09801</id>
+    <title>feedback is the bottleneck for building with AI
+
+@inflight fixes that
+
+now designers can get structured feedback on thei…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2059659341599236473"/>
+    <published>2026-05-27T15:33:48+00:00</published>
+    <updated>2026-05-27T15:33:48+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Designer tool that closes the AI feedback loop: structured prototype critique feeds back into Claude/Codex for iterative refinement. Real workflow demo.</summary>
+    <content type="html"><![CDATA[<p>Designer tool that closes the AI feedback loop: structured prototype critique feeds back into Claude/Codex for iterative refinement. Real workflow demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2059659341599236473">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e6a4a85eb38b002e</id>
+    <title>Here&#x27;s where design is going. Lots of work and analysis went into this.
+
+UI Design Direction 2026–2027 https://medium.co…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2059658037544001597"/>
+    <published>2026-05-27T15:28:37+00:00</published>
+    <updated>2026-05-27T15:28:37+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Design trend analysis for 2026–2027 from established design voice; curated direction piece with research backing.</summary>
+    <content type="html"><![CDATA[<p>Design trend analysis for 2026–2027 from established design voice; curated direction piece with research backing.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2059658037544001597">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c730ccc7e20f37d9</id>
+    <title>Read the full guide ↓
+https://www.framer.com/guides/wordpress-to-framer</title>
+    <link rel="alternate" href="https://x.com/framer/status/2059652890579607554"/>
+    <published>2026-05-27T15:08:10+00:00</published>
+    <updated>2026-05-27T15:08:10+00:00</updated>
+    <author><name>framer</name></author>
+    <category term="framer-ai"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</summary>
+    <content type="html"><![CDATA[<p>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2059652890579607554">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:a85e7bc0fd70f80f</id>
     <title>Anyone else dread keeping web, Android, and iOS releases in sync?</title>
@@ -589,263 +853,5 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     <category term="designer-post"/>
     <summary>Designer-developer built a playable turn-based RPG game using Claude iteratively over 170+ versions, demonstrating concrete AI-assisted game UI/UX craft with working artifact.</summary>
     <content type="html"><![CDATA[<p>Designer-developer built a playable turn-based RPG game using Claude iteratively over 170+ versions, demonstrating concrete AI-assisted game UI/UX craft with working artifact.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tmwcw3/170_versions_later_i_was_able_to_create_a_cool/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e8906f01dae9cc9e</id>
-    <title>keyb88/development-toolbox-web-style-extractor — 🎨 Extract colors and fonts from any website to create consistent, branded internal sites and documentation with ease.</title>
-    <link rel="alternate" href="https://github.com/keyb88/development-toolbox-web-style-extractor"/>
-    <published>2026-05-25T02:53:33Z</published>
-    <updated>2026-05-25T02:53:33Z</updated>
-    <author><name>keyb88</name></author>
-    <category term="design-system"/>
-    <category term="design-tokens"/>
-    <category term="technique"/>
-    <summary>Tool to extract colors and fonts from websites for design-system consistency; useful for designers reverse-engineering brand assets, though execution clarity unclear.</summary>
-    <content type="html"><![CDATA[<p>Tool to extract colors and fonts from websites for design-system consistency; useful for designers reverse-engineering brand assets, though execution clarity unclear.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/keyb88/development-toolbox-web-style-extractor">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7596db1e7f523fce</id>
-    <title>Roma345-ux/grid-smith — Framework Agnostic 4px Grid Design Toolkit 2026 – Analyze, Audit, Transpile Code</title>
-    <link rel="alternate" href="https://github.com/Roma345-ux/grid-smith"/>
-    <published>2026-05-25T02:42:26Z</published>
-    <updated>2026-05-25T02:42:26Z</updated>
-    <author><name>Roma345-ux</name></author>
-    <category term="design-system"/>
-    <category term="design-tokens"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="plugin"/>
-    <summary>Framework-agnostic 4px grid linter &amp; transpiler that audits, analyzes, and converts design-to-code—directly targets design-system enforcement and quality for production UI.</summary>
-    <content type="html"><![CDATA[<p>Framework-agnostic 4px grid linter &amp; transpiler that audits, analyzes, and converts design-to-code—directly targets design-system enforcement and quality for production UI.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Roma345-ux/grid-smith">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e744a9b30069715f</id>
-    <title>romanr3314/designpull — Extract design systems from any website using AI vision to generate Google Stitch compatible DESIGN.md files.</title>
-    <link rel="alternate" href="https://github.com/romanr3314/designpull"/>
-    <published>2026-05-25T01:30:31Z</published>
-    <updated>2026-05-25T01:30:31Z</updated>
-    <author><name>romanr3314</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <category term="plugin"/>
-    <summary>AI vision tool that reverse-engineers design systems from websites into machine-readable DESIGN.md files—directly bridges visual inspection to design-token extraction.</summary>
-    <content type="html"><![CDATA[<p>AI vision tool that reverse-engineers design systems from websites into machine-readable DESIGN.md files—directly bridges visual inspection to design-token extraction.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/romanr3314/designpull">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e24e9d576ede2727</id>
-    <title>Shantimdx/design-extract — Extract design specifications and CSS variables from websites to generate accurate style tokens.</title>
-    <link rel="alternate" href="https://github.com/Shantimdx/design-extract"/>
-    <published>2026-05-25T01:28:39Z</published>
-    <updated>2026-05-25T01:28:39Z</updated>
-    <author><name>Shantimdx</name></author>
-    <category term="design-system"/>
-    <category term="design-tokens"/>
-    <category term="claude-code"/>
-    <category term="skill"/>
-    <category term="technique"/>
-    <summary>Claude skill that extracts live CSS variables and design specs from websites to auto-generate design tokens—bridges design-to-code workflow.</summary>
-    <content type="html"><![CDATA[<p>Claude skill that extracts live CSS variables and design specs from websites to auto-generate design tokens—bridges design-to-code workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Shantimdx/design-extract">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:426edbbf185f6137</id>
-    <title>ENDERMITA12/styleseed — Apply dynamic design system skins to UI components using a single data attribute.</title>
-    <link rel="alternate" href="https://github.com/ENDERMITA12/styleseed"/>
-    <published>2026-05-25T01:26:26Z</published>
-    <updated>2026-05-25T01:26:26Z</updated>
-    <author><name>ENDERMITA12</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="shadcn"/>
-    <category term="claude-code"/>
-    <category term="frontend"/>
-    <summary>A design-system tool for applying dynamic skins to UI components via data attributes—built with Claude Code, integrates shadcn/Radix, and targets the exact workflow Steven uses.</summary>
-    <content type="html"><![CDATA[<p>A design-system tool for applying dynamic skins to UI components via data attributes—built with Claude Code, integrates shadcn/Radix, and targets the exact workflow Steven uses.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/ENDERMITA12/styleseed">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c6ec03998196651a</id>
-    <title>chakra-ui/ark — Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.</title>
-    <link rel="alternate" href="https://github.com/chakra-ui/ark"/>
-    <published>2026-05-25T00:58:58Z</published>
-    <updated>2026-05-25T00:58:58Z</updated>
-    <author><name>chakra-ui</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <category term="shadcn"/>
-    <summary>Headless component library for building design systems across frameworks; enables designers to own visual language without fighting opinionated styles.</summary>
-    <content type="html"><![CDATA[<p>Headless component library for building design systems across frameworks; enables designers to own visual language without fighting opinionated styles.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/chakra-ui/ark">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ad807d997fadb919</id>
-    <title>rbadillap/registry.directory — Explore your favorite shadcn/ui registries.</title>
-    <link rel="alternate" href="https://github.com/rbadillap/registry.directory"/>
-    <published>2026-05-25T00:44:55Z</published>
-    <updated>2026-05-25T00:44:55Z</updated>
-    <author><name>rbadillap</name></author>
-    <category term="shadcn"/>
-    <category term="design-system"/>
-    <category term="frontend"/>
-    <summary>A registry explorer for shadcn/ui components — helpful discovery tool for designers building with component libraries, but light on craft/technique.</summary>
-    <content type="html"><![CDATA[<p>A registry explorer for shadcn/ui components — helpful discovery tool for designers building with component libraries, but light on craft/technique.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/rbadillap/registry.directory">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:da17f981f419f1bf</id>
-    <title>giovannisacca/pixel-mcp-workflow — 🔧 AI-Powered Design-to-Code Pipeline 2026: Figma to React in 6-Phase Parallel Workflow</title>
-    <link rel="alternate" href="https://github.com/giovannisacca/pixel-mcp-workflow"/>
-    <published>2026-05-25T00:10:08Z</published>
-    <updated>2026-05-25T00:10:08Z</updated>
-    <author><name>giovannisacca</name></author>
-    <category term="figma"/>
-    <category term="design-to-code"/>
-    <category term="mcp"/>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <summary>A 6-phase design-to-code pipeline bridging Figma to React using Claude skills and MCP servers—concrete workflow for translating designs at scale.</summary>
-    <content type="html"><![CDATA[<p>A 6-phase design-to-code pipeline bridging Figma to React using Claude skills and MCP servers—concrete workflow for translating designs at scale.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/giovannisacca/pixel-mcp-workflow">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9be4eb0050ff80b1</id>
-    <title>Best practices &amp;amp; custom skills for getting high-quality Flutter UI/UX output from Claude Code?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tmsjyi/best_practices_custom_skills_for_getting/"/>
-    <published>2026-05-25T00:04:06+00:00</published>
-    <updated>2026-05-25T00:04:06+00:00</updated>
-    <author><name>Sensitive_Drink_4050</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Designer-developer seeks best practices for production Flutter UI with Claude Code; asks about prompt strategies and design-system enforcement tools.</summary>
-    <content type="html"><![CDATA[<p>Designer-developer seeks best practices for production Flutter UI with Claude Code; asks about prompt strategies and design-system enforcement tools.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tmsjyi/best_practices_custom_skills_for_getting/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:937556a5c28d9bce</id>
-    <title>Claude issues with design and MCP</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/"/>
-    <published>2026-05-24T21:02:55+00:00</published>
-    <updated>2026-05-24T21:02:55+00:00</updated>
-    <author><name>Adventurous_Run_6310</name></author>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="mcp"/>
-    <category term="technique"/>
-    <summary>Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</summary>
-    <content type="html"><![CDATA[<p>Designer frustrated with Claude+MCP failing to translate pixel-perfect static HTML/Tailwind design onto WordPress; real design artifact exists but post is a problem report, not a solution or technique.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tmo693/claude_issues_with_design_and_mcp/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1ee3fe625a1b2e95</id>
-    <title>chakra-ui/panda — 🐼 Universal, Type-Safe, CSS-in-JS Framework for Design Systems ⚡️</title>
-    <link rel="alternate" href="https://github.com/chakra-ui/panda"/>
-    <published>2026-05-24T19:43:16Z</published>
-    <updated>2026-05-24T19:43:16Z</updated>
-    <author><name>chakra-ui</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <category term="technique"/>
-    <summary>Type-safe CSS-in-JS framework purpose-built for design systems with design-tokens, theming, and compiler primitives—directly enables token-to-code workflows Steven uses.</summary>
-    <content type="html"><![CDATA[<p>Type-safe CSS-in-JS framework purpose-built for design systems with design-tokens, theming, and compiler primitives—directly enables token-to-code workflows Steven uses.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/chakra-ui/panda">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ed729c2b31fe2295</id>
-    <title>Manzela/Atelier — Atelier — autonomous design agent for the Google for Startups AI Agents Challenge 2026. Stitch generates. Atelier asks, </title>
-    <link rel="alternate" href="https://github.com/Manzela/Atelier"/>
-    <published>2026-05-24T18:44:29Z</published>
-    <updated>2026-05-24T18:44:29Z</updated>
-    <author><name>Manzela</name></author>
-    <category term="design-to-code"/>
-    <category term="agent-sdk"/>
-    <category term="anthropic"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Autonomous design agent that converges on UI/UX through iterative refinement—design-to-code workflow powered by Claude and Anthropic.</summary>
-    <content type="html"><![CDATA[<p>Autonomous design agent that converges on UI/UX through iterative refinement—design-to-code workflow powered by Claude and Anthropic.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Manzela/Atelier">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:673e2c205ec2a258</id>
-    <title>Signpainterreverberation581/ux-collab — Build AI-driven UI collaboration with agent-browser, Figma MCP, and Lucid to turn wireframes into code that matches your</title>
-    <link rel="alternate" href="https://github.com/Signpainterreverberation581/ux-collab"/>
-    <published>2026-05-24T18:44:02Z</published>
-    <updated>2026-05-24T18:44:02Z</updated>
-    <author><name>Signpainterreverberation581</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="mcp"/>
-    <category term="claude-code"/>
-    <summary>AI-driven workflow combining Figma MCP + agent-browser to convert wireframes to code matching design systems—bridges design intent to implementation.</summary>
-    <content type="html"><![CDATA[<p>AI-driven workflow combining Figma MCP + agent-browser to convert wireframes to code matching design systems—bridges design intent to implementation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Signpainterreverberation581/ux-collab">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3f13dcee45cb0c55</id>
-    <title>melinaclincherbuilt937/ui-prompt-library — Build production-ready UI prompts for landing pages, SaaS dashboards, and components with React, Tailwind CSS, shadcn/ui</title>
-    <link rel="alternate" href="https://github.com/melinaclincherbuilt937/ui-prompt-library"/>
-    <published>2026-05-24T18:39:04Z</published>
-    <updated>2026-05-24T18:39:04Z</updated>
-    <author><name>melinaclincherbuilt937</name></author>
-    <category term="ui-craft"/>
-    <category term="shadcn"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>A prompt library for generating production UI (landing pages, SaaS dashboards, components) with React, Tailwind, shadcn/ui—useful reference for designers prompting AI tools like v0/Lovable.</summary>
-    <content type="html"><![CDATA[<p>A prompt library for generating production UI (landing pages, SaaS dashboards, components) with React, Tailwind, shadcn/ui—useful reference for designers prompting AI tools like v0/Lovable.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/melinaclincherbuilt937/ui-prompt-library">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:706f9fde799710ac</id>
-    <title>ncdai/chanhdai.com — A pixel-perfect dev portfolio and shadcn registry.</title>
-    <link rel="alternate" href="https://github.com/ncdai/chanhdai.com"/>
-    <published>2026-05-24T18:38:13Z</published>
-    <updated>2026-05-24T18:38:13Z</updated>
-    <author><name>ncdai</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="frontend"/>
-    <summary>A production dev portfolio built with shadcn/ui components and registry patterns—concrete example of modern design-to-code workflow with TailwindCSS and motion.</summary>
-    <content type="html"><![CDATA[<p>A production dev portfolio built with shadcn/ui components and registry patterns—concrete example of modern design-to-code workflow with TailwindCSS and motion.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/ncdai/chanhdai.com">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8a49a55280a6f281</id>
-    <title>Tricholomaaurantiumknottiness355/design-dna — Extract, structure, and apply visual design identity as machine-readable Design DNA across tokens, style, and effects</title>
-    <link rel="alternate" href="https://github.com/Tricholomaaurantiumknottiness355/design-dna"/>
-    <published>2026-05-24T18:36:50Z</published>
-    <updated>2026-05-24T18:36:50Z</updated>
-    <author><name>Tricholomaaurantiumknottiness355</name></author>
-    <category term="design-system"/>
-    <category term="design-tokens"/>
-    <category term="skill"/>
-    <category term="technique"/>
-    <summary>Tool to extract and apply visual design identity as machine-readable Design DNA across tokens, styles, and effects—directly targets design-system automation and token sync.</summary>
-    <content type="html"><![CDATA[<p>Tool to extract and apply visual design identity as machine-readable Design DNA across tokens, styles, and effects—directly targets design-system automation and token sync.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Tricholomaaurantiumknottiness355/design-dna">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:209eb807db83e4c0</id>
-    <title>Melisa6532/ui-style-extractor — Extract website design systems into reusable Markdown guides and validation demos for AI-generated pages</title>
-    <link rel="alternate" href="https://github.com/Melisa6532/ui-style-extractor"/>
-    <published>2026-05-24T18:36:48Z</published>
-    <updated>2026-05-24T18:36:48Z</updated>
-    <author><name>Melisa6532</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="skill"/>
-    <category term="technique"/>
-    <summary>Tool to extract website design systems into Markdown guides and validation demos for AI-generated UIs — directly bridges design analysis and Claude Code workflows.</summary>
-    <content type="html"><![CDATA[<p>Tool to extract website design systems into Markdown guides and validation demos for AI-generated UIs — directly bridges design analysis and Claude Code workflows.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Melisa6532/ui-style-extractor">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8ef0715154890961</id>
-    <title>amohavarshansankar/google-fonts-skill — Generate Google Fonts typography systems with font search, pair suggestions, and CSS/Tailwind output from 1,923 curated </title>
-    <link rel="alternate" href="https://github.com/amohavarshansankar/google-fonts-skill"/>
-    <published>2026-05-24T18:34:59Z</published>
-    <updated>2026-05-24T18:34:59Z</updated>
-    <author><name>amohavarshansankar</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="typography"/>
-    <category term="figma"/>
-    <category term="technique"/>
-    <summary>Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</summary>
-    <content type="html"><![CDATA[<p>Claude skill for generating typography systems from Google Fonts with pair suggestions and CSS/Tailwind output—directly useful for design-system work.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/amohavarshansankar/google-fonts-skill">Read on github →</a></p>]]></content>
   </entry>
 </feed>
