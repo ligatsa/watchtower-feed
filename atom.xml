@@ -5,7 +5,7 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-28T12:23:53+00:00</updated>
+  <updated>2026-05-28T14:04:08+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:2b0a37b9716dec0e</id>
@@ -126,21 +126,6 @@ Production-grade DESIGN.md analysis for coding agents.…</title>
     <content type="html"><![CDATA[<p>Design.md extraction tool for AI agents—production-grade design patterns, tokens, and rules to improve AI-generated UI quality.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2059869150408020392">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4f221aaa06fcb5e3</id>
-    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
-    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-28T04:03:22Z</published>
-    <updated>2026-05-28T04:03:22Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <summary>Local-first Claude Design alternative with 19 design skills, 71 brand design systems, and multi-platform prototype generation (web/desktop/mobile/video). Steven already likes this repo.</summary>
-    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 19 design skills, 71 brand design systems, and multi-platform prototype generation (web/desktop/mobile/video). Steven already likes this repo.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:55b1df257b880d43</id>
     <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
     <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
@@ -153,19 +138,6 @@ Production-grade DESIGN.md analysis for coding agents.…</title>
     <category term="anthropic"/>
     <summary>pbakaus&#x27;s impeccable — a design-language harness with 30k+ stars teaching AI to avoid anti-patterns. Steven already installed this; major signal.</summary>
     <content type="html"><![CDATA[<p>pbakaus&#x27;s impeccable — a design-language harness with 30k+ stars teaching AI to avoid anti-patterns. Steven already installed this; major signal.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cf4acf7fe6c0fb38</id>
-    <title>southleft/design-systems-mcp — I&#x27;m your specialized design systems assistant. Ask me about components, tokens, patterns, and best practices.</title>
-    <link rel="alternate" href="https://github.com/southleft/design-systems-mcp"/>
-    <published>2026-05-28T00:59:06Z</published>
-    <updated>2026-05-28T00:59:06Z</updated>
-    <author><name>southleft</name></author>
-    <category term="mcp"/>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <summary>Specialized design-systems MCP from southleft (recognized author, 162⭐). Direct match to Steven&#x27;s installed MCP taste — components, tokens, patterns expertise.</summary>
-    <content type="html"><![CDATA[<p>Specialized design-systems MCP from southleft (recognized author, 162⭐). Direct match to Steven&#x27;s installed MCP taste — components, tokens, patterns expertise.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/southleft/design-systems-mcp">Read on github →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:dd3c04e31959023c</id>
@@ -458,20 +430,6 @@ Lovable can now spin up helpers behind-the-scenes to research, review, and QA, i
     <content type="html"><![CDATA[<p>Designer-developer automated multi-platform game releases with Claude Code—web, Android, iOS TestFlight in one request. Real workflow leverage for production UI shipping.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tnr1vf/anyone_else_dread_keeping_web_android_and_ios/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:58d7921a1167fe77</id>
-    <title>Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </title>
-    <link rel="alternate" href="https://github.com/Leonxlnx/taste-skill"/>
-    <published>2026-05-25T22:31:30Z</published>
-    <updated>2026-05-25T22:31:30Z</updated>
-    <author><name>Leonxlnx</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="anti-slop"/>
-    <summary>Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</summary>
-    <content type="html"><![CDATA[<p>Anti-AI-slop Claude skill with 19k+ stars—teaches AI to generate distinctive, tasteful UI instead of generic designs. Directly matches Steven&#x27;s installed impeccable skill.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/Leonxlnx/taste-skill">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:655586cb173b29a2</id>
     <title>Leonxlnx/taste-skill — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop </title>
     <link rel="alternate" href="https://github.com/Leonxlnx/taste-skill"/>
@@ -484,21 +442,6 @@ Lovable can now spin up helpers behind-the-scenes to research, review, and QA, i
     <category term="design"/>
     <summary>Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</summary>
     <content type="html"><![CDATA[<p>Anti-AI-slop skill that teaches Claude to generate distinctive, high-taste UI—directly matches Steven&#x27;s installed design skills and core concern.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/Leonxlnx/taste-skill">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:19fc902a8bb3821e</id>
-    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
-    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-25T22:31:15Z</published>
-    <updated>2026-05-25T22:31:15Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="skill"/>
-    <summary>Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</summary>
-    <content type="html"><![CDATA[<p>Local-first design tool with 19 Claude skills, 71 design systems, multi-platform prototype generation (web/desktop/mobile/video), and sandboxed preview—runs on Claude Code, Cursor, Codex.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:4822db70034f862b</id>
@@ -629,21 +572,6 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     <content type="html"><![CDATA[<p>Designer-creator using Claude Code + Remotion (React video) to generate motion graphics JSX components, halving edit time and ensuring visual consistency across YouTube videos.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:75e6a077e8fa271e</id>
-    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
-    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-25T13:46:17Z</published>
-    <updated>2026-05-25T13:46:17Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <summary>Local-first, open-source design tool with 19 Claude skills, 71 design systems, and multi-format prototype export (web/desktop/mobile/video). Runs on Claude Code, Cursor, Codex—direct alternative to proprietary design agents.</summary>
-    <content type="html"><![CDATA[<p>Local-first, open-source design tool with 19 Claude skills, 71 design systems, and multi-format prototype export (web/desktop/mobile/video). Runs on Claude Code, Cursor, Codex—direct alternative to proprietary design agents.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:7f3eed4b137dd62a</id>
     <title>mondaycom/vibe — 🎨 Vibe Design System - Official monday.com UI resources for application development in React.js</title>
     <link rel="alternate" href="https://github.com/mondaycom/vibe"/>
@@ -656,36 +584,6 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     <category term="frontend"/>
     <summary>monday.com&#x27;s open-source React design system with component library, icons, and MCP server support — useful for production UI but not design-AI-specific.</summary>
     <content type="html"><![CDATA[<p>monday.com&#x27;s open-source React design system with component library, icons, and MCP server support — useful for production UI but not design-AI-specific.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/mondaycom/vibe">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d0cf8f120e21d1f3</id>
-    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
-    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-25T13:33:26Z</published>
-    <updated>2026-05-25T13:33:26Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="prototype"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="agent-sdk"/>
-    <summary>Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</summary>
-    <content type="html"><![CDATA[<p>Local-first design tool with 71 built-in design systems, multi-format export (web/desktop/mobile/video), and multi-LLM support—a genuine Claude Design alternative for prototyping.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4d57ccc22fb9192e</id>
-    <title>nexu-io/open-design — 🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · de</title>
-    <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-25T13:33:26Z</published>
-    <updated>2026-05-25T13:33:26Z</updated>
-    <author><name>nexu-io</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="agent-sdk"/>
-    <summary>Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</summary>
-    <content type="html"><![CDATA[<p>Local-first, open-source design tool that generates web/desktop/mobile prototypes with Claude, 71 brand design systems, sandboxed preview, and multi-format export—a credible Claude Design alternative.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:245385ede3e7c1c2</id>
@@ -864,5 +762,97 @@ Nothing is &quot;automated&quot; except for actually boring work, but everything
     <category term="prototype"/>
     <summary>Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</summary>
     <content type="html"><![CDATA[<p>Designer-developer shares a live community website built with custom frontend; seeks design critique on sidebar UI patterns and consistency—concrete artifact with real design questions.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tn0jy3/how_is_my_website_i_made_for_my_community_please/">Read on reddit/r/UI_Design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8238fa526d8c7a00</id>
+    <title>JesusIgnacio18/nodaysidle-neuralcanvas — 🎨 Transform sketches into polished UI wireframes with NeuralCanvas, a privacy-first macOS tool that ensures your designs</title>
+    <link rel="alternate" href="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas"/>
+    <published>2026-05-25T04:10:16Z</published>
+    <updated>2026-05-25T04:10:16Z</updated>
+    <author><name>JesusIgnacio18</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Privacy-first macOS tool that converts hand sketches to polished UI wireframes locally using CoreML—directly addresses design-to-code workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/JesusIgnacio18/nodaysidle-neuralcanvas">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:22c40612aabc8d70</id>
+    <title>Remy349/shadcn-ui-multi-form — Shadcn UI Multi Form is a modern, visual form builder for React that lets you craft single and multi-step flows with sha</title>
+    <link rel="alternate" href="https://github.com/Remy349/shadcn-ui-multi-form"/>
+    <published>2026-05-25T04:05:41Z</published>
+    <updated>2026-05-25T04:05:41Z</updated>
+    <author><name>Remy349</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</summary>
+    <content type="html"><![CDATA[<p>Visual form builder for React using shadcn/ui components—useful for designers building production forms, but lacks UI examples or case studies.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/Remy349/shadcn-ui-multi-form">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1d74dd2e21392856</id>
+    <title>RAHUL-PRSATH/calwall — 🖼️ Generate and customize dynamic calendar wallpapers effortlessly with CalWall Studio, combining real-time preview and </title>
+    <link rel="alternate" href="https://github.com/RAHUL-PRSATH/calwall"/>
+    <published>2026-05-25T04:04:45Z</published>
+    <updated>2026-05-25T04:04:45Z</updated>
+    <author><name>RAHUL-PRSATH</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="shadcn"/>
+    <summary>Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</summary>
+    <content type="html"><![CDATA[<p>Calendar wallpaper generator with real-time preview and shadcn UI—a polished visual tool that demonstrates design-to-code execution.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/RAHUL-PRSATH/calwall">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:67c74a208f15eea0</id>
+    <title>dayuer/aicard — 🎴 高美学知识卡片生成系统 — SVG 矢量渲染 → 300dpi 高清 PNG → 可编辑 PPTX → 微信公众号贴图一键发布。28 个内置主题，14 套配色方案。</title>
+    <link rel="alternate" href="https://github.com/dayuer/aicard"/>
+    <published>2026-05-25T04:00:23Z</published>
+    <updated>2026-05-25T04:00:23Z</updated>
+    <author><name>dayuer</name></author>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</summary>
+    <content type="html"><![CDATA[<p>Knowledge card generator with 28 themes, SVG→PNG→PPTX pipeline, and WeChat publishing — a polished design-output tool for visual content creation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/dayuer/aicard">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0419b1de4f68c00c</id>
+    <title>phcdevworks/spectre-tokens — @phcdevworks/spectre-tokens is the design-token package of the Spectre system for downstream Spectre packages and compat</title>
+    <link rel="alternate" href="https://github.com/phcdevworks/spectre-tokens"/>
+    <published>2026-05-25T03:52:47Z</published>
+    <updated>2026-05-25T03:52:47Z</updated>
+    <author><name>phcdevworks</name></author>
+    <category term="design-system"/>
+    <category term="design-token"/>
+    <summary>Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</summary>
+    <content type="html"><![CDATA[<p>Design-token package for the Spectre system; useful for design-system workflows but lacks visible AI integration or tooling innovation.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/phcdevworks/spectre-tokens">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:356cfb5ed3dba93e</id>
+    <title>carlomigueldy/atelier-studio — Premium software solutions agency website — Next.js 16, Tailwind CSS v4, Playfair Display + Forest &amp; Linen design system</title>
+    <link rel="alternate" href="https://github.com/carlomigueldy/atelier-studio"/>
+    <published>2026-05-25T03:42:58Z</published>
+    <updated>2026-05-25T03:42:58Z</updated>
+    <author><name>carlomigueldy</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="shadcn"/>
+    <category term="frontend"/>
+    <summary>Production agency website built with Next.js 16, shadcn-ui, and a custom Forest &amp; Linen design system—a real, polished UI artifact showing modern frontend + design craft.</summary>
+    <content type="html"><![CDATA[<p>Production agency website built with Next.js 16, shadcn-ui, and a custom Forest &amp; Linen design system—a real, polished UI artifact showing modern frontend + design craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/carlomigueldy/atelier-studio">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4a4db84c2c18e6b7</id>
+    <title>rafacdomin/design-system — Design System monorepo example, handling complex packages publications with unit tests, visual regression, documentation</title>
+    <link rel="alternate" href="https://github.com/rafacdomin/design-system"/>
+    <published>2026-05-25T03:40:07Z</published>
+    <updated>2026-05-25T03:40:07Z</updated>
+    <author><name>rafacdomin</name></author>
+    <category term="design-system"/>
+    <category term="frontend"/>
+    <category term="shadcn"/>
+    <summary>Design system monorepo template with Storybook, visual regression tests, and CI/CD — useful reference for teams scaling component libraries.</summary>
+    <content type="html"><![CDATA[<p>Design system monorepo template with Storybook, visual regression tests, and CI/CD — useful reference for teams scaling component libraries.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/rafacdomin/design-system">Read on github →</a></p>]]></content>
   </entry>
 </feed>
