@@ -5,22 +5,22 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-29T05:45:56+00:00</updated>
+  <updated>2026-05-29T09:13:58+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6ee5bed9ac8f1ccf</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3108cde16345b27d</id>
     <title>nexu-io/open-design — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ We</title>
     <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-29T05:14:52Z</published>
-    <updated>2026-05-29T05:14:52Z</updated>
+    <published>2026-05-29T08:46:13Z</published>
+    <updated>2026-05-29T08:46:13Z</updated>
     <author><name>nexu-io</name></author>
     <category term="claude-code"/>
     <category term="design-system"/>
     <category term="prototype"/>
-    <category term="mcp"/>
-    <category term="skill"/>
-    <summary>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for 17+ AI backends—directly addresses Steven&#x27;s core workflow.</summary>
-    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for 17+ AI backends—directly addresses Steven&#x27;s core workflow.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <summary>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for Claude Code, Cursor, Codex, and 17+ LLM backends.</summary>
+    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for Claude Code, Cursor, Codex, and 17+ LLM backends.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:6a519b8ca8bc346a</id>
