@@ -5,36 +5,36 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-28T22:50:01+00:00</updated>
+  <updated>2026-05-29T02:18:13+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5f8f55a88cbb160d</id>
-    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
-    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-05-28T22:08:42Z</published>
-    <updated>2026-05-28T22:08:42Z</updated>
-    <author><name>pbakaus</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Impeccable — the design-language framework Steven already has installed. Major update (31k stars, fresh push). Anti-AI-slop rules for building better AI design tools.</summary>
-    <content type="html"><![CDATA[<p>Impeccable — the design-language framework Steven already has installed. Major update (31k stars, fresh push). Anti-AI-slop rules for building better AI design tools.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:dc8de773804c79a4</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:743695b1e3b83157</id>
     <title>nexu-io/open-design — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ We</title>
     <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-28T20:37:26Z</published>
-    <updated>2026-05-28T20:37:26Z</updated>
+    <published>2026-05-29T01:42:15Z</published>
+    <updated>2026-05-29T01:42:15Z</updated>
     <author><name>nexu-io</name></author>
     <category term="claude-code"/>
     <category term="design-system"/>
     <category term="prototype"/>
-    <category term="figma-alternative"/>
+    <category term="figma-make"/>
     <category term="skill"/>
-    <summary>Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-model support (Claude/Cursor/Codex), and full export pipeline—directly matches Steven&#x27;s installed taste and represents a major design+AI platform.</summary>
-    <content type="html"><![CDATA[<p>Local-first, open-source Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-model support (Claude/Cursor/Codex), and full export pipeline—directly matches Steven&#x27;s installed taste and represents a major design+AI platform.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+    <summary>Local-first Claude Design alternative with 259+ skills, 142+ design systems, multi-format export, and support for Claude Code/Cursor/Codex. Steven already explicitly liked this repo.</summary>
+    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 259+ skills, 142+ design systems, multi-format export, and support for Claude Code/Cursor/Codex. Steven already explicitly liked this repo.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cb830940f4e50e39</id>
+    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
+    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
+    <published>2026-05-29T00:19:33Z</published>
+    <updated>2026-05-29T00:19:33Z</updated>
+    <author><name>pbakaus</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>pbakaus&#x27; impeccable — Steven&#x27;s already-installed design-language skill — just got a major update. 31k stars. The canonical anti-AI-slop harness for design work.</summary>
+    <content type="html"><![CDATA[<p>pbakaus&#x27; impeccable — Steven&#x27;s already-installed design-language skill — just got a major update. 31k stars. The canonical anti-AI-slop harness for design work.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:880ba789f535619a</id>
