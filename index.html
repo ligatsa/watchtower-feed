@@ -611,7 +611,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>228</strong></span>
-    <span>Updated<strong>2026-05-29T19:33:32+00:00</strong></span>
+    <span>Updated<strong>2026-05-29T19:38:26+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
@@ -5838,7 +5838,7 @@ It’s the perfect way to learn the theory behind great anima…</a>
       LESS:    'watchtower:less',
       EXCLUDE: 'watchtower:exclude',
       SAVED:   'watchtower:saved',
-      NTFY:    'watchtower:ntfy_topic',
+      SYNCURL: 'watchtower:sync_url',
     };
 
     function loadJSON(k, def) {
@@ -5856,11 +5856,11 @@ It’s the perfect way to learn the theory behind great anima…</a>
     var less    = loadJSON(K.LESS, []);
     var exclude = loadJSON(K.EXCLUDE, []);   // [{key,label,source}]
     var saved   = loadJSON(K.SAVED, []);     // [{id,title,author,url,source}]
-    var ntfyTopic = null;
-    try { ntfyTopic = localStorage.getItem(K.NTFY); } catch (e) {}
+    var syncUrl = null;
+    try { syncUrl = localStorage.getItem(K.SYNCURL); } catch (e) {}
     var entries = document.querySelectorAll('.entry');
 
-    // ── ntfy sync ──
+    // ── Cloudflare Worker sync ──
     var syncStatusEl = document.getElementById('syncStatus');
     var syncBtn = document.getElementById('syncBtn');
     var syncTimer = null;
@@ -5873,10 +5873,11 @@ It’s the perfect way to learn the theory behind great anima…</a>
       syncStatusEl.textContent = 'Sync: ' + (detail || state);
     }
     function updateSyncUI() {
-      if (ntfyTopic) {
-        var preview = ntfyTopic.length > 24 ? ntfyTopic.slice(0, 8) + '…' : ntfyTopic;
+      if (syncUrl) {
+        var host = '';
+        try { host = new URL(syncUrl).host; } catch (e) { host = 'configured'; }
         var ago = lastSyncAt ? Math.max(0, Math.round((Date.now() - lastSyncAt) / 1000)) + 's ago' : 'pending';
-        setSyncStatus('on', 'on (' + preview + ' · ' + ago + ')');
+        setSyncStatus('on', 'on (' + host + ' · ' + ago + ')');
         syncBtn.textContent = 'Manage sync';
       } else {
         setSyncStatus('off', 'off');
@@ -5893,31 +5894,13 @@ It’s the perfect way to learn the theory behind great anima…</a>
         exclude_key: m.exclude_key,
       };
     }
-    function syncNow() {
-      if (!ntfyTopic) return;
-      var body = JSON.stringify({
+    function localBlob() {
+      return {
         more:    more.map(trimItem),
         less:    less.map(trimItem),
         exclude: exclude,
         saved:   saved.map(trimItem),
-      });
-      fetch('https://ntfy.sh/' + encodeURIComponent(ntfyTopic), {
-        method: 'POST',
-        body: body,
-        headers: { 'Title': 'watchtower-prefs', 'Tags': 'gear' },
-      }).then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        lastSyncAt = Date.now();
-        updateSyncUI();
-      }).catch(function (e) {
-        setSyncStatus('err', 'error');
-        console.error('[ntfy] sync failed', e);
-      });
-    }
-    function scheduleSync() {
-      if (!ntfyTopic) return;
-      clearTimeout(syncTimer);
-      syncTimer = setTimeout(syncNow, 800);   // debounce
+      };
     }
     // Union-merge a remote list into a local list by key; returns # added.
     function mergeInto(localArr, remoteArr, keyFn) {
@@ -5933,6 +5916,7 @@ It’s the perfect way to learn the theory behind great anima…</a>
       return added;
     }
     function applyMergedBlob(blob) {
+      if (!blob) return 0;
       var added = 0;
       added += mergeInto(more,    blob.more,    function (m) { return m.id; });
       added += mergeInto(less,    blob.less,    function (m) { return m.id; });
@@ -5940,84 +5924,90 @@ It’s the perfect way to learn the theory behind great anima…</a>
       added += mergeInto(saved,   blob.saved,   function (m) { return m.id; });
       return added;
     }
-    // On load, pull the topic's cached messages and union-merge so votes /
-    // bookmarks made on other devices show up here too. Large payloads come
-    // back as ntfy attachments, so follow attachment URLs when present.
-    function pullRemote() {
-      if (!ntfyTopic) return;
-      fetch('https://ntfy.sh/' + encodeURIComponent(ntfyTopic) + '/json?poll=1')
-        .then(function (r) { return r.text(); })
-        .then(function (text) {
-          var jobs = [];
-          text.split('\n').forEach(function (line) {
-            if (!line.trim()) return;
-            var env;
-            try { env = JSON.parse(line); } catch (e) { return; }
-            if (env.event !== 'message') return;
-            if (env.attachment && env.attachment.url) {
-              jobs.push(
-                fetch(env.attachment.url).then(function (r) { return r.json(); })
-                  .catch(function () { return null; })
-              );
-            } else if (env.message) {
-              jobs.push(Promise.resolve().then(function () {
-                try { return JSON.parse(env.message); } catch (e) { return null; }
-              }));
-            }
-          });
-          return Promise.all(jobs);
-        })
-        .then(function (blobs) {
-          var added = 0;
-          (blobs || []).forEach(function (b) { if (b) added += applyMergedBlob(b); });
+    function persistLocal() {
+      saveJSON(K.MORE, more); saveJSON(K.LESS, less);
+      saveJSON(K.EXCLUDE, exclude); saveJSON(K.SAVED, saved);
+    }
+    // Read-merge-write so no device clobbers another: GET the worker's copy,
+    // union it into local, then PUT the union back.
+    function syncNow() {
+      if (!syncUrl) return;
+      fetch(syncUrl, { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .catch(function () { return {}; })
+        .then(function (remote) {
+          var added = applyMergedBlob(remote);
           if (added > 0) {
-            saveJSON(K.MORE, more); saveJSON(K.LESS, less);
-            saveJSON(K.EXCLUDE, exclude); saveJSON(K.SAVED, saved);
+            persistLocal();
+            entries.forEach(paintEntry);
+            refreshCounts(); refreshViewCounts(); applyFilters();
+          }
+          return fetch(syncUrl, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(localBlob()),
+          });
+        })
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          lastSyncAt = Date.now();
+          updateSyncUI();
+        })
+        .catch(function (e) {
+          setSyncStatus('err', 'error');
+          console.error('[sync] push failed', e);
+        });
+    }
+    function scheduleSync() {
+      if (!syncUrl) return;
+      clearTimeout(syncTimer);
+      syncTimer = setTimeout(syncNow, 800);   // debounce
+    }
+    // On load, pull the worker's copy and union-merge so votes / bookmarks
+    // made on other devices show up here too.
+    function pullRemote() {
+      if (!syncUrl) return;
+      fetch(syncUrl, { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (blob) {
+          var added = applyMergedBlob(blob);
+          if (added > 0) {
+            persistLocal();
             entries.forEach(paintEntry);
             refreshCounts(); refreshViewCounts(); applyFilters();
             showToast('Synced ' + added + ' item(s) from your other devices');
           }
+          lastSyncAt = Date.now();
+          updateSyncUI();
         })
-        .catch(function (e) { console.error('[ntfy] pull failed', e); });
-    }
-    function genTopic() {
-      var bytes = new Uint8Array(16);
-      crypto.getRandomValues(bytes);
-      var hex = [].map.call(bytes, function (b) {
-        return ('0' + b.toString(16)).slice(-2);
-      }).join('');
-      return 'watchtower-prefs-' + hex;
+        .catch(function (e) { console.error('[sync] pull failed', e); });
     }
 
     syncBtn.addEventListener('click', function () {
-      var msg = ntfyTopic
-        ? 'Current sync topic:\n\n' + ntfyTopic +
-          '\n\nLeave blank to keep it. Type DISCONNECT to turn off.\n' +
-          'Or paste a topic from another device to share.'
-        : 'Paste an existing topic to join a sync group, or leave blank to generate a new one.\n\n' +
-          '(Copy this topic onto your other devices to vote-sync them.)';
-      var resp = prompt(msg, '');
+      var msg = syncUrl
+        ? 'Current sync endpoint:\n\n' + syncUrl +
+          '\n\nPaste a new URL to change it, or type DISCONNECT to turn off.'
+        : 'Paste your Cloudflare Worker sync URL (including the secret path):\n\n' +
+          'https://watchtower-prefs.<sub>.workers.dev/<secret>\n\n' +
+          'Use the SAME URL on every device to sync them.';
+      var resp = prompt(msg, syncUrl || '');
       if (resp === null) return;
       resp = resp.trim();
       if (resp.toUpperCase() === 'DISCONNECT') {
-        ntfyTopic = null;
-        try { localStorage.removeItem(K.NTFY); } catch (e) {}
+        syncUrl = null;
+        try { localStorage.removeItem(K.SYNCURL); } catch (e) {}
         updateSyncUI();
         showToast('Sync disconnected');
         return;
       }
-      if (resp === '') {
-        if (!ntfyTopic) ntfyTopic = genTopic();
-      } else {
-        ntfyTopic = resp;
+      if (!/^https:\/\/.+\/.{16,}/.test(resp)) {
+        showToast('That doesn’t look like a full worker URL with a secret');
+        return;
       }
-      try { localStorage.setItem(K.NTFY, ntfyTopic); } catch (e) {}
+      syncUrl = resp;
+      try { localStorage.setItem(K.SYNCURL, syncUrl); } catch (e) {}
       updateSyncUI();
-      syncNow();      // immediate push of current state
-      // Show topic so user can copy it to other devices
-      setTimeout(function () {
-        prompt('Sync topic (copy this to your other devices):', ntfyTopic);
-      }, 100);
+      syncNow();   // immediate read-merge-write
     });
     updateSyncUI();
 
