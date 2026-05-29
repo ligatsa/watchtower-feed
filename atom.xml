@@ -5,36 +5,37 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-29T02:18:13+00:00</updated>
+  <updated>2026-05-29T05:45:56+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:743695b1e3b83157</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6ee5bed9ac8f1ccf</id>
     <title>nexu-io/open-design — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ We</title>
     <link rel="alternate" href="https://github.com/nexu-io/open-design"/>
-    <published>2026-05-29T01:42:15Z</published>
-    <updated>2026-05-29T01:42:15Z</updated>
+    <published>2026-05-29T05:14:52Z</published>
+    <updated>2026-05-29T05:14:52Z</updated>
     <author><name>nexu-io</name></author>
     <category term="claude-code"/>
     <category term="design-system"/>
     <category term="prototype"/>
-    <category term="figma-make"/>
+    <category term="mcp"/>
     <category term="skill"/>
-    <summary>Local-first Claude Design alternative with 259+ skills, 142+ design systems, multi-format export, and support for Claude Code/Cursor/Codex. Steven already explicitly liked this repo.</summary>
-    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 259+ skills, 142+ design systems, multi-format export, and support for Claude Code/Cursor/Codex. Steven already explicitly liked this repo.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
+    <summary>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for 17+ AI backends—directly addresses Steven&#x27;s core workflow.</summary>
+    <content type="html"><![CDATA[<p>Local-first Claude Design alternative with 259+ skills, 142+ design systems, native desktop app, multi-format export (HTML/PDF/PPTX/MP4), and support for 17+ AI backends—directly addresses Steven&#x27;s core workflow.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/nexu-io/open-design">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cb830940f4e50e39</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6a519b8ca8bc346a</id>
     <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
     <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-05-29T00:19:33Z</published>
-    <updated>2026-05-29T00:19:33Z</updated>
+    <published>2026-05-29T04:30:47Z</published>
+    <updated>2026-05-29T04:30:47Z</updated>
     <author><name>pbakaus</name></author>
     <category term="skill"/>
-    <category term="claude-code"/>
+    <category term="design-system"/>
     <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>pbakaus&#x27; impeccable — Steven&#x27;s already-installed design-language skill — just got a major update. 31k stars. The canonical anti-AI-slop harness for design work.</summary>
-    <content type="html"><![CDATA[<p>pbakaus&#x27; impeccable — Steven&#x27;s already-installed design-language skill — just got a major update. 31k stars. The canonical anti-AI-slop harness for design work.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+    <category term="anthropic"/>
+    <category term="claude-code"/>
+    <summary>Impeccable: a design-language framework with 27 anti-pattern rules for training AI harnesses to produce high-taste, non-generic UI. Steven already has this installed and highly values anti-slop design vocabularies.</summary>
+    <content type="html"><![CDATA[<p>Impeccable: a design-language framework with 27 anti-pattern rules for training AI harnesses to produce high-taste, non-generic UI. Steven already has this installed and highly values anti-slop design vocabularies.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:880ba789f535619a</id>
