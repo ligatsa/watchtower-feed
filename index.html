@@ -13,22 +13,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
-  /* Hallmark · macrostructure: Index/feed-list (app) · genre: editorial · tone: austere
-   * theme: austere-dark — warm near-black paper · off-white ink · teal accent (focus/active only)
-   * pre-emit critique: P5 H4 E5 S5 R5 V4
+  /* impeccable · fresh redesign · register: product · strategy: Committed-leaning
+   * theme: warm-dark "reading room" — espresso paper · cream ink · ember accent (present)
+   * scene: Steven, evening wind-down, calm catch-up on a curated design feed
    */
   :root {
-    /* Austere · dark · near-monochrome. OKLCH, warm-neutral hues. */
-    --color-paper:     oklch(0.15 0.004 70);   /* warm near-black */
-    --color-paper-2:   oklch(0.20 0.004 70);   /* raised: menus, toast */
-    --color-ink:       oklch(0.93 0.005 80);   /* primary text */
-    --color-ink-2:     oklch(0.66 0.005 80);   /* secondary: summaries */
-    --color-ink-3:     oklch(0.58 0.004 80);   /* tertiary: meta, labels (legible) */
-    --color-rule:      oklch(0.30 0.004 80);   /* hairline */
-    --color-rule-soft: oklch(0.23 0.004 80);   /* fainter hairline */
-    --color-accent:    oklch(0.74 0.09 175);   /* teal — used sparingly */
-    --color-focus:     oklch(0.78 0.10 175);   /* focus ring */
-    --color-shadow:    oklch(0 0 0 / 0.55);
+    /* Warm dark. OKLCH; every neutral tinted warm, accent confidently present. */
+    --color-paper:     oklch(0.17 0.012 55);   /* warm espresso near-black */
+    --color-paper-2:   oklch(0.22 0.014 55);   /* raised: menus, toast */
+    --color-ink:       oklch(0.94 0.012 85);   /* warm cream */
+    --color-ink-2:     oklch(0.74 0.012 75);   /* secondary: summaries */
+    --color-ink-3:     oklch(0.60 0.012 65);   /* tertiary: meta, labels */
+    --color-rule:      oklch(0.34 0.012 55);   /* hairline */
+    --color-rule-soft: oklch(0.26 0.012 55);   /* fainter hairline */
+    --color-accent:    oklch(0.78 0.14 65);    /* ember — present, committed */
+    --color-accent-2:  oklch(0.66 0.16 50);    /* deeper ember: hover/fills */
+    --color-focus:     oklch(0.82 0.13 70);    /* focus ring */
+    --color-shadow:    oklch(0.08 0.02 50 / 0.6);  /* warm-tinted (never #000) */
 
     --font-display: 'Fraunces', Georgia, serif;
     --font-body:    'Outfit', system-ui, sans-serif;
@@ -93,7 +94,7 @@
   .eyebrow::before {
     content: '';
     width: 5px; height: 5px;
-    background: var(--color-ink-3);
+    background: var(--color-accent);
     border-radius: 50%;
   }
 
@@ -181,7 +182,7 @@
   }
   .chip:hover { color: var(--color-ink-2); }
   .chip.active {
-    color: var(--color-ink);
+    color: var(--color-accent);
     border-bottom-color: var(--color-accent);
   }
   .chip .ct {
@@ -217,7 +218,7 @@
   .entry .meta .score {
     margin-left: auto;
     font-weight: 500;
-    color: var(--color-ink-2);
+    color: var(--color-accent);
     font-size: var(--text-sm);
     font-variant-numeric: tabular-nums;
   }
@@ -237,7 +238,7 @@
     text-transform: uppercase;
     color: var(--color-ink-3);
   }
-  .entry.is-more .meta .prefmark { display: inline-block; color: var(--color-ink-2); }
+  .entry.is-more .meta .prefmark { display: inline-block; color: var(--color-accent); }
   .entry.is-more .meta .prefmark::before { content: '▲ more'; }
   .entry.is-less .meta .prefmark { display: inline-block; color: var(--color-ink-3); }
   .entry.is-less .meta .prefmark::before { content: '▼ less'; }
@@ -260,8 +261,8 @@
     align-items: center;
   }
   .entry .meta .bookmark::before { content: '☆'; }
-  .entry .meta .bookmark:hover { color: var(--color-ink); }
-  .entry.is-saved .meta .bookmark { color: var(--color-ink); }
+  .entry .meta .bookmark:hover { color: var(--color-accent); }
+  .entry.is-saved .meta .bookmark { color: var(--color-accent); }
   .entry.is-saved .meta .bookmark::before { content: '★'; }
 
   .entry .meta .markread::before { content: '✓'; }
@@ -290,7 +291,7 @@
   }
   .view-tabs button:hover { color: var(--color-ink-2); }
   .view-tabs button.active {
-    color: var(--color-ink);
+    color: var(--color-accent);
     border-bottom-color: var(--color-accent);
   }
   .view-tabs button .ct {
@@ -448,10 +449,10 @@
     transition: color var(--dur) var(--ease-out);
   }
   .entry .title a:hover {
-    color: var(--color-ink-2);
+    color: var(--color-accent);
     text-decoration: underline;
     text-underline-offset: 3px;
-    text-decoration-color: var(--color-rule);
+    text-decoration-color: var(--color-accent-2);
   }
 
   .entry .summary {
@@ -558,7 +559,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>305</strong></span>
-    <span>Updated<strong>2026-05-30T04:57:38+00:00</strong></span>
+    <span>Updated<strong>2026-05-30T05:12:58+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
