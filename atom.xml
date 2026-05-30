@@ -5,8 +5,21 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-30T16:11:41+00:00</updated>
+  <updated>2026-05-30T22:17:21+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c7ef0c665db8503c</id>
+    <title>More frames from this banger. Video dropping next week https://t.co/CPjMFGDfbP</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2060699557261201581"/>
+    <published>2026-05-30T12:27:15+00:00</published>
+    <updated>2026-05-30T12:27:15+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</summary>
+    <content type="html"><![CDATA[<p>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060699557261201581">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:56afd7946c3ef2e9</id>
     <title>if you’re dynamically masking a scroll container with css, consider leaving room for the scrollbar instead of masking it…</title>
@@ -886,19 +899,5 @@ Design and build with our native agent, or your favorite external one (Codex, Cl
     <category term="ui-craft"/>
     <summary>Figma plugin that audits live website CSS against design tokens &amp; Figma variables—catches dev implementation gaps automatically. Direct design-to-code parity check.</summary>
     <content type="html"><![CDATA[<p>Figma plugin that audits live website CSS against design tokens &amp; Figma variables—catches dev implementation gaps automatically. Direct design-to-code parity check.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tofnz2/i_built_a_plugin_that_automatically_audits_live/">Read on reddit/r/designsystems →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3de8f52d245bfd44</id>
-    <title>vibeflowing-inc/vibe_figma — Figma to React Converter</title>
-    <link rel="alternate" href="https://github.com/vibeflowing-inc/vibe_figma"/>
-    <published>2026-05-26T17:32:35Z</published>
-    <updated>2026-05-26T17:32:35Z</updated>
-    <author><name>vibeflowing-inc</name></author>
-    <category term="figma"/>
-    <category term="figma-to-code"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>Figma-to-React converter with 545 stars—directly translates design files to production code, core Steven workflow.</summary>
-    <content type="html"><![CDATA[<p>Figma-to-React converter with 545 stars—directly translates design files to production code, core Steven workflow.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/vibeflowing-inc/vibe_figma">Read on github →</a></p>]]></content>
   </entry>
 </feed>
