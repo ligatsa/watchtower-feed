@@ -5,8 +5,37 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-29T22:40:24+00:00</updated>
+  <updated>2026-05-30T01:47:05+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:77a50ec231e7d0e9</id>
+    <title>🆕 pbakaus/impeccable cli-v2.3.2 — The design language that makes your AI harness better at design.</title>
+    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
+    <published>2026-05-30T01:41:22.997529+00:00</published>
+    <updated>2026-05-30T01:41:22.997529+00:00</updated>
+    <author><name>pbakaus</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="anti-slop"/>
+    <summary>pbakaus ships impeccable cli-v2.3.2 — his flagship design-language harness for anti-AI-slop, now with expanded CLI tooling. Steven already installed this skill.</summary>
+    <content type="html"><![CDATA[<p>pbakaus ships impeccable cli-v2.3.2 — his flagship design-language harness for anti-AI-slop, now with expanded CLI tooling. Steven already installed this skill.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3ee73e5637b2a72b</id>
+    <title>tsubotax/melta-ui — 人間にも、AIにも、読めるデザインシステム — AI-Ready Design System for Claude Code &amp; Cursor</title>
+    <link rel="alternate" href="https://github.com/tsubotax/melta-ui"/>
+    <published>2026-05-29T23:54:28Z</published>
+    <updated>2026-05-29T23:54:28Z</updated>
+    <author><name>tsubotax</name></author>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <category term="cursor"/>
+    <category term="mcp"/>
+    <category term="ui-craft"/>
+    <summary>AI-ready design system explicitly built for Claude Code &amp; Cursor, with human-readable tokens for both AI and designers—directly matches Steven&#x27;s design-system + Claude skill interests.</summary>
+    <content type="html"><![CDATA[<p>AI-ready design system explicitly built for Claude Code &amp; Cursor, with human-readable tokens for both AI and designers—directly matches Steven&#x27;s design-system + Claude skill interests.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/tsubotax/melta-ui">Read on github →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:880ba789f535619a</id>
     <title>Bottom nav / Menu concept made with Claude https://t.co/3N6biUGhBt</title>
@@ -849,35 +878,5 @@ It&#x27;s a deep dive into:
     <category term="technique"/>
     <summary>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</summary>
     <content type="html"><![CDATA[<p>interfacecraft.dev adds practical design demonstrations including a Library Card designer deep dive — real UI craft examples.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/raunofreiberg/status/2059018087127543837">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:27ca8c932f861797</id>
-    <title>made the input smoothing configurable
-
-jus&#x27; spinnin&#x27; up a little page so you can configure your own 🧑‍🍳 (w/ some example…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2058983282587422946"/>
-    <published>2026-05-25T18:47:23+00:00</published>
-    <updated>2026-05-25T18:47:23+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="interaction-design"/>
-    <summary>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</summary>
-    <content type="html"><![CDATA[<p>Interactive configurator for input smoothing/easing—microinteraction craft with live examples. Real UI artifact with polish.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2058983282587422946">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3e13f4acb6241b94</id>
-    <title>bergside/design-md-figma — Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude</title>
-    <link rel="alternate" href="https://github.com/bergside/design-md-figma"/>
-    <published>2026-05-25T18:28:41Z</published>
-    <updated>2026-05-25T18:28:41Z</updated>
-    <author><name>bergside</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="mcp"/>
-    <category term="skill"/>
-    <category term="figma-make"/>
-    <summary>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that extracts design tokens &amp; style guidelines into DESIGN.md + SKILL.md for Claude Code / Cursor — bridges design systems to AI-assisted development.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/bergside/design-md-figma">Read on github →</a></p>]]></content>
   </entry>
 </feed>
