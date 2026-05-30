@@ -611,7 +611,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>305</strong></span>
-    <span>Updated<strong>2026-05-30T03:58:46+00:00</strong></span>
+    <span>Updated<strong>2026-05-30T04:08:31+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
@@ -7608,6 +7608,7 @@ Designed the shader for the middle pricing tier in @paper. Only tim…</a>
         less:    less.map(trimItem),
         exclude: exclude,
         saved:   saved.map(trimItem),
+        read:    fromSet(read),   // read state syncs across devices too
       };
     }
     // Union-merge a remote list into a local list by key; returns # added.
@@ -7630,11 +7631,18 @@ Designed the shader for the middle pricing tier in @paper. Only tim…</a>
       added += mergeInto(less,    blob.less,    function (m) { return m.id; });
       added += mergeInto(exclude, blob.exclude, function (e2) { return e2.key; });
       added += mergeInto(saved,   blob.saved,   function (m) { return m.id; });
+      // read is a Set of ids — union remote ids in.
+      if (Array.isArray(blob.read)) {
+        blob.read.forEach(function (id) {
+          if (id && !read.has(id)) { read.add(id); added++; }
+        });
+      }
       return added;
     }
     function persistLocal() {
       saveJSON(K.MORE, more); saveJSON(K.LESS, less);
       saveJSON(K.EXCLUDE, exclude); saveJSON(K.SAVED, saved);
+      saveJSON(K.READ, fromSet(read));
     }
     // Read-merge-write so no device clobbers another: GET the worker's copy,
     // union it into local, then PUT the union back.
@@ -7737,6 +7745,7 @@ Designed the shader for the middle pricing tier in @paper. Only tim…</a>
       else read.delete(el.dataset.id);
       saveJSON(K.READ, fromSet(read));
       el.classList.toggle('is-read', isRead);
+      scheduleSync();   // read state now syncs across devices
     }
 
     // Track read on link click + on explicit ✓ button
