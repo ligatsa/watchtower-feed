@@ -57,6 +57,9 @@
     border-radius: 2px;
   }
 
+  /* short fixed-label controls never wrap (gate 59) */
+  .btn, .chip, .pref-action, .mark-all, .view-tabs button { white-space: nowrap; }
+
   html, body { overflow-x: clip; }
   html { background: var(--color-paper); }
   body {
@@ -555,7 +558,7 @@
 
   <div class="meta-strip">
     <span>Items<strong>305</strong></span>
-    <span>Updated<strong>2026-05-30T04:55:27+00:00</strong></span>
+    <span>Updated<strong>2026-05-30T04:57:38+00:00</strong></span>
     <span style="margin-left:auto">Min score<strong>6/10</strong></span>
     <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all visible read</button>
   </div>
