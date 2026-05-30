@@ -1,0 +1,16 @@
+# Safety net for the GitHub Pages repo: only atom.xml + index.html belong here.
+# If anything ever copies stray files in, these are never committed.
+.env
+.env.*
+*.toml
+*.db
+*.sqlite*
+preferences.json
+watched_state.json
+inbox/
+data/
+logs/
+.venv/
+__pycache__/
+*.pyc
+.archive-*/
