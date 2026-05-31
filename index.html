@@ -543,17 +543,25 @@
     }
     .mark-all { min-height: 38px; padding: 0 var(--space-sm); }
 
-    /* Rows: tighter score column, comfortable spacing, tappable actions. */
+    /* Rows: score + body share the top line; actions wrap to a full-width
+       row beneath. Three 44px buttons inline would steal a third of a 390px
+       row and crush the title to ~130px — so they drop below instead. */
     #entries { padding: var(--space-2xs) var(--space-sm) var(--space-2xl); }
     .entry {
-      grid-template-columns: 2rem minmax(0, 1fr) auto;
+      grid-template-columns: 2rem 1fr;
       padding: var(--space-sm) var(--space-2xs);
-      gap: var(--space-sm);
+      gap: var(--space-3xs) var(--space-sm);
     }
     .entry .bookmark, .entry .markread, .entry .overflow {
       min-width: 2.75rem; min-height: 2.75rem;   /* 44px — iOS/WCAG touch floor */
     }
-    .entry .meta.actions { gap: var(--space-2xs); }
+    .entry .meta.actions {
+      grid-column: 1 / -1;                       /* full-width row under the text */
+      justify-content: flex-end;                 /* actions hug the right edge */
+      gap: var(--space-xs);
+      padding-top: 0;
+      margin-top: calc(-1 * var(--space-2xs));   /* tuck up toward the subline */
+    }
     footer { padding: var(--space-lg) var(--space-md) var(--space-2xl); }
   }
 </style>
@@ -598,7 +606,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>376</strong> items</span>
-        <span>updated 2026-05-31T03:37:20+00:00</span>
+        <span>updated 2026-05-31T03:39:32+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
