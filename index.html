@@ -13,26 +13,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
-  /* impeccable · complete redesign · register: product · two-pane triage console
-   * theme: light warm "reading desk" — off-white paper · warm ink · persimmon accent
-   * structure: sidebar (identity · views · sources · sync) + dense stream of triage rows
-   * scene: Steven, calm catch-up on a curated design feed; structure rebuilt, not recolored
+  /* impeccable · two-pane triage console · register: product
+   * theme: light cool — faint blue-tinted paper · cool ink · cobalt-indigo accent
+   * structure: sidebar (identity · views · sources) + dense stream of triage rows
    */
   :root {
-    /* Light, warm-neutral. OKLCH; one confident persimmon accent. */
-    --color-paper:      oklch(0.985 0.006 75);  /* content surface */
-    --color-paper-2:    oklch(0.965 0.008 70);  /* sidebar / raised panel */
-    --color-paper-3:    oklch(0.93 0.010 70);   /* row hover / active nav */
-    --color-ink:        oklch(0.26 0.012 55);   /* warm near-black */
-    --color-ink-2:      oklch(0.46 0.012 55);   /* secondary */
-    --color-ink-3:      oklch(0.60 0.010 55);   /* tertiary: meta, labels */
-    --color-rule:       oklch(0.90 0.008 70);   /* hairline */
-    --color-rule-soft:  oklch(0.94 0.006 70);   /* fainter hairline */
-    --color-accent:     oklch(0.55 0.18 32);    /* persimmon */
-    --color-accent-2:   oklch(0.48 0.19 32);    /* deeper: hover */
-    --color-accent-ink: oklch(0.99 0.01 60);    /* text on accent fills */
-    --color-focus:      oklch(0.55 0.18 32);
-    --color-shadow:     oklch(0.45 0.04 50 / 0.16);  /* soft warm shadow */
+    /* Light, cool-neutral. OKLCH; every neutral tinted toward blue (~255),
+       one confident cobalt-indigo accent. */
+    --color-paper:      oklch(0.985 0.004 250);  /* content surface */
+    --color-paper-2:    oklch(0.965 0.006 250);  /* sidebar / raised panel */
+    --color-paper-3:    oklch(0.93 0.012 250);   /* row hover / active nav */
+    --color-ink:        oklch(0.26 0.018 258);   /* cool near-black */
+    --color-ink-2:      oklch(0.46 0.015 258);   /* secondary */
+    --color-ink-3:      oklch(0.58 0.012 258);   /* tertiary: meta, labels */
+    --color-rule:       oklch(0.90 0.010 250);   /* hairline */
+    --color-rule-soft:  oklch(0.94 0.007 250);   /* fainter hairline */
+    --color-accent:     oklch(0.55 0.17 256);    /* cobalt-indigo */
+    --color-accent-2:   oklch(0.47 0.18 258);    /* deeper: hover */
+    --color-accent-ink: oklch(0.99 0.01 250);    /* text on accent fills */
+    --color-focus:      oklch(0.55 0.17 256);
+    --color-shadow:     oklch(0.30 0.04 258 / 0.18);  /* soft cool shadow */
 
     --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
     --font-body:    'Outfit', system-ui, sans-serif;
@@ -62,7 +62,7 @@
   }
 
   /* short fixed-label controls never wrap (gate 59) */
-  .btn, .pref-action, .mark-all, .views button { white-space: nowrap; }
+  .pref-action, .mark-all, .views button { white-space: nowrap; }
 
   html, body { overflow-x: clip; }
   html { background: var(--color-paper); }
@@ -194,24 +194,8 @@
   }
   .chip.active .ct { color: var(--color-accent); }
 
-  /* sidebar footer: controls + prefs */
+  /* sidebar footer: prefs */
   .sidebar-foot { margin-top: auto; display: flex; flex-direction: column; gap: var(--space-sm); }
-  .controls { display: flex; gap: var(--space-2xs); flex-wrap: wrap; }
-  .btn {
-    font-family: var(--font-mono);
-    font-size: var(--text-xs);
-    letter-spacing: 0.04em;
-    padding: var(--space-3xs) var(--space-xs);
-    border: 1px solid var(--color-rule);
-    background: transparent;
-    color: var(--color-ink-2);
-    text-decoration: none;
-    border-radius: var(--radius);
-    transition: color var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
-  }
-  .btn:hover { color: var(--color-ink); border-color: var(--color-ink-3); }
-  .btn.primary { color: var(--color-accent-ink); background: var(--color-accent); border-color: var(--color-accent); }
-  .btn.primary:hover { background: var(--color-accent-2); border-color: var(--color-accent-2); color: var(--color-accent-ink); }
 
   .prefs-bar {
     display: flex; flex-direction: column; align-items: flex-start;
@@ -540,16 +524,11 @@
     </div>
 
     <div class="sidebar-foot">
-      <div class="controls">
-        <a class="btn primary" href="https://ligatsa.github.io/watchtower-feed/atom.xml">Subscribe</a>
-        <a class="btn" href="https://ligatsa.github.io/watchtower-feed/atom.xml" download="atom.xml">Download</a>
-      </div>
       <div class="prefs-bar" id="prefsBar">
         <span><strong id="moreCount">0</strong> liked</span>
         <span><strong id="lessCount">0</strong> down</span>
         <span><strong id="excludeCount">0</strong> excluded</span>
         <span id="syncStatus" class="sync-status">Sync: off</span>
-        <button class="pref-action" id="syncBtn">Set up sync</button>
         <button class="pref-action" id="exportPrefs">Export</button>
         <button class="pref-action" id="clearPrefs">Clear all</button>
       </div>
@@ -560,7 +539,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>376</strong> items</span>
-        <span>updated 2026-05-30T22:17:21+00:00</span>
+        <span>updated 2026-05-31T03:22:59+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
@@ -10672,7 +10651,6 @@ buildui.com/r…</a>
 
     // ── Cloudflare Worker sync ──
     var syncStatusEl = document.getElementById('syncStatus');
-    var syncBtn = document.getElementById('syncBtn');
     var syncTimer = null;
     var lastSyncAt = 0;
 
@@ -10684,14 +10662,10 @@ buildui.com/r…</a>
     }
     function updateSyncUI() {
       if (syncUrl) {
-        var host = '';
-        try { host = new URL(syncUrl).host; } catch (e) { host = 'configured'; }
         var ago = lastSyncAt ? Math.max(0, Math.round((Date.now() - lastSyncAt) / 1000)) + 's ago' : 'pending';
-        setSyncStatus('on', 'on (' + host + ' · ' + ago + ')');
-        syncBtn.textContent = 'Manage sync';
+        setSyncStatus('on', 'on · ' + ago);
       } else {
         setSyncStatus('off', 'off');
-        syncBtn.textContent = 'Set up sync';
       }
     }
     function trimItem(m) {
@@ -10801,32 +10775,8 @@ buildui.com/r…</a>
         .catch(function (e) { console.error('[sync] pull failed', e); });
     }
 
-    syncBtn.addEventListener('click', function () {
-      var msg = syncUrl
-        ? 'Current sync endpoint:\n\n' + syncUrl +
-          '\n\nPaste a new URL to change it, or type DISCONNECT to turn off.'
-        : 'Paste your Cloudflare Worker sync URL (including the secret path):\n\n' +
-          'https://watchtower-prefs.<sub>.workers.dev/<secret>\n\n' +
-          'Use the SAME URL on every device to sync them.';
-      var resp = prompt(msg, syncUrl || '');
-      if (resp === null) return;
-      resp = resp.trim();
-      if (resp.toUpperCase() === 'DISCONNECT') {
-        syncUrl = null;
-        try { localStorage.removeItem(K.SYNCURL); } catch (e) {}
-        updateSyncUI();
-        showToast('Sync disconnected');
-        return;
-      }
-      if (!/^https:\/\/.+\/.{16,}/.test(resp)) {
-        showToast('That doesn’t look like a full worker URL with a secret');
-        return;
-      }
-      syncUrl = resp;
-      try { localStorage.setItem(K.SYNCURL, syncUrl); } catch (e) {}
-      updateSyncUI();
-      syncNow();   // immediate read-merge-write
-    });
+    // Sync runs automatically off the baked-in endpoint — no user-facing
+    // sync settings. The status pill is informational only.
     updateSyncUI();
 
     function excludeKeySet() { return new Set(exclude.map(function (e) { return e.key; })); }
