@@ -352,10 +352,13 @@
   .entry .overflow {
     background: transparent; border: none;
     color: var(--color-ink-3);
-    cursor: pointer; padding: 0; line-height: 1;
+    cursor: pointer; line-height: 1;
     font-size: var(--text-md);
     transition: color var(--dur) var(--ease-out);
-    display: inline-flex; align-items: center;
+    /* real tap target instead of a bare glyph */
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 2rem; min-height: 2rem;
+    margin: -0.35rem 0;   /* keep the visual row compact despite the hit area */
   }
   .entry .bookmark::before { content: '☆'; }
   .entry .bookmark:hover { color: var(--color-accent); }
@@ -478,23 +481,75 @@
     .entry .bookmark, .entry .markread, .entry .overflow { color: var(--color-ink-2); }
   }
 
-  /* ── Mobile: collapse sidebar to a stacked header ───────── */
+  /* ── Mobile: compact sticky header, feed is the hero ────── */
 
   @media (max-width: 860px) {
     .app { grid-template-columns: 1fr; }
+
+    /* Sidebar becomes a slim header band, not a 60%-of-screen stack. */
     .sidebar {
       position: static; height: auto; overflow: visible;
       border-right: none; border-bottom: 1px solid var(--color-rule);
-      gap: var(--space-md);
+      gap: var(--space-sm);
+      padding: var(--space-sm) var(--space-md);
     }
-    .views { flex-direction: row; flex-wrap: wrap; gap: var(--space-3xs); }
-    .views button { width: auto; gap: var(--space-2xs); }
-    .chips { flex-direction: row; flex-wrap: wrap; gap: var(--space-3xs); }
-    .chip { width: auto; gap: var(--space-2xs); }
+    .brand .subtitle { display: none; }            /* drop tagline on mobile */
+    .brand h1 { font-size: 1.3rem; }
+
+    /* Views = primary nav: one horizontal row, big tap targets, scrollable. */
+    .views {
+      flex-direction: row; flex-wrap: nowrap;
+      gap: var(--space-xs);
+      overflow-x: auto; -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .views::-webkit-scrollbar { display: none; }
+    .views button {
+      width: auto; flex: 0 0 auto;
+      min-height: 44px; padding: 0 var(--space-sm);   /* 44px tap floor */
+      gap: var(--space-2xs);
+    }
+
+    /* Sources = secondary: one compact scrollable row, never a tall wall. */
+    .rail-label { margin-bottom: var(--space-3xs); }
+    .chips {
+      flex-direction: row; flex-wrap: nowrap;
+      gap: var(--space-2xs);
+      overflow-x: auto; -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .chips::-webkit-scrollbar { display: none; }
+    .chip {
+      width: auto; flex: 0 0 auto;
+      min-height: 38px; padding: 0 var(--space-xs);
+      gap: var(--space-2xs);
+    }
+    .chip .ct { margin-left: var(--space-2xs); }
+
+    /* Prefs row: compact, wraps, least-prominent. */
     .sidebar-foot { margin-top: 0; }
-    .streamhead { position: static; padding: var(--space-md); }
-    #entries { padding: var(--space-2xs) var(--space-md) var(--space-2xl); }
-    .entry { padding: var(--space-md) var(--space-2xs); gap: var(--space-sm); }
+    .prefs-bar { flex-direction: row; flex-wrap: wrap; align-items: center; gap: var(--space-2xs); }
+    .prefs-bar .pref-action { min-height: 38px; padding: 0 var(--space-xs); margin-top: 0; }
+
+    /* Stream header: sticky so view/mark-all stay reachable while scrolling. */
+    .streamhead {
+      position: sticky; top: 0;
+      padding: var(--space-sm) var(--space-md);
+      gap: var(--space-2xs);
+    }
+    .mark-all { min-height: 38px; padding: 0 var(--space-sm); }
+
+    /* Rows: tighter score column, comfortable spacing, tappable actions. */
+    #entries { padding: var(--space-2xs) var(--space-sm) var(--space-2xl); }
+    .entry {
+      grid-template-columns: 2rem minmax(0, 1fr) auto;
+      padding: var(--space-sm) var(--space-2xs);
+      gap: var(--space-sm);
+    }
+    .entry .bookmark, .entry .markread, .entry .overflow {
+      min-width: 2.5rem; min-height: 2.5rem;     /* fat-finger friendly */
+    }
+    .entry .meta.actions { gap: var(--space-2xs); }
     footer { padding: var(--space-lg) var(--space-md) var(--space-2xl); }
   }
 </style>
@@ -539,7 +594,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>376</strong> items</span>
-        <span>updated 2026-05-31T03:22:59+00:00</span>
+        <span>updated 2026-05-31T03:29:35+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
