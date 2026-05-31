@@ -5,8 +5,53 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-05-31T03:49:53+00:00</updated>
+  <updated>2026-05-31T04:21:27+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:07ce25d4408e0e82</id>
+    <title>MariusYvard/NullToHero — Claude Cowork plugin for Website Builder · Design + SEO toolkit · v1.5.0 · 3 skills · 47 commands · 82 reference docs · </title>
+    <link rel="alternate" href="https://github.com/MariusYvard/NullToHero"/>
+    <published>2026-05-30T21:57:21Z</published>
+    <updated>2026-05-30T21:57:21Z</updated>
+    <author><name>MariusYvard</name></author>
+    <category term="claude-code"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</summary>
+    <content type="html"><![CDATA[<p>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/MariusYvard/NullToHero">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7e1d77c73b3d9ecd</id>
+    <title>small nuance 🧑‍🍳
+
+you don’t always need to leave room for the scrollbar
+
+if mask-size &amp;lt; activation range, it may neve…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2060834430835441888"/>
+    <published>2026-05-30T21:23:11+00:00</published>
+    <updated>2026-05-30T21:23:11+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>jh3yy shares a CSS masking technique for scrollbar interactions—micro-interaction craft tip with visual demo.</summary>
+    <content type="html"><![CDATA[<p>jh3yy shares a CSS masking technique for scrollbar interactions—micro-interaction craft tip with visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060834430835441888">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4878337b50b88ba7</id>
+    <title>RT @kail_designs: More frames from this banger. Video dropping next week https://t.co/CPjMFGDfbP</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2060764785101451551"/>
+    <published>2026-05-30T16:46:26+00:00</published>
+    <updated>2026-05-30T16:46:26+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Designer sharing polished UI frames with a full video walkthrough coming—likely a production design artifact or case study.</summary>
+    <content type="html"><![CDATA[<p>Designer sharing polished UI frames with a full video walkthrough coming—likely a production design artifact or case study.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060764785101451551">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:c7ef0c665db8503c</id>
     <title>More frames from this banger. Video dropping next week https://t.co/CPjMFGDfbP</title>
@@ -474,6 +519,34 @@ Production-grade DESIGN.md analysis for coding agents.…</title>
     <content type="html"><![CDATA[<p>Design.md extraction tool for AI agents—production-grade design patterns, tokens, and rules to improve AI-generated UI quality.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2059869150408020392">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2b2ef352e664b16c</id>
+    <title>Why I don’t use icon fonts in Figma</title>
+    <link rel="alternate" href="https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts"/>
+    <published>2026-05-28T05:19:07+00:00</published>
+    <updated>2026-05-28T05:19:07+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>Designer explains SVG-over-icon-fonts workflow in Figma—practical craft guidance for production design systems.</summary>
+    <content type="html"><![CDATA[<p>Designer explains SVG-over-icon-fonts workflow in Figma—practical craft guidance for production design systems.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e553e7550a3ddc90</id>
+    <title>Figma Agent: a first look</title>
+    <link rel="alternate" href="https://www.shapes.gg/figma-agent-a-first-look/"/>
+    <published>2026-05-28T05:18:11+00:00</published>
+    <updated>2026-05-28T05:18:11+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="agent-sdk"/>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <summary>First look at Figma&#x27;s native AI agent — direct canvas integration for design generation. Core design tool for Steven&#x27;s workflow.</summary>
+    <content type="html"><![CDATA[<p>First look at Figma&#x27;s native AI agent — direct canvas integration for design generation. Core design tool for Steven&#x27;s workflow.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://www.shapes.gg/figma-agent-a-first-look/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:44268c7348fd81ef</id>
     <title>added configurable color ink accents + thickness 🧑‍🍳
 
@@ -752,6 +825,20 @@ Lovable can now spin up helpers behind-the-scenes to research, review, and QA, i
     <content type="html"><![CDATA[<p>Framer lowers editor pricing and launches a content-editor role—relevant pricing change for designers using Framer AI for production UI, but lacks concrete craft demonstration.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2059620408132071728">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6c547eb0d4bfb152</id>
+    <title>Impeccable: Design skills for AI harnesses</title>
+    <link rel="alternate" href="https://impeccable.style/"/>
+    <published>2026-05-27T07:48:05+00:00</published>
+    <updated>2026-05-27T07:48:05+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="anti-pattern"/>
+    <summary>Steven&#x27;s own installed skill — Impeccable (pbakaus) — now with 23 commands and anti-pattern rules for AI-assisted UI craft across Cursor, Claude Code, and Gemini.</summary>
+    <content type="html"><![CDATA[<p>Steven&#x27;s own installed skill — Impeccable (pbakaus) — now with 23 commands and anti-pattern rules for AI-assisted UI craft across Cursor, Claude Code, and Gemini.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 9/10</p><p><a href="https://impeccable.style/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:c018e7543a5c54a0</id>
     <title>RT @kail_designs: Ascii Magic landing page is live✨
 Check out http://ascii-magic.com/landing
@@ -809,95 +896,5 @@ this is a &quot;similar&quot; experiment but relies only on css mask and a ran�
     <category term="prototype"/>
     <summary>Designer-developer shares a real, thoughtful journaling app with intentional UX decisions (streak-free, ADHD-friendly patterns) and visible progression from lo-fi to polished screens.</summary>
     <content type="html"><![CDATA[<p>Designer-developer shares a real, thoughtful journaling app with intentional UX decisions (streak-free, ADHD-friendly patterns) and visible progression from lo-fi to polished screens.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tolvem/ive_been_building_an_app_since_february_2026_i/">Read on reddit/r/UI_Design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:17a6f672d4555629</id>
-    <title>scroll-driven wordmark morph w/ css
-
-give each translate axis a different timing function to create a curved motion path…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2059385748105646570"/>
-    <published>2026-05-26T21:26:38+00:00</published>
-    <updated>2026-05-26T21:26:38+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>Scroll-driven wordmark morphing technique using CSS animations with axis-specific timing functions for curved motion—practical micro-interaction craft.</summary>
-    <content type="html"><![CDATA[<p>Scroll-driven wordmark morphing technique using CSS animations with axis-specific timing functions for curved motion—practical micro-interaction craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2059385748105646570">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0eb6b25577d9f564</id>
-    <title>RT @chloepark: MagicPath ↔ Figma
-
-sometimes you need pixels, sometimes you need a working app. now the loop works both w…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2059374186640912851"/>
-    <published>2026-05-26T20:40:42+00:00</published>
-    <updated>2026-05-26T20:40:42+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="mcp"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>MagicPath bidirectional Figma sync — design ↔ code loop working both ways. Direct match to Steven&#x27;s Figma MCP + design-system interests.</summary>
-    <content type="html"><![CDATA[<p>MagicPath bidirectional Figma sync — design ↔ code loop working both ways. Direct match to Steven&#x27;s Figma MCP + design-system interests.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/MagicPathAI/status/2059374186640912851">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a8e5ce4dc88d1f93</id>
-    <title>To close the loop, remember you can always go from MagicPath back to Figma using our Figma Connect feature (or the Figma…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2059352023188009239"/>
-    <published>2026-05-26T19:12:37+00:00</published>
-    <updated>2026-05-26T19:12:37+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="design-system"/>
-    <category term="figma-make"/>
-    <summary>MagicPath&#x27;s Figma Connect feature enables bidirectional design↔code sync; closes the loop between Figma and external agents via MCP.</summary>
-    <content type="html"><![CDATA[<p>MagicPath&#x27;s Figma Connect feature enables bidirectional design↔code sync; closes the loop between Figma and external agents via MCP.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MagicPathAI/status/2059352023188009239">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:058ab4e0e28290db</id>
-    <title>Introducing Figma export in MagicPath.
-
-Design and build with our native agent, or your favorite external one (Codex, Cl…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2059350898317656365"/>
-    <published>2026-05-26T19:08:09+00:00</published>
-    <updated>2026-05-26T19:08:09+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <category term="claude-code"/>
-    <category term="agent-sdk"/>
-    <summary>MagicPath adds Figma export — design exploration with AI agents (native or external like Claude Code) now pushes directly into Figma as editable designs.</summary>
-    <content type="html"><![CDATA[<p>MagicPath adds Figma export — design exploration with AI agents (native or external like Claude Code) now pushes directly into Figma as editable designs.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MagicPathAI/status/2059350898317656365">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7862ecc409063d29</id>
-    <title>You can now export any design you create in MagicPath (via native or external agent) and then export with just one click…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2059344553287573597"/>
-    <published>2026-05-26T18:42:56+00:00</published>
-    <updated>2026-05-26T18:42:56+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="agent-sdk"/>
-    <summary>MagicPath adds one-click Figma export for AI-generated designs—design artifact → editable components workflow.</summary>
-    <content type="html"><![CDATA[<p>MagicPath adds one-click Figma export for AI-generated designs—design artifact → editable components workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/MagicPathAI/status/2059344553287573597">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:459c5a37df758512</id>
-    <title>I built a plugin that automatically audits live website CSS against your Figma variables &amp;amp; Token Studio JSON</title>
-    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1tofnz2/i_built_a_plugin_that_automatically_audits_live/"/>
-    <published>2026-05-26T18:27:50+00:00</published>
-    <updated>2026-05-26T18:27:50+00:00</updated>
-    <author><name>bastiffi</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin that audits live website CSS against design tokens &amp; Figma variables—catches dev implementation gaps automatically. Direct design-to-code parity check.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that audits live website CSS against design tokens &amp; Figma variables—catches dev implementation gaps automatically. Direct design-to-code parity check.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tofnz2/i_built_a_plugin_that_automatically_audits_live/">Read on reddit/r/designsystems →</a></p>]]></content>
   </entry>
 </feed>
