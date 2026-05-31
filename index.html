@@ -485,6 +485,10 @@
 
   @media (max-width: 860px) {
     .app { grid-template-columns: 1fr; }
+    /* Let every column child shrink below its content min-size. Without this,
+       the sidebar/footer's intrinsic (desktop) min-content forces the single
+       grid track to ~808px and the feed text gets clipped by overflow-x:clip. */
+    .app > * { min-width: 0; }
 
     /* Sidebar becomes a slim header band, not a 60%-of-screen stack. */
     .sidebar {
@@ -594,7 +598,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>376</strong> items</span>
-        <span>updated 2026-05-31T03:32:42+00:00</span>
+        <span>updated 2026-05-31T03:37:20+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
