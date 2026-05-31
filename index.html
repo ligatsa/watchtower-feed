@@ -543,20 +543,29 @@
     }
     .mark-all { min-height: 38px; padding: 0 var(--space-sm); }
 
-    /* Rows: score + body share the top line; actions wrap to a full-width
-       row beneath. Three 44px buttons inline would steal a third of a 390px
-       row and crush the title to ~130px — so they drop below instead. */
+    /* Title/summary/subline get the FULL width — the score doesn't earn a
+       left gutter on mobile. It drops to a small, quiet token in the footer
+       row alongside the actions; the three 44px buttons hug the right. */
     #entries { padding: var(--space-2xs) var(--space-sm) var(--space-2xl); }
     .entry {
-      grid-template-columns: 2rem 1fr;
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "body  body"
+        "score actions";
       padding: var(--space-sm) var(--space-2xs);
-      gap: var(--space-3xs) var(--space-sm);
+      gap: var(--space-2xs) var(--space-sm);
+    }
+    .entry .body { grid-area: body; }
+    .entry .score {
+      grid-area: score; align-self: center;
+      padding-top: 0;
+      font-size: var(--text-xs);                 /* demoted from left-rail prominence */
     }
     .entry .bookmark, .entry .markread, .entry .overflow {
       min-width: 2.75rem; min-height: 2.75rem;   /* 44px — iOS/WCAG touch floor */
     }
     .entry .meta.actions {
-      grid-column: 1 / -1;                       /* full-width row under the text */
+      grid-area: actions;
       justify-content: flex-end;                 /* actions hug the right edge */
       gap: var(--space-xs);
       padding-top: 0;
@@ -605,7 +614,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>376</strong> items</span>
-        <span>updated 2026-05-31T03:41:22+00:00</span>
+        <span>updated 2026-05-31T03:49:53+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
