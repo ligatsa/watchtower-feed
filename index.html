@@ -263,13 +263,20 @@
 
   .entry {
     display: grid;
-    grid-template-columns: 2.75rem minmax(0, 1fr) auto;
-    gap: var(--space-md);
+    grid-template-columns: 2.75rem minmax(0, 1fr);
+    grid-template-areas:
+      "score body"
+      "score actions";   /* actions sit at the bottom, after the tags — no column */
+    column-gap: var(--space-md);
+    row-gap: var(--space-2xs);
     align-items: start;
     padding: var(--space-md);
     border-bottom: 1px solid var(--color-rule-soft);
     transition: background var(--dur) var(--ease-out);
   }
+  .entry .score { grid-area: score; }
+  .entry .body  { grid-area: body; }
+  .entry .meta.actions { grid-area: actions; justify-content: flex-end; }
   .entry:hover { background: var(--color-paper-3); }
   .entry.is-hidden { display: none; }
 
@@ -580,7 +587,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>531</strong> items</span>
-        <span>updated 2026-06-01T21:20:49+00:00</span>
+        <span>updated 2026-06-01T21:40:01+00:00</span>
         <span>min score 6</span>
       </div>
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
