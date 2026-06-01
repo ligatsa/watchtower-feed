@@ -5,8 +5,66 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-01T10:04:35+00:00</updated>
+  <updated>2026-06-01T16:10:27+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ed09a6c78bc2b9b2</id>
+    <title>pdf.to.design: static PDF → editable Figma design</title>
+    <link rel="alternate" href="https://bit.ly/side-div5"/>
+    <published>2026-06-01T08:21:00+00:00</published>
+    <updated>2026-06-01T08:21:00+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>PDF-to-Figma converter with editable layers, text extraction, and local processing—direct design artifact generation tool.</summary>
+    <content type="html"><![CDATA[<p>PDF-to-Figma converter with editable layers, text extraction, and local processing—direct design artifact generation tool.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://bit.ly/side-div5">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0225ac8104b91405</id>
+    <title>A designer’s guide to opening Xcode for the first time</title>
+    <link rel="alternate" href="https://heyneuma.com/xcode-for-designers"/>
+    <published>2026-06-01T08:19:56+00:00</published>
+    <updated>2026-06-01T08:19:56+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="claude-code"/>
+    <category term="mcp"/>
+    <category term="ui-craft"/>
+    <category term="skill"/>
+    <summary>iOS design guide using Claude Code MCPs to ship a working app—concrete Claude+design workflow.</summary>
+    <content type="html"><![CDATA[<p>iOS design guide using Claude Code MCPs to ship a working app—concrete Claude+design workflow.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://heyneuma.com/xcode-for-designers">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:23aa2bff4452e744</id>
+    <title>RT @kail_designs: Interactive Macbook keyboard component made with Claude Code. https://t.co/Wkc1hby04Y</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2061308479328190779"/>
+    <published>2026-06-01T04:46:53+00:00</published>
+    <updated>2026-06-01T04:46:53+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="frontend"/>
+    <summary>Interactive Macbook keyboard component built in Claude Code—working polished UI component with visual artifact.</summary>
+    <content type="html"><![CDATA[<p>Interactive Macbook keyboard component built in Claude Code—working polished UI component with visual artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2061308479328190779">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0e85ffce77a8a549</id>
+    <title>・Figma MCPを噛ませたLP実装
+・Notion MCPを噛ませて戦略をこねて、戦略が具体化した段階で会社営業資料のたたきをFigma Designで作成
+・対話をしながら思考しているのでワークスロップを減少しながら具体化を爆速ででき…</title>
+    <link rel="alternate" href="https://x.com/marumi_design/status/2061262943153693164"/>
+    <published>2026-06-01T01:45:56+00:00</published>
+    <updated>2026-06-01T01:45:56+00:00</updated>
+    <author><name>marumi_design</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Figma MCP + Notion MCP workflow for rapid LP and pitch-deck design with reduced workshops—real production design system method.</summary>
+    <content type="html"><![CDATA[<p>Figma MCP + Notion MCP workflow for rapid LP and pitch-deck design with reduced workshops—real production design system method.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/marumi_design/status/2061262943153693164">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:e2dc5a4a1cfc7e0f</id>
     <title>Check out these 4 incredibly interactive websites made in Framer ↓ https://t.co/uR5DJlhOxc</title>
@@ -45,6 +103,19 @@ https://mac-keyboard-demo.vercel.app/</title>
     <category term="prototype"/>
     <summary>Interactive Macbook keyboard component built with Claude Code—polished UI component with video/demo, direct design-craft match.</summary>
     <content type="html"><![CDATA[<p>Interactive Macbook keyboard component built with Claude Code—polished UI component with video/demo, direct design-craft match.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/kail_designs/status/2061134976780001704">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6f783bd8a8f52ee5</id>
+    <title>Paint By JSON | Figma API Client</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma"/>
+    <published>2026-05-31T14:45:07-07:00</published>
+    <updated>2026-05-31T14:45:07-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Figma plugin to populate mockups with real API data; bridges design→data workflow.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin to populate mockups with real API data; bridges design→data workflow.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:862113271e436930</id>
@@ -819,75 +890,5 @@ https://www.framer.com/guides/wordpress-to-framer</title>
     <category term="technique"/>
     <summary>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</summary>
     <content type="html"><![CDATA[<p>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2059652890579607554">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:06a98acaf9225e4e</id>
-    <title>RT @tylerbruno05: We are introducing subagents in Lovable today, so I wrote a proper explainer about them. Check it out:</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2059643501873336671"/>
-    <published>2026-05-27T14:30:51+00:00</published>
-    <updated>2026-05-27T14:30:51+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="prototype"/>
-    <category term="agent-sdk"/>
-    <summary>Lovable ships subagents feature with explainer post — new capability for multi-step UI/product builds.</summary>
-    <content type="html"><![CDATA[<p>Lovable ships subagents feature with explainer post — new capability for multi-step UI/product builds.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2059643501873336671">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d41e2bf0da54e7d6</id>
-    <title>Subagents, now in Lovable.
-
-Lovable can now spin up helpers behind-the-scenes to research, review, and QA, in parallel. …</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2059642341963804930"/>
-    <published>2026-05-27T14:26:15+00:00</published>
-    <updated>2026-05-27T14:26:15+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <summary>Lovable ships subagent feature for parallel research, review, QA — speeds up AI-driven UI building workflow.</summary>
-    <content type="html"><![CDATA[<p>Lovable ships subagent feature for parallel research, review, QA — speeds up AI-driven UI building workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2059642341963804930">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:19e640f382927233</id>
-    <title>You&#x27;ll see subagents in the activity log alongside your main build, so you can see what&#x27;s running and trace any decision…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2059642344077689271"/>
-    <published>2026-05-27T14:26:15+00:00</published>
-    <updated>2026-05-27T14:26:15+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Lovable ships subagent visibility in activity logs—design builders can now trace AI decisions in real-time UI generation workflows.</summary>
-    <content type="html"><![CDATA[<p>Lovable ships subagent visibility in activity logs—design builders can now trace AI decisions in real-time UI generation workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2059642344077689271">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:bf67577f40753431</id>
-    <title>Two more changes based on your feedback about editor pricing:
-
-🖱️ Editors are now $20/mo on all plans (down from $40 on …</title>
-    <link rel="alternate" href="https://x.com/framer/status/2059620408132071728"/>
-    <published>2026-05-27T12:59:05+00:00</published>
-    <updated>2026-05-27T12:59:05+00:00</updated>
-    <author><name>framer</name></author>
-    <category term="framer-ai"/>
-    <category term="prototype"/>
-    <summary>Framer lowers editor pricing and launches a content-editor role—relevant pricing change for designers using Framer AI for production UI, but lacks concrete craft demonstration.</summary>
-    <content type="html"><![CDATA[<p>Framer lowers editor pricing and launches a content-editor role—relevant pricing change for designers using Framer AI for production UI, but lacks concrete craft demonstration.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2059620408132071728">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6c547eb0d4bfb152</id>
-    <title>Impeccable: Design skills for AI harnesses</title>
-    <link rel="alternate" href="https://impeccable.style/"/>
-    <published>2026-05-27T07:48:05+00:00</published>
-    <updated>2026-05-27T07:48:05+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="anti-pattern"/>
-    <summary>Steven&#x27;s own installed skill — Impeccable (pbakaus) — now with 23 commands and anti-pattern rules for AI-assisted UI craft across Cursor, Claude Code, and Gemini.</summary>
-    <content type="html"><![CDATA[<p>Steven&#x27;s own installed skill — Impeccable (pbakaus) — now with 23 commands and anti-pattern rules for AI-assisted UI craft across Cursor, Claude Code, and Gemini.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 9/10</p><p><a href="https://impeccable.style/">Read on sidebar →</a></p>]]></content>
   </entry>
 </feed>
