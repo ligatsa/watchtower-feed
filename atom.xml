@@ -5,8 +5,121 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-01T21:40:01+00:00</updated>
+  <updated>2026-06-01T22:16:10+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4635663349322c1a</id>
+    <title>If npm is for packaged code, a registry is for open code.
+
+Packages are great for dependencies. Registries are great for…</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2061477078667522183"/>
+    <published>2026-06-01T15:56:50+00:00</published>
+    <updated>2026-06-01T15:56:50+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <category term="registry"/>
+    <summary>shadcn registry philosophy: open code for inspection, modification, ownership—directly enables design-system and component distribution.</summary>
+    <content type="html"><![CDATA[<p>shadcn registry philosophy: open code for inspection, modification, ownership—directly enables design-system and component distribution.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2061477078667522183">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:58fe19744576055c</id>
+    <title>You can now turn any GitHub repo into a registry.
+
+Drop in a registry.json. Define your items. Install with the CLI.
+
+Di…</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2061477029111792125"/>
+    <published>2026-06-01T15:56:38+00:00</published>
+    <updated>2026-06-01T15:56:38+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <category term="registry"/>
+    <category term="skill"/>
+    <summary>GitHub registry.json for distributing components, design systems, agents, skills—major shadcn release enabling design-system scaling.</summary>
+    <content type="html"><![CDATA[<p>GitHub registry.json for distributing components, design systems, agents, skills—major shadcn release enabling design-system scaling.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/shadcn/status/2061477029111792125">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b811ad525a40b8f7</id>
+    <title>the code does override the default pointer too
+
+otherwise, as rightly pointed out, you&#x27;d get mismatches when not using t…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2061454831022231564"/>
+    <published>2026-06-01T14:28:26+00:00</published>
+    <updated>2026-06-01T14:28:26+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Custom cursor design in Figma + CSS pointer-down state—micro UI craft detail with visual execution shown.</summary>
+    <content type="html"><![CDATA[<p>Custom cursor design in Figma + CSS pointer-down state—micro UI craft detail with visual execution shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2061454831022231564">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:87e8c2a355b8aa84</id>
+    <title>tiny detail: cursor: pointer needed a pointerdown counterpart 👇
+
+button:active {
+  cursor: url(pointerdown.svg) 15 10, p…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2061453469995679910"/>
+    <published>2026-06-01T14:23:01+00:00</published>
+    <updated>2026-06-01T14:23:01+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="frontend"/>
+    <summary>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</summary>
+    <content type="html"><![CDATA[<p>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/jh3yy/status/2061453469995679910">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:53d4a144002f7b19</id>
+    <title>To get good animations from an AI you need to get good at telling it what you want:
+
+- &quot;stagger this list of items&quot;
+- &quot;m…</title>
+    <link rel="alternate" href="https://x.com/emilkowalski/status/2061426518333571576"/>
+    <published>2026-06-01T12:35:56+00:00</published>
+    <updated>2026-06-01T12:35:56+00:00</updated>
+    <author><name>emilkowalski</name></author>
+    <category term="animation"/>
+    <category term="motion"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Emil Kowalski&#x27;s motion vocabulary for AI animations—stagger, direction-aware, spatial consistency; teaches design craft language for agentic UI.</summary>
+    <content type="html"><![CDATA[<p>Emil Kowalski&#x27;s motion vocabulary for AI animations—stagger, direction-aware, spatial consistency; teaches design craft language for agentic UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/emilkowalski/status/2061426518333571576">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0ec593ff2c4c64f1</id>
+    <title>founded-labs/react-native-reusables — Bringing shadcn/ui to React Native. Beautifully crafted components with Nativewind/Uniwind, open source, and almost as e</title>
+    <link rel="alternate" href="https://github.com/founded-labs/react-native-reusables"/>
+    <published>2026-06-01T11:53:21Z</published>
+    <updated>2026-06-01T11:53:21Z</updated>
+    <author><name>founded-labs</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>shadcn/ui ported to React Native with 8k+ stars; production-quality components for mobile UI craft.</summary>
+    <content type="html"><![CDATA[<p>shadcn/ui ported to React Native with 8k+ stars; production-quality components for mobile UI craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/founded-labs/react-native-reusables">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1445fedf8d675cda</id>
+    <title>Spent 20 mins faking a perspective mockup in Figma?
+
+Stop.
+
+→ http://perspectivemock.vercel.app
+
+Drop in a screenshot, t…</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2061406998311362981"/>
+    <published>2026-06-01T11:18:22+00:00</published>
+    <updated>2026-06-01T11:18:22+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="prototype"/>
+    <category term="tool"/>
+    <category term="design-craft"/>
+    <category term="figma"/>
+    <summary>perspectivemock.vercel.app—drop screenshot, 3D tilt, keyframe animation, MP4 export; solves real design mockup workflow.</summary>
+    <content type="html"><![CDATA[<p>perspectivemock.vercel.app—drop screenshot, 3D tilt, keyframe animation, MP4 export; solves real design mockup workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2061406998311362981">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:ed09a6c78bc2b9b2</id>
     <title>pdf.to.design: static PDF → editable Figma design</title>
@@ -785,110 +898,5 @@ One of the earliest &#x27;acid tests&#x27; of…</title>
     <category term="designer-post"/>
     <summary>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</summary>
     <content type="html"><![CDATA[<p>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2059671449007218828">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cc78001d766bc81f</id>
-    <title>Consultas sobre plugins</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tpahw6/consultas_sobre_plugins/"/>
-    <published>2026-05-27T16:21:34+00:00</published>
-    <updated>2026-05-27T16:21:34+00:00</updated>
-    <author><name>Ryuwuu</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <summary>Designer seeking guidance on building a Figma plugin that audits design variables against configurable criteria—aligned with Steven&#x27;s design-system + audit interests.</summary>
-    <content type="html"><![CDATA[<p>Designer seeking guidance on building a Figma plugin that audits design variables against configurable criteria—aligned with Steven&#x27;s design-system + audit interests.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tpahw6/consultas_sobre_plugins/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7fc030b013740bc3</id>
-    <title>geekjourneyx/claude-design-card — Claude Code skill for generating design cards in 14 formats — platform   covers, social sharing cards, and editorial lay</title>
-    <link rel="alternate" href="https://github.com/geekjourneyx/claude-design-card"/>
-    <published>2026-05-27T16:17:35Z</published>
-    <updated>2026-05-27T16:17:35Z</updated>
-    <author><name>geekjourneyx</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <summary>Claude skill that generates 14 card formats (covers, social, editorial) — directly useful for designers building marketing &amp; content layouts.</summary>
-    <content type="html"><![CDATA[<p>Claude skill that generates 14 card formats (covers, social, editorial) — directly useful for designers building marketing &amp; content layouts.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/geekjourneyx/claude-design-card">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f0c8a12ca23a055f</id>
-    <title>AI UX Writer - Figma plugin</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tpa5y9/ai_ux_writer_figma_plugin/"/>
-    <published>2026-05-27T16:10:04+00:00</published>
-    <updated>2026-05-27T16:10:04+00:00</updated>
-    <author><name>Ragnak8</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin using AI to generate UX copy directly in design workflows—reduces tool-switching and helps designers write clearer microcopy.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin using AI to generate UX copy directly in design workflows—reduces tool-switching and helps designers write clearer microcopy.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tpa5y9/ai_ux_writer_figma_plugin/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2e3bbc33bc02bb14</id>
-    <title>Bolt is now in the Claude Marketplace.
-
-The fastest way from prompt to production, on the AI you already pay for.
-
-Don&#x27;t…</title>
-    <link rel="alternate" href="https://x.com/boltdotnew/status/2059667660565082315"/>
-    <published>2026-05-27T16:06:51+00:00</published>
-    <updated>2026-05-27T16:06:51+00:00</updated>
-    <author><name>boltdotnew</name></author>
-    <category term="bolt"/>
-    <category term="claude-code"/>
-    <category term="anthropic"/>
-    <category term="v0"/>
-    <summary>Bolt launches in Claude Marketplace — direct integration for building production-ready full-stack apps from prompts, expanding Claude&#x27;s design-to-code capabilities.</summary>
-    <content type="html"><![CDATA[<p>Bolt launches in Claude Marketplace — direct integration for building production-ready full-stack apps from prompts, expanding Claude&#x27;s design-to-code capabilities.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/boltdotnew/status/2059667660565082315">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c69d87dd00f09801</id>
-    <title>feedback is the bottleneck for building with AI
-
-@inflight fixes that
-
-now designers can get structured feedback on thei…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2059659341599236473"/>
-    <published>2026-05-27T15:33:48+00:00</published>
-    <updated>2026-05-27T15:33:48+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Designer tool that closes the AI feedback loop: structured prototype critique feeds back into Claude/Codex for iterative refinement. Real workflow demo.</summary>
-    <content type="html"><![CDATA[<p>Designer tool that closes the AI feedback loop: structured prototype critique feeds back into Claude/Codex for iterative refinement. Real workflow demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2059659341599236473">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e6a4a85eb38b002e</id>
-    <title>Here&#x27;s where design is going. Lots of work and analysis went into this.
-
-UI Design Direction 2026–2027 https://medium.co…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2059658037544001597"/>
-    <published>2026-05-27T15:28:37+00:00</published>
-    <updated>2026-05-27T15:28:37+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Design trend analysis for 2026–2027 from established design voice; curated direction piece with research backing.</summary>
-    <content type="html"><![CDATA[<p>Design trend analysis for 2026–2027 from established design voice; curated direction piece with research backing.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2059658037544001597">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c730ccc7e20f37d9</id>
-    <title>Read the full guide ↓
-https://www.framer.com/guides/wordpress-to-framer</title>
-    <link rel="alternate" href="https://x.com/framer/status/2059652890579607554"/>
-    <published>2026-05-27T15:08:10+00:00</published>
-    <updated>2026-05-27T15:08:10+00:00</updated>
-    <author><name>framer</name></author>
-    <category term="framer-ai"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</summary>
-    <content type="html"><![CDATA[<p>Framer publishes a migration guide from WordPress to Framer, likely covering design-to-code workflow and site building.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2059652890579607554">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
