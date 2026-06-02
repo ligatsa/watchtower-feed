@@ -257,6 +257,21 @@
   }
   .mark-all:hover { color: var(--color-accent); border-color: var(--color-accent); }
 
+  .search {
+    flex: 1 1 220px; min-width: 0;
+    background: var(--color-paper-2);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius);
+    padding: var(--space-2xs) var(--space-sm);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    color: var(--color-ink);
+    transition: border-color var(--dur) var(--ease-out);
+  }
+  .search::placeholder { color: var(--color-ink-3); }
+  .search:focus { outline: none; border-color: var(--color-focus); }
+  .streamhead-meta .match-ct { color: var(--color-accent); }
+
   #entries { padding: var(--space-2xs) var(--space-lg) var(--space-3xl); }
 
   /* ── Triage row ─────────────────────────────────────────── */
@@ -587,9 +602,13 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>574</strong> items</span>
-        <span>updated 2026-06-02T04:21:52+00:00</span>
+        <span>updated 2026-06-02T05:07:36+00:00</span>
         <span>min score 6</span>
+        <span class="match-ct" id="searchCount"></span>
       </div>
+      <input id="search" class="search" type="search" autocomplete="off"
+             placeholder="Search title, summary, tag, source…"
+             aria-label="Search all items (read and unread)">
       <button class="mark-all" id="markAll" title="Marks every entry currently visible based on the active filter">Mark all read</button>
     </header>
 
@@ -16031,28 +16050,68 @@ buildui.com/r…</a>
     var viewTabs = document.querySelectorAll('#viewTabs button');
     var currentSource = 'all';
     var currentView   = 'unread';
+    var currentQuery  = '';
+    var searchEl      = document.getElementById('search');
+    var searchCountEl = document.getElementById('searchCount');
 
     function isSaved(id) { return saved.some(function (m) { return m.id === id; }); }
 
+    // Lazily-cached, lowercased haystack per entry: title + summary + tags + source.
+    function searchText(el) {
+      if (el._search === undefined) {
+        var sum = el.querySelector('.summary');
+        var tags = el.querySelector('.tags');
+        var src = el.querySelector('.source');
+        el._search = (
+          (el.dataset.title || '') + ' ' +
+          (sum ? sum.textContent : '') + ' ' +
+          (tags ? tags.textContent : '') + ' ' +
+          (src ? src.textContent : '')
+        ).toLowerCase();
+      }
+      return el._search;
+    }
+
     function applyFilters() {
       var excl = excludeKeySet();
+      var q = currentQuery;
+      // While searching, span every item (read + unread + saved) so previously
+      // read items are findable; clearing the box restores the active view.
+      var view = q ? 'all' : currentView;
+      var visible = 0;
       entries.forEach(function (el) {
         var srcMatch = (currentSource === 'all') || (el.dataset.source === currentSource);
         var excluded = excl.has(el.dataset.excludeKey);
         var isRead = read.has(el.dataset.id);
         var viewMatch =
-          currentView === 'all'    ? true :
-          currentView === 'unread' ? !isRead :
-          currentView === 'saved'  ? isSaved(el.dataset.id) :
-          /* read */                  isRead;
-        // 'saved' view ignores the read/unread exclusion of excluded items? keep excluded hidden always.
-        el.classList.toggle('is-hidden', !srcMatch || excluded || !viewMatch);
+          view === 'all'    ? true :
+          view === 'unread' ? !isRead :
+          view === 'saved'  ? isSaved(el.dataset.id) :
+          /* read */          isRead;
+        var searchMatch = !q || searchText(el).indexOf(q) >= 0;
+        var hidden = !srcMatch || excluded || !viewMatch || !searchMatch;
+        el.classList.toggle('is-hidden', hidden);
+        if (!hidden) visible++;
       });
+      if (searchCountEl) {
+        searchCountEl.textContent =
+          q ? ('· ' + visible + ' match' + (visible === 1 ? '' : 'es')) : '';
+      }
       chips.forEach(function (c) {
         c.classList.toggle('active', c.dataset.source === currentSource);
       });
       viewTabs.forEach(function (b) {
         b.classList.toggle('active', b.dataset.view === currentView);
+      });
+    }
+
+    if (searchEl) {
+      searchEl.addEventListener('input', function () {
+        currentQuery = searchEl.value.trim().toLowerCase();
+        applyFilters();
+      });
+      searchEl.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { searchEl.value = ''; currentQuery = ''; applyFilters(); }
       });
     }
 
