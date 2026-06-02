@@ -5,8 +5,103 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-02T03:26:44+00:00</updated>
+  <updated>2026-06-02T04:21:52+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:26e8ea268abf8c74</id>
+    <title>LekoArts/figma-theme-ui — Convert a Theme UI config to Figma Styles</title>
+    <link rel="alternate" href="https://github.com/LekoArts/figma-theme-ui"/>
+    <published>2026-06-01T20:06:53Z</published>
+    <updated>2026-06-01T20:06:53Z</updated>
+    <author><name>LekoArts</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="design-system"/>
+    <summary>Figma plugin that converts Theme UI config to Figma Styles—direct design-system token sync tooling.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin that converts Theme UI config to Figma Styles—direct design-system token sync tooling.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/LekoArts/figma-theme-ui">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ebae584d90d7afb4</id>
+    <title>Because MagicPath imports the full working component, all your animations, transitions, and states are going to be impor…</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2061538584717303999"/>
+    <published>2026-06-01T20:01:14+00:00</published>
+    <updated>2026-06-01T20:01:14+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>MagicPath imports components with full animations/states preserved—code-to-design workflow enabler.</summary>
+    <content type="html"><![CDATA[<p>MagicPath imports components with full animations/states preserved—code-to-design workflow enabler.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/MagicPathAI/status/2061538584717303999">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:01ca1f99e2adc3e2</id>
+    <title>It&#x27;s now easier to import your GitHub repository in MagicPath!
+
+Update the MagicPath skill for your agent (Codex,Cursor,…</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2061538581315735859"/>
+    <published>2026-06-01T20:01:13+00:00</published>
+    <updated>2026-06-01T20:01:13+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="agent-sdk"/>
+    <summary>MagicPath skill update for GitHub import across agents; borderline design tooling mention without artifact.</summary>
+    <content type="html"><![CDATA[<p>MagicPath skill update for GitHub import across agents; borderline design tooling mention without artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2061538581315735859">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f923f8c092c378ef</id>
+    <title>The first ever Config Makeathon is coming. June 4. $100K in prizes. Powered by @contra
+
+Bonus: pre-register by June 3 fo…</title>
+    <link rel="alternate" href="https://x.com/figma/status/2061533308232601987"/>
+    <published>2026-06-01T19:40:16+00:00</published>
+    <updated>2026-06-01T19:40:16+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="anthropic"/>
+    <summary>Figma Config Makeathon + $100K prizes + early access to Figma design agent beta—direct design-AI enablement event.</summary>
+    <content type="html"><![CDATA[<p>Figma Config Makeathon + $100K prizes + early access to Figma design agent beta—direct design-AI enablement event.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2061533308232601987">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2333cfbf728d8b04</id>
+    <title>2/3 Upload any svg or png for your logo, and any jpg or png for your image https://t.co/hqd6XMP6rs</title>
+    <link rel="alternate" href="https://x.com/framer/status/2061506695092941115"/>
+    <published>2026-06-01T17:54:31+00:00</published>
+    <updated>2026-06-01T17:54:31+00:00</updated>
+    <author><name>framer</name></author>
+    <category term="framer-ai"/>
+    <category term="ui-craft"/>
+    <summary>Framer logo/image upload feature teaser; design tool UX enhancement hinted but no full demo.</summary>
+    <content type="html"><![CDATA[<p>Framer logo/image upload feature teaser; design tool UX enhancement hinted but no full demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/framer/status/2061506695092941115">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9fe213534a6ec3d5</id>
+    <title>RT @orcdev: shadcn is not just about UI anymore, this latest update is crazy
+
+this is going to change how devs share cod…</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2061498807351996435"/>
+    <published>2026-06-01T17:23:11+00:00</published>
+    <updated>2026-06-01T17:23:11+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <summary>shadcn ecosystem expansion beyond UI components; relevant to design-system infrastructure Steven uses.</summary>
+    <content type="html"><![CDATA[<p>shadcn ecosystem expansion beyond UI components; relevant to design-system infrastructure Steven uses.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/shadcn/status/2061498807351996435">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:710827ddec80a934</id>
+    <title>We recently made Lovable apps server-side rendered, which means better default discoverability from search engines like …</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2061479573657985100"/>
+    <published>2026-06-01T16:06:45+00:00</published>
+    <updated>2026-06-01T16:06:45+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="frontend"/>
+    <category term="prototype"/>
+    <summary>Lovable rebuilds on TanStack Start for SSR; shipped UI-generation infrastructure improvement with architectural rationale.</summary>
+    <content type="html"><![CDATA[<p>Lovable rebuilds on TanStack Start for SSR; shipped UI-generation infrastructure improvement with architectural rationale.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2061479573657985100">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:4635663349322c1a</id>
     <title>If npm is for packaged code, a registry is for open code.
@@ -783,114 +878,5 @@ Production-grade DESIGN.md analysis …</title>
     <category term="prototype"/>
     <summary>Designer shares polished web UI shots from a voice agent ecosystem project—real artifact with visible craft and production quality.</summary>
     <content type="html"><![CDATA[<p>Designer shares polished web UI shots from a voice agent ecosystem project—real artifact with visible craft and production quality.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2059899752184270851">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9f989ce6e17b098e</id>
-    <title>Want your AI-generated UI to actually look good?
-
-→ getdesign.md
-
-Production-grade DESIGN.md analysis for coding agents.…</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2059869150408020392"/>
-    <published>2026-05-28T05:27:30+00:00</published>
-    <updated>2026-05-28T05:27:30+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <summary>Design.md extraction tool for AI agents—production-grade design patterns, tokens, and rules to improve AI-generated UI quality.</summary>
-    <content type="html"><![CDATA[<p>Design.md extraction tool for AI agents—production-grade design patterns, tokens, and rules to improve AI-generated UI quality.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2059869150408020392">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2b2ef352e664b16c</id>
-    <title>Why I don’t use icon fonts in Figma</title>
-    <link rel="alternate" href="https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts"/>
-    <published>2026-05-28T05:19:07+00:00</published>
-    <updated>2026-05-28T05:19:07+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Designer explains SVG-over-icon-fonts workflow in Figma—practical craft guidance for production design systems.</summary>
-    <content type="html"><![CDATA[<p>Designer explains SVG-over-icon-fonts workflow in Figma—practical craft guidance for production design systems.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://www.alicepackarddesign.com/blog/why-i-don-t-use-icon-fonts">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e553e7550a3ddc90</id>
-    <title>Figma Agent: a first look</title>
-    <link rel="alternate" href="https://www.shapes.gg/figma-agent-a-first-look/"/>
-    <published>2026-05-28T05:18:11+00:00</published>
-    <updated>2026-05-28T05:18:11+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="agent-sdk"/>
-    <category term="ui-craft"/>
-    <category term="analysis"/>
-    <summary>First look at Figma&#x27;s native AI agent — direct canvas integration for design generation. Core design tool for Steven&#x27;s workflow.</summary>
-    <content type="html"><![CDATA[<p>First look at Figma&#x27;s native AI agent — direct canvas integration for design generation. Core design tool for Steven&#x27;s workflow.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://www.shapes.gg/figma-agent-a-first-look/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:44268c7348fd81ef</id>
-    <title>added configurable color ink accents + thickness 🧑‍🍳
-
-again, the difference with this is that the output timing matches …</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2059780214347976914"/>
-    <published>2026-05-27T23:34:06+00:00</published>
-    <updated>2026-05-27T23:34:06+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>jh3yy adds configurable ink accent colors &amp; thickness to input smoothing UI—pure CSS/SVG craft with 1:1 input-output timing synchronization.</summary>
-    <content type="html"><![CDATA[<p>jh3yy adds configurable ink accent colors &amp; thickness to input smoothing UI—pure CSS/SVG craft with 1:1 input-output timing synchronization.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2059780214347976914">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:78fce2f7a9dd6268</id>
-    <title>GLips/Figma-Context-MCP — MCP server to provide Figma layout information to AI coding agents like Cursor</title>
-    <link rel="alternate" href="https://github.com/GLips/Figma-Context-MCP"/>
-    <published>2026-05-27T22:18:23Z</published>
-    <updated>2026-05-27T22:18:23Z</updated>
-    <author><name>GLips</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="cursor"/>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <summary>MCP server bridging Figma design data to AI coding agents (Cursor/Claude Code) — direct match to Steven&#x27;s installed figma-desktop MCP and designer-skills ecosystem.</summary>
-    <content type="html"><![CDATA[<p>MCP server bridging Figma design data to AI coding agents (Cursor/Claude Code) — direct match to Steven&#x27;s installed figma-desktop MCP and designer-skills ecosystem.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/GLips/Figma-Context-MCP">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:826652b53696eb3c</id>
-    <title>Anti-slop design skill for Claude Code
-
-https://t.co/Ygrb8d83cK https://t.co/6WcaaSIs3w</title>
-    <link rel="alternate" href="https://x.com/tom_doerr/status/2059755798348136908"/>
-    <published>2026-05-27T21:57:05+00:00</published>
-    <updated>2026-05-27T21:57:05+00:00</updated>
-    <author><name>tom_doerr</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="anti-slop"/>
-    <summary>New Claude Code skill targeting anti-AI-slop design patterns — directly matches Steven&#x27;s installed taste (pbakaus/impeccable) and top design-skill interests.</summary>
-    <content type="html"><![CDATA[<p>New Claude Code skill targeting anti-AI-slop design patterns — directly matches Steven&#x27;s installed taste (pbakaus/impeccable) and top design-skill interests.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/tom_doerr/status/2059755798348136908">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ebbd0ae42778cfca</id>
-    <title>How we made vector editing up to 10x faster, with @lbudorick 
-
-0:00 Intro 
-0:17 Instanced rendering 
-0:38 Fast path for …</title>
-    <link rel="alternate" href="https://x.com/figma/status/2059730421693518276"/>
-    <published>2026-05-27T20:16:15+00:00</published>
-    <updated>2026-05-27T20:16:15+00:00</updated>
-    <author><name>figma</name></author>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</summary>
-    <content type="html"><![CDATA[<p>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/figma/status/2059730421693518276">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
