@@ -5,8 +5,22 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-02T05:07:36+00:00</updated>
+  <updated>2026-06-02T10:27:37+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:52f7444c25fdd90b</id>
+    <title>RT @ridd_design: What makes a designer AI Native?
+
+@benblumenrose &#x27;s framing really stuck with @designertom 👇 https://t.…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2061606490579054725"/>
+    <published>2026-06-02T00:31:04+00:00</published>
+    <updated>2026-06-02T00:31:04+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Thread on what makes a designer AI-native; thoughtful framing on how designers work with AI tools.</summary>
+    <content type="html"><![CDATA[<p>Thread on what makes a designer AI-native; thoughtful framing on how designers work with AI tools.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2061606490579054725">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:26e8ea268abf8c74</id>
     <title>LekoArts/figma-theme-ui — Convert a Theme UI config to Figma Styles</title>
@@ -865,18 +879,5 @@ Production-grade DESIGN.md analysis …</title>
     <category term="frontend"/>
     <summary>Production API optimization for Claude: unsexy fixes (prompt caching, pruning, batch separation) delivered measurable latency &amp; cost wins. Practical engineering craft, not model chasing.</summary>
     <content type="html"><![CDATA[<p>Production API optimization for Claude: unsexy fixes (prompt caching, pruning, batch separation) delivered measurable latency &amp; cost wins. Practical engineering craft, not model chasing.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tpx1qn/what_actually_reduced_our_claude_api_pain_this/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2ab689164a62f450</id>
-    <title>Some shots from the recent web-design work done for a voice agent ecosystem. Love how it turned out https://t.co/DyvDMmW…</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2059899752184270851"/>
-    <published>2026-05-28T07:29:06+00:00</published>
-    <updated>2026-05-28T07:29:06+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Designer shares polished web UI shots from a voice agent ecosystem project—real artifact with visible craft and production quality.</summary>
-    <content type="html"><![CDATA[<p>Designer shares polished web UI shots from a voice agent ecosystem project—real artifact with visible craft and production quality.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2059899752184270851">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
