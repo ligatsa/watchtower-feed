@@ -5,7 +5,7 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-01T22:16:10+00:00</updated>
+  <updated>2026-06-02T03:26:44+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:4635663349322c1a</id>
@@ -149,6 +149,30 @@ Drop in a screenshot, t…</title>
     <content type="html"><![CDATA[<p>iOS design guide using Claude Code MCPs to ship a working app—concrete Claude+design workflow.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://heyneuma.com/xcode-for-designers">Read on sidebar →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5ef568899f5a7c5b</id>
+    <title>Designing for AI, the permalink problem, vibe designing</title>
+    <link rel="alternate" href="https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3?source=rss----138adf9c44c---4"/>
+    <published>2026-06-01T08:12:40+00:00</published>
+    <updated>2026-06-01T08:12:40+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="technique"/>
+    <summary>Directly addresses designing for AI agents and &#x27;vibe designing&#x27;—concrete design discipline angle with AI, though likely listicle format.</summary>
+    <content type="html"><![CDATA[<p>Directly addresses designing for AI agents and &#x27;vibe designing&#x27;—concrete design discipline angle with AI, though likely listicle format.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:44116d59d7dca667</id>
+    <title>Is your website ready for AI agents?</title>
+    <link rel="alternate" href="https://uxdesign.cc/is-your-website-ready-for-ai-agents-84272a6a96c1?source=rss----138adf9c44c---4"/>
+    <published>2026-06-01T08:10:07+00:00</published>
+    <updated>2026-06-01T08:10:07+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>AI agents as design constraint; practical UX shift that touches accessibility and bot-ready interfaces—actionable design pattern.</summary>
+    <content type="html"><![CDATA[<p>AI agents as design constraint; practical UX shift that touches accessibility and bot-ready interfaces—actionable design pattern.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/is-your-website-ready-for-ai-agents-84272a6a96c1?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:23aa2bff4452e744</id>
     <title>RT @kail_designs: Interactive Macbook keyboard component made with Claude Code. https://t.co/Wkc1hby04Y</title>
     <link rel="alternate" href="https://x.com/kail_designs/status/2061308479328190779"/>
@@ -242,6 +266,18 @@ And no, not disco-morphism lol. https://t.co/OXZIHvyqpQ</title>
     <category term="analysis"/>
     <summary>Video on new UI trends by respected design voice—solid design analysis but unclear specifics without watching.</summary>
     <content type="html"><![CDATA[<p>Video on new UI trends by respected design voice—solid design analysis but unclear specifics without watching.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2061084260459524227">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ab641049576075be</id>
+    <title>AI Token Scarcity and Arcade Economics</title>
+    <link rel="alternate" href="https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5?source=rss----138adf9c44c---4"/>
+    <published>2026-05-31T12:22:00+00:00</published>
+    <updated>2026-05-31T12:22:00+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Token costs reshaping design expectations and AI tool use; economics angle on designer workflows and tool choice.</summary>
+    <content type="html"><![CDATA[<p>Token costs reshaping design expectations and AI tool use; economics angle on designer workflows and tool choice.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:07ce25d4408e0e82</id>
@@ -433,6 +469,18 @@ I used this DESIGN.md: https://www.aura.build/design-systems/…</title>
     <category term="claude-code"/>
     <summary>MengTo demonstrates aura.build—a design-system-driven UI generation tool that preserves brand identity, typography, spacing, and motion across generated pages. Real workflow video + DESIGN.md context shows production-ready design+code integration.</summary>
     <content type="html"><![CDATA[<p>MengTo demonstrates aura.build—a design-system-driven UI generation tool that preserves brand identity, typography, spacing, and motion across generated pages. Real workflow video + DESIGN.md context shows production-ready design+code integration.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2060381022643196004">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7d4d8c0e37942356</id>
+    <title>How to help people who don’t read discover new features</title>
+    <link rel="alternate" href="https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb?source=rss----138adf9c44c---4"/>
+    <published>2026-05-29T11:09:43+00:00</published>
+    <updated>2026-05-29T11:09:43+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</summary>
+    <content type="html"><![CDATA[<p>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0bf6a75d0c78055b</id>
@@ -844,59 +892,5 @@ https://t.co/Ygrb8d83cK https://t.co/6WcaaSIs3w</title>
     <category term="anthropic"/>
     <summary>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</summary>
     <content type="html"><![CDATA[<p>Figma ships 10x vector editing performance gains (instanced rendering, fast-path drawing, hit testing). Direct craft improvement for Steven&#x27;s daily design tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/figma/status/2059730421693518276">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ddd159e587d928b7</id>
-    <title>gethopp/figma-mcp-bridge — Figma Plugin &amp; MCP server to bypass API limits</title>
-    <link rel="alternate" href="https://github.com/gethopp/figma-mcp-bridge"/>
-    <published>2026-05-27T20:03:23Z</published>
-    <updated>2026-05-27T20:03:23Z</updated>
-    <author><name>gethopp</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="plugin"/>
-    <summary>Figma plugin + MCP server that bypasses API limits—direct enabler for design-code workflows at scale.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin + MCP server that bypasses API limits—direct enabler for design-code workflows at scale.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/gethopp/figma-mcp-bridge">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c026aa68c39c8855</id>
-    <title>Has my app design actually improved?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1tpfjv5/has_my_app_design_actually_improved/"/>
-    <published>2026-05-27T19:14:57+00:00</published>
-    <updated>2026-05-27T19:14:57+00:00</updated>
-    <author><name>LikePinaColad</name></author>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <category term="prototype"/>
-    <summary>Designer iterating from AI-slop to hand-crafted design with real feedback loops — shows the design-taste journey Steven cares about. Concrete before/after with accessibility &amp; hierarchy concerns.</summary>
-    <content type="html"><![CDATA[<p>Designer iterating from AI-slop to hand-crafted design with real feedback loops — shows the design-taste journey Steven cares about. Concrete before/after with accessibility &amp; hierarchy concerns.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tpfjv5/has_my_app_design_actually_improved/">Read on reddit/r/UI_Design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:62cd4ee7f8fc5fe8</id>
-    <title>The Deployments list was one of the earliest views I built on the (zeit) platform. 
-
-One of the earliest &#x27;acid tests&#x27; of…</title>
-    <link rel="alternate" href="https://x.com/rauchg/status/2059683670609285188"/>
-    <published>2026-05-27T17:10:28+00:00</published>
-    <updated>2026-05-27T17:10:28+00:00</updated>
-    <author><name>rauchg</name></author>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <category term="anthropic"/>
-    <summary>Vercel&#x27;s Deployments UI redesign: a thoughtful look at balancing app dynamism with web speed, touching on Next.js as a framework acid test.</summary>
-    <content type="html"><![CDATA[<p>Vercel&#x27;s Deployments UI redesign: a thoughtful look at balancing app dynamism with web speed, touching on Next.js as a framework acid test.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/rauchg/status/2059683670609285188">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f39d0b670bcb885c</id>
-    <title>And if you want to skip AI for a bit and just chill and think about where digital products can be going in their UI, go …</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2059671449007218828"/>
-    <published>2026-05-27T16:21:54+00:00</published>
-    <updated>2026-05-27T16:21:54+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="ui-craft"/>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</summary>
-    <content type="html"><![CDATA[<p>Michal Malewicz&#x27;s UI design direction essay for 2026–2027 — thoughtful thinking on where digital product design is headed, directly relevant to Steven&#x27;s craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2059671449007218828">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
