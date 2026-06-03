@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8fb">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1d25">
 <title>Watchtower</title>
 <meta name="description" content="AI-assisted UI/UX design — the things worth knowing this week.">
 <link rel="alternate" type="application/atom+xml" title="Watchtower" href="https://ligatsa.github.io/watchtower-feed/atom.xml">
@@ -14,10 +16,11 @@
 
 <style>
   /* impeccable · two-pane triage console · register: product
-   * theme: light cool — faint blue-tinted paper · cool ink · cobalt-indigo accent
+   * theme: cool cobalt — light + dark, auto-follows prefers-color-scheme
    * structure: sidebar (identity · views · sources) + dense stream of triage rows
    */
   :root {
+    color-scheme: light dark;  /* native controls (scrollbars, search field) follow the OS theme */
     /* Light, cool-neutral. OKLCH; every neutral tinted toward blue (~255),
        one confident cobalt-indigo accent. */
     --color-paper:      oklch(0.985 0.004 250);  /* content surface */
@@ -51,6 +54,28 @@
     --dur: 160ms;
     --radius: 6px;
     --sidebar-w: 264px;
+  }
+
+  /* Dark — same cool cobalt identity, inverted lightness. Surfaces are deep
+     slate (tinted blue, never pure black); ink is a cool near-white; the accent
+     is lifted in lightness so it stays vivid on a dark ground. Auto-applies to
+     anyone whose device is set to dark; no toggle needed. */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-paper:      oklch(0.205 0.014 258);  /* deep cool slate base */
+      --color-paper-2:    oklch(0.245 0.016 258);  /* sidebar / raised panel */
+      --color-paper-3:    oklch(0.29 0.018 258);   /* row hover / active nav */
+      --color-ink:        oklch(0.94 0.010 250);   /* cool near-white */
+      --color-ink-2:      oklch(0.74 0.014 252);   /* secondary */
+      --color-ink-3:      oklch(0.60 0.016 255);   /* tertiary: meta, labels */
+      --color-rule:       oklch(0.33 0.018 258);   /* hairline */
+      --color-rule-soft:  oklch(0.27 0.016 258);   /* fainter hairline */
+      --color-accent:     oklch(0.72 0.15 256);    /* lifted cobalt — pops on dark */
+      --color-accent-2:   oklch(0.78 0.14 256);    /* exclude / error, visible on dark */
+      --color-accent-ink: oklch(0.16 0.02 258);    /* dark text on accent fills */
+      --color-focus:      oklch(0.72 0.15 256);
+      --color-shadow:     oklch(0 0 0 / 0.5);       /* deeper shadow on dark */
+    }
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -602,7 +627,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>585</strong> items</span>
-        <span>updated 2026-06-02T22:39:27+00:00</span>
+        <span>updated 2026-06-03T01:24:33+00:00</span>
         <span>min score 6</span>
         <span class="match-ct" id="searchCount"></span>
       </div>
