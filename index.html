@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8fb">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1d25">
+<script>
+  /* Resolve the theme BEFORE first paint to avoid a flash. Saved preference is
+     'auto' | 'light' | 'dark' (default auto = follow the device). */
+  (function () {
+    try {
+      var pref = localStorage.getItem('watchtower:theme') || 'auto';
+      var dark = pref === 'dark' ||
+        (pref !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    } catch (e) {}
+  })();
+</script>
 <title>Watchtower</title>
 <meta name="description" content="AI-assisted UI/UX design — the things worth knowing this week.">
 <link rel="alternate" type="application/atom+xml" title="Watchtower" href="https://ligatsa.github.io/watchtower-feed/atom.xml">
@@ -20,7 +32,7 @@
    * structure: sidebar (identity · views · sources) + dense stream of triage rows
    */
   :root {
-    color-scheme: light dark;  /* native controls (scrollbars, search field) follow the OS theme */
+    color-scheme: light;  /* dark variant sets its own; see :root[data-theme="dark"] */
     /* Light, cool-neutral. OKLCH; every neutral tinted toward blue (~255),
        one confident cobalt-indigo accent. */
     --color-paper:      oklch(0.985 0.004 250);  /* content surface */
@@ -58,24 +70,24 @@
 
   /* Dark — same cool cobalt identity, inverted lightness. Surfaces are deep
      slate (tinted blue, never pure black); ink is a cool near-white; the accent
-     is lifted in lightness so it stays vivid on a dark ground. Auto-applies to
-     anyone whose device is set to dark; no toggle needed. */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-paper:      oklch(0.205 0.014 258);  /* deep cool slate base */
-      --color-paper-2:    oklch(0.245 0.016 258);  /* sidebar / raised panel */
-      --color-paper-3:    oklch(0.29 0.018 258);   /* row hover / active nav */
-      --color-ink:        oklch(0.94 0.010 250);   /* cool near-white */
-      --color-ink-2:      oklch(0.74 0.014 252);   /* secondary */
-      --color-ink-3:      oklch(0.60 0.016 255);   /* tertiary: meta, labels */
-      --color-rule:       oklch(0.33 0.018 258);   /* hairline */
-      --color-rule-soft:  oklch(0.27 0.016 258);   /* fainter hairline */
-      --color-accent:     oklch(0.72 0.15 256);    /* lifted cobalt — pops on dark */
-      --color-accent-2:   oklch(0.78 0.14 256);    /* exclude / error, visible on dark */
-      --color-accent-ink: oklch(0.16 0.02 258);    /* dark text on accent fills */
-      --color-focus:      oklch(0.72 0.15 256);
-      --color-shadow:     oklch(0 0 0 / 0.5);       /* deeper shadow on dark */
-    }
+     is lifted in lightness so it stays vivid on a dark ground. Applied when the
+     resolved theme is dark — the head script sets data-theme from the saved
+     preference (Auto/Light/Dark), and Auto follows the device. */
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --color-paper:      oklch(0.205 0.014 258);  /* deep cool slate base */
+    --color-paper-2:    oklch(0.245 0.016 258);  /* sidebar / raised panel */
+    --color-paper-3:    oklch(0.29 0.018 258);   /* row hover / active nav */
+    --color-ink:        oklch(0.94 0.010 250);   /* cool near-white */
+    --color-ink-2:      oklch(0.74 0.014 252);   /* secondary */
+    --color-ink-3:      oklch(0.60 0.016 255);   /* tertiary: meta, labels */
+    --color-rule:       oklch(0.33 0.018 258);   /* hairline */
+    --color-rule-soft:  oklch(0.27 0.016 258);   /* fainter hairline */
+    --color-accent:     oklch(0.72 0.15 256);    /* lifted cobalt — pops on dark */
+    --color-accent-2:   oklch(0.78 0.14 256);    /* exclude / error, visible on dark */
+    --color-accent-ink: oklch(0.16 0.02 258);    /* dark text on accent fills */
+    --color-focus:      oklch(0.72 0.15 256);
+    --color-shadow:     oklch(0 0 0 / 0.5);       /* deeper shadow on dark */
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -246,6 +258,10 @@
     transition: color var(--dur) var(--ease-out), border-color var(--dur) var(--ease-out);
   }
   .prefs-bar .pref-action:hover { color: var(--color-ink); border-color: var(--color-ink-3); }
+  .prefs-bar .theme-toggle {
+    display: inline-flex; align-items: center; gap: var(--space-3xs);
+  }
+  .prefs-bar .theme-toggle .ic { width: 0.85rem; height: 0.85rem; }
 
   /* ── Stream (main) ──────────────────────────────────────── */
 
@@ -588,6 +604,9 @@
   <symbol id="i-exclude" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></symbol>
   <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></symbol>
 </svg>
 
 <div class="app">
@@ -617,6 +636,9 @@
         <span><strong id="lessCount">0</strong> down</span>
         <span><strong id="excludeCount">0</strong> excluded</span>
         <span id="syncStatus" class="sync-status">Sync: off</span>
+        <button class="pref-action theme-toggle" id="themeToggle" type="button" aria-label="Theme: cycle auto, light, dark">
+          <svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg><span id="themeLabel">Auto</span>
+        </button>
         <button class="pref-action" id="exportPrefs">Export</button>
         <button class="pref-action" id="clearPrefs">Clear all</button>
       </div>
@@ -627,7 +649,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>585</strong> items</span>
-        <span>updated 2026-06-03T01:24:33+00:00</span>
+        <span>updated 2026-06-03T01:36:49+00:00</span>
         <span>min score 6</span>
         <span class="match-ct" id="searchCount"></span>
       </div>
@@ -16046,7 +16068,46 @@ buildui.com/r…</a>
       EXCLUDE: 'watchtower:exclude',
       SAVED:   'watchtower:saved',
       SYNCURL: 'watchtower:sync_url',
+      THEME:   'watchtower:theme',
     };
+
+    // ── Theme toggle: Auto → Light → Dark. Auto follows the device; the head
+    // script already resolved data-theme to avoid a flash, so here we just wire
+    // the cycle, update the icon/label, and re-resolve when the OS flips. ──
+    (function () {
+      var THEMES = ['auto', 'light', 'dark'];
+      var ICON = { auto: '#i-monitor', light: '#i-sun', dark: '#i-moon' };
+      var btn = document.getElementById('themeToggle');
+      var label = document.getElementById('themeLabel');
+      var useEl = btn ? btn.querySelector('use') : null;
+      var pref;
+      try { pref = localStorage.getItem(K.THEME) || 'auto'; } catch (e) { pref = 'auto'; }
+      if (THEMES.indexOf(pref) < 0) pref = 'auto';
+
+      function isDark(p) {
+        return p === 'dark' ||
+          (p === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      function apply() {
+        document.documentElement.dataset.theme = isDark(pref) ? 'dark' : 'light';
+        if (useEl) useEl.setAttribute('href', ICON[pref]);
+        if (label) label.textContent = pref.charAt(0).toUpperCase() + pref.slice(1);
+      }
+      if (btn) {
+        btn.addEventListener('click', function () {
+          pref = THEMES[(THEMES.indexOf(pref) + 1) % THEMES.length];
+          try { localStorage.setItem(K.THEME, pref); } catch (e) {}
+          apply();
+        });
+      }
+      // While in Auto, follow live OS changes.
+      try {
+        matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+          if (pref === 'auto') apply();
+        });
+      } catch (e) {}
+      apply();
+    })();
 
     function loadJSON(k, def) {
       try { return JSON.parse(localStorage.getItem(k) || JSON.stringify(def)); }
