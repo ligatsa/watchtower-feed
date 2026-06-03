@@ -5,8 +5,61 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-03T10:50:55+00:00</updated>
+  <updated>2026-06-03T16:55:40+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:984f7f3e97f7cc17</id>
+    <title>Show HN: Nib, collaborative font editor on the web</title>
+    <link rel="alternate" href="https://nibfont.com/"/>
+    <published>2026-06-03T14:24:22+00:00</published>
+    <updated>2026-06-03T14:24:22+00:00</updated>
+    <author><name>johnnydamacha</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="ai-feature"/>
+    <summary>Nib: collaborative web font editor with AI glyph generation, Figma-like UX, and cursor chat—real design tool.</summary>
+    <content type="html"><![CDATA[<p>Nib: collaborative web font editor with AI glyph generation, Figma-like UX, and cursor chat—real design tool.</p><p><strong>Source:</strong> hackernews · <strong>Score:</strong> 7/10</p><p><a href="https://nibfont.com/">Read on hackernews →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0624333a8c630050</id>
+    <title>RT @kail_designs: Orbit Menu - One of my older interactions made with Paper and Claude https://t.co/zdq1jzJk4p</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2062095637827756390"/>
+    <published>2026-06-03T08:54:46+00:00</published>
+    <updated>2026-06-03T08:54:46+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Orbit Menu interaction built with Paper and Claude—polished micro-interaction example for design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Orbit Menu interaction built with Paper and Claude—polished micro-interaction example for design-to-code workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2062095637827756390">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:057a7dc2a741109b</id>
+    <title>Two LLM UI patterns that aren’t chat</title>
+    <link rel="alternate" href="https://poyo.co/note/20260525T094605/"/>
+    <published>2026-06-03T07:52:14+00:00</published>
+    <updated>2026-06-03T07:52:14+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Non-chat LLM UI patterns for context management—useful reference for designing AI-driven interfaces beyond chat.</summary>
+    <content type="html"><![CDATA[<p>Non-chat LLM UI patterns for context management—useful reference for designing AI-driven interfaces beyond chat.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://poyo.co/note/20260525T094605/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:985cf24bbd1ecab2</id>
+    <title>Motion vocabulary</title>
+    <link rel="alternate" href="https://animations.dev/vocabulary"/>
+    <published>2026-06-03T07:48:47+00:00</published>
+    <updated>2026-06-03T07:48:47+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Animation pattern glossary for briefing AI on motion—directly enables better animation-to-code prompting for Claude.</summary>
+    <content type="html"><![CDATA[<p>Animation pattern glossary for briefing AI on motion—directly enables better animation-to-code prompting for Claude.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://animations.dev/vocabulary">Read on sidebar →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:82b250bc55aaa913</id>
     <title>🆕 southleft/figma-console-mcp v1.30.0 — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</title>
@@ -183,6 +236,18 @@ Drop …</title>
     <category term="tool"/>
     <summary>Perspective mockup tool for Figma—automates tedious 3D mock perspective work, solid design efficiency gain.</summary>
     <content type="html"><![CDATA[<p>Perspective mockup tool for Figma—automates tedious 3D mock perspective work, solid design efficiency gain.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2061715931546767495">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7125d5f311d44f76</id>
+    <title>Brand Context API</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/brandfetch"/>
+    <published>2026-06-02T02:33:35-07:00</published>
+    <updated>2026-06-02T02:33:35-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Brand API for keeping AI-generated outputs on-brand; relevant to design-system consistency work but lacks concrete UI artifact or MCP angle.</summary>
+    <content type="html"><![CDATA[<p>Brand API for keeping AI-generated outputs on-brand; relevant to design-system consistency work but lacks concrete UI artifact or MCP angle.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/brandfetch">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:52f7444c25fdd90b</id>
@@ -755,84 +820,5 @@ I used this DESIGN.md: https://www.aura.build/design-systems/…</title>
     <category term="ui-craft"/>
     <summary>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</summary>
     <content type="html"><![CDATA[<p>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8cb28539d0889a75</id>
-    <title>New capabilities coming to Figma Make (Rolling out now in our Beta desktop app)
-
-→ Bring your codebase to Make
-→ Edit co…</title>
-    <link rel="alternate" href="https://x.com/figma/status/2060099693464478054"/>
-    <published>2026-05-28T20:43:36+00:00</published>
-    <updated>2026-05-28T20:43:36+00:00</updated>
-    <author><name>figma</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <category term="anthropic"/>
-    <summary>Figma Make now integrates codebases directly into design-to-code workflow with precise editing, branching, and shipping—a major leveling-up of design-engineer collaboration.</summary>
-    <content type="html"><![CDATA[<p>Figma Make now integrates codebases directly into design-to-code workflow with precise editing, branching, and shipping—a major leveling-up of design-engineer collaboration.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2060099693464478054">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:23cba6b63ef82020</id>
-    <title>Introducing v0’s new Figma integration.
-
-v0 can turn static Figma designs into functional UI, now with higher fidelity t…</title>
-    <link rel="alternate" href="https://x.com/v0/status/2060093495571108011"/>
-    <published>2026-05-28T20:18:58+00:00</published>
-    <updated>2026-05-28T20:18:58+00:00</updated>
-    <author><name>v0</name></author>
-    <category term="v0"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>v0&#x27;s Figma integration now reads layout, typography, components, icons, and images—direct Figma-to-code fidelity boost for production UI work.</summary>
-    <content type="html"><![CDATA[<p>v0&#x27;s Figma integration now reads layout, typography, components, icons, and images—direct Figma-to-code fidelity boost for production UI work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/v0/status/2060093495571108011">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:880ba789f535619a</id>
-    <title>Bottom nav / Menu concept made with Claude https://t.co/3N6biUGhBt</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2060051529835688054"/>
-    <published>2026-05-28T17:32:13+00:00</published>
-    <updated>2026-05-28T17:32:13+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <summary>Designer shares a bottom nav/menu UI concept built with Claude—real artifact with visual proof.</summary>
-    <content type="html"><![CDATA[<p>Designer shares a bottom nav/menu UI concept built with Claude—real artifact with visual proof.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060051529835688054">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ec8e98bfa1464fc0</id>
-    <title>You can now use Claude Opus 4.8 in v0.
-
-Try it at https://v0.app https://t.co/G76bQY89GD</title>
-    <link rel="alternate" href="https://x.com/v0/status/2060046416387657757"/>
-    <published>2026-05-28T17:11:54+00:00</published>
-    <updated>2026-05-28T17:11:54+00:00</updated>
-    <author><name>v0</name></author>
-    <category term="v0"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="anthropic"/>
-    <summary>v0 now supports Claude Opus 4.8—major model upgrade for AI-powered UI generation. Direct upgrade to Steven&#x27;s primary design tool.</summary>
-    <content type="html"><![CDATA[<p>v0 now supports Claude Opus 4.8—major model upgrade for AI-powered UI generation. Direct upgrade to Steven&#x27;s primary design tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2060046416387657757">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2f59cb3efc9f21cf</id>
-    <title>The Arena x MagicPath - Match 2 (Teams) hosted by @theJoshLoh
-
-Come watch agents and humans design side by side in a 2v2…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2060044362315362594"/>
-    <published>2026-05-28T17:03:44+00:00</published>
-    <updated>2026-05-28T17:03:44+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="designer-post"/>
-    <category term="claude-code"/>
-    <category term="analysis"/>
-    <summary>Live stream event: humans + AI agents collaborating on design in a team competition format. Real-time design workflow observation.</summary>
-    <content type="html"><![CDATA[<p>Live stream event: humans + AI agents collaborating on design in a team competition format. Real-time design workflow observation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2060044362315362594">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
