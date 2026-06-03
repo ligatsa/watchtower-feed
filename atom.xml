@@ -5,8 +5,62 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-03T01:46:55+00:00</updated>
+  <updated>2026-06-03T04:45:04+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:82b250bc55aaa913</id>
+    <title>🆕 southleft/figma-console-mcp v1.30.0 — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</title>
+    <link rel="alternate" href="https://github.com/southleft/figma-console-mcp"/>
+    <published>2026-06-03T04:40:31.344048+00:00</published>
+    <updated>2026-06-03T04:40:31.344048+00:00</updated>
+    <author><name>southleft</name></author>
+    <category term="mcp"/>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="anthropic"/>
+    <summary>Figma-as-API MCP by known author (southleft) enables design-system extraction, creation, and debugging via Claude — direct design→code pipeline.</summary>
+    <content type="html"><![CDATA[<p>Figma-as-API MCP by known author (southleft) enables design-system extraction, creation, and debugging via Claude — direct design→code pipeline.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/southleft/figma-console-mcp">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5a20e82d91945f86</id>
+    <title>AI-created document fatigue: how I designed my way out of it</title>
+    <link rel="alternate" href="https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669?source=rss----138adf9c44c---4"/>
+    <published>2026-06-02T21:53:50+00:00</published>
+    <updated>2026-06-02T21:53:50+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <summary>Designer tackles AI document fatigue through UX redesign; clear design problem solved with thoughtful surface work.</summary>
+    <content type="html"><![CDATA[<p>Designer tackles AI document fatigue through UX redesign; clear design problem solved with thoughtful surface work.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f409eee844922e61</id>
+    <title>Orbit Menu - One of my older interactions made with Paper and Claude https://t.co/zdq1jzJk4p</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2061869530360815979"/>
+    <published>2026-06-02T17:56:18+00:00</published>
+    <updated>2026-06-02T17:56:18+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <summary>Hand-crafted orbit menu interaction built with Paper and Claude; polished motion design with working prototype.</summary>
+    <content type="html"><![CDATA[<p>Hand-crafted orbit menu interaction built with Paper and Claude; polished motion design with working prototype.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2061869530360815979">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a27f2c2428d45afc</id>
+    <title>&quot;Don&#x27;t Slop Yourself into a Corner&quot; - Peter Steinberger on Lex Fridman Podcast
+
+Refactoring keeps your app the same on t…</title>
+    <link rel="alternate" href="https://x.com/boltdotnew/status/2061863929471529063"/>
+    <published>2026-06-02T17:34:03+00:00</published>
+    <updated>2026-06-02T17:34:03+00:00</updated>
+    <author><name>boltdotnew</name></author>
+    <category term="bolt"/>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>Peter Steinberger refactoring wisdom for Bolt; anti-slop, maintainability-focused design craft with tutorial.</summary>
+    <content type="html"><![CDATA[<p>Peter Steinberger refactoring wisdom for Bolt; anti-slop, maintainability-focused design craft with tutorial.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/boltdotnew/status/2061863929471529063">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:cbb84f67a4304770</id>
     <title>🆕 nexu-io/open-design open-design-v0.9.0 — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ </title>
@@ -780,61 +834,5 @@ Come watch agents and humans design side by side in a 2v2…</title>
     <category term="analysis"/>
     <summary>Live stream event: humans + AI agents collaborating on design in a team competition format. Real-time design workflow observation.</summary>
     <content type="html"><![CDATA[<p>Live stream event: humans + AI agents collaborating on design in a team competition format. Real-time design workflow observation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2060044362315362594">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5704e4389e45d340</id>
-    <title>Lovable now supports Claude Opus 4.8. https://t.co/EM3NxZjLw1</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2060044304140386550"/>
-    <published>2026-05-28T17:03:30+00:00</published>
-    <updated>2026-05-28T17:03:30+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <summary>Lovable adds Claude Opus 4.8 support, enabling faster AI-powered UI generation for production design work.</summary>
-    <content type="html"><![CDATA[<p>Lovable adds Claude Opus 4.8 support, enabling faster AI-powered UI generation for production design work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2060044304140386550">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cd397bb20c2dd5a9</id>
-    <title>I watched the team dream up a static design with AI, then bring it to life in WebGPU shaders in less than a day.
-
-How ca…</title>
-    <link rel="alternate" href="https://x.com/rauchg/status/2060039205561254097"/>
-    <published>2026-05-28T16:43:14+00:00</published>
-    <updated>2026-05-28T16:43:14+00:00</updated>
-    <author><name>rauchg</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Design → WebGPU shader implementation in &lt;24h with AI. Vercel/rauchg workflow demo showing real artifact and craft velocity.</summary>
-    <content type="html"><![CDATA[<p>Design → WebGPU shader implementation in &lt;24h with AI. Vercel/rauchg workflow demo showing real artifact and craft velocity.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/rauchg/status/2060039205561254097">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:769992145fb57d40</id>
-    <title>Plugin that generates expert UX copy. Built for Designers / PM / Developers - FREE</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1tq6p2j/plugin_that_generates_expert_ux_copy_built_for/"/>
-    <published>2026-05-28T15:20:01+00:00</published>
-    <updated>2026-05-28T15:20:01+00:00</updated>
-    <author><name>Old-Wolf-2491</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Figma plugin that generates polished UX microcopy in-context—bridges design-to-copy workflow gap, useful for Steven&#x27;s design+code practice.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that generates polished UX microcopy in-context—bridges design-to-copy workflow gap, useful for Steven&#x27;s design+code practice.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1tq6p2j/plugin_that_generates_expert_ux_copy_built_for/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6653e0b09fed5bbe</id>
-    <title>I&#x27;ve used AI to help navigate new software and I always end up wanting the same thing: tell me what to click, don&#x27;t click it for me.</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tq4rpm/ive_used_ai_to_help_navigate_new_software_and_i/"/>
-    <published>2026-05-28T14:09:45+00:00</published>
-    <updated>2026-05-28T14:09:45+00:00</updated>
-    <author><name>Strangerlive17111</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Designer articulates the UX of AI assistance: preference for guided narration over autonomous agents. High signal for Steven&#x27;s interest in AI-augmented design workflows and human-centered tool design.</summary>
-    <content type="html"><![CDATA[<p>Designer articulates the UX of AI assistance: preference for guided narration over autonomous agents. High signal for Steven&#x27;s interest in AI-augmented design workflows and human-centered tool design.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tq4rpm/ive_used_ai_to_help_navigate_new_software_and_i/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
 </feed>
