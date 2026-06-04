@@ -5,8 +5,190 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-04T20:22:30+00:00</updated>
+  <updated>2026-06-04T23:24:52+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8597f742fa31b587</id>
+    <title>RT @ridd_design: ~12 min of Claude Code tips for designers
+
+(straight from the design lead @meaghaneschoi)
+
+here&#x27;s her d…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2062658426581184622"/>
+    <published>2026-06-04T22:11:05+00:00</published>
+    <updated>2026-06-04T22:11:05+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>12-min Claude Code tips from Anthropic design lead; concrete workflow video for designers.</summary>
+    <content type="html"><![CDATA[<p>12-min Claude Code tips from Anthropic design lead; concrete workflow video for designers.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2062658426581184622">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9bb35c7db4e96848</id>
+    <title>With canvases, Cursor can create apps like dashboards, reports, and internal tools.
+
+Now you can publish a canvas and sh…</title>
+    <link rel="alternate" href="https://x.com/cursor_ai/status/2062611883249783083"/>
+    <published>2026-06-04T19:06:09+00:00</published>
+    <updated>2026-06-04T19:06:09+00:00</updated>
+    <author><name>cursor_ai</name></author>
+    <category term="cursor"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Cursor canvas publishing feature for dashboards/apps; light design UI-build value.</summary>
+    <content type="html"><![CDATA[<p>Cursor canvas publishing feature for dashboards/apps; light design UI-build value.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/cursor_ai/status/2062611883249783083">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a49285fea7cf1dee</id>
+    <title>https://figma.bot/ConfigMakeathon-TW</title>
+    <link rel="alternate" href="https://x.com/figma/status/2062610956455165954"/>
+    <published>2026-06-04T19:02:28+00:00</published>
+    <updated>2026-06-04T19:02:28+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="anthropic"/>
+    <summary>Figma Config Makeathon event — direct announcement of design-focused event with potential for new design tooling launches.</summary>
+    <content type="html"><![CDATA[<p>Figma Config Makeathon event — direct announcement of design-focused event with potential for new design tooling launches.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/figma/status/2062610956455165954">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ad674b9b79bb6d0d</id>
+    <title>Design matters now more than ever.
+
+The Config Makeathon starts now. https://t.co/JcyPZJsmLf</title>
+    <link rel="alternate" href="https://x.com/figma/status/2062610954626490422"/>
+    <published>2026-06-04T19:02:27+00:00</published>
+    <updated>2026-06-04T19:02:27+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <summary>Figma Config Makeathon kickoff — broad design event signal, no concrete artifact or tool detail yet.</summary>
+    <content type="html"><![CDATA[<p>Figma Config Makeathon kickoff — broad design event signal, no concrete artifact or tool detail yet.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/figma/status/2062610954626490422">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d352861713952988</id>
+    <title>RT @sergushkincom: @shadcn just shipped 3 QoL improvements for registry builders:
+
+→ `include` - split large registries …</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2062583785435156939"/>
+    <published>2026-06-04T17:14:30+00:00</published>
+    <updated>2026-06-04T17:14:30+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <category term="mcp"/>
+    <category term="registry"/>
+    <summary>shadcn ships registry builder QoL — include, split large registries. Direct design-token/component registry tooling.</summary>
+    <content type="html"><![CDATA[<p>shadcn ships registry builder QoL — include, split large registries. Direct design-token/component registry tooling.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2062583785435156939">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:41d1ab311b4f6cc7</id>
+    <title>PercentProduction/figma-console-mcp-skills-347 — The most powerful Figma Console MCP capabilities, repackaged as Markdown skills for the native Figma MCP server — design</title>
+    <link rel="alternate" href="https://github.com/PercentProduction/figma-console-mcp-skills-347"/>
+    <published>2026-06-04T16:53:24Z</published>
+    <updated>2026-06-04T16:53:24Z</updated>
+    <author><name>PercentProduction</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="design-system"/>
+    <category term="skill"/>
+    <category term="figma-mcp"/>
+    <summary>Figma Console MCP repackaged as skills — design tokens, variables, component analysis, a11y audits. Direct design-system governance MCP.</summary>
+    <content type="html"><![CDATA[<p>Figma Console MCP repackaged as skills — design tokens, variables, component analysis, a11y audits. Direct design-system governance MCP.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/PercentProduction/figma-console-mcp-skills-347">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b9c163468f14c084</id>
+    <title>Check Designs: Keep every file synced to your design system with
+
+→ Variable &amp;amp; style suggestions
+→ Color contrast su…</title>
+    <link rel="alternate" href="https://x.com/figma/status/2062569805102850420"/>
+    <published>2026-06-04T16:18:56+00:00</published>
+    <updated>2026-06-04T16:18:56+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="figma-make"/>
+    <summary>Figma Check Designs — variable/style suggestions, color contrast, library mismatch, component detection. Direct design-system audit tool.</summary>
+    <content type="html"><![CDATA[<p>Figma Check Designs — variable/style suggestions, color contrast, library mismatch, component detection. Direct design-system audit tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/figma/status/2062569805102850420">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c913dd274f95185b</id>
+    <title>~12 min of Claude Code tips for designers
+
+(straight from the design lead @meaghaneschoi)
+
+here&#x27;s her demo from Dive Clu…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2062567075206283590"/>
+    <published>2026-06-04T16:08:06+00:00</published>
+    <updated>2026-06-04T16:08:06+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <category term="skill"/>
+    <summary>Meaghan Eschoi (Claude Design lead) ~12 min Claude Code tips for designers, practical demo. Direct design-agent technique from insider.</summary>
+    <content type="html"><![CDATA[<p>Meaghan Eschoi (Claude Design lead) ~12 min Claude Code tips for designers, practical demo. Direct design-agent technique from insider.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/ridd_design/status/2062567075206283590">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0b1431f4933b61da</id>
+    <title>You can quickly test the design system workflow on http://aura.build
+
+Templates mentioned:
+http://sequra-fintech.aura.bu…</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2062545590987497845"/>
+    <published>2026-06-04T14:42:43+00:00</published>
+    <updated>2026-06-04T14:42:43+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="design-system"/>
+    <category term="aura"/>
+    <category term="impeccable"/>
+    <category term="taste-skill"/>
+    <summary>Design system workflow demo with Aura.build templates + references to Impeccable, Design.md, and Taste Skill—directly tied to Steven&#x27;s installed taste stack.</summary>
+    <content type="html"><![CDATA[<p>Design system workflow demo with Aura.build templates + references to Impeccable, Design.md, and Taste Skill—directly tied to Steven&#x27;s installed taste stack.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2062545590987497845">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5588ec793bc35651</id>
+    <title>Made this in 5 mins with http://perspectivemock.vercel.app https://t.co/Oqx8j1Q5Jg</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2062533528106254456"/>
+    <published>2026-06-04T13:54:47+00:00</published>
+    <updated>2026-06-04T13:54:47+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="prototype"/>
+    <category term="tool"/>
+    <summary>Quick perspective mockup tool demo with visual output; light but concrete design artifact.</summary>
+    <content type="html"><![CDATA[<p>Quick perspective mockup tool demo with visual output; light but concrete design artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/kail_designs/status/2062533528106254456">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2cf14b7aeb0c2a63</id>
+    <title>RT @felixhhaas: Building design tools in @Lovable
+
+Introducing our new in-house Connectors tool. Built entirely by one p…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2062527361782861955"/>
+    <published>2026-06-04T13:30:17+00:00</published>
+    <updated>2026-06-04T13:30:17+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="design-system"/>
+    <category term="tool"/>
+    <summary>Lovable built an in-house design Connectors tool; concrete design-system/tooling artifact from known author.</summary>
+    <content type="html"><![CDATA[<p>Lovable built an in-house design Connectors tool; concrete design-system/tooling artifact from known author.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2062527361782861955">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:fdfedf475e953740</id>
+    <title>THIS VIDEO SHOWS 3 CLAUDE SKILLS THAT TURN AI DESIGN FROM GENERIC SLOP INTO STUDIO-QUALITY WORK
+
+While most people are s…</title>
+    <link rel="alternate" href="https://x.com/bonsaixbt/status/2062522466434474167"/>
+    <published>2026-06-04T13:10:50+00:00</published>
+    <updated>2026-06-04T13:10:50+00:00</updated>
+    <author><name>bonsaixbt</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="anti-slop"/>
+    <category term="technique"/>
+    <summary>Anti-slop skill stack (Frontend Design, UI/UX Pro Max, Canvas Design) with article on 2026 design workflow—matches Steven&#x27;s taste for anti-AI-slop craft skills.</summary>
+    <content type="html"><![CDATA[<p>Anti-slop skill stack (Frontend Design, UI/UX Pro Max, Canvas Design) with article on 2026 design workflow—matches Steven&#x27;s taste for anti-AI-slop craft skills.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/bonsaixbt/status/2062522466434474167">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:17bfe3831d2470f4</id>
     <title>I recorded a 22-min tutorial on how to avoid AI slop for your landing pages https://t.co/PVVmwecxjK</title>
@@ -34,6 +216,66 @@
     <category term="ui-craft"/>
     <summary>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</summary>
     <content type="html"><![CDATA[<p>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/xiaolinbythesea/status/2062447379098517799">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f45725d0a3dffc1d</id>
+    <title>Designing how designers master AI</title>
+    <link rel="alternate" href="https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945"/>
+    <published>2026-06-04T07:48:13+00:00</published>
+    <updated>2026-06-04T07:48:13+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:51034334feef5fb2</id>
+    <title>The speed of prototyping in the age of AI</title>
+    <link rel="alternate" href="https://darylcecile.net/notes/speed-of-prototyping-age-of-ai"/>
+    <published>2026-06-04T07:46:55+00:00</published>
+    <updated>2026-06-04T07:46:55+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Personal essay on how AI accelerates prototyping and shipping while staying hands-on—reflects thoughtful designer practice with AI.</summary>
+    <content type="html"><![CDATA[<p>Personal essay on how AI accelerates prototyping and shipping while staying hands-on—reflects thoughtful designer practice with AI.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://darylcecile.net/notes/speed-of-prototyping-age-of-ai">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:44ee42476964e439</id>
+    <title>Building for voice In, visuals out</title>
+    <link rel="alternate" href="https://allenpike.com/2026/voice-in-visuals-out/"/>
+    <published>2026-06-04T07:45:45+00:00</published>
+    <updated>2026-06-04T07:45:45+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Voice-to-visuals interaction design thinking; thoughtful UX essay on latency &amp; real-time UI.</summary>
+    <content type="html"><![CDATA[<p>Voice-to-visuals interaction design thinking; thoughtful UX essay on latency &amp; real-time UI.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://allenpike.com/2026/voice-in-visuals-out/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8fd948cd176df3bc</id>
+    <title>Claude Code 使って、実サイトデザインを Figma で再現したい方
+
+◯ この３つがおすすめ
+
+- Chrome DevTools MCP
+- Figma MCP
+- スタイルガイドライン
+
+詳しい設定方法（スキル、スタイルガイ…</title>
+    <link rel="alternate" href="https://x.com/commte/status/2062369128728690794"/>
+    <published>2026-06-04T03:01:31+00:00</published>
+    <updated>2026-06-04T03:01:31+00:00</updated>
+    <author><name>commte</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="figma-make"/>
+    <category term="technique"/>
+    <category term="claude-code"/>
+    <summary>Claude Code + Figma MCP + Chrome DevTools for design-to-code parity—direct production workflow Steven uses.</summary>
+    <content type="html"><![CDATA[<p>Claude Code + Figma MCP + Chrome DevTools for design-to-code parity—direct production workflow Steven uses.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/commte/status/2062369128728690794">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8298a837c5710dbe</id>
@@ -636,217 +878,5 @@ button:active {
     <category term="frontend"/>
     <summary>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</summary>
     <content type="html"><![CDATA[<p>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/jh3yy/status/2061453469995679910">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:53d4a144002f7b19</id>
-    <title>To get good animations from an AI you need to get good at telling it what you want:
-
-- &quot;stagger this list of items&quot;
-- &quot;m…</title>
-    <link rel="alternate" href="https://x.com/emilkowalski/status/2061426518333571576"/>
-    <published>2026-06-01T12:35:56+00:00</published>
-    <updated>2026-06-01T12:35:56+00:00</updated>
-    <author><name>emilkowalski</name></author>
-    <category term="animation"/>
-    <category term="motion"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Emil Kowalski&#x27;s motion vocabulary for AI animations—stagger, direction-aware, spatial consistency; teaches design craft language for agentic UI.</summary>
-    <content type="html"><![CDATA[<p>Emil Kowalski&#x27;s motion vocabulary for AI animations—stagger, direction-aware, spatial consistency; teaches design craft language for agentic UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/emilkowalski/status/2061426518333571576">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0ec593ff2c4c64f1</id>
-    <title>founded-labs/react-native-reusables — Bringing shadcn/ui to React Native. Beautifully crafted components with Nativewind/Uniwind, open source, and almost as e</title>
-    <link rel="alternate" href="https://github.com/founded-labs/react-native-reusables"/>
-    <published>2026-06-01T11:53:21Z</published>
-    <updated>2026-06-01T11:53:21Z</updated>
-    <author><name>founded-labs</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <summary>shadcn/ui ported to React Native with 8k+ stars; production-quality components for mobile UI craft.</summary>
-    <content type="html"><![CDATA[<p>shadcn/ui ported to React Native with 8k+ stars; production-quality components for mobile UI craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/founded-labs/react-native-reusables">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1445fedf8d675cda</id>
-    <title>Spent 20 mins faking a perspective mockup in Figma?
-
-Stop.
-
-→ http://perspectivemock.vercel.app
-
-Drop in a screenshot, t…</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2061406998311362981"/>
-    <published>2026-06-01T11:18:22+00:00</published>
-    <updated>2026-06-01T11:18:22+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="prototype"/>
-    <category term="tool"/>
-    <category term="design-craft"/>
-    <category term="figma"/>
-    <summary>perspectivemock.vercel.app—drop screenshot, 3D tilt, keyframe animation, MP4 export; solves real design mockup workflow.</summary>
-    <content type="html"><![CDATA[<p>perspectivemock.vercel.app—drop screenshot, 3D tilt, keyframe animation, MP4 export; solves real design mockup workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2061406998311362981">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ed09a6c78bc2b9b2</id>
-    <title>pdf.to.design: static PDF → editable Figma design</title>
-    <link rel="alternate" href="https://bit.ly/side-div5"/>
-    <published>2026-06-01T08:21:00+00:00</published>
-    <updated>2026-06-01T08:21:00+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>PDF-to-Figma converter with editable layers, text extraction, and local processing—direct design artifact generation tool.</summary>
-    <content type="html"><![CDATA[<p>PDF-to-Figma converter with editable layers, text extraction, and local processing—direct design artifact generation tool.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://bit.ly/side-div5">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0225ac8104b91405</id>
-    <title>A designer’s guide to opening Xcode for the first time</title>
-    <link rel="alternate" href="https://heyneuma.com/xcode-for-designers"/>
-    <published>2026-06-01T08:19:56+00:00</published>
-    <updated>2026-06-01T08:19:56+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="claude-code"/>
-    <category term="mcp"/>
-    <category term="ui-craft"/>
-    <category term="skill"/>
-    <summary>iOS design guide using Claude Code MCPs to ship a working app—concrete Claude+design workflow.</summary>
-    <content type="html"><![CDATA[<p>iOS design guide using Claude Code MCPs to ship a working app—concrete Claude+design workflow.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://heyneuma.com/xcode-for-designers">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5ef568899f5a7c5b</id>
-    <title>Designing for AI, the permalink problem, vibe designing</title>
-    <link rel="alternate" href="https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3?source=rss----138adf9c44c---4"/>
-    <published>2026-06-01T08:12:40+00:00</published>
-    <updated>2026-06-01T08:12:40+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <summary>Directly addresses designing for AI agents and &#x27;vibe designing&#x27;—concrete design discipline angle with AI, though likely listicle format.</summary>
-    <content type="html"><![CDATA[<p>Directly addresses designing for AI agents and &#x27;vibe designing&#x27;—concrete design discipline angle with AI, though likely listicle format.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:44116d59d7dca667</id>
-    <title>Is your website ready for AI agents?</title>
-    <link rel="alternate" href="https://uxdesign.cc/is-your-website-ready-for-ai-agents-84272a6a96c1?source=rss----138adf9c44c---4"/>
-    <published>2026-06-01T08:10:07+00:00</published>
-    <updated>2026-06-01T08:10:07+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>AI agents as design constraint; practical UX shift that touches accessibility and bot-ready interfaces—actionable design pattern.</summary>
-    <content type="html"><![CDATA[<p>AI agents as design constraint; practical UX shift that touches accessibility and bot-ready interfaces—actionable design pattern.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/is-your-website-ready-for-ai-agents-84272a6a96c1?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:23aa2bff4452e744</id>
-    <title>RT @kail_designs: Interactive Macbook keyboard component made with Claude Code. https://t.co/Wkc1hby04Y</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2061308479328190779"/>
-    <published>2026-06-01T04:46:53+00:00</published>
-    <updated>2026-06-01T04:46:53+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="frontend"/>
-    <summary>Interactive Macbook keyboard component built in Claude Code—working polished UI component with visual artifact.</summary>
-    <content type="html"><![CDATA[<p>Interactive Macbook keyboard component built in Claude Code—working polished UI component with visual artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2061308479328190779">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0e85ffce77a8a549</id>
-    <title>・Figma MCPを噛ませたLP実装
-・Notion MCPを噛ませて戦略をこねて、戦略が具体化した段階で会社営業資料のたたきをFigma Designで作成
-・対話をしながら思考しているのでワークスロップを減少しながら具体化を爆速ででき…</title>
-    <link rel="alternate" href="https://x.com/marumi_design/status/2061262943153693164"/>
-    <published>2026-06-01T01:45:56+00:00</published>
-    <updated>2026-06-01T01:45:56+00:00</updated>
-    <author><name>marumi_design</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Figma MCP + Notion MCP workflow for rapid LP and pitch-deck design with reduced workshops—real production design system method.</summary>
-    <content type="html"><![CDATA[<p>Figma MCP + Notion MCP workflow for rapid LP and pitch-deck design with reduced workshops—real production design system method.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/marumi_design/status/2061262943153693164">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:081de7fae1fd50a8</id>
-    <title>Check it out live:
-https://mac-keyboard-demo.vercel.app/</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2061144230115025152"/>
-    <published>2026-05-31T17:54:13+00:00</published>
-    <updated>2026-05-31T17:54:13+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Interactive Macbook keyboard demo (live link)—polished UI component, visual craft, Claude Code built.</summary>
-    <content type="html"><![CDATA[<p>Interactive Macbook keyboard demo (live link)—polished UI component, visual craft, Claude Code built.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2061144230115025152">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:675af5ef7c2c2085</id>
-    <title>Interactive Macbook keyboard component made with Claude Code. https://t.co/Wkc1hby04Y</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2061134976780001704"/>
-    <published>2026-05-31T17:17:27+00:00</published>
-    <updated>2026-05-31T17:17:27+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Interactive Macbook keyboard component built with Claude Code—polished UI component with video/demo, direct design-craft match.</summary>
-    <content type="html"><![CDATA[<p>Interactive Macbook keyboard component built with Claude Code—polished UI component with video/demo, direct design-craft match.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/kail_designs/status/2061134976780001704">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6f783bd8a8f52ee5</id>
-    <title>Paint By JSON | Figma API Client</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma"/>
-    <published>2026-05-31T14:45:07-07:00</published>
-    <updated>2026-05-31T14:45:07-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin to populate mockups with real API data; bridges design→data workflow.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin to populate mockups with real API data; bridges design→data workflow.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:862113271e436930</id>
-    <title>Recorded a video on two exciting new UI trends.
-And no, not disco-morphism lol. https://t.co/OXZIHvyqpQ</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2061084260459524227"/>
-    <published>2026-05-31T13:55:55+00:00</published>
-    <updated>2026-05-31T13:55:55+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="ui-craft"/>
-    <category term="analysis"/>
-    <summary>Video on new UI trends by respected design voice—solid design analysis but unclear specifics without watching.</summary>
-    <content type="html"><![CDATA[<p>Video on new UI trends by respected design voice—solid design analysis but unclear specifics without watching.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2061084260459524227">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ab641049576075be</id>
-    <title>AI Token Scarcity and Arcade Economics</title>
-    <link rel="alternate" href="https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5?source=rss----138adf9c44c---4"/>
-    <published>2026-05-31T12:22:00+00:00</published>
-    <updated>2026-05-31T12:22:00+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Token costs reshaping design expectations and AI tool use; economics angle on designer workflows and tool choice.</summary>
-    <content type="html"><![CDATA[<p>Token costs reshaping design expectations and AI tool use; economics angle on designer workflows and tool choice.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:07ce25d4408e0e82</id>
-    <title>MariusYvard/NullToHero — Claude Cowork plugin for Website Builder · Design + SEO toolkit · v1.5.0 · 3 skills · 47 commands · 82 reference docs · </title>
-    <link rel="alternate" href="https://github.com/MariusYvard/NullToHero"/>
-    <published>2026-05-30T21:57:21Z</published>
-    <updated>2026-05-30T21:57:21Z</updated>
-    <author><name>MariusYvard</name></author>
-    <category term="claude-code"/>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</summary>
-    <content type="html"><![CDATA[<p>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/MariusYvard/NullToHero">Read on github →</a></p>]]></content>
   </entry>
 </feed>
