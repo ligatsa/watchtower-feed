@@ -5,8 +5,154 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-03T23:01:52+00:00</updated>
+  <updated>2026-06-04T05:07:35+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8298a837c5710dbe</id>
+    <title>RT @ridd_design: collaborating with the content team is 10x harder if you&#x27;re not in Figma&#x27;s canvas anymore...
+
+so @andym…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2062331153500283052"/>
+    <published>2026-06-04T00:30:37+00:00</published>
+    <updated>2026-06-04T00:30:37+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="ui-craft"/>
+    <summary>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</summary>
+    <content type="html"><![CDATA[<p>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2062331153500283052">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:653f71fc39768bcf</id>
+    <title>Here&#x27;s how I avoid these:
+
+- Don&#x27;t use GPT 5.5 to start a design
+- Always use an image reference or site url
+- Never pro…</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2062316667024371982"/>
+    <published>2026-06-03T23:33:04+00:00</published>
+    <updated>2026-06-03T23:33:04+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="skill"/>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <summary>Anti-AI-slop design rules (taste skill, DESIGN.md, AGENTS.md); directly echoes Steven&#x27;s installed taste tools.</summary>
+    <content type="html"><![CDATA[<p>Anti-AI-slop design rules (taste skill, DESIGN.md, AGENTS.md); directly echoes Steven&#x27;s installed taste tools.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2062316667024371982">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b322361a30444a80</id>
+    <title>configurable transition strips™
+
+view transitions + css clip-path → copy to clipboard
+
+use for page transitions, theme s…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2062294655077597380"/>
+    <published>2026-06-03T22:05:36+00:00</published>
+    <updated>2026-06-03T22:05:36+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="frontend"/>
+    <summary>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</summary>
+    <content type="html"><![CDATA[<p>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2062294655077597380">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:89960880e5da6eef</id>
+    <title>Hallmark v1.1 is out 🎉
+
+The open source design skill for beautiful UIs. Now with new themes, better designs, more AI slo…</title>
+    <link rel="alternate" href="https://x.com/nutlope/status/2062226108154618268"/>
+    <published>2026-06-03T17:33:13+00:00</published>
+    <updated>2026-06-03T17:33:13+00:00</updated>
+    <author><name>nutlope</name></author>
+    <category term="skill"/>
+    <category term="mcp"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="anti-slop"/>
+    <summary>Hallmark v1.1 design skill with 4 new themes, anti-AI-slop gates, custom mode, hand-built SVGs—same-flavor taste match.</summary>
+    <content type="html"><![CDATA[<p>Hallmark v1.1 design skill with 4 new themes, anti-AI-slop gates, custom mode, hand-built SVGs—same-flavor taste match.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/nutlope/status/2062226108154618268">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:eb19f683d2616d18</id>
+    <title>▲ + ❄️ 
+
+Generating frontends on top of your business data is one of the killer apps of coding AI. 
+
+The genie is out of…</title>
+    <link rel="alternate" href="https://x.com/rauchg/status/2062199585322529108"/>
+    <published>2026-06-03T15:47:49+00:00</published>
+    <updated>2026-06-03T15:47:49+00:00</updated>
+    <author><name>rauchg</name></author>
+    <category term="v0"/>
+    <category term="frontend"/>
+    <category term="prototype"/>
+    <category term="anthropic"/>
+    <summary>Vercel + v0 generating frontends from business data using Snowflake—concrete AI→UI generator showcasing design leverage.</summary>
+    <content type="html"><![CDATA[<p>Vercel + v0 generating frontends from business data using Snowflake—concrete AI→UI generator showcasing design leverage.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/rauchg/status/2062199585322529108">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:342b3377aa962ffb</id>
+    <title>v0’s Snowflake integration is now in public preview.
+
+Prompt v0 to use Snowflake, connect your account, and watch as it …</title>
+    <link rel="alternate" href="https://x.com/v0/status/2062195681947971840"/>
+    <published>2026-06-03T15:32:18+00:00</published>
+    <updated>2026-06-03T15:32:18+00:00</updated>
+    <author><name>v0</name></author>
+    <category term="v0"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>v0 Snowflake integration generates polished dashboards from data—real UI craft with data-connected design.</summary>
+    <content type="html"><![CDATA[<p>v0 Snowflake integration generates polished dashboards from data—real UI craft with data-connected design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/v0/status/2062195681947971840">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:231f1bf1ac45a08a</id>
+    <title>collaborating with the content team is 10x harder if you&#x27;re not in Figma&#x27;s canvas anymore...
+
+so @andymadrick built a de…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2062194401997447525"/>
+    <published>2026-06-03T15:27:13+00:00</published>
+    <updated>2026-06-03T15:27:13+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="prototype"/>
+    <summary>Demo tool enables non-designers to edit in Figma canvas; collaborative design workflow innovation.</summary>
+    <content type="html"><![CDATA[<p>Demo tool enables non-designers to edit in Figma canvas; collaborative design workflow innovation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2062194401997447525">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dadea765ec0d360c</id>
+    <title>Shipped a big batch of fixes &amp; features this week 🚀
+
+Check out at: https://perspectivemock.vercel.app/
+
+→ Fixed pixelate…</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2062182560470638649"/>
+    <published>2026-06-03T14:40:10+00:00</published>
+    <updated>2026-06-03T14:40:10+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Perspective Mock ships polish for motion design—WYSIWYG exports, canvas controls, keyframe snapping, keyboard shortcuts.</summary>
+    <content type="html"><![CDATA[<p>Perspective Mock ships polish for motion design—WYSIWYG exports, canvas controls, keyframe snapping, keyboard shortcuts.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/kail_designs/status/2062182560470638649">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b23f7a136db71374</id>
+    <title>The unlock was using BigQuery as a connector. We connected our data warehouse → prompted a dashboard → deployed it.
+
+You…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2062178763421736977"/>
+    <published>2026-06-03T14:25:05+00:00</published>
+    <updated>2026-06-03T14:25:05+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Lovable + BigQuery pipeline generates dashboards from prompts; real data-to-UI workflow with deployed app.</summary>
+    <content type="html"><![CDATA[<p>Lovable + BigQuery pipeline generates dashboards from prompts; real data-to-UI workflow with deployed app.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2062178763421736977">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:984f7f3e97f7cc17</id>
     <title>Show HN: Nib, collaborative font editor on the web</title>
@@ -20,6 +166,35 @@
     <category term="ai-feature"/>
     <summary>Nib: collaborative web font editor with AI glyph generation, Figma-like UX, and cursor chat—real design tool.</summary>
     <content type="html"><![CDATA[<p>Nib: collaborative web font editor with AI glyph generation, Figma-like UX, and cursor chat—real design tool.</p><p><strong>Source:</strong> hackernews · <strong>Score:</strong> 7/10</p><p><a href="https://nibfont.com/">Read on hackernews →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:bbdc2e23a0d4c7f0</id>
+    <title>The solution started at an internal hackathon.
+
+@Quaxi_ built a simple app in Lovable that pulled data from siloed platf…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2062176350031749492"/>
+    <published>2026-06-03T14:15:29+00:00</published>
+    <updated>2026-06-03T14:15:29+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="prototype"/>
+    <summary>Data scientist built internal platform in Lovable—metrics dashboards, A/B tests, semantic layer from plain prompts.</summary>
+    <content type="html"><![CDATA[<p>Data scientist built internal platform in Lovable—metrics dashboards, A/B tests, semantic layer from plain prompts.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2062176350031749492">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1fbcaad7e0d313cb</id>
+    <title>2 data scientists, 150-person org, 1 Lovable project.
+
+This is the story of Lovsight, the internal platform that now han…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2062176345912930467"/>
+    <published>2026-06-03T14:15:28+00:00</published>
+    <updated>2026-06-03T14:15:28+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Lovsight case study: Lovable app handles 150-person org&#x27;s data queries with dashboards and metrics UI.</summary>
+    <content type="html"><![CDATA[<p>Lovsight case study: Lovable app handles 150-person org&#x27;s data queries with dashboards and metrics UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2062176345912930467">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0624333a8c630050</id>
@@ -675,150 +850,5 @@ if mask-size &amp;lt; activation range, it may neve…</title>
     <category term="prototype"/>
     <summary>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</summary>
     <content type="html"><![CDATA[<p>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060699557261201581">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:56afd7946c3ef2e9</id>
-    <title>if you’re dynamically masking a scroll container with css, consider leaving room for the scrollbar instead of masking it…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060565241960751369"/>
-    <published>2026-05-30T03:33:31+00:00</published>
-    <updated>2026-05-30T03:33:31+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>CSS masking technique for scroll containers—practical UI craft tip on avoiding scrollbar clipping in polished interfaces.</summary>
-    <content type="html"><![CDATA[<p>CSS masking technique for scroll containers—practical UI craft tip on avoiding scrollbar clipping in polished interfaces.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2060565241960751369">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:77a50ec231e7d0e9</id>
-    <title>🆕 pbakaus/impeccable cli-v2.3.2 — The design language that makes your AI harness better at design.</title>
-    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-05-30T01:41:22.997529+00:00</published>
-    <updated>2026-05-30T01:41:22.997529+00:00</updated>
-    <author><name>pbakaus</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="anti-slop"/>
-    <summary>pbakaus ships impeccable cli-v2.3.2 — his flagship design-language harness for anti-AI-slop, now with expanded CLI tooling. Steven already installed this skill.</summary>
-    <content type="html"><![CDATA[<p>pbakaus ships impeccable cli-v2.3.2 — his flagship design-language harness for anti-AI-slop, now with expanded CLI tooling. Steven already installed this skill.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:09e9918a644f69b9</id>
-    <title>RT @jh3yy: CSS Tip! 📜
-
-You can create scroll indicators with scroll-driven animations 📍 Reveal a shadow, mask the conten…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060517049206517908"/>
-    <published>2026-05-30T00:22:01+00:00</published>
-    <updated>2026-05-30T00:22:01+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>CSS scroll-driven animations technique for scroll indicators—practical UI craft tip with visual polish potential.</summary>
-    <content type="html"><![CDATA[<p>CSS scroll-driven animations technique for scroll indicators—practical UI craft tip with visual polish potential.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060517049206517908">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3ee73e5637b2a72b</id>
-    <title>tsubotax/melta-ui — 人間にも、AIにも、読めるデザインシステム — AI-Ready Design System for Claude Code &amp; Cursor</title>
-    <link rel="alternate" href="https://github.com/tsubotax/melta-ui"/>
-    <published>2026-05-29T23:54:28Z</published>
-    <updated>2026-05-29T23:54:28Z</updated>
-    <author><name>tsubotax</name></author>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <category term="cursor"/>
-    <category term="mcp"/>
-    <category term="ui-craft"/>
-    <summary>AI-ready design system explicitly built for Claude Code &amp; Cursor, with human-readable tokens for both AI and designers—directly matches Steven&#x27;s design-system + Claude skill interests.</summary>
-    <content type="html"><![CDATA[<p>AI-ready design system explicitly built for Claude Code &amp; Cursor, with human-readable tokens for both AI and designers—directly matches Steven&#x27;s design-system + Claude skill interests.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/tsubotax/melta-ui">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:073c86c5b0c27857</id>
-    <title>take this a step further: interpolate proximity through easing curves
-
-same distance input, better-feeling output 🧑‍🍳
-
-p…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060468819374588143"/>
-    <published>2026-05-29T21:10:22+00:00</published>
-    <updated>2026-05-29T21:10:22+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Jh3y shares a technique for smoother proximity-based interactions using easing curves—practical motion craft for production UI.</summary>
-    <content type="html"><![CDATA[<p>Jh3y shares a technique for smoother proximity-based interactions using easing curves—practical motion craft for production UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060468819374588143">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a5c19360eedba12e</id>
-    <title>RT @kail_designs: Recent works✨ https://t.co/WjcWbSi0pW</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2060408042802516058"/>
-    <published>2026-05-29T17:08:52+00:00</published>
-    <updated>2026-05-29T17:08:52+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Designer sharing recent UI work with visual artifacts—portfolio showcase likely featuring production design.</summary>
-    <content type="html"><![CDATA[<p>Designer sharing recent UI work with visual artifacts—portfolio showcase likely featuring production design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/kail_designs/status/2060408042802516058">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ea66180d4a0d81ee</id>
-    <title>less prompts, more plates™ https://t.co/BMgNQjAq6G</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060407423647564236"/>
-    <published>2026-05-29T17:06:24+00:00</published>
-    <updated>2026-05-29T17:06:24+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>jh3yy shares a interactive demo or tool emphasizing practical design output over prompt engineering — aligns with Steven&#x27;s anti-slop, craft-focused taste.</summary>
-    <content type="html"><![CDATA[<p>jh3yy shares a interactive demo or tool emphasizing practical design output over prompt engineering — aligns with Steven&#x27;s anti-slop, craft-focused taste.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060407423647564236">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:10a2ed210ccbf6ca</id>
-    <title>RT @jh3yy: Animated img carousel 🤙
-
-Use CSS trig functions to get radius and layout images as a cylinder 🤓
-
-Use scroll a…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060386120022601788"/>
-    <published>2026-05-29T15:41:45+00:00</published>
-    <updated>2026-05-29T15:41:45+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>jh3yy demonstrates CSS trig functions for a 3D cylindrical image carousel with scroll animations—practical UI craft technique for production components.</summary>
-    <content type="html"><![CDATA[<p>jh3yy demonstrates CSS trig functions for a 3D cylindrical image carousel with scroll animations—practical UI craft technique for production components.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060386120022601788">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b72f6eb7933a79c0</id>
-    <title>The images and videos were generated on http://aura.build
-
-I used this DESIGN.md: https://www.aura.build/design-systems/…</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2060381022643196004"/>
-    <published>2026-05-29T15:21:30+00:00</published>
-    <updated>2026-05-29T15:21:30+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <category term="claude-code"/>
-    <summary>MengTo demonstrates aura.build—a design-system-driven UI generation tool that preserves brand identity, typography, spacing, and motion across generated pages. Real workflow video + DESIGN.md context shows production-ready design+code integration.</summary>
-    <content type="html"><![CDATA[<p>MengTo demonstrates aura.build—a design-system-driven UI generation tool that preserves brand identity, typography, spacing, and motion across generated pages. Real workflow video + DESIGN.md context shows production-ready design+code integration.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2060381022643196004">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7d4d8c0e37942356</id>
-    <title>How to help people who don’t read discover new features</title>
-    <link rel="alternate" href="https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb?source=rss----138adf9c44c---4"/>
-    <published>2026-05-29T11:09:43+00:00</published>
-    <updated>2026-05-29T11:09:43+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</summary>
-    <content type="html"><![CDATA[<p>Onboarding UX technique for feature discovery; practical UI pattern applicable to production design, though not AI-enabled.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
   </entry>
 </feed>
