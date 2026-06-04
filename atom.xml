@@ -5,8 +5,36 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-04T11:14:19+00:00</updated>
+  <updated>2026-06-04T17:20:44+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:17bfe3831d2470f4</id>
+    <title>I recorded a 22-min tutorial on how to avoid AI slop for your landing pages https://t.co/PVVmwecxjK</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2062484065748701429"/>
+    <published>2026-06-04T10:38:15+00:00</published>
+    <updated>2026-06-04T10:38:15+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>22-min tutorial on avoiding AI slop in landing page design—directly addresses anti-pattern craft Steven follows.</summary>
+    <content type="html"><![CDATA[<p>22-min tutorial on avoiding AI slop in landing page design—directly addresses anti-pattern craft Steven follows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2062484065748701429">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1a875c074583425c</id>
+    <title>Cursor 招聘设计工程师了，非常令人心动，但我还犹豫着不能行动；
+
+我在字节工作了8年，一直游走在动效设计师和设计工程师之间。最近我的团队（豆包手机团队）也在招聘设计工程师，但是我们需要的方向更多要有一些对 Android 平台的了解，…</title>
+    <link rel="alternate" href="https://x.com/xiaolinbythesea/status/2062447379098517799"/>
+    <published>2026-06-04T08:12:28+00:00</published>
+    <updated>2026-06-04T08:12:28+00:00</updated>
+    <author><name>xiaolinbythesea</name></author>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</summary>
+    <content type="html"><![CDATA[<p>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/xiaolinbythesea/status/2062447379098517799">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8298a837c5710dbe</id>
     <title>RT @ridd_design: collaborating with the content team is 10x harder if you&#x27;re not in Figma&#x27;s canvas anymore...
@@ -451,6 +479,19 @@ Drop …</title>
     <content type="html"><![CDATA[<p>Critique on over-engineering UI animations—anti-slop sensibility aligned with Steven&#x27;s taste for thoughtful, minimal design craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2061574733775221023">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:aca54a4eee9203d9</id>
+    <title>Novus</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/novus-4"/>
+    <published>2026-06-01T20:16:42-07:00</published>
+    <updated>2026-06-01T20:16:42-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <category term="prototype"/>
+    <summary>Automated usability testing &amp; fix detection for shipped products — design QA tool with real UX craft angle.</summary>
+    <content type="html"><![CDATA[<p>Automated usability testing &amp; fix detection for shipped products — design QA tool with real UX craft angle.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/novus-4">Read on producthunt →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:26e8ea268abf8c74</id>
     <title>LekoArts/figma-theme-ui — Convert a Theme UI config to Figma Styles</title>
     <link rel="alternate" href="https://github.com/LekoArts/figma-theme-ui"/>
@@ -807,48 +848,5 @@ And no, not disco-morphism lol. https://t.co/OXZIHvyqpQ</title>
     <category term="technique"/>
     <summary>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</summary>
     <content type="html"><![CDATA[<p>Claude Cowork plugin with 3 design skills, anti-pattern detector, and vendored design system for website builder — directly matches Steven&#x27;s taste for design audits and anti-slop tooling.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/MariusYvard/NullToHero">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7e1d77c73b3d9ecd</id>
-    <title>small nuance 🧑‍🍳
-
-you don’t always need to leave room for the scrollbar
-
-if mask-size &amp;lt; activation range, it may neve…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2060834430835441888"/>
-    <published>2026-05-30T21:23:11+00:00</published>
-    <updated>2026-05-30T21:23:11+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>jh3yy shares a CSS masking technique for scrollbar interactions—micro-interaction craft tip with visual demo.</summary>
-    <content type="html"><![CDATA[<p>jh3yy shares a CSS masking technique for scrollbar interactions—micro-interaction craft tip with visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2060834430835441888">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4878337b50b88ba7</id>
-    <title>RT @kail_designs: More frames from this banger. Video dropping next week https://t.co/CPjMFGDfbP</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2060764785101451551"/>
-    <published>2026-05-30T16:46:26+00:00</published>
-    <updated>2026-05-30T16:46:26+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Designer sharing polished UI frames with a full video walkthrough coming—likely a production design artifact or case study.</summary>
-    <content type="html"><![CDATA[<p>Designer sharing polished UI frames with a full video walkthrough coming—likely a production design artifact or case study.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060764785101451551">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c7ef0c665db8503c</id>
-    <title>More frames from this banger. Video dropping next week https://t.co/CPjMFGDfbP</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2060699557261201581"/>
-    <published>2026-05-30T12:27:15+00:00</published>
-    <updated>2026-05-30T12:27:15+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</summary>
-    <content type="html"><![CDATA[<p>Designer sharing polished UI frames from a forthcoming design video—likely a build story or technique teardown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2060699557261201581">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
