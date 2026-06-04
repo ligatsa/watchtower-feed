@@ -631,16 +631,10 @@
     </div>
 
     <div class="sidebar-foot">
-      <div class="prefs-bar" id="prefsBar">
-        <span><strong id="moreCount">0</strong> liked</span>
-        <span><strong id="lessCount">0</strong> down</span>
-        <span><strong id="excludeCount">0</strong> excluded</span>
-        <span id="syncStatus" class="sync-status">Sync: off</span>
+      <div class="prefs-bar">
         <button class="pref-action theme-toggle" id="themeToggle" type="button" aria-label="Theme: cycle auto, light, dark">
           <svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg><span id="themeLabel">Auto</span>
         </button>
-        <button class="pref-action" id="exportPrefs">Export</button>
-        <button class="pref-action" id="clearPrefs">Clear all</button>
       </div>
     </div>
   </aside>
@@ -649,7 +643,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong>580</strong> items</span>
-        <span>updated 2026-06-04T17:20:44+00:00</span>
+        <span>updated 2026-06-04T20:22:30+00:00</span>
         <span>min score 6</span>
         <span class="match-ct" id="searchCount"></span>
       </div>
@@ -16044,6 +16038,7 @@ buildui.com/r…</a>
     var lastSyncAt = 0;
 
     function setSyncStatus(state, detail) {
+      if (!syncStatusEl) return;   // status UI removed; sync itself still runs
       syncStatusEl.classList.remove('on', 'err');
       if (state === 'on')  syncStatusEl.classList.add('on');
       if (state === 'err') syncStatusEl.classList.add('err');
@@ -16235,14 +16230,20 @@ buildui.com/r…</a>
     });
 
     // ── prefs bar counts + actions ──
+    // Count/export/clear UI was removed from the sidebar; these are now no-ops
+    // unless the elements exist. Votes/exclusions still record and sync.
     function refreshCounts() {
-      document.getElementById('moreCount').textContent    = more.length;
-      document.getElementById('lessCount').textContent    = less.length;
-      document.getElementById('excludeCount').textContent = exclude.length;
+      var m = document.getElementById('moreCount');
+      var l = document.getElementById('lessCount');
+      var x = document.getElementById('excludeCount');
+      if (m) m.textContent = more.length;
+      if (l) l.textContent = less.length;
+      if (x) x.textContent = exclude.length;
     }
     refreshCounts();
 
-    document.getElementById('exportPrefs').addEventListener('click', function () {
+    var exportBtn = document.getElementById('exportPrefs');
+    if (exportBtn) exportBtn.addEventListener('click', function () {
       var blob = new Blob(
         [JSON.stringify({ more: more, less: less, exclude: exclude }, null, 2)],
         { type: 'application/json' }
@@ -16254,7 +16255,8 @@ buildui.com/r…</a>
       a.click();
       setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
     });
-    document.getElementById('clearPrefs').addEventListener('click', function () {
+    var clearBtn = document.getElementById('clearPrefs');
+    if (clearBtn) clearBtn.addEventListener('click', function () {
       if (!confirm('Clear all liked / down-voted / excluded preferences?')) return;
       more = []; less = []; exclude = [];
       saveJSON(K.MORE, more); saveJSON(K.LESS, less); saveJSON(K.EXCLUDE, exclude);
