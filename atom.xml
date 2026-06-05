@@ -5,8 +5,56 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-05T05:28:42+00:00</updated>
+  <updated>2026-06-05T11:32:57+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:67436d0e367ec725</id>
+    <title>You can now launch production-ready Shopify storefronts without leaving v0.
+
+No setup needed, just install the integrati…</title>
+    <link rel="alternate" href="https://x.com/v0/status/2062859311869497355"/>
+    <published>2026-06-05T11:29:20+00:00</published>
+    <updated>2026-06-05T11:29:20+00:00</updated>
+    <author><name>v0</name></author>
+    <category term="v0"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>v0 now launches production Shopify storefronts directly—real UI artifact generation with commerce integration, no setup friction.</summary>
+    <content type="html"><![CDATA[<p>v0 now launches production Shopify storefronts directly—real UI artifact generation with commerce integration, no setup friction.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2062859311869497355">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6e4f7e2ec55fe714</id>
+    <title>Most galleries stop at showing you what&#x27;s possible.
+
+This one helps you build it.
+
+→ http://21st.dev
+
+Browse thousands o…</title>
+    <link rel="alternate" href="https://x.com/kail_designs/status/2062822822947569928"/>
+    <published>2026-06-05T09:04:21+00:00</published>
+    <updated>2026-06-05T09:04:21+00:00</updated>
+    <author><name>kail_designs</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <category term="agent-sdk"/>
+    <summary>21st.dev gallery: browse components, copy as prompts, paste into AI agent to recreate—concrete design-to-code workflow shown.</summary>
+    <content type="html"><![CDATA[<p>21st.dev gallery: browse components, copy as prompts, paste into AI agent to recreate—concrete design-to-code workflow shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2062822822947569928">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ced7ed1b075f166b</id>
+    <title>The parts of your system you never wrote down</title>
+    <link rel="alternate" href="https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/"/>
+    <published>2026-06-05T07:46:20+00:00</published>
+    <updated>2026-06-05T07:46:20+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Design systems thinking: documenting implicit decisions in your design system to prevent inconsistent reinterpretation.</summary>
+    <content type="html"><![CDATA[<p>Design systems thinking: documenting implicit decisions in your design system to prevent inconsistent reinterpretation.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/">Read on sidebar →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8597f742fa31b587</id>
     <title>RT @ridd_design: ~12 min of Claude Code tips for designers
@@ -325,6 +373,19 @@ use for page transitions, theme s…</title>
     <category term="frontend"/>
     <summary>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</summary>
     <content type="html"><![CDATA[<p>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2062294655077597380">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d1b56a85c9e8baa3</id>
+    <title>Ideogram 4.0</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/ideogram-4-0"/>
+    <published>2026-06-03T19:58:53-07:00</published>
+    <updated>2026-06-03T19:58:53-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Image generation with layout/weight control for design-ready output; concrete design tool for visual production.</summary>
+    <content type="html"><![CDATA[<p>Image generation with layout/weight control for design-ready output; concrete design tool for visual production.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/ideogram-4-0">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:89960880e5da6eef</id>
@@ -815,68 +876,5 @@ this is going to change how devs share cod…</title>
     <category term="prototype"/>
     <summary>Lovable rebuilds on TanStack Start for SSR; shipped UI-generation infrastructure improvement with architectural rationale.</summary>
     <content type="html"><![CDATA[<p>Lovable rebuilds on TanStack Start for SSR; shipped UI-generation infrastructure improvement with architectural rationale.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2061479573657985100">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4635663349322c1a</id>
-    <title>If npm is for packaged code, a registry is for open code.
-
-Packages are great for dependencies. Registries are great for…</title>
-    <link rel="alternate" href="https://x.com/shadcn/status/2061477078667522183"/>
-    <published>2026-06-01T15:56:50+00:00</published>
-    <updated>2026-06-01T15:56:50+00:00</updated>
-    <author><name>shadcn</name></author>
-    <category term="shadcn"/>
-    <category term="design-system"/>
-    <category term="registry"/>
-    <summary>shadcn registry philosophy: open code for inspection, modification, ownership—directly enables design-system and component distribution.</summary>
-    <content type="html"><![CDATA[<p>shadcn registry philosophy: open code for inspection, modification, ownership—directly enables design-system and component distribution.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2061477078667522183">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:58fe19744576055c</id>
-    <title>You can now turn any GitHub repo into a registry.
-
-Drop in a registry.json. Define your items. Install with the CLI.
-
-Di…</title>
-    <link rel="alternate" href="https://x.com/shadcn/status/2061477029111792125"/>
-    <published>2026-06-01T15:56:38+00:00</published>
-    <updated>2026-06-01T15:56:38+00:00</updated>
-    <author><name>shadcn</name></author>
-    <category term="shadcn"/>
-    <category term="design-system"/>
-    <category term="registry"/>
-    <category term="skill"/>
-    <summary>GitHub registry.json for distributing components, design systems, agents, skills—major shadcn release enabling design-system scaling.</summary>
-    <content type="html"><![CDATA[<p>GitHub registry.json for distributing components, design systems, agents, skills—major shadcn release enabling design-system scaling.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/shadcn/status/2061477029111792125">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b811ad525a40b8f7</id>
-    <title>the code does override the default pointer too
-
-otherwise, as rightly pointed out, you&#x27;d get mismatches when not using t…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2061454831022231564"/>
-    <published>2026-06-01T14:28:26+00:00</published>
-    <updated>2026-06-01T14:28:26+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Custom cursor design in Figma + CSS pointer-down state—micro UI craft detail with visual execution shown.</summary>
-    <content type="html"><![CDATA[<p>Custom cursor design in Figma + CSS pointer-down state—micro UI craft detail with visual execution shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2061454831022231564">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:87e8c2a355b8aa84</id>
-    <title>tiny detail: cursor: pointer needed a pointerdown counterpart 👇
-
-button:active {
-  cursor: url(pointerdown.svg) 15 10, p…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2061453469995679910"/>
-    <published>2026-06-01T14:23:01+00:00</published>
-    <updated>2026-06-01T14:23:01+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</summary>
-    <content type="html"><![CDATA[<p>Cursor pointer-down interaction design with SVG—polished micro-interaction, design-to-code execution visible.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/jh3yy/status/2061453469995679910">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
