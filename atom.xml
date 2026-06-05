@@ -5,8 +5,116 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-05T17:36:56+00:00</updated>
+  <updated>2026-06-05T23:40:32+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:988c223c45fa4e73</id>
+    <title>Turn code into designs your whole team can edit by connecting Codex to the Figma canvas https://t.co/5LQdgW0KeV</title>
+    <link rel="alternate" href="https://x.com/figma/status/2063019204316368999"/>
+    <published>2026-06-05T22:04:42+00:00</published>
+    <updated>2026-06-05T22:04:42+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="code-to-design"/>
+    <category term="figma-make"/>
+    <summary>Figma Codex plugin bridges code-to-design: import repos directly into canvas for collaborative, editable UI design.</summary>
+    <content type="html"><![CDATA[<p>Figma Codex plugin bridges code-to-design: import repos directly into canvas for collaborative, editable UI design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2063019204316368999">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b16460b3592c3496</id>
+    <title>Codex can import UI from your repo into MagicPath and make it editable.
+
+It understands your components, design system, …</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2062997706038227173"/>
+    <published>2026-06-05T20:39:16+00:00</published>
+    <updated>2026-06-05T20:39:16+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="plugin"/>
+    <category term="code-to-design"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <summary>MagicPath imports working repos into editable canvas, understanding components and design systems for interactive UI recreation.</summary>
+    <content type="html"><![CDATA[<p>MagicPath imports working repos into editable canvas, understanding components and design systems for interactive UI recreation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/MagicPathAI/status/2062997706038227173">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e2a963172802fc47</id>
+    <title>MagicPath is now an official plugin for Codex.
+
+Install it in seconds and give Codex an infinite multiplayer canvas to c…</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2062995746027376764"/>
+    <published>2026-06-05T20:31:29+00:00</published>
+    <updated>2026-06-05T20:31:29+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="plugin"/>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <summary>MagicPath Codex plugin: multiplayer canvas for design+code with repo import, design-system sync, and image generation.</summary>
+    <content type="html"><![CDATA[<p>MagicPath Codex plugin: multiplayer canvas for design+code with repo import, design-system sync, and image generation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MagicPathAI/status/2062995746027376764">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0d07d0d2909dc6d9</id>
+    <title>generating ideas in .html &amp;gt; walls of text
+
+here I&#x27;m having Claude show me all possible metadata for a 0-&amp;gt;1 feature…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2062993200915403050"/>
+    <published>2026-06-05T20:21:22+00:00</published>
+    <updated>2026-06-05T20:21:22+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="prototype"/>
+    <summary>Using Claude to generate interactive HTML mockups for feature ideation—concrete visual-first thinking over walls of text.</summary>
+    <content type="html"><![CDATA[<p>Using Claude to generate interactive HTML mockups for feature ideation—concrete visual-first thinking over walls of text.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ridd_design/status/2062993200915403050">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0a31f20a797aa2a0</id>
+    <title>✨ Fantastic new interactive blog post from @citizenofnowhe.re about the issue with quick cursor movement on the web and …</title>
+    <link rel="alternate" href="https://bsky.app/profile/joshwcomeau.com/post/3mnku4zjjrc2e"/>
+    <published>2026-06-05T19:18:18.593Z</published>
+    <updated>2026-06-05T19:18:18.593Z</updated>
+    <author><name>joshwcomeau.com</name></author>
+    <category term="frontend"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Interactive blog on collision detection and cursor motion algorithms—web motion craft with visual explanation.</summary>
+    <content type="html"><![CDATA[<p>Interactive blog on collision detection and cursor motion algorithms—web motion craft with visual explanation.</p><p><strong>Source:</strong> bluesky_user · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/joshwcomeau.com/post/3mnku4zjjrc2e">Read on bluesky_user →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a6ddceffa856de10</id>
+    <title>motion arcs are all about timing 🎬
+
+.item {
+  animation-name: cart-x, cart-y;
+  animation-timing-function:
+    var(--x-e…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2062974322843500569"/>
+    <published>2026-06-05T19:06:21+00:00</published>
+    <updated>2026-06-05T19:06:21+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="frontend"/>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>Motion arc timing technique using CSS keyframes and animation-composition for refined easing.</summary>
+    <content type="html"><![CDATA[<p>Motion arc timing technique using CSS keyframes and animation-composition for refined easing.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2062974322843500569">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:992ea646684e1013</id>
+    <title>RT @meetgranola: Meet with Granola, Make with @Lovable.
+
+The Granola connector is live on Lovable - pull your meeting no…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2062964462232174666"/>
+    <published>2026-06-05T18:27:10+00:00</published>
+    <updated>2026-06-05T18:27:10+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Lovable + Granola connector enables meeting notes → UI prototype workflow; real design-to-code surface.</summary>
+    <content type="html"><![CDATA[<p>Lovable + Granola connector enables meeting notes → UI prototype workflow; real design-to-code surface.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2062964462232174666">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8fb00c7293b94d27</id>
     <title>🆕 southleft/figma-console-mcp v1.31.0 — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</title>
@@ -795,102 +903,5 @@ AI agents can build full apps. But most of them still de…</title>
     <category term="design-system"/>
     <summary>Complete AI design skill stack (Taste, Hallmark, Image-to-Code, Design Review) now in Open Design—must-see launch.</summary>
     <content type="html"><![CDATA[<p>Complete AI design skill stack (Taste, Hallmark, Image-to-Code, Design Review) now in Open Design—must-see launch.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/nexudotio/status/2061749873909682293">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0bc207903b9efb1d</id>
-    <title>Building color shades in Figma is now a one click job. https://t.co/ZdLFNPDo0E</title>
-    <link rel="alternate" href="https://x.com/uiux_hamad/status/2061735299609456937"/>
-    <published>2026-06-02T09:02:55+00:00</published>
-    <updated>2026-06-02T09:02:55+00:00</updated>
-    <author><name>uiux_hamad</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="plugin"/>
-    <summary>Figma plugin or feature for one-click color shade generation—direct design-system workflow boost.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin or feature for one-click color shade generation—direct design-system workflow boost.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/uiux_hamad/status/2061735299609456937">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3bd5ae3b8566301d</id>
-    <title>RT @kail_designs: Spent 20 mins faking a perspective mockup in Figma?
-
-Stop.
-
-→ http://perspectivemock.vercel.app
-
-Drop …</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2061715931546767495"/>
-    <published>2026-06-02T07:45:57+00:00</published>
-    <updated>2026-06-02T07:45:57+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="tool"/>
-    <summary>Perspective mockup tool for Figma—automates tedious 3D mock perspective work, solid design efficiency gain.</summary>
-    <content type="html"><![CDATA[<p>Perspective mockup tool for Figma—automates tedious 3D mock perspective work, solid design efficiency gain.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2061715931546767495">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7125d5f311d44f76</id>
-    <title>Brand Context API</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/brandfetch"/>
-    <published>2026-06-02T02:33:35-07:00</published>
-    <updated>2026-06-02T02:33:35-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Brand API for keeping AI-generated outputs on-brand; relevant to design-system consistency work but lacks concrete UI artifact or MCP angle.</summary>
-    <content type="html"><![CDATA[<p>Brand API for keeping AI-generated outputs on-brand; relevant to design-system consistency work but lacks concrete UI artifact or MCP angle.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/brandfetch">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:52f7444c25fdd90b</id>
-    <title>RT @ridd_design: What makes a designer AI Native?
-
-@benblumenrose &#x27;s framing really stuck with @designertom 👇 https://t.…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2061606490579054725"/>
-    <published>2026-06-02T00:31:04+00:00</published>
-    <updated>2026-06-02T00:31:04+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Thread on what makes a designer AI-native; thoughtful framing on how designers work with AI tools.</summary>
-    <content type="html"><![CDATA[<p>Thread on what makes a designer AI-native; thoughtful framing on how designers work with AI tools.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2061606490579054725">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:20c80608e5491050</id>
-    <title>RT @jh3yy: Tech bros will pull in an entire JavaScript library for something that could&#x27;ve been a single CSS transition …</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2061574733775221023"/>
-    <published>2026-06-01T22:24:53+00:00</published>
-    <updated>2026-06-01T22:24:53+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Critique on over-engineering UI animations—anti-slop sensibility aligned with Steven&#x27;s taste for thoughtful, minimal design craft.</summary>
-    <content type="html"><![CDATA[<p>Critique on over-engineering UI animations—anti-slop sensibility aligned with Steven&#x27;s taste for thoughtful, minimal design craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2061574733775221023">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:aca54a4eee9203d9</id>
-    <title>Novus</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/novus-4"/>
-    <published>2026-06-01T20:16:42-07:00</published>
-    <updated>2026-06-01T20:16:42-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="ui-craft"/>
-    <category term="analysis"/>
-    <category term="prototype"/>
-    <summary>Automated usability testing &amp; fix detection for shipped products — design QA tool with real UX craft angle.</summary>
-    <content type="html"><![CDATA[<p>Automated usability testing &amp; fix detection for shipped products — design QA tool with real UX craft angle.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/novus-4">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26e8ea268abf8c74</id>
-    <title>LekoArts/figma-theme-ui — Convert a Theme UI config to Figma Styles</title>
-    <link rel="alternate" href="https://github.com/LekoArts/figma-theme-ui"/>
-    <published>2026-06-01T20:06:53Z</published>
-    <updated>2026-06-01T20:06:53Z</updated>
-    <author><name>LekoArts</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <summary>Figma plugin that converts Theme UI config to Figma Styles—direct design-system token sync tooling.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin that converts Theme UI config to Figma Styles—direct design-system token sync tooling.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/LekoArts/figma-theme-ui">Read on github →</a></p>]]></content>
   </entry>
 </feed>
