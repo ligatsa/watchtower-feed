@@ -5,8 +5,52 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-06T03:30:57+00:00</updated>
+  <updated>2026-06-06T05:44:44+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:162339c99a6a4921</id>
+    <title>Explore 15 Shadcn Pricing Sections.
+
+Modern pricing cards, comparison tables, and SaaS pricing layouts built for React a…</title>
+    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnlwdbsml22r"/>
+    <published>2026-06-06T05:30:15.828Z</published>
+    <updated>2026-06-06T05:30:15.828Z</updated>
+    <author><name>shadcnspace.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>15 production-ready shadcn pricing components (cards, tables, layouts) for React/Next.js—direct UI craft reusable blocks.</summary>
+    <content type="html"><![CDATA[<p>15 production-ready shadcn pricing components (cards, tables, layouts) for React/Next.js—direct UI craft reusable blocks.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnlwdbsml22r">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:495946a700b027f0</id>
+    <title>What’s in your design stack that actually saves time? Mine: Figma + Tokens Studio + shadcn/ui. No more CSS wars. #Design…</title>
+    <link rel="alternate" href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnlsg2d4fq2x"/>
+    <published>2026-06-06T04:20:13.168793+00:00</published>
+    <updated>2026-06-06T04:20:13.168793+00:00</updated>
+    <author><name>abnavagent.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <category term="shadcn"/>
+    <summary>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</summary>
+    <content type="html"><![CDATA[<p>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnlsg2d4fq2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:95702022ee549ec0</id>
+    <title>css sine scroller 🧑‍🍳
+
+scroll-driven animation + sin() + custom properties
+
+animate a custom property value on scroll an…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2063083606877126943"/>
+    <published>2026-06-06T02:20:36+00:00</published>
+    <updated>2026-06-06T02:20:36+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>CSS sine-wave scroll animation technique using custom properties; solid motion craft with clear visual demo.</summary>
+    <content type="html"><![CDATA[<p>CSS sine-wave scroll animation technique using custom properties; solid motion craft with clear visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2063083606877126943">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:988c223c45fa4e73</id>
     <title>Turn code into designs your whole team can edit by connecting Codex to the Figma canvas https://t.co/5LQdgW0KeV</title>
@@ -830,52 +874,5 @@ so @andym…</title>
     <category term="ui-craft"/>
     <summary>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</summary>
     <content type="html"><![CDATA[<p>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2062331153500283052">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:653f71fc39768bcf</id>
-    <title>Here&#x27;s how I avoid these:
-
-- Don&#x27;t use GPT 5.5 to start a design
-- Always use an image reference or site url
-- Never pro…</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2062316667024371982"/>
-    <published>2026-06-03T23:33:04+00:00</published>
-    <updated>2026-06-03T23:33:04+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="skill"/>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <summary>Anti-AI-slop design rules (taste skill, DESIGN.md, AGENTS.md); directly echoes Steven&#x27;s installed taste tools.</summary>
-    <content type="html"><![CDATA[<p>Anti-AI-slop design rules (taste skill, DESIGN.md, AGENTS.md); directly echoes Steven&#x27;s installed taste tools.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2062316667024371982">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b322361a30444a80</id>
-    <title>configurable transition strips™
-
-view transitions + css clip-path → copy to clipboard
-
-use for page transitions, theme s…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2062294655077597380"/>
-    <published>2026-06-03T22:05:36+00:00</published>
-    <updated>2026-06-03T22:05:36+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</summary>
-    <content type="html"><![CDATA[<p>CSS clip-path + view transitions for polished page &amp; theme transitions with copyable code—practical motion craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2062294655077597380">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d1b56a85c9e8baa3</id>
-    <title>Ideogram 4.0</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/ideogram-4-0"/>
-    <published>2026-06-03T19:58:53-07:00</published>
-    <updated>2026-06-03T19:58:53-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>Image generation with layout/weight control for design-ready output; concrete design tool for visual production.</summary>
-    <content type="html"><![CDATA[<p>Image generation with layout/weight control for design-ready output; concrete design tool for visual production.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/ideogram-4-0">Read on producthunt →</a></p>]]></content>
   </entry>
 </feed>
