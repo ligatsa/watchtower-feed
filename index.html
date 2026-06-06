@@ -643,7 +643,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong id="itemCount">703</strong> shown</span>
-        <span>updated 2026-06-06T03:16:20+00:00</span>
+        <span>updated 2026-06-06T03:30:57+00:00</span>
         <span>min score 6</span>
       </div>
       <input id="search" class="search" type="search" autocomplete="off"
@@ -19793,8 +19793,9 @@ buildui.com/r…</a>
       // read items are findable; clearing the box restores the active view.
       var view = q ? 'all' : currentView;
       var visible = 0;
+      var bySource = {};   // per-source tally under view+search (NOT the source filter)
+      var allMatch = 0;
       entries.forEach(function (el) {
-        var srcMatch = (currentSource === 'all') || (el.dataset.source === currentSource);
         var excluded = excl.has(el.dataset.excludeKey);
         var isRead = read.has(el.dataset.id);
         var viewMatch =
@@ -19803,15 +19804,27 @@ buildui.com/r…</a>
           view === 'saved'  ? isSaved(el.dataset.id) :
           /* read */          isRead;
         var searchMatch = !q || searchText(el).indexOf(q) >= 0;
-        var hidden = !srcMatch || excluded || !viewMatch || !searchMatch;
+        // Qualifies under everything EXCEPT the active source chip — this is what
+        // each source chip's count reflects (so the chips stay meaningful when a
+        // source is selected).
+        var qualifies = !excluded && viewMatch && searchMatch;
+        if (qualifies) {
+          allMatch++;
+          bySource[el.dataset.source] = (bySource[el.dataset.source] || 0) + 1;
+        }
+        var srcMatch = (currentSource === 'all') || (el.dataset.source === currentSource);
+        var hidden = !qualifies || !srcMatch;
         el.classList.toggle('is-hidden', hidden);
         if (!hidden) visible++;
       });
-      // The "N shown" count beside the feed reflects the active filter
-      // (view + source + search), i.e. exactly how many rows are visible.
+      // "N shown" beside the feed reflects the full filter (view + source + search).
       if (itemCountEl) itemCountEl.textContent = visible;
+      // Each source chip's count now reflects the active view + search.
       chips.forEach(function (c) {
         c.classList.toggle('active', c.dataset.source === currentSource);
+        var ct = c.querySelector('.ct');
+        if (ct) ct.textContent = (c.dataset.source === 'all') ? allMatch
+                                  : (bySource[c.dataset.source] || 0);
       });
       viewTabs.forEach(function (b) {
         b.classList.toggle('active', b.dataset.view === currentView);
