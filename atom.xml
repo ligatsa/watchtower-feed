@@ -5,8 +5,101 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-06T11:49:03+00:00</updated>
+  <updated>2026-06-06T17:53:10+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:411f276a3519b820</id>
+    <title>I made a browser game that teaches tmux</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tynouc/i_made_a_browser_game_that_teaches_tmux/"/>
+    <published>2026-06-06T17:41:49+00:00</published>
+    <updated>2026-06-06T17:41:49+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="claude-design"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Tmux learning game built with Claude Design + Claude Code; polished playable prototype with real UI/UX craft.</summary>
+    <content type="html"><![CDATA[<p>Tmux learning game built with Claude Design + Claude Code; polished playable prototype with real UI/UX craft.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tynouc/i_made_a_browser_game_that_teaches_tmux/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:762758c49b6028a1</id>
+    <title>Mister Atompunk Presents: Watt Knot, built with Claude Opus 4.8</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tykq0l/mister_atompunk_presents_watt_knot_built_with/"/>
+    <published>2026-06-06T15:47:12+00:00</published>
+    <updated>2026-06-06T15:47:12+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Production UI/UX project (Watt Knot) built with Claude Opus 4.8; design evaluation of model capability.</summary>
+    <content type="html"><![CDATA[<p>Production UI/UX project (Watt Knot) built with Claude Opus 4.8; design evaluation of model capability.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tykq0l/mister_atompunk_presents_watt_knot_built_with/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:26dea0160760a5a8</id>
+    <title>What happens when an AI audits your design system for inconsistencies? We fed ours to an agent. It found 17 deprecated t…</title>
+    <link rel="alternate" href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnmvqoeczg2a"/>
+    <published>2026-06-06T14:52:30.377155+00:00</published>
+    <updated>2026-06-06T14:52:30.377155+00:00</updated>
+    <author><name>abnavagent.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="skill"/>
+    <category term="analysis"/>
+    <summary>AI agent audited design system, found 17 deprecated tokens &amp; 3 accessibility issues, fixed in 45 min; concrete design-system tooling win.</summary>
+    <content type="html"><![CDATA[<p>AI agent audited design system, found 17 deprecated tokens &amp; 3 accessibility issues, fixed in 45 min; concrete design-system tooling win.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnmvqoeczg2a">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6cacbd0d481f19da</id>
+    <title>I think I&#x27;ve finally been AI-pilled.
+
+At @OsloFF I got to try a new Claude skill from @MouxDesign that helped me mock up…</title>
+    <link rel="alternate" href="https://x.com/sethforprivacy/status/2063265482828845567"/>
+    <published>2026-06-06T14:23:19+00:00</published>
+    <updated>2026-06-06T14:23:19+00:00</updated>
+    <author><name>sethforprivacy</name></author>
+    <category term="skill"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <summary>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</summary>
+    <content type="html"><![CDATA[<p>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/sethforprivacy/status/2063265482828845567">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2804c8d9b6c70718</id>
+    <title>anybody else find that, if given limited direction, Claude will always turn one concept into a newspaper 😂 https://t.co/…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2063259374114730339"/>
+    <published>2026-06-06T13:59:02+00:00</published>
+    <updated>2026-06-06T13:59:02+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Claude tendency to default to newspaper layouts—observation on AI design taste/anti-slop, light but relevant.</summary>
+    <content type="html"><![CDATA[<p>Claude tendency to default to newspaper layouts—observation on AI design taste/anti-slop, light but relevant.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ridd_design/status/2063259374114730339">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:75ec567447210d4a</id>
+    <title>Claude&#x27;s new background tasks panel is exactly how agentic UIs should look</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tyh46r/claudes_new_background_tasks_panel_is_exactly_how/"/>
+    <published>2026-06-06T13:20:13+00:00</published>
+    <updated>2026-06-06T13:20:13+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="ui-craft"/>
+    <category term="anthropic"/>
+    <summary>Claude background tasks panel praised as agentic UI pattern—design observation on a shipped interface.</summary>
+    <content type="html"><![CDATA[<p>Claude background tasks panel praised as agentic UI pattern—design observation on a shipped interface.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tyh46r/claudes_new_background_tasks_panel_is_exactly_how/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a76996bd31920dc8</id>
+    <title>I made atrium turn my data into a pocket universe</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tygcnw/i_made_atrium_turn_my_data_into_a_pocket_universe/"/>
+    <published>2026-06-06T12:45:50+00:00</published>
+    <updated>2026-06-06T12:45:50+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="prototype"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <summary>Abstract data visualization &#x27;Observatory&#x27; built with Claude; creative UI/visual concept but lacks build details.</summary>
+    <content type="html"><![CDATA[<p>Abstract data visualization &#x27;Observatory&#x27; built with Claude; creative UI/visual concept but lacks build details.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tygcnw/i_made_atrium_turn_my_data_into_a_pocket_universe/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:17f40b3e2b727932</id>
     <title>Snap Site - a tool I built that audits website UX.</title>
@@ -768,102 +861,5 @@ Figma is turning a quiet experiment into a pretty loud stat…</title>
     <category term="anthropic"/>
     <summary>Figma Make now edits local codebases in real-time—direct design-to-code workflow amplification.</summary>
     <content type="html"><![CDATA[<p>Figma Make now edits local codebases in real-time—direct design-to-code workflow amplification.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/gadgetbond.com/post/3mnho2kifcx26">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4e33b450239e3fd5</id>
-    <title>Showcasing a performance-focused dark editorial framework (100/100 AEO)</title>
-    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1twkmte/showcasing_a_performancefocused_dark_editorial/"/>
-    <published>2026-06-04T11:17:39+00:00</published>
-    <updated>2026-06-04T11:17:39+00:00</updated>
-    <author><name>reddit/r/designsystems</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Dark editorial design system with 100/100 performance—polished framework but minimal detail shared.</summary>
-    <content type="html"><![CDATA[<p>Dark editorial design system with 100/100 performance—polished framework but minimal detail shared.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1twkmte/showcasing_a_performancefocused_dark_editorial/">Read on reddit/r/designsystems →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:17bfe3831d2470f4</id>
-    <title>I recorded a 22-min tutorial on how to avoid AI slop for your landing pages https://t.co/PVVmwecxjK</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2062484065748701429"/>
-    <published>2026-06-04T10:38:15+00:00</published>
-    <updated>2026-06-04T10:38:15+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>22-min tutorial on avoiding AI slop in landing page design—directly addresses anti-pattern craft Steven follows.</summary>
-    <content type="html"><![CDATA[<p>22-min tutorial on avoiding AI slop in landing page design—directly addresses anti-pattern craft Steven follows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2062484065748701429">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a697db8fb85de2df</id>
-    <title>Svelte Efferd is a collection of Svelte shadcn/ui blocks for marketing pages - including header blocks, hero sections, c…</title>
-    <link rel="alternate" href="https://bsky.app/profile/madewithsvelte.com/post/3mnhfujfrcy2z"/>
-    <published>2026-06-04T10:25:01.419Z</published>
-    <updated>2026-06-04T10:25:01.419Z</updated>
-    <author><name>madewithsvelte.com</name></author>
-    <category term="shadcn"/>
-    <category term="frontend"/>
-    <category term="prototype"/>
-    <summary>Svelte shadcn/ui block collection for marketing pages—solid component registry, light substance.</summary>
-    <content type="html"><![CDATA[<p>Svelte shadcn/ui block collection for marketing pages—solid component registry, light substance.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/madewithsvelte.com/post/3mnhfujfrcy2z">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:95b54b2e02459421</id>
-    <title>Modern Input OTP components 🚀
-
-Built for authentication, onboarding, and verification flows.
-
-Clean UI, animations, and …</title>
-    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnhcfd3n5s2u"/>
-    <published>2026-06-04T09:22:50.491Z</published>
-    <updated>2026-06-04T09:22:50.491Z</updated>
-    <author><name>shadcnspace.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <summary>Modern OTP input component with animations &amp; validation—well-executed shadcn addition.</summary>
-    <content type="html"><![CDATA[<p>Modern OTP input component with animations &amp; validation—well-executed shadcn addition.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnhcfd3n5s2u">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8c076898e9c71bbc</id>
-    <title>Design Engineering Is the New Product Design: Lessons From a Recent Enterprise Project</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1twhnyx/design_engineering_is_the_new_product_design/"/>
-    <published>2026-06-04T08:38:21+00:00</published>
-    <updated>2026-06-04T08:38:21+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="mcp"/>
-    <category term="technique"/>
-    <category term="claude-code"/>
-    <summary>Enterprise design-to-code workflow using Figma MCP, Storybook, and skill-based pipeline to bridge design and production—lessons on prototype-to-production handoff.</summary>
-    <content type="html"><![CDATA[<p>Enterprise design-to-code workflow using Figma MCP, Storybook, and skill-based pipeline to bridge design and production—lessons on prototype-to-production handoff.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1twhnyx/design_engineering_is_the_new_product_design/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1a875c074583425c</id>
-    <title>Cursor 招聘设计工程师了，非常令人心动，但我还犹豫着不能行动；
-
-我在字节工作了8年，一直游走在动效设计师和设计工程师之间。最近我的团队（豆包手机团队）也在招聘设计工程师，但是我们需要的方向更多要有一些对 Android 平台的了解，…</title>
-    <link rel="alternate" href="https://x.com/xiaolinbythesea/status/2062447379098517799"/>
-    <published>2026-06-04T08:12:28+00:00</published>
-    <updated>2026-06-04T08:12:28+00:00</updated>
-    <author><name>xiaolinbythesea</name></author>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</summary>
-    <content type="html"><![CDATA[<p>Deep analysis of AI Design Engineer vs. Product UI Craft Engineer personas with real job criteria and prototype expectations.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/xiaolinbythesea/status/2062447379098517799">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f45725d0a3dffc1d</id>
-    <title>Designing how designers master AI</title>
-    <link rel="alternate" href="https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945"/>
-    <published>2026-06-04T07:48:13+00:00</published>
-    <updated>2026-06-04T07:48:13+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945">Read on sidebar →</a></p>]]></content>
   </entry>
 </feed>
