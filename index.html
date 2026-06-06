@@ -642,10 +642,9 @@
   <main class="stream">
     <header class="streamhead">
       <div class="streamhead-meta">
-        <span><strong>703</strong> items</span>
-        <span>updated 2026-06-06T03:00:06+00:00</span>
+        <span><strong id="itemCount">703</strong> shown</span>
+        <span>updated 2026-06-06T03:16:20+00:00</span>
         <span>min score 6</span>
-        <span class="match-ct" id="searchCount"></span>
       </div>
       <input id="search" class="search" type="search" autocomplete="off"
              placeholder="Search title, summary, tag, source…"
@@ -19767,7 +19766,7 @@ buildui.com/r…</a>
     var currentView   = 'unread';
     var currentQuery  = '';
     var searchEl      = document.getElementById('search');
-    var searchCountEl = document.getElementById('searchCount');
+    var itemCountEl = document.getElementById('itemCount');
 
     function isSaved(id) { return saved.some(function (m) { return m.id === id; }); }
 
@@ -19808,10 +19807,9 @@ buildui.com/r…</a>
         el.classList.toggle('is-hidden', hidden);
         if (!hidden) visible++;
       });
-      if (searchCountEl) {
-        searchCountEl.textContent =
-          q ? ('· ' + visible + ' match' + (visible === 1 ? '' : 'es')) : '';
-      }
+      // The "N shown" count beside the feed reflects the active filter
+      // (view + source + search), i.e. exactly how many rows are visible.
+      if (itemCountEl) itemCountEl.textContent = visible;
       chips.forEach(function (c) {
         c.classList.toggle('active', c.dataset.source === currentSource);
       });
