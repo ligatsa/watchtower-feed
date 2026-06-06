@@ -5,8 +5,76 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-06T05:44:44+00:00</updated>
+  <updated>2026-06-06T11:49:03+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:17f40b3e2b727932</id>
+    <title>Snap Site - a tool I built that audits website UX.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1tydsqp/snap_site_a_tool_i_built_that_audits_website_ux/"/>
+    <published>2026-06-06T10:36:38+00:00</published>
+    <updated>2026-06-06T10:36:38+00:00</updated>
+    <author><name>reddit/r/web_design</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Visual audit tool that pins UX/accessibility findings to exact coordinates on live screenshots; started as Figma plugin, shows real design-craft value.</summary>
+    <content type="html"><![CDATA[<p>Visual audit tool that pins UX/accessibility findings to exact coordinates on live screenshots; started as Figma plugin, shows real design-craft value.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1tydsqp/snap_site_a_tool_i_built_that_audits_website_ux/">Read on reddit/r/web_design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f83d3dbd52af2561</id>
+    <title>i made fennara, a godot plugin + mcp for ai agents</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tydr1m/i_made_fennara_a_godot_plugin_mcp_for_ai_agents/"/>
+    <published>2026-06-06T10:34:00+00:00</published>
+    <updated>2026-06-06T10:34:00+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="mcp"/>
+    <category term="plugin"/>
+    <category term="prototype"/>
+    <category term="agent-sdk"/>
+    <summary>Godot plugin + MCP that gives AI agents live feedback (diagnostics, screenshots, validation) for game-design iteration; strong feedback-loop design pattern for agent-assisted creation.</summary>
+    <content type="html"><![CDATA[<p>Godot plugin + MCP that gives AI agents live feedback (diagnostics, screenshots, validation) for game-design iteration; strong feedback-loop design pattern for agent-assisted creation.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tydr1m/i_made_fennara_a_godot_plugin_mcp_for_ai_agents/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cafc5acd5328907e</id>
+    <title>I turned our AR spreadsheet into a live collections dashboard using Claude. here&#x27;s the exact prompt</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/"/>
+    <published>2026-06-06T08:35:00+00:00</published>
+    <updated>2026-06-06T08:35:00+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Built a live dashboard UI from spreadsheet data using Claude with exact prompt shared; concrete design output but limited depth.</summary>
+    <content type="html"><![CDATA[<p>Built a live dashboard UI from spreadsheet data using Claude with exact prompt shared; concrete design output but limited depth.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a8751c0729046bb9</id>
+    <title>Claude Design went through all my 5 hour quota + $8 of my own credits in one prompt + 1 change logo request.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tya0m4/claude_design_went_through_all_my_5_hour_quota_8/"/>
+    <published>2026-06-06T06:54:25+00:00</published>
+    <updated>2026-06-06T06:54:25+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="designer-post"/>
+    <summary>Claude Design session for video editing portfolio produced strong output; real design artifact with usage insights and workflow impact.</summary>
+    <content type="html"><![CDATA[<p>Claude Design session for video editing portfolio produced strong output; real design artifact with usage insights and workflow impact.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tya0m4/claude_design_went_through_all_my_5_hour_quota_8/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:74d25706ee448bfc</id>
+    <title>Claude builds fast but drifts fast. I wrote a full SOP to fix that — feedback welcome</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1ty9seo/claude_builds_fast_but_drifts_fast_i_wrote_a_full/"/>
+    <published>2026-06-06T06:41:25+00:00</published>
+    <updated>2026-06-06T06:41:25+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="technique"/>
+    <category term="claude-code"/>
+    <category term="analysis"/>
+    <summary>Spec-Driven Development SOP for AI-assisted builds; formal technique to prevent AI drift and maintain design/code coherence.</summary>
+    <content type="html"><![CDATA[<p>Spec-Driven Development SOP for AI-assisted builds; formal technique to prevent AI drift and maintain design/code coherence.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1ty9seo/claude_builds_fast_but_drifts_fast_i_wrote_a_full/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:162339c99a6a4921</id>
     <title>Explore 15 Shadcn Pricing Sections.
@@ -797,82 +865,5 @@ Clean UI, animations, and …</title>
     <category term="designer-post"/>
     <summary>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</summary>
     <content type="html"><![CDATA[<p>Thoughtful essay on designers mastering AI—fits Steven&#x27;s interest in how AI affects design discipline and personal mastery.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:51034334feef5fb2</id>
-    <title>The speed of prototyping in the age of AI</title>
-    <link rel="alternate" href="https://darylcecile.net/notes/speed-of-prototyping-age-of-ai"/>
-    <published>2026-06-04T07:46:55+00:00</published>
-    <updated>2026-06-04T07:46:55+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Personal essay on how AI accelerates prototyping and shipping while staying hands-on—reflects thoughtful designer practice with AI.</summary>
-    <content type="html"><![CDATA[<p>Personal essay on how AI accelerates prototyping and shipping while staying hands-on—reflects thoughtful designer practice with AI.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://darylcecile.net/notes/speed-of-prototyping-age-of-ai">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:44ee42476964e439</id>
-    <title>Building for voice In, visuals out</title>
-    <link rel="alternate" href="https://allenpike.com/2026/voice-in-visuals-out/"/>
-    <published>2026-06-04T07:45:45+00:00</published>
-    <updated>2026-06-04T07:45:45+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Voice-to-visuals interaction design thinking; thoughtful UX essay on latency &amp; real-time UI.</summary>
-    <content type="html"><![CDATA[<p>Voice-to-visuals interaction design thinking; thoughtful UX essay on latency &amp; real-time UI.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://allenpike.com/2026/voice-in-visuals-out/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9150754ab7d98c91</id>
-    <title>Figma agent je živý přímo v canvas. Přes chat zvládá úpravy stavů, změny obsahu i propagaci přes více obrazovek — vy jen…</title>
-    <link rel="alternate" href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mngzofratc2p"/>
-    <published>2026-06-04T06:46:51.318Z</published>
-    <updated>2026-06-04T06:46:51.318Z</updated>
-    <author><name>aifounders-cz.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="agent-sdk"/>
-    <category term="ui-craft"/>
-    <summary>Figma agent live in canvas with chat-driven state edits, content changes, and multi-screen propagation—new design craft for intent-to-execution loop.</summary>
-    <content type="html"><![CDATA[<p>Figma agent live in canvas with chat-driven state edits, content changes, and multi-screen propagation—new design craft for intent-to-execution loop.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mngzofratc2p">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8fd948cd176df3bc</id>
-    <title>Claude Code 使って、実サイトデザインを Figma で再現したい方
-
-◯ この３つがおすすめ
-
-- Chrome DevTools MCP
-- Figma MCP
-- スタイルガイドライン
-
-詳しい設定方法（スキル、スタイルガイ…</title>
-    <link rel="alternate" href="https://x.com/commte/status/2062369128728690794"/>
-    <published>2026-06-04T03:01:31+00:00</published>
-    <updated>2026-06-04T03:01:31+00:00</updated>
-    <author><name>commte</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="figma-make"/>
-    <category term="technique"/>
-    <category term="claude-code"/>
-    <summary>Claude Code + Figma MCP + Chrome DevTools for design-to-code parity—direct production workflow Steven uses.</summary>
-    <content type="html"><![CDATA[<p>Claude Code + Figma MCP + Chrome DevTools for design-to-code parity—direct production workflow Steven uses.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/commte/status/2062369128728690794">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8298a837c5710dbe</id>
-    <title>RT @ridd_design: collaborating with the content team is 10x harder if you&#x27;re not in Figma&#x27;s canvas anymore...
-
-so @andym…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2062331153500283052"/>
-    <published>2026-06-04T00:30:37+00:00</published>
-    <updated>2026-06-04T00:30:37+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <summary>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</summary>
-    <content type="html"><![CDATA[<p>Figma collaboration workflow demo addressing content-team sync pain; design-specific tool/workflow insight.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2062331153500283052">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
