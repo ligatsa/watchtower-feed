@@ -5,8 +5,107 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-07T12:06:08+00:00</updated>
+  <updated>2026-06-07T18:10:42+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:416665ef8cada2b0</id>
+    <title>How to distinguish AI design?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/Frontend/comments/1tzidf6/how_to_distinguish_ai_design/"/>
+    <published>2026-06-07T17:31:37+00:00</published>
+    <updated>2026-06-07T17:31:37+00:00</updated>
+    <author><name>reddit/r/Frontend</name></author>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <summary>Thread asking how to spot AI design patterns and avoid slop—relevant taste/critique angle with screenshot example.</summary>
+    <content type="html"><![CDATA[<p>Thread asking how to spot AI design patterns and avoid slop—relevant taste/critique angle with screenshot example.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1tzidf6/how_to_distinguish_ai_design/">Read on reddit/r/Frontend →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:15c57dd19801b21a</id>
+    <title>之所以研究 Claude Design，是因为最近摸索出一套不错的开发模式：
+
+1. 先用 Claude Design 去设计 App 的 UI 和 UX，第一版本越简单越好。
+
+Claude Design 交付的结果是 HTML + CS…</title>
+    <link rel="alternate" href="https://x.com/dotey/status/2063674134903603302"/>
+    <published>2026-06-07T17:27:09+00:00</published>
+    <updated>2026-06-07T17:27:09+00:00</updated>
+    <author><name>dotey</name></author>
+    <category term="claude-code"/>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Deep workflow: Claude Design → HTML/CSS/React/data.js → Opus MVP; design-system extraction, git-diff iteration, strong UI-to-code pipeline.</summary>
+    <content type="html"><![CDATA[<p>Deep workflow: Claude Design → HTML/CSS/React/data.js → Opus MVP; design-system extraction, git-diff iteration, strong UI-to-code pipeline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/dotey/status/2063674134903603302">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cc68c78b834ca33f</id>
+    <title>Color System Manager / Mobile App</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1tzhfhq/color_system_manager_mobile_app/"/>
+    <published>2026-06-07T16:56:01+00:00</published>
+    <updated>2026-06-07T16:56:01+00:00</updated>
+    <author><name>reddit/r/designsystems</name></author>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Color palette management app with design-system focus; real artifact addressing color workflow, strong design-system tie.</summary>
+    <content type="html"><![CDATA[<p>Color palette management app with design-system focus; real artifact addressing color workflow, strong design-system tie.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tzhfhq/color_system_manager_mobile_app/">Read on reddit/r/designsystems →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f5a47f7fb8593de3</id>
+    <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
+    <link rel="alternate" href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x"/>
+    <published>2026-06-07T16:53:12+03:00</published>
+    <updated>2026-06-07T16:53:12+03:00</updated>
+    <author><name>newsyc200.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</summary>
+    <content type="html"><![CDATA[<p>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3e9022a67ae170fc</id>
+    <title>a part of building with AI that still blows my mind is that you can:
+
+1) feed Claude a video
+2) tell it to break it into…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2063645413178237410"/>
+    <published>2026-06-07T15:33:01+00:00</published>
+    <updated>2026-06-07T15:33:01+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="technique"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <summary>Video-to-animation reverse-engineering technique using Claude; concrete design-to-code craft with AI.</summary>
+    <content type="html"><![CDATA[<p>Video-to-animation reverse-engineering technique using Claude; concrete design-to-code craft with AI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2063645413178237410">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:01c1ca0010168528</id>
+    <title>I design with Claude more than Figma now
+https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
+    <link rel="alternate" href="https://bsky.app/profile/hn.rbrt.fr/post/3mnpbj6bgqc27"/>
+    <published>2026-06-07T13:28:23Z</published>
+    <updated>2026-06-07T13:28:23Z</updated>
+    <author><name>hn.rbrt.fr</name></author>
+    <category term="claude-code"/>
+    <category term="designer-post"/>
+    <category term="prototype"/>
+    <summary>Designer at Jane Street now prototypes in Claude Code over Figma—direct workflow shift for design discipline with real artifact.</summary>
+    <content type="html"><![CDATA[<p>Designer at Jane Street now prototypes in Claude Code over Figma—direct workflow shift for design discipline with real artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/hn.rbrt.fr/post/3mnpbj6bgqc27">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:735cce1106062d2e</id>
+    <title>A Jane Street designer now prototypes directly in the codebase with Claude, largely skipping Figma</title>
+    <link rel="alternate" href="https://bsky.app/profile/druce.ai/post/3mnpa65cj5i2l"/>
+    <published>2026-06-07T13:04:19.649651Z</published>
+    <updated>2026-06-07T13:04:19.649651Z</updated>
+    <author><name>druce.ai</name></author>
+    <category term="claude-code"/>
+    <category term="designer-post"/>
+    <category term="prototype"/>
+    <summary>Jane Street designer skips Figma, builds directly in codebase with Claude—concrete shift in design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Jane Street designer skips Figma, builds directly in codebase with Claude—concrete shift in design-to-code workflow.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/druce.ai/post/3mnpa65cj5i2l">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:787600e84f013ec4</id>
     <title>🔥 AI落地页接单小技巧：用 Bolt.new 的「Figma to Code」功能，把客户设计稿秒转代码，收费不变效率翻倍。
@@ -336,6 +435,19 @@ Discussion</title>
     <category term="design-system"/>
     <summary>AI-driven design system enforcement and visual regression in CI/CD; concrete guardrails for AI-generated UI consistency.</summary>
     <content type="html"><![CDATA[<p>AI-driven design system enforcement and visual regression in CI/CD; concrete guardrails for AI-generated UI consistency.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1tz35ea/how_are_you_actually_using_ai_in_your_cicd_to/">Read on reddit/r/Frontend →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:878a2e43d6bc9a7a</id>
+    <title>How do you document button interaction states for engineering handoff?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1tz2wdg/how_do_you_document_button_interaction_states_for/"/>
+    <published>2026-06-07T05:02:07+00:00</published>
+    <updated>2026-06-07T05:02:07+00:00</updated>
+    <author><name>reddit/r/UI_Design</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <summary>Designer question on button state documentation and Figma handoff process—practical UI craft concern, light substance.</summary>
+    <content type="html"><![CDATA[<p>Designer question on button state documentation and Figma handoff process—practical UI craft concern, light substance.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1tz2wdg/how_do_you_document_button_interaction_states_for/">Read on reddit/r/UI_Design →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:83b98a88ccfc66f7</id>
@@ -739,133 +851,5 @@ Modern pricing cards, comparison tables, and SaaS pricing layouts built for Reac
     <category term="shadcn"/>
     <summary>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</summary>
     <content type="html"><![CDATA[<p>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnlsg2d4fq2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:95702022ee549ec0</id>
-    <title>css sine scroller 🧑‍🍳
-
-scroll-driven animation + sin() + custom properties
-
-animate a custom property value on scroll an…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2063083606877126943"/>
-    <published>2026-06-06T02:20:36+00:00</published>
-    <updated>2026-06-06T02:20:36+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>CSS sine-wave scroll animation technique using custom properties; solid motion craft with clear visual demo.</summary>
-    <content type="html"><![CDATA[<p>CSS sine-wave scroll animation technique using custom properties; solid motion craft with clear visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/jh3yy/status/2063083606877126943">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:988c223c45fa4e73</id>
-    <title>Turn code into designs your whole team can edit by connecting Codex to the Figma canvas https://t.co/5LQdgW0KeV</title>
-    <link rel="alternate" href="https://x.com/figma/status/2063019204316368999"/>
-    <published>2026-06-05T22:04:42+00:00</published>
-    <updated>2026-06-05T22:04:42+00:00</updated>
-    <author><name>figma</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="code-to-design"/>
-    <category term="figma-make"/>
-    <summary>Figma Codex plugin bridges code-to-design: import repos directly into canvas for collaborative, editable UI design.</summary>
-    <content type="html"><![CDATA[<p>Figma Codex plugin bridges code-to-design: import repos directly into canvas for collaborative, editable UI design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2063019204316368999">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a2c36c8b2fcf4031</id>
-    <title>Everyone’s talking about the @figma Config Makeathon.
-
-$100k in prizes for ideas built with
-→ Figma Make
-→ Figma MCP
-→ @…</title>
-    <link rel="alternate" href="https://x.com/contra/status/2063006099884970239"/>
-    <published>2026-06-05T21:12:37+00:00</published>
-    <updated>2026-06-05T21:12:37+00:00</updated>
-    <author><name>contra</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="mcp"/>
-    <category term="anthropic"/>
-    <summary>Figma Config Makeathon announcement ($100k prizes) for Figma Make, MCP, Weave, and Design Agent; direct enablement of design-AI work at scale.</summary>
-    <content type="html"><![CDATA[<p>Figma Config Makeathon announcement ($100k prizes) for Figma Make, MCP, Weave, and Design Agent; direct enablement of design-AI work at scale.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/contra/status/2063006099884970239">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b16460b3592c3496</id>
-    <title>Codex can import UI from your repo into MagicPath and make it editable.
-
-It understands your components, design system, …</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2062997706038227173"/>
-    <published>2026-06-05T20:39:16+00:00</published>
-    <updated>2026-06-05T20:39:16+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="plugin"/>
-    <category term="code-to-design"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <summary>MagicPath imports working repos into editable canvas, understanding components and design systems for interactive UI recreation.</summary>
-    <content type="html"><![CDATA[<p>MagicPath imports working repos into editable canvas, understanding components and design systems for interactive UI recreation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/MagicPathAI/status/2062997706038227173">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e2a963172802fc47</id>
-    <title>MagicPath is now an official plugin for Codex.
-
-Install it in seconds and give Codex an infinite multiplayer canvas to c…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2062995746027376764"/>
-    <published>2026-06-05T20:31:29+00:00</published>
-    <updated>2026-06-05T20:31:29+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="plugin"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <summary>MagicPath Codex plugin: multiplayer canvas for design+code with repo import, design-system sync, and image generation.</summary>
-    <content type="html"><![CDATA[<p>MagicPath Codex plugin: multiplayer canvas for design+code with repo import, design-system sync, and image generation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MagicPathAI/status/2062995746027376764">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0d07d0d2909dc6d9</id>
-    <title>generating ideas in .html &amp;gt; walls of text
-
-here I&#x27;m having Claude show me all possible metadata for a 0-&amp;gt;1 feature…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2062993200915403050"/>
-    <published>2026-06-05T20:21:22+00:00</published>
-    <updated>2026-06-05T20:21:22+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="prototype"/>
-    <summary>Using Claude to generate interactive HTML mockups for feature ideation—concrete visual-first thinking over walls of text.</summary>
-    <content type="html"><![CDATA[<p>Using Claude to generate interactive HTML mockups for feature ideation—concrete visual-first thinking over walls of text.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ridd_design/status/2062993200915403050">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0a31f20a797aa2a0</id>
-    <title>✨ Fantastic new interactive blog post from @citizenofnowhe.re about the issue with quick cursor movement on the web and …</title>
-    <link rel="alternate" href="https://bsky.app/profile/joshwcomeau.com/post/3mnku4zjjrc2e"/>
-    <published>2026-06-05T19:18:18.593Z</published>
-    <updated>2026-06-05T19:18:18.593Z</updated>
-    <author><name>joshwcomeau.com</name></author>
-    <category term="frontend"/>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <summary>Interactive blog on collision detection and cursor motion algorithms—web motion craft with visual explanation.</summary>
-    <content type="html"><![CDATA[<p>Interactive blog on collision detection and cursor motion algorithms—web motion craft with visual explanation.</p><p><strong>Source:</strong> bluesky_user · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/joshwcomeau.com/post/3mnku4zjjrc2e">Read on bluesky_user →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a6ddceffa856de10</id>
-    <title>motion arcs are all about timing 🎬
-
-.item {
-  animation-name: cart-x, cart-y;
-  animation-timing-function:
-    var(--x-e…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2062974322843500569"/>
-    <published>2026-06-05T19:06:21+00:00</published>
-    <updated>2026-06-05T19:06:21+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="frontend"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Motion arc timing technique using CSS keyframes and animation-composition for refined easing.</summary>
-    <content type="html"><![CDATA[<p>Motion arc timing technique using CSS keyframes and animation-composition for refined easing.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2062974322843500569">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
