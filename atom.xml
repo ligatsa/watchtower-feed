@@ -5,8 +5,116 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-07T18:10:42+00:00</updated>
+  <updated>2026-06-08T00:15:20+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f7712ddb397d80f2</id>
+    <title>Figmaよりclaude codeでデザインしてる、とJane Streetのエンジニアが言い切ってるんだけど、本当にそれで回るのか。読むと、コンポーネント設計やレイアウト探索を自然言語で回して反復速度を上げてるらしい。デザインと実装の間…</title>
+    <link rel="alternate" href="https://bsky.app/profile/viiiviii538.bsky.social/post/3mnqf6ycnrs23"/>
+    <published>2026-06-08T00:06:56.786966+00:00</published>
+    <updated>2026-06-08T00:06:56.786966+00:00</updated>
+    <author><name>viiiviii538.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Jane Street engineer replaces Figma with Claude Code for component design &amp; layout exploration via natural language, cutting design-implementation iteration cost.</summary>
+    <content type="html"><![CDATA[<p>Jane Street engineer replaces Figma with Claude Code for component design &amp; layout exploration via natural language, cutting design-implementation iteration cost.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/viiiviii538.bsky.social/post/3mnqf6ycnrs23">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1da9a5b6b0ecdbdd</id>
+    <title>Two-way Figma color sync for design systems</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1tzr041/twoway_figma_color_sync_for_design_systems/"/>
+    <published>2026-06-07T23:09:32+00:00</published>
+    <updated>2026-06-07T23:09:32+00:00</updated>
+    <author><name>reddit/r/designsystems</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="plugin"/>
+    <summary>Two-way Figma color sync for design systems (Colorsphere)—direct design-system token/variable workflow with concrete Figma integration.</summary>
+    <content type="html"><![CDATA[<p>Two-way Figma color sync for design systems (Colorsphere)—direct design-system token/variable workflow with concrete Figma integration.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tzr041/twoway_figma_color_sync_for_design_systems/">Read on reddit/r/designsystems →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a955b536c16b1e99</id>
+    <title>context: fork es una de las funcionalidades más importantes cuando diseñás skills en Claude Code.
+
+Sin este campo, el sk…</title>
+    <link rel="alternate" href="https://x.com/santtiagom_/status/2063756831466377598"/>
+    <published>2026-06-07T22:55:46+00:00</published>
+    <updated>2026-06-07T22:55:46+00:00</updated>
+    <author><name>santtiagom_</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <summary>Context fork pattern in Claude Code skills isolates subagent execution for cleaner state—useful for design skill isolation but framework-focused.</summary>
+    <content type="html"><![CDATA[<p>Context fork pattern in Claude Code skills isolates subagent execution for cleaner state—useful for design skill isolation but framework-focused.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/santtiagom_/status/2063756831466377598">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:563ddc7e83b39ba6</id>
+    <title>A lot of the thread focused on the shift from static Figma designs to live code prototypes. While designers love the spe…</title>
+    <link rel="alternate" href="https://bsky.app/profile/hncompanion.com/post/3mnq64dficb26"/>
+    <published>2026-06-07T22:00:11.445Z</published>
+    <updated>2026-06-07T22:00:11.445Z</updated>
+    <author><name>hncompanion.com</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Thoughtful analysis of the shift from static Figma to live Claude prototypes and AI slop review burden—directly addresses Steven&#x27;s design+Claude workflow tension.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful analysis of the shift from static Figma to live Claude prototypes and AI slop review burden—directly addresses Steven&#x27;s design+Claude workflow tension.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/hncompanion.com/post/3mnq64dficb26">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:924f5a8d836fe6eb</id>
+    <title>I design with Claude more than Figma now
+View Article | Join the HN Conversation
+
+Summary of HN discussion 🧵👇</title>
+    <link rel="alternate" href="https://bsky.app/profile/hncompanion.com/post/3mnq64cz7vr2j"/>
+    <published>2026-06-07T22:00:11.003Z</published>
+    <updated>2026-06-07T22:00:11.003Z</updated>
+    <author><name>hncompanion.com</name></author>
+    <category term="claude-code"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>HN discussion on designing with Claude over Figma—core reflection on AI-first design practice and designer mindset shift.</summary>
+    <content type="html"><![CDATA[<p>HN discussion on designing with Claude over Figma—core reflection on AI-first design practice and designer mindset shift.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/hncompanion.com/post/3mnq64cz7vr2j">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:20d1a47b636a784f</id>
+    <title>The Illusion of Finished Work in Claude Code</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tzo0q6/the_illusion_of_finished_work_in_claude_code/"/>
+    <published>2026-06-07T21:04:15+00:00</published>
+    <updated>2026-06-07T21:04:15+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Essay on Claude Code&#x27;s illusion of finished work and the real review burden on designers—sharp critique of AI-generated UI risk.</summary>
+    <content type="html"><![CDATA[<p>Essay on Claude Code&#x27;s illusion of finished work and the real review burden on designers—sharp critique of AI-generated UI risk.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tzo0q6/the_illusion_of_finished_work_in_claude_code/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cba915dc98f34716</id>
+    <title>Has anyone ever created a procedural generated UI style?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1tzn1d0/has_anyone_ever_created_a_procedural_generated_ui/"/>
+    <published>2026-06-07T20:25:53+00:00</published>
+    <updated>2026-06-07T20:25:53+00:00</updated>
+    <author><name>reddit/r/web_design</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Procedural UI style exploration (Basquiatism) using shaders for unique, dynamic design—creative UI craft idea with generative angle.</summary>
+    <content type="html"><![CDATA[<p>Procedural UI style exploration (Basquiatism) using shaders for unique, dynamic design—creative UI craft idea with generative angle.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1tzn1d0/has_anyone_ever_created_a_procedural_generated_ui/">Read on reddit/r/web_design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d02b8e840aea8e12</id>
+    <title>Anthropic adds Claude Design to the Claude Desktop App</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tzk49t/anthropic_adds_claude_design_to_the_claude/"/>
+    <published>2026-06-07T18:35:15+00:00</published>
+    <updated>2026-06-07T18:35:15+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="anthropic"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <summary>Anthropic ships Claude Design natively in Desktop App — direct integration for AI-assisted UI/UX work.</summary>
+    <content type="html"><![CDATA[<p>Anthropic ships Claude Design natively in Desktop App — direct integration for AI-assisted UI/UX work.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tzk49t/anthropic_adds_claude_design_to_the_claude/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:416665ef8cada2b0</id>
     <title>How to distinguish AI design?</title>
@@ -78,6 +186,23 @@ Claude Design 交付的结果是 HTML + CS…</title>
     <category term="ui-craft"/>
     <summary>Video-to-animation reverse-engineering technique using Claude; concrete design-to-code craft with AI.</summary>
     <content type="html"><![CDATA[<p>Video-to-animation reverse-engineering technique using Claude; concrete design-to-code craft with AI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2063645413178237410">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5278bd871a2ea28c</id>
+    <title>看完《置身钉内》，建议钉钉给所有人发一本《Refactoring UI》
+
+第一章，第一节
+
+Start with a feature, not a layout https://t.co/Byk4BC10Sx</title>
+    <link rel="alternate" href="https://x.com/yadong_xie/status/2063614875465834866"/>
+    <published>2026-06-07T13:31:41+00:00</published>
+    <updated>2026-06-07T13:31:41+00:00</updated>
+    <author><name>yadong_xie</name></author>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <summary>Refactoring UI principles applied to DingTalk design — direct design-craft reference and taste analysis.</summary>
+    <content type="html"><![CDATA[<p>Refactoring UI principles applied to DingTalk design — direct design-craft reference and taste analysis.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/yadong_xie/status/2063614875465834866">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:01c1ca0010168528</id>
@@ -496,6 +621,21 @@ A set of beautifully-designed, accessible components and a code distribut…</ti
     <content type="html"><![CDATA[<p>shadcn/ui hitting 115k stars—foundational design-system component library Steven uses.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/github-trending-js.bsky.social/post/3mno7cfmsa52a">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:987dd523139930e3</id>
+    <title>yzfly/awesome-design-html — 115 brand-themed HTML designs as a Claude Code skill (93 web + 22 iOS, incl. 20 China showcase). Install in one line, th</title>
+    <link rel="alternate" href="https://github.com/yzfly/awesome-design-html"/>
+    <published>2026-06-07T02:04:27Z</published>
+    <updated>2026-06-07T02:04:27Z</updated>
+    <author><name>yzfly</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>115 brand-themed HTML designs as Claude Code skill registry — instant style-reference skill for Linear/Figma/Spotify UI patterns.</summary>
+    <content type="html"><![CDATA[<p>115 brand-themed HTML designs as Claude Code skill registry — instant style-reference skill for Linear/Figma/Spotify UI patterns.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/yzfly/awesome-design-html">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:84b84017930d2273</id>
     <title>How should I architect an AI agent that edits a visual canvas through tools / JSON state?</title>
     <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tyy88t/how_should_i_architect_an_ai_agent_that_edits_a/"/>
@@ -718,138 +858,5 @@ At @OsloFF I got to try a new Claude skill from @MouxDesign that helped me mock 
     <category term="claude-code"/>
     <summary>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</summary>
     <content type="html"><![CDATA[<p>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/sethforprivacy/status/2063265482828845567">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2804c8d9b6c70718</id>
-    <title>anybody else find that, if given limited direction, Claude will always turn one concept into a newspaper 😂 https://t.co/…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2063259374114730339"/>
-    <published>2026-06-06T13:59:02+00:00</published>
-    <updated>2026-06-06T13:59:02+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Claude tendency to default to newspaper layouts—observation on AI design taste/anti-slop, light but relevant.</summary>
-    <content type="html"><![CDATA[<p>Claude tendency to default to newspaper layouts—observation on AI design taste/anti-slop, light but relevant.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ridd_design/status/2063259374114730339">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:75ec567447210d4a</id>
-    <title>Claude&#x27;s new background tasks panel is exactly how agentic UIs should look</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tyh46r/claudes_new_background_tasks_panel_is_exactly_how/"/>
-    <published>2026-06-06T13:20:13+00:00</published>
-    <updated>2026-06-06T13:20:13+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>Claude background tasks panel praised as agentic UI pattern—design observation on a shipped interface.</summary>
-    <content type="html"><![CDATA[<p>Claude background tasks panel praised as agentic UI pattern—design observation on a shipped interface.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tyh46r/claudes_new_background_tasks_panel_is_exactly_how/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a76996bd31920dc8</id>
-    <title>I made atrium turn my data into a pocket universe</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tygcnw/i_made_atrium_turn_my_data_into_a_pocket_universe/"/>
-    <published>2026-06-06T12:45:50+00:00</published>
-    <updated>2026-06-06T12:45:50+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="prototype"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <summary>Abstract data visualization &#x27;Observatory&#x27; built with Claude; creative UI/visual concept but lacks build details.</summary>
-    <content type="html"><![CDATA[<p>Abstract data visualization &#x27;Observatory&#x27; built with Claude; creative UI/visual concept but lacks build details.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tygcnw/i_made_atrium_turn_my_data_into_a_pocket_universe/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:17f40b3e2b727932</id>
-    <title>Snap Site - a tool I built that audits website UX.</title>
-    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1tydsqp/snap_site_a_tool_i_built_that_audits_website_ux/"/>
-    <published>2026-06-06T10:36:38+00:00</published>
-    <updated>2026-06-06T10:36:38+00:00</updated>
-    <author><name>reddit/r/web_design</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Visual audit tool that pins UX/accessibility findings to exact coordinates on live screenshots; started as Figma plugin, shows real design-craft value.</summary>
-    <content type="html"><![CDATA[<p>Visual audit tool that pins UX/accessibility findings to exact coordinates on live screenshots; started as Figma plugin, shows real design-craft value.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1tydsqp/snap_site_a_tool_i_built_that_audits_website_ux/">Read on reddit/r/web_design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f83d3dbd52af2561</id>
-    <title>i made fennara, a godot plugin + mcp for ai agents</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tydr1m/i_made_fennara_a_godot_plugin_mcp_for_ai_agents/"/>
-    <published>2026-06-06T10:34:00+00:00</published>
-    <updated>2026-06-06T10:34:00+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="mcp"/>
-    <category term="plugin"/>
-    <category term="prototype"/>
-    <category term="agent-sdk"/>
-    <summary>Godot plugin + MCP that gives AI agents live feedback (diagnostics, screenshots, validation) for game-design iteration; strong feedback-loop design pattern for agent-assisted creation.</summary>
-    <content type="html"><![CDATA[<p>Godot plugin + MCP that gives AI agents live feedback (diagnostics, screenshots, validation) for game-design iteration; strong feedback-loop design pattern for agent-assisted creation.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tydr1m/i_made_fennara_a_godot_plugin_mcp_for_ai_agents/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cafc5acd5328907e</id>
-    <title>I turned our AR spreadsheet into a live collections dashboard using Claude. here&#x27;s the exact prompt</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/"/>
-    <published>2026-06-06T08:35:00+00:00</published>
-    <updated>2026-06-06T08:35:00+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Built a live dashboard UI from spreadsheet data using Claude with exact prompt shared; concrete design output but limited depth.</summary>
-    <content type="html"><![CDATA[<p>Built a live dashboard UI from spreadsheet data using Claude with exact prompt shared; concrete design output but limited depth.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tybqzu/i_turned_our_ar_spreadsheet_into_a_live/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a8751c0729046bb9</id>
-    <title>Claude Design went through all my 5 hour quota + $8 of my own credits in one prompt + 1 change logo request.</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tya0m4/claude_design_went_through_all_my_5_hour_quota_8/"/>
-    <published>2026-06-06T06:54:25+00:00</published>
-    <updated>2026-06-06T06:54:25+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <summary>Claude Design session for video editing portfolio produced strong output; real design artifact with usage insights and workflow impact.</summary>
-    <content type="html"><![CDATA[<p>Claude Design session for video editing portfolio produced strong output; real design artifact with usage insights and workflow impact.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tya0m4/claude_design_went_through_all_my_5_hour_quota_8/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:74d25706ee448bfc</id>
-    <title>Claude builds fast but drifts fast. I wrote a full SOP to fix that — feedback welcome</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1ty9seo/claude_builds_fast_but_drifts_fast_i_wrote_a_full/"/>
-    <published>2026-06-06T06:41:25+00:00</published>
-    <updated>2026-06-06T06:41:25+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="technique"/>
-    <category term="claude-code"/>
-    <category term="analysis"/>
-    <summary>Spec-Driven Development SOP for AI-assisted builds; formal technique to prevent AI drift and maintain design/code coherence.</summary>
-    <content type="html"><![CDATA[<p>Spec-Driven Development SOP for AI-assisted builds; formal technique to prevent AI drift and maintain design/code coherence.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1ty9seo/claude_builds_fast_but_drifts_fast_i_wrote_a_full/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:162339c99a6a4921</id>
-    <title>Explore 15 Shadcn Pricing Sections.
-
-Modern pricing cards, comparison tables, and SaaS pricing layouts built for React a…</title>
-    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnlwdbsml22r"/>
-    <published>2026-06-06T05:30:15.828Z</published>
-    <updated>2026-06-06T05:30:15.828Z</updated>
-    <author><name>shadcnspace.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <summary>15 production-ready shadcn pricing components (cards, tables, layouts) for React/Next.js—direct UI craft reusable blocks.</summary>
-    <content type="html"><![CDATA[<p>15 production-ready shadcn pricing components (cards, tables, layouts) for React/Next.js—direct UI craft reusable blocks.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnlwdbsml22r">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:495946a700b027f0</id>
-    <title>What’s in your design stack that actually saves time? Mine: Figma + Tokens Studio + shadcn/ui. No more CSS wars. #Design…</title>
-    <link rel="alternate" href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnlsg2d4fq2x"/>
-    <published>2026-06-06T04:20:13.168793+00:00</published>
-    <updated>2026-06-06T04:20:13.168793+00:00</updated>
-    <author><name>abnavagent.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <category term="shadcn"/>
-    <summary>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</summary>
-    <content type="html"><![CDATA[<p>Design-system efficiency post: Figma + Tokens Studio + shadcn/ui workflow; lightweight design-stack insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnlsg2d4fq2x">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
