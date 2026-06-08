@@ -5,21 +5,20 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-08T00:15:20+00:00</updated>
+  <updated>2026-06-08T02:37:01+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f7712ddb397d80f2</id>
-    <title>Figmaよりclaude codeでデザインしてる、とJane Streetのエンジニアが言い切ってるんだけど、本当にそれで回るのか。読むと、コンポーネント設計やレイアウト探索を自然言語で回して反復速度を上げてるらしい。デザインと実装の間…</title>
-    <link rel="alternate" href="https://bsky.app/profile/viiiviii538.bsky.social/post/3mnqf6ycnrs23"/>
-    <published>2026-06-08T00:06:56.786966+00:00</published>
-    <updated>2026-06-08T00:06:56.786966+00:00</updated>
-    <author><name>viiiviii538.bsky.social</name></author>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f5a47f7fb8593de3</id>
+    <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
+    <link rel="alternate" href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x"/>
+    <published>2026-06-07T16:53:12+03:00</published>
+    <updated>2026-06-07T16:53:12+03:00</updated>
+    <author><name>newsyc200.bsky.social</name></author>
     <category term="claude-code"/>
-    <category term="ui-craft"/>
     <category term="technique"/>
     <category term="designer-post"/>
-    <summary>Jane Street engineer replaces Figma with Claude Code for component design &amp; layout exploration via natural language, cutting design-implementation iteration cost.</summary>
-    <content type="html"><![CDATA[<p>Jane Street engineer replaces Figma with Claude Code for component design &amp; layout exploration via natural language, cutting design-implementation iteration cost.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/viiiviii538.bsky.social/post/3mnqf6ycnrs23">Read on bluesky →</a></p>]]></content>
+    <summary>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</summary>
+    <content type="html"><![CDATA[<p>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:1da9a5b6b0ecdbdd</id>
@@ -159,19 +158,6 @@ Claude Design 交付的结果是 HTML + CS…</title>
     <content type="html"><![CDATA[<p>Color palette management app with design-system focus; real artifact addressing color workflow, strong design-system tie.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1tzhfhq/color_system_manager_mobile_app/">Read on reddit/r/designsystems →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f5a47f7fb8593de3</id>
-    <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
-    <link rel="alternate" href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x"/>
-    <published>2026-06-07T16:53:12+03:00</published>
-    <updated>2026-06-07T16:53:12+03:00</updated>
-    <author><name>newsyc200.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</summary>
-    <content type="html"><![CDATA[<p>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:3e9022a67ae170fc</id>
     <title>a part of building with AI that still blows my mind is that you can:
 
@@ -203,20 +189,6 @@ Start with a feature, not a layout https://t.co/Byk4BC10Sx</title>
     <category term="ui-craft"/>
     <summary>Refactoring UI principles applied to DingTalk design — direct design-craft reference and taste analysis.</summary>
     <content type="html"><![CDATA[<p>Refactoring UI principles applied to DingTalk design — direct design-craft reference and taste analysis.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/yadong_xie/status/2063614875465834866">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:01c1ca0010168528</id>
-    <title>I design with Claude more than Figma now
-https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
-    <link rel="alternate" href="https://bsky.app/profile/hn.rbrt.fr/post/3mnpbj6bgqc27"/>
-    <published>2026-06-07T13:28:23Z</published>
-    <updated>2026-06-07T13:28:23Z</updated>
-    <author><name>hn.rbrt.fr</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="prototype"/>
-    <summary>Designer at Jane Street now prototypes in Claude Code over Figma—direct workflow shift for design discipline with real artifact.</summary>
-    <content type="html"><![CDATA[<p>Designer at Jane Street now prototypes in Claude Code over Figma—direct workflow shift for design discipline with real artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/hn.rbrt.fr/post/3mnpbj6bgqc27">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:735cce1106062d2e</id>
@@ -278,22 +250,6 @@ https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index�
     <content type="html"><![CDATA[<p>Designer prefers Claude over Figma for design work; lightweight but clear signal.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/todaystopainews.bsky.social/post/3mnoy2dkxgs2x">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:70fae05eb605edc1</id>
-    <title>I design with Claude more than Figma now
-
-https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-inde…</title>
-    <link rel="alternate" href="https://bsky.app/profile/laxima-tech.bsky.social/post/3mnoxrvpjk22f"/>
-    <published>2026-06-07T10:34:19.396Z</published>
-    <updated>2026-06-07T10:34:19.396Z</updated>
-    <author><name>laxima-tech.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <summary>Jane Street designer&#x27;s full essay: Claude Code replaces Figma specs/handoffs with live prototypes.</summary>
-    <content type="html"><![CDATA[<p>Jane Street designer&#x27;s full essay: Claude Code replaces Figma specs/handoffs with live prototypes.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/laxima-tech.bsky.social/post/3mnoxrvpjk22f">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:79f876b78b910a84</id>
     <title>【東京エンジニア】 Claude でデザインするって話、分かる気がします。結局ね、ツールがいくら完璧になっても、人間が「どう問いかけるか」で全部変わるんですよ。Figma でポチポチするのと、言葉で手戻りなく伝えるのとでは、脳の働き方が違う…</title>
     <link rel="alternate" href="https://bsky.app/profile/forgelab-town.bsky.social/post/3mnow5jxdse2k"/>
@@ -343,20 +299,6 @@ A designer now uses Claude more than Figma, revolutionizing the design process w
     <content type="html"><![CDATA[<p>Non-designer built iOS app with Claude; shows workflow and process but lacks design critique, screens, or UI craft focus.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tz6x4c/i_built_an_ios_app_with_claude_as_my_coding/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:871225392b1f8d85</id>
-    <title>I design with Claude more than Figma now
-https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
-    <link rel="alternate" href="https://bsky.app/profile/hn100.atproto.rocks/post/3mnopzr2amn2v"/>
-    <published>2026-06-07T08:15:32.942332+00:00</published>
-    <updated>2026-06-07T08:15:32.942332+00:00</updated>
-    <author><name>hn100.atproto.rocks</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <summary>Designer switched from Figma to Claude Code; direct testimony on design-with-AI workflow shift with likely concrete examples.</summary>
-    <content type="html"><![CDATA[<p>Designer switched from Figma to Claude Code; direct testimony on design-with-AI workflow shift with likely concrete examples.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/hn100.atproto.rocks/post/3mnopzr2amn2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:dcb618f0d16cd28f</id>
     <title>I design with Claude more than Figma now</title>
     <link rel="alternate" href="https://bsky.app/profile/probbrain.bsky.social/post/3mnopl7dyt32r"/>
@@ -396,21 +338,6 @@ Discussion | Main Link</title>
     <category term="ui-craft"/>
     <summary>Jane Street designer shifts Figma→Claude Code workflow; core design+AI signal matching Steven&#x27;s explicit likes.</summary>
     <content type="html"><![CDATA[<p>Jane Street designer shifts Figma→Claude Code workflow; core design+AI signal matching Steven&#x27;s explicit likes.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/newsycombinatorbot.bsky.social/post/3mnonqimomr2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a89e7102b0c21a17</id>
-    <title>UIデザインの現場に変化が。もはやFigmaよりClaudeを使って設計する時間の方が長いという声が急増中。要件定義からプロトタイプ生成まで、AIがUIデザインのあり方を根本から変えつつあります。これからのデザイナーは「操作スキル」より「対…</title>
-    <link rel="alternate" href="https://bsky.app/profile/ai-bridge-tech.bsky.social/post/3mnomv566k32n"/>
-    <published>2026-06-07T07:19:16.658Z</published>
-    <updated>2026-06-07T07:19:16.658Z</updated>
-    <author><name>ai-bridge-tech.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Japanese post on Claude replacing Figma for UI design—designers shifting from tools to dialogue; links Jane Street design workflow piece.</summary>
-    <content type="html"><![CDATA[<p>Japanese post on Claude replacing Figma for UI design—designers shifting from tools to dialogue; links Jane Street design workflow piece.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/ai-bridge-tech.bsky.social/post/3mnomv566k32n">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:b3a95a8f99397597</id>
@@ -456,67 +383,6 @@ Discussion | Main Link</title>
     <category term="claude-code"/>
     <summary>Claude Design product announcement—Opus 4.7 converts Figma designs to interactive prototypes &amp; production UIs; direct design-to-code enabler.</summary>
     <content type="html"><![CDATA[<p>Claude Design product announcement—Opus 4.7 converts Figma designs to interactive prototypes &amp; production UIs; direct design-to-code enabler.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/uxdesignbriefly.bsky.social/post/3mnolucbaxn2a">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a14a24774e8c87e3</id>
-    <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
-    <link rel="alternate" href="https://bsky.app/profile/betterhn50.e-work.xyz/post/3mnolka3aeb2h"/>
-    <published>2026-06-07T06:55:16.414Z</published>
-    <updated>2026-06-07T06:55:16.414Z</updated>
-    <author><name>betterhn50.e-work.xyz</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Jane Street design-with-Claude post (duplicate reference); tangible workflow shift from Figma.</summary>
-    <content type="html"><![CDATA[<p>Jane Street design-with-Claude post (duplicate reference); tangible workflow shift from Figma.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/betterhn50.e-work.xyz/post/3mnolka3aeb2h">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8f985e732783bc79</id>
-    <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
-    <link rel="alternate" href="https://bsky.app/profile/betterhn20.e-work.xyz/post/3mnojuhsqfh2n"/>
-    <published>2026-06-07T06:25:12.730Z</published>
-    <updated>2026-06-07T06:25:12.730Z</updated>
-    <author><name>betterhn20.e-work.xyz</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Jane Street design-with-Claude post (duplicate reference); same workflow insight.</summary>
-    <content type="html"><![CDATA[<p>Jane Street design-with-Claude post (duplicate reference); same workflow insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/betterhn20.e-work.xyz/post/3mnojuhsqfh2n">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1f2d17798b525065</id>
-    <title>I design with Claude more than Figma now
-
-#HackerNews
-
-https://blog.janestreet.com/i-design-with-claude-code-more-than-f…</title>
-    <link rel="alternate" href="https://bsky.app/profile/hackernewstop5.bsky.social/post/3mnojiz23ka2v"/>
-    <published>2026-06-07T06:18:48.477Z</published>
-    <updated>2026-06-07T06:18:48.477Z</updated>
-    <author><name>hackernewstop5.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Jane Street design-with-Claude post (HN boost); same workflow; repost noise.</summary>
-    <content type="html"><![CDATA[<p>Jane Street design-with-Claude post (HN boost); same workflow; repost noise.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/hackernewstop5.bsky.social/post/3mnojiz23ka2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:480562276007364e</id>
-    <title>I design with Claude more than Figma now
-
-https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-inde…</title>
-    <link rel="alternate" href="https://bsky.app/profile/hnbot.gsuscs.xyz/post/3mnoiiwxvos2q"/>
-    <published>2026-06-07T06:00:52.618Z</published>
-    <updated>2026-06-07T06:00:52.618Z</updated>
-    <author><name>hnbot.gsuscs.xyz</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <summary>Designer shares how Claude Code has become their primary design tool over Figma, likely with concrete workflow and artifact examples.</summary>
-    <content type="html"><![CDATA[<p>Designer shares how Claude Code has become their primary design tool over Figma, likely with concrete workflow and artifact examples.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/hnbot.gsuscs.xyz/post/3mnoiiwxvos2q">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0811d80e045eb30f</id>
