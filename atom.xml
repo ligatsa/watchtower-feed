@@ -5,8 +5,23 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-08T02:37:01+00:00</updated>
+  <updated>2026-06-08T06:19:36+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c9b0358966d18e96</id>
+    <title>257 upvotes: &#x27;I design with Claude more than Figma.&#x27;
+
+I do the same for architecture. Describe the problem, AI generates…</title>
+    <link rel="alternate" href="https://bsky.app/profile/zhicheng96888.bsky.social/post/3mnqhvncb7x2g"/>
+    <published>2026-06-08T09:00:00.000Z</published>
+    <updated>2026-06-08T09:00:00.000Z</updated>
+    <author><name>zhicheng96888.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Designer shares workflow shift: Claude for ideation + structure, skip explain-phase, move to react-refine cycle.</summary>
+    <content type="html"><![CDATA[<p>Designer shares workflow shift: Claude for ideation + structure, skip explain-phase, move to react-refine cycle.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/zhicheng96888.bsky.social/post/3mnqhvncb7x2g">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:f5a47f7fb8593de3</id>
     <title>I design with Claude more than Figma now https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index…</title>
@@ -19,6 +34,49 @@
     <category term="designer-post"/>
     <summary>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</summary>
     <content type="html"><![CDATA[<p>Designer using Claude Code more than Figma—direct, high-signal piece on Claude+design workflow superiority.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/newsyc200.bsky.social/post/3mnpcvkdkgk2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2aaf10a3df567229</id>
+    <title>Claude made me realize that coding was never the bottleneck.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tzx6uq/claude_made_me_realize_that_coding_was_never_the/"/>
+    <published>2026-06-08T04:03:32+00:00</published>
+    <updated>2026-06-08T04:03:32+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Developer reflects on Claude enabling rapid prototyping; identifies non-coding bottlenecks in product work.</summary>
+    <content type="html"><![CDATA[<p>Developer reflects on Claude enabling rapid prototyping; identifies non-coding bottlenecks in product work.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tzx6uq/claude_made_me_realize_that_coding_was_never_the/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b189612b4de3dccd</id>
+    <title>今はFigmaよりもClaudeを使ってデザインすることの方が多い。
+I design with Claude more than Figma now
+
+🔺 276
+💬 49
+🔗 HN Post | Article</title>
+    <link rel="alternate" href="https://bsky.app/profile/hacker-news-jp.bsky.social/post/3mnqrdqq74t2g"/>
+    <published>2026-06-08T03:44:21.376Z</published>
+    <updated>2026-06-08T03:44:21.376Z</updated>
+    <author><name>hacker-news-jp.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Designer shares workflow shift to Claude Code over Figma for UI production—concrete real-world design practice shift.</summary>
+    <content type="html"><![CDATA[<p>Designer shares workflow shift to Claude Code over Figma for UI production—concrete real-world design practice shift.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/hacker-news-jp.bsky.social/post/3mnqrdqq74t2g">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:086ca78d6ca51004</id>
+    <title>this is well put. often AI work is too cooked by the time you hand it off. it‘s hard to figure out how to get your hands…</title>
+    <link rel="alternate" href="https://bsky.app/profile/davidcrespo.bsky.social/post/3mnqlcsxdsk2q"/>
+    <published>2026-06-08T01:56:27.780Z</published>
+    <updated>2026-06-08T01:56:27.780Z</updated>
+    <author><name>davidcrespo.bsky.social</name></author>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <summary>Comment on AI design work being &#x27;too cooked&#x27;—thoughtful take on collaborative design review and AI smoothness.</summary>
+    <content type="html"><![CDATA[<p>Comment on AI design work being &#x27;too cooked&#x27;—thoughtful take on collaborative design review and AI smoothness.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/davidcrespo.bsky.social/post/3mnqlcsxdsk2q">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:1da9a5b6b0ecdbdd</id>
@@ -628,101 +686,5 @@ A studio rebu…</title>
     <category term="technique"/>
     <summary>End-to-end Claude Design→Code workflow for high-polish websites: design system extraction, build, animate, ship.</summary>
     <content type="html"><![CDATA[<p>End-to-end Claude Design→Code workflow for high-polish websites: design system extraction, build, animate, ship.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/undefinedKi/status/2063347451134709864">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c29875415160dff1</id>
-    <title>Built with Claude Code: pidgin.sh — let Claude share artifacts as URLs</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tyqblc/built_with_claude_code_pidginsh_let_claude_share/"/>
-    <published>2026-06-06T19:23:36+00:00</published>
-    <updated>2026-06-06T19:23:36+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="skill"/>
-    <summary>Agent skill (pidgin.sh) for sharing Claude Code artifacts as URLs—dev tooling, light design relevance.</summary>
-    <content type="html"><![CDATA[<p>Agent skill (pidgin.sh) for sharing Claude Code artifacts as URLs—dev tooling, light design relevance.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tyqblc/built_with_claude_code_pidginsh_let_claude_share/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:52136b21e140d5ef</id>
-    <title>Coming up with the right abstraction for a component is no easy work. It takes time. Sidebar took me a week of experimen…</title>
-    <link rel="alternate" href="https://x.com/shadcn/status/2063328323896316175"/>
-    <published>2026-06-06T18:33:01+00:00</published>
-    <updated>2026-06-06T18:33:01+00:00</updated>
-    <author><name>shadcn</name></author>
-    <category term="ui-craft"/>
-    <category term="shadcn"/>
-    <category term="designer-post"/>
-    <summary>shadcn&#x27;s craft philosophy on component abstraction (Sidebar, Input-group, Field)—design taste &amp; composition mastery.</summary>
-    <content type="html"><![CDATA[<p>shadcn&#x27;s craft philosophy on component abstraction (Sidebar, Input-group, Field)—design taste &amp; composition mastery.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/shadcn/status/2063328323896316175">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:bd8a39d10fa32dd9</id>
-    <title>plugin87/ux-ui-agent-skills — Turn Claude into a Senior Design Architect — DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework co</title>
-    <link rel="alternate" href="https://github.com/plugin87/ux-ui-agent-skills"/>
-    <published>2026-06-06T18:29:52Z</published>
-    <updated>2026-06-06T18:29:52Z</updated>
-    <author><name>plugin87</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>Senior design architect skill: DTCG tokens, 42 components, WCAG 2.2, 138 design systems, any-framework code.</summary>
-    <content type="html"><![CDATA[<p>Senior design architect skill: DTCG tokens, 42 components, WCAG 2.2, 138 design systems, any-framework code.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/plugin87/ux-ui-agent-skills">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:411f276a3519b820</id>
-    <title>I made a browser game that teaches tmux</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tynouc/i_made_a_browser_game_that_teaches_tmux/"/>
-    <published>2026-06-06T17:41:49+00:00</published>
-    <updated>2026-06-06T17:41:49+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="claude-design"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Tmux learning game built with Claude Design + Claude Code; polished playable prototype with real UI/UX craft.</summary>
-    <content type="html"><![CDATA[<p>Tmux learning game built with Claude Design + Claude Code; polished playable prototype with real UI/UX craft.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tynouc/i_made_a_browser_game_that_teaches_tmux/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:762758c49b6028a1</id>
-    <title>Mister Atompunk Presents: Watt Knot, built with Claude Opus 4.8</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1tykq0l/mister_atompunk_presents_watt_knot_built_with/"/>
-    <published>2026-06-06T15:47:12+00:00</published>
-    <updated>2026-06-06T15:47:12+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Production UI/UX project (Watt Knot) built with Claude Opus 4.8; design evaluation of model capability.</summary>
-    <content type="html"><![CDATA[<p>Production UI/UX project (Watt Knot) built with Claude Opus 4.8; design evaluation of model capability.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1tykq0l/mister_atompunk_presents_watt_knot_built_with/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26dea0160760a5a8</id>
-    <title>What happens when an AI audits your design system for inconsistencies? We fed ours to an agent. It found 17 deprecated t…</title>
-    <link rel="alternate" href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnmvqoeczg2a"/>
-    <published>2026-06-06T14:52:30.377155+00:00</published>
-    <updated>2026-06-06T14:52:30.377155+00:00</updated>
-    <author><name>abnavagent.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="skill"/>
-    <category term="analysis"/>
-    <summary>AI agent audited design system, found 17 deprecated tokens &amp; 3 accessibility issues, fixed in 45 min; concrete design-system tooling win.</summary>
-    <content type="html"><![CDATA[<p>AI agent audited design system, found 17 deprecated tokens &amp; 3 accessibility issues, fixed in 45 min; concrete design-system tooling win.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnmvqoeczg2a">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6cacbd0d481f19da</id>
-    <title>I think I&#x27;ve finally been AI-pilled.
-
-At @OsloFF I got to try a new Claude skill from @MouxDesign that helped me mock up…</title>
-    <link rel="alternate" href="https://x.com/sethforprivacy/status/2063265482828845567"/>
-    <published>2026-06-06T14:23:19+00:00</published>
-    <updated>2026-06-06T14:23:19+00:00</updated>
-    <author><name>sethforprivacy</name></author>
-    <category term="skill"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</summary>
-    <content type="html"><![CDATA[<p>Designer used MouxDesign Claude skill to mock up app in 30min, built working PoC with real funds—direct design-to-prototype workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/sethforprivacy/status/2063265482828845567">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
