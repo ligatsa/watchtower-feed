@@ -5,8 +5,67 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-09T00:37:17+00:00</updated>
+  <updated>2026-06-09T06:41:56+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5a94379fe1b5288d</id>
+    <title>Built and launched a travel planning website with Claude + Cursor over a few weekends. Here are the things AI was surprisingly good (and bad) at.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u0tk09/built_and_launched_a_travel_planning_website_with/"/>
+    <published>2026-06-09T03:24:23+00:00</published>
+    <updated>2026-06-09T03:24:23+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="cursor"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Travel website built with Claude + Cursor—real UI artifact with candid build story on AI strengths/gaps.</summary>
+    <content type="html"><![CDATA[<p>Travel website built with Claude + Cursor—real UI artifact with candid build story on AI strengths/gaps.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u0tk09/built_and_launched_a_travel_planning_website_with/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:86eef081f4e7b480</id>
+    <title>baoyu-design skill 现在支持导入 Design System，以及在新建项目时添加导入的 Design System
+
+比我想的要麻烦的多：https://t.co/lz3kX0V31s
+
+好在效果不错，保留了 Claud…</title>
+    <link rel="alternate" href="https://x.com/dotey/status/2064182459718091202"/>
+    <published>2026-06-09T03:07:03+00:00</published>
+    <updated>2026-06-09T03:07:03+00:00</updated>
+    <author><name>dotey</name></author>
+    <category term="design-system"/>
+    <category term="skill"/>
+    <category term="mcp"/>
+    <summary>baoyu-design skill now imports Design Systems and prompts users to select them—concrete design-system MCP enhancement.</summary>
+    <content type="html"><![CDATA[<p>baoyu-design skill now imports Design Systems and prompts users to select them—concrete design-system MCP enhancement.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/dotey/status/2064182459718091202">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:25ebe86693507721</id>
+    <title>**이제 Figma보다 Claude로 더 많이 디자인한다**
+- 사양 문서 작성과 Figma 목업 대신, 머릿속 아이디어를 그대로 동작하는 **프로토타입 기능** 으로 직접 만드는 디자인 워크플로로 전환
+- 과거에는…</title>
+    <link rel="alternate" href="https://bsky.app/profile/geeknews.mercur.ing/post/3mnt36k3p3632"/>
+    <published>2026-06-09T01:45:42.370Z</published>
+    <updated>2026-06-09T01:45:42.370Z</updated>
+    <author><name>geeknews.mercur.ing</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="workflow"/>
+    <summary>Designer shifts from Figma specs to prototyping directly in Claude—real workflow change showing AI&#x27;s iterative refinement loop enabling faster UI polish.</summary>
+    <content type="html"><![CDATA[<p>Designer shifts from Figma specs to prototyping directly in Claude—real workflow change showing AI&#x27;s iterative refinement loop enabling faster UI polish.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/geeknews.mercur.ing/post/3mnt36k3p3632">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4ae098e9833b3b60</id>
+    <title>Helppp, what skills to add</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u0pxe8/helppp_what_skills_to_add/"/>
+    <published>2026-06-09T00:35:23+00:00</published>
+    <updated>2026-06-09T00:35:23+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <summary>Health-tech builder seeking design + anti-slop skills—mentions Taste Skill and front-end-design, borderline relevant skill-stacking question.</summary>
+    <content type="html"><![CDATA[<p>Health-tech builder seeking design + anti-slop skills—mentions Taste Skill and front-end-design, borderline relevant skill-stacking question.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u0pxe8/helppp_what_skills_to_add/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:a2aa4c9c66a3f5c9</id>
     <title> Design it with Claude. Claude Code pulls every color, radius &amp; font into real design tokens. Then particles push — live…</title>
@@ -653,45 +712,5 @@ Start with a feature, not a layout https://t.co/Byk4BC10Sx</title>
     <category term="prototype"/>
     <summary>Bolt.new Figma-to-Code workflow for landing pages—real efficiency win for client design handoff.</summary>
     <content type="html"><![CDATA[<p>Bolt.new Figma-to-Code workflow for landing pages—real efficiency win for client design handoff.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/lexi34c.bsky.social/post/3mnp4lev3i52q">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:80a34c349caf39b9</id>
-    <title>Jane Street designer now builds working prototypes in Claude Code, not Figma—eliminating spec docs and handoffs with 200…</title>
-    <link rel="alternate" href="https://bsky.app/profile/foursignalsdev.bsky.social/post/3mnoza6n2gd2a"/>
-    <published>2026-06-07T11:00:12.162698+00:00</published>
-    <updated>2026-06-07T11:00:12.162698+00:00</updated>
-    <author><name>foursignalsdev.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <summary>Jane Street designer ships working prototypes in Claude Code instead of Figma—eliminates handoff friction.</summary>
-    <content type="html"><![CDATA[<p>Jane Street designer ships working prototypes in Claude Code instead of Figma—eliminates handoff friction.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/foursignalsdev.bsky.social/post/3mnoza6n2gd2a">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cb28b8236b67febb</id>
-    <title>I design with Claude more than Figma now
-
-#ai #artificialintelligence #claude #figma #vibecoding</title>
-    <link rel="alternate" href="https://bsky.app/profile/todaystopainews.bsky.social/post/3mnoy2dkxgs2x"/>
-    <published>2026-06-07T10:39:02.384Z</published>
-    <updated>2026-06-07T10:39:02.384Z</updated>
-    <author><name>todaystopainews.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <summary>Designer prefers Claude over Figma for design work; lightweight but clear signal.</summary>
-    <content type="html"><![CDATA[<p>Designer prefers Claude over Figma for design work; lightweight but clear signal.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/todaystopainews.bsky.social/post/3mnoy2dkxgs2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:79f876b78b910a84</id>
-    <title>【東京エンジニア】 Claude でデザインするって話、分かる気がします。結局ね、ツールがいくら完璧になっても、人間が「どう問いかけるか」で全部変わるんですよ。Figma でポチポチするのと、言葉で手戻りなく伝えるのとでは、脳の働き方が違う…</title>
-    <link rel="alternate" href="https://bsky.app/profile/forgelab-town.bsky.social/post/3mnow5jxdse2k"/>
-    <published>2026-06-07T10:05:02.238Z</published>
-    <updated>2026-06-07T10:05:02.238Z</updated>
-    <author><name>forgelab-town.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <summary>Reflects on Claude-driven design process vs. Figma UI work; emphasizes prompt quality over tool perfection.</summary>
-    <content type="html"><![CDATA[<p>Reflects on Claude-driven design process vs. Figma UI work; emphasizes prompt quality over tool perfection.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/forgelab-town.bsky.social/post/3mnow5jxdse2k">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
