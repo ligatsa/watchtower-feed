@@ -5,8 +5,102 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-10T07:09:15+00:00</updated>
+  <updated>2026-06-10T13:16:42+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3b43f925b548369b</id>
+    <title>Accessibility question: is nesting interactive elements bad?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/Frontend/comments/1u1uliz/accessibility_question_is_nesting_interactive/"/>
+    <published>2026-06-10T06:53:21+00:00</published>
+    <updated>2026-06-10T06:53:21+00:00</updated>
+    <author><name>reddit/r/Frontend</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Accessibility best practice on nesting interactive elements—relevant frontend-design pattern for UI craft.</summary>
+    <content type="html"><![CDATA[<p>Accessibility best practice on nesting interactive elements—relevant frontend-design pattern for UI craft.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1u1uliz/accessibility_question_is_nesting_interactive/">Read on reddit/r/Frontend →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f5d37c0dbfcef283</id>
+    <title>Navigating the age-old problem of checkmarks in UI with progressive enhancement</title>
+    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1u1ukmp/navigating_the_ageold_problem_of_checkmarks_in_ui/"/>
+    <published>2026-06-10T06:51:56+00:00</published>
+    <updated>2026-06-10T06:51:56+00:00</updated>
+    <author><name>reddit/r/web_design</name></author>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Progressive enhancement pattern for checkmarks in UI; solid design-system thinking with practical implementation advice.</summary>
+    <content type="html"><![CDATA[<p>Progressive enhancement pattern for checkmarks in UI; solid design-system thinking with practical implementation advice.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1u1ukmp/navigating_the_ageold_problem_of_checkmarks_in_ui/">Read on reddit/r/web_design →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:594437fe166d3349</id>
+    <title>How To Make Your Design System AI-Ready — Smashing Magazine</title>
+    <link rel="alternate" href="https://bsky.app/profile/kazuhitokidachi.bsky.social/post/3mnw2pkwwzk2g"/>
+    <published>2026-06-10T06:15:20+00:00</published>
+    <updated>2026-06-10T06:15:20+00:00</updated>
+    <author><name>kazuhitokidachi.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Smashing Magazine article on making design systems AI-ready—core design-system topic directly tied to AI workflows.</summary>
+    <content type="html"><![CDATA[<p>Smashing Magazine article on making design systems AI-ready—core design-system topic directly tied to AI workflows.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/kazuhitokidachi.bsky.social/post/3mnw2pkwwzk2g">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7849ab8d4939ac53</id>
+    <title>RT @benjaminvrbk: Two prompts with Fable in @Lovable:
+
+1/ &quot;build a copy of Spore space-age part, where you can fly your …</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2064563297165193597"/>
+    <published>2026-06-10T04:20:22+00:00</published>
+    <updated>2026-06-10T04:20:22+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="v0"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Lovable/Fable enables complex generative UI (Spore-inspired game) from natural language—shows real AI-craft design+code output.</summary>
+    <content type="html"><![CDATA[<p>Lovable/Fable enables complex generative UI (Spore-inspired game) from natural language—shows real AI-craft design+code output.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2064563297165193597">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8ba72468ec919855</id>
+    <title>zenn.dev/shoota/articles/e...
+薄明かりの読書のためのshadcn/ui テーマをつくりました</title>
+    <link rel="alternate" href="https://bsky.app/profile/technews4869.bsky.social/post/3mnvsdhaazy2q"/>
+    <published>2026-06-10T03:45:23.492Z</published>
+    <updated>2026-06-10T03:45:23.492Z</updated>
+    <author><name>technews4869.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>shadcn/ui theme for low-light reading—concrete design artifact, theming registry contribution, tasteful constraint.</summary>
+    <content type="html"><![CDATA[<p>shadcn/ui theme for low-light reading—concrete design artifact, theming registry contribution, tasteful constraint.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/technews4869.bsky.social/post/3mnvsdhaazy2q">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ab4bca504d0600e2</id>
+    <title>The natural progression from last year’s “AI helped me build a design system” LinkedIn palooza where people kept posting…</title>
+    <link rel="alternate" href="https://bsky.app/profile/samokorosec.bsky.social/post/3mnvqmivoks27"/>
+    <published>2026-06-10T03:14:40.190Z</published>
+    <updated>2026-06-10T03:14:40.190Z</updated>
+    <author><name>samokorosec.bsky.social</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <summary>Critique of AI design-system cargo-cult (button variants bloat)—sharp taste commentary on anti-AI-slop, design discipline.</summary>
+    <content type="html"><![CDATA[<p>Critique of AI design-system cargo-cult (button variants bloat)—sharp taste commentary on anti-AI-slop, design discipline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/samokorosec.bsky.social/post/3mnvqmivoks27">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0ba7daeb95833868</id>
+    <title>4. Figma plugin that auto-generates structured JSON outputs from your designs. Click.</title>
+    <link rel="alternate" href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnvmdzt6nq2o"/>
+    <published>2026-06-10T01:58:16.737568+00:00</published>
+    <updated>2026-06-10T01:58:16.737568+00:00</updated>
+    <author><name>abnavagent.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="design-system"/>
+    <summary>Figma plugin auto-exports design to JSON—design-to-code pipeline tool, light substance, aligns with design-system automation.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin auto-exports design to JSON—design-to-code pipeline tool, light substance, aligns with design-system automation.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/abnavagent.bsky.social/post/3mnvmdzt6nq2o">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:91930dd39ef2c58f</id>
     <title>Glad it resonated! The agent-installable angle shifts the conversation from &#x27;looks nice in Figma&#x27; to &#x27;actually usable by…</title>
@@ -77,6 +171,23 @@ It is by far the most amazing model I have seen in a long time. From output to c
     <category term="ui-craft"/>
     <summary>User praise for Claude Fable 5 with Devin and custom design skill for web design; lightweight but signals design-agent workflow.</summary>
     <content type="html"><![CDATA[<p>User praise for Claude Fable 5 with Devin and custom design skill for web design; lightweight but signals design-agent workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/JustinGorya/status/2064471760775291109">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5ec9e66e067bdaa5</id>
+    <title>Claude Fable 5 made this with a single prompt and no edits.
+
+Here&#x27;s the full prompt I used:
+
+Create a full-length, tall …</title>
+    <link rel="alternate" href="https://x.com/ecomchasedimond/status/2064454139225297091"/>
+    <published>2026-06-09T21:06:37+00:00</published>
+    <updated>2026-06-09T21:06:37+00:00</updated>
+    <author><name>ecomchasedimond</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Claude Fable 5 generates polished ecommerce email design (MVMT brand) in one prompt—shows AI-powered design output with real brand direction.</summary>
+    <content type="html"><![CDATA[<p>Claude Fable 5 generates polished ecommerce email design (MVMT brand) in one prompt—shows AI-powered design output with real brand direction.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/ecomchasedimond/status/2064454139225297091">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:ea296af7c48bfddd</id>
@@ -676,110 +787,5 @@ If you have the mcp, you can ask for &quot;find me a hero and add it to …</tit
     <category term="frontend"/>
     <summary>Tool auto-generates simple landing pages from business data for sales — concrete design→code artifact with real use case.</summary>
     <content type="html"><![CDATA[<p>Tool auto-generates simple landing pages from business data for sales — concrete design→code artifact with real use case.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1u0av77/turns_out_showing_someone_a_website_beats_telling/">Read on reddit/r/web_design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:07b6d5d420f861e3</id>
-    <title>Here&#x27;s a partial timeline of Anthropic&#x27;s &quot;6 months of zero progress.&quot;
-
-→ Jan 12, launched Claude Cowork, an agent that d…</title>
-    <link rel="alternate" href="https://x.com/alex_prompter/status/2064000497967940060"/>
-    <published>2026-06-08T15:04:00+00:00</published>
-    <updated>2026-06-08T15:04:00+00:00</updated>
-    <author><name>alex_prompter</name></author>
-    <category term="anthropic"/>
-    <category term="claude-code"/>
-    <category term="agent-sdk"/>
-    <summary>Anthropic timeline highlights Claude Design launch (Apr 17) + Cowork, Opus 4.8 + dynamic workflows—direct enabler of AI design systems Steven follows.</summary>
-    <content type="html"><![CDATA[<p>Anthropic timeline highlights Claude Design launch (Apr 17) + Cowork, Opus 4.8 + dynamic workflows—direct enabler of AI design systems Steven follows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/alex_prompter/status/2064000497967940060">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5d7c98ab9b574684</id>
-    <title>Hope AI turns prompts into shippable software using a company’s existing component library, brand, and design system, en…</title>
-    <link rel="alternate" href="https://bsky.app/profile/uxdesignbriefly.bsky.social/post/3mnrvobfumi2o"/>
-    <published>2026-06-08T14:34:29.125Z</published>
-    <updated>2026-06-08T14:34:29.125Z</updated>
-    <author><name>uxdesignbriefly.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Hope AI integrates design systems, component libraries, and brand into shippable software—direct design-to-code with DS/brand leverage.</summary>
-    <content type="html"><![CDATA[<p>Hope AI integrates design systems, component libraries, and brand into shippable software—direct design-to-code with DS/brand leverage.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/uxdesignbriefly.bsky.social/post/3mnrvobfumi2o">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7a2b61c009690baf</id>
-    <title>RT @glennui: Design is full of codewords. Knowing them changes what you can ask for, and what you can get back, whether …</title>
-    <link rel="alternate" href="https://x.com/emilkowalski/status/2063987707068481685"/>
-    <published>2026-06-08T14:13:11+00:00</published>
-    <updated>2026-06-08T14:13:11+00:00</updated>
-    <author><name>emilkowalski</name></author>
-    <category term="technique"/>
-    <summary>Design terminology &amp; language for prompting better outcomes—directly applicable to AI-design workflow.</summary>
-    <content type="html"><![CDATA[<p>Design terminology &amp; language for prompting better outcomes—directly applicable to AI-design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/emilkowalski/status/2063987707068481685">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2b32cc101cfe9da8</id>
-    <title>Uiverse Design</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/uiverse-io"/>
-    <published>2026-06-08T13:01:02-07:00</published>
-    <updated>2026-06-08T13:01:02-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Anti-AI-slop design tool for websites—directly targets taste/quality in AI-generated UIs, aligns with Steven&#x27;s taste-skill interests.</summary>
-    <content type="html"><![CDATA[<p>Anti-AI-slop design tool for websites—directly targets taste/quality in AI-generated UIs, aligns with Steven&#x27;s taste-skill interests.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 8/10</p><p><a href="https://www.producthunt.com/products/uiverse-io">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e02a8476ea25e9a7</id>
-    <title>Best way to hand off system to a client as an agency designer?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1u06xib/best_way_to_hand_off_system_to_a_client_as_an/"/>
-    <published>2026-06-08T12:48:50+00:00</published>
-    <updated>2026-06-08T12:48:50+00:00</updated>
-    <author><name>reddit/r/designsystems</name></author>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <summary>Design system handoff strategy: tokens, Figma library, docs, and dev collaboration—real DS workflow &amp; tooling.</summary>
-    <content type="html"><![CDATA[<p>Design system handoff strategy: tokens, Figma library, docs, and dev collaboration—real DS workflow &amp; tooling.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1u06xib/best_way_to_hand_off_system_to_a_client_as_an/">Read on reddit/r/designsystems →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c30db3ad3514ff9e</id>
-    <title>Figma workflow question: Is there a way to get bidirectional binding for variables, or are we doing this wrong?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u05x1o/figma_workflow_question_is_there_a_way_to_get/"/>
-    <published>2026-06-08T12:04:00+00:00</published>
-    <updated>2026-06-08T12:04:00+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <summary>Figma design-system workflow challenge: bidirectional variable binding for components lacks sync when edited visually.</summary>
-    <content type="html"><![CDATA[<p>Figma design-system workflow challenge: bidirectional variable binding for components lacks sync when edited visually.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u05x1o/figma_workflow_question_is_there_a_way_to_get/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d29d582d40ec175c</id>
-    <title>이제 Figma보다 Claude로 더 많이 디자인한다
-
-디자인 워크플로는 명세 문서와 Figma 목업을 거쳐 구현을 검토하는 방식에서, 실제 코드베이스에 동작하는 프로토타입 기능 을 만드는 흐름으로 이동 중 Copi…</title>
-    <link rel="alternate" href="https://bsky.app/profile/geeknewsbot.bsky.social/post/3mnrjoubqfu24"/>
-    <published>2026-06-08T11:00:03.582662Z</published>
-    <updated>2026-06-08T11:00:03.582662Z</updated>
-    <author><name>geeknewsbot.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>Design workflow shift: Claude prototyping replacing Figma mockups in real codebase; shows AI impact on design practice.</summary>
-    <content type="html"><![CDATA[<p>Design workflow shift: Claude prototyping replacing Figma mockups in real codebase; shows AI impact on design practice.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/geeknewsbot.bsky.social/post/3mnrjoubqfu24">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:855ddb36e46f095b</id>
-    <title>Claude Skill to generate on-brand Word documents from your company templates</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u03du9/claude_skill_to_generate_onbrand_word_documents/"/>
-    <published>2026-06-08T09:55:15+00:00</published>
-    <updated>2026-06-08T09:55:15+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <summary>Claude skill that generates on-brand Word/PowerPoint/Excel from company templates while preserving design; direct design-system + AI workflow.</summary>
-    <content type="html"><![CDATA[<p>Claude skill that generates on-brand Word/PowerPoint/Excel from company templates while preserving design; direct design-system + AI workflow.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u03du9/claude_skill_to_generate_onbrand_word_documents/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
 </feed>
