@@ -5,8 +5,130 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-11T13:41:52+00:00</updated>
+  <updated>2026-06-11T19:45:48+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0a2b5c6cf4c2a4c1</id>
+    <title>One-shot with Claude Fable 5, and this subscription plan UI is live (based on my design using Figma MCP). https://t.co/w…</title>
+    <link rel="alternate" href="https://x.com/disarto_max/status/2065120098197672269"/>
+    <published>2026-06-11T17:12:54+00:00</published>
+    <updated>2026-06-11T17:12:54+00:00</updated>
+    <author><name>disarto_max</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="claude-code"/>
+    <summary>Live subscription UI built with Claude + Figma MCP in one shot; concrete design→code artifact with production UI.</summary>
+    <content type="html"><![CDATA[<p>Live subscription UI built with Claude + Figma MCP in one shot; concrete design→code artifact with production UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/disarto_max/status/2065120098197672269">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ab6c84318663f654</id>
+    <title>Vercel + Shopify is too good…
+http://superbape.com by @foda: 
+◾ 500+ orders processed in *2 minutes*
+◾ Built with @v0 + …</title>
+    <link rel="alternate" href="https://x.com/rauchg/status/2065116986678624419"/>
+    <published>2026-06-11T17:00:32+00:00</published>
+    <updated>2026-06-11T17:00:32+00:00</updated>
+    <author><name>rauchg</name></author>
+    <category term="v0"/>
+    <category term="cursor"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>Custom Shopify storefront built with v0 + Cursor; real shipping product with design + code workflow shown.</summary>
+    <content type="html"><![CDATA[<p>Custom Shopify storefront built with v0 + Cursor; real shipping product with design + code workflow shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/rauchg/status/2065116986678624419">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:87150fc470a01a21</id>
+    <title>ついさっきリリースされたFigma公式のChrome拡張、かなり実用的だった✨
+
+Webページ全体や特定のUIをキャプチャして、Figmaに貼ると編集可能なレイヤーとして持ってこれる。画像として貼られるのではなく、テキストやフレーム、画像、…</title>
+    <link rel="alternate" href="https://x.com/kgsi/status/2065116383441191387"/>
+    <published>2026-06-11T16:58:08+00:00</published>
+    <updated>2026-06-11T16:58:08+00:00</updated>
+    <author><name>kgsi</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="mcp"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Figma Chrome extension captures web UI as editable layers; official design tool enabling web→Figma→AI feedback loops.</summary>
+    <content type="html"><![CDATA[<p>Figma Chrome extension captures web UI as editable layers; official design tool enabling web→Figma→AI feedback loops.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/kgsi/status/2065116383441191387">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:fd212cd165d51b3d</id>
+    <title>RT @jh3yy: messin&#x27; with css frosted + saturated borders using background-clip + backdrop-filter 👨‍🍳 https://t.co/ZPB2p6N…</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2065105028591808733"/>
+    <published>2026-06-11T16:13:01+00:00</published>
+    <updated>2026-06-11T16:13:01+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="frontend"/>
+    <category term="ui-craft"/>
+    <summary>CSS frosted-glass + backdrop-filter technique with visual demo; design craft but not AI-forward.</summary>
+    <content type="html"><![CDATA[<p>CSS frosted-glass + backdrop-filter technique with visual demo; design craft but not AI-forward.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2065105028591808733">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e2f4978444d96b0e</id>
+    <title>Coming soon: generating designs using your design system. 
+
+Install the Chrome extension here → https://figma.bot/Chrome…</title>
+    <link rel="alternate" href="https://x.com/figma/status/2065101070326694153"/>
+    <published>2026-06-11T15:57:17+00:00</published>
+    <updated>2026-06-11T15:57:17+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="figma-make"/>
+    <category term="anthropic"/>
+    <summary>Figma: generate designs from design system via Chrome extension; direct design-to-code tool launch.</summary>
+    <content type="html"><![CDATA[<p>Figma: generate designs from design system via Chrome extension; direct design-to-code tool launch.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2065101070326694153">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:daa2004a40074547</id>
+    <title>Imagine a world where you could copy/paste websites into editable Figma layers (jk you don’t have to imagine you can do …</title>
+    <link rel="alternate" href="https://x.com/figma/status/2065101067709472781"/>
+    <published>2026-06-11T15:57:16+00:00</published>
+    <updated>2026-06-11T15:57:16+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="prototype"/>
+    <summary>Figma Chrome extension: copy/paste live websites into editable layers; powerful design capture tool.</summary>
+    <content type="html"><![CDATA[<p>Figma Chrome extension: copy/paste live websites into editable layers; powerful design capture tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2065101067709472781">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:bcdb64aef0f9d014</id>
+    <title>I asked @meaghaneschoi what shifts are needed for teams to get the most out of AI
+
+she gave two big ones 👇
+
+1️⃣  you hav…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2065094523076939811"/>
+    <published>2026-06-11T15:31:16+00:00</published>
+    <updated>2026-06-11T15:31:16+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Designer perspective on AI workflow shifts: designer access to codebase + feature ownership; thoughtful discipline essay.</summary>
+    <content type="html"><![CDATA[<p>Designer perspective on AI workflow shifts: designer access to codebase + feature ownership; thoughtful discipline essay.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2065094523076939811">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5ec65830ca8fabfb</id>
+    <title>The Arena × MagicPath is going LIVE today!
+4 designers. 45 minutes. A full brand redesigned using AI native design workf…</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2065087441531461928"/>
+    <published>2026-06-11T15:03:08+00:00</published>
+    <updated>2026-06-11T15:03:08+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <category term="prototype"/>
+    <summary>Live brand redesign sprint with 4 designers using Claude Code + AI-native workflows—real design-craft artifact in action.</summary>
+    <content type="html"><![CDATA[<p>Live brand redesign sprint with 4 designers using Claude Code + AI-native workflows—real design-craft artifact in action.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MagicPathAI/status/2065087441531461928">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:6e96108502ddcac7</id>
     <title>🆕 nexu-io/open-design open-design-v0.10.0 — 🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ </title>
@@ -716,110 +838,5 @@ Modern service layouts designed for agencies, SaaS products, healthcare platform
     <category term="prototype"/>
     <summary>ScrollStudio tool automates scroll-driven animations from video; tangible UI/motion artifact.</summary>
     <content type="html"><![CDATA[<p>ScrollStudio tool automates scroll-driven animations from video; tangible UI/motion artifact.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1u1xf3e/i_launched_scrollstudio_turn_any_video_into_a/">Read on reddit/r/Frontend →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c4bc54b9466aff41</id>
-    <title>Claude Fable 5 is a monster for creating landing pages https://t.co/7X1Fqd2fwa</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2064641026032275811"/>
-    <published>2026-06-10T09:29:14+00:00</published>
-    <updated>2026-06-10T09:29:14+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <summary>Fable model praised for landing page creation; implies real artifact built, minimal detail.</summary>
-    <content type="html"><![CDATA[<p>Fable model praised for landing page creation; implies real artifact built, minimal detail.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/MengTo/status/2064641026032275811">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:881c622eca164d19</id>
-    <title>Skipping Figma for direct Claude prototypes is a bold move. Hope the affordances don&#x27;t get lost.</title>
-    <link rel="alternate" href="https://bsky.app/profile/sam-rivera.bsky.social/post/3mnwdxumcnc2i"/>
-    <published>2026-06-10T09:01:02.577Z</published>
-    <updated>2026-06-10T09:01:02.577Z</updated>
-    <author><name>sam-rivera.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <summary>Claude prototyping as Figma alternative raises design workflow and tool choice question.</summary>
-    <content type="html"><![CDATA[<p>Claude prototyping as Figma alternative raises design workflow and tool choice question.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/sam-rivera.bsky.social/post/3mnwdxumcnc2i">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2150afa49637e262</id>
-    <title>이제 Figma보다 Claude로 더 많이 디자인한다 | GeekNews
-
-news.hada.io/topic?id=30285
-
-Jane Street Blog - I design with Claude more than…</title>
-    <link rel="alternate" href="https://bsky.app/profile/lunamothryu.bsky.social/post/3mnwdsjphjc2v"/>
-    <published>2026-06-10T08:58:03.457Z</published>
-    <updated>2026-06-10T08:58:03.457Z</updated>
-    <author><name>lunamothryu.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Jane Street engineer reports designing more with Claude than Figma—direct testimony to AI-native design workflow shift.</summary>
-    <content type="html"><![CDATA[<p>Jane Street engineer reports designing more with Claude than Figma—direct testimony to AI-native design workflow shift.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/lunamothryu.bsky.social/post/3mnwdsjphjc2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fe8413ac9a53a229</id>
-    <title>What maintaining Booking.com&#x27;s design system taught me about CSS architecture</title>
-    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1u1vxow/what_maintaining_bookingcoms_design_system_taught/"/>
-    <published>2026-06-10T08:11:14+00:00</published>
-    <updated>2026-06-10T08:11:14+00:00</updated>
-    <author><name>reddit/r/designsystems</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Booking.com&#x27;s CSS architecture lessons: layer order, custom properties, cascade-first—practical design-system wisdom.</summary>
-    <content type="html"><![CDATA[<p>Booking.com&#x27;s CSS architecture lessons: layer order, custom properties, cascade-first—practical design-system wisdom.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1u1vxow/what_maintaining_bookingcoms_design_system_taught/">Read on reddit/r/designsystems →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3b43f925b548369b</id>
-    <title>Accessibility question: is nesting interactive elements bad?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/Frontend/comments/1u1uliz/accessibility_question_is_nesting_interactive/"/>
-    <published>2026-06-10T06:53:21+00:00</published>
-    <updated>2026-06-10T06:53:21+00:00</updated>
-    <author><name>reddit/r/Frontend</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Accessibility best practice on nesting interactive elements—relevant frontend-design pattern for UI craft.</summary>
-    <content type="html"><![CDATA[<p>Accessibility best practice on nesting interactive elements—relevant frontend-design pattern for UI craft.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1u1uliz/accessibility_question_is_nesting_interactive/">Read on reddit/r/Frontend →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f5d37c0dbfcef283</id>
-    <title>Navigating the age-old problem of checkmarks in UI with progressive enhancement</title>
-    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1u1ukmp/navigating_the_ageold_problem_of_checkmarks_in_ui/"/>
-    <published>2026-06-10T06:51:56+00:00</published>
-    <updated>2026-06-10T06:51:56+00:00</updated>
-    <author><name>reddit/r/web_design</name></author>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Progressive enhancement pattern for checkmarks in UI; solid design-system thinking with practical implementation advice.</summary>
-    <content type="html"><![CDATA[<p>Progressive enhancement pattern for checkmarks in UI; solid design-system thinking with practical implementation advice.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1u1ukmp/navigating_the_ageold_problem_of_checkmarks_in_ui/">Read on reddit/r/web_design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:846579331a401abb</id>
-    <title>claude fable 5 is good but it still can&#x27;t design taste. https://t.co/MnQTUzWr5b</title>
-    <link rel="alternate" href="https://x.com/pankajstwt/status/2064600026064769351"/>
-    <published>2026-06-10T06:46:19+00:00</published>
-    <updated>2026-06-10T06:46:19+00:00</updated>
-    <author><name>pankajstwt</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="analysis"/>
-    <summary>Claude Fable 5 critique: powerful but lacks design taste—meaningful commentary on AI limitations in taste-driven UI craft.</summary>
-    <content type="html"><![CDATA[<p>Claude Fable 5 critique: powerful but lacks design taste—meaningful commentary on AI limitations in taste-driven UI craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/pankajstwt/status/2064600026064769351">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:594437fe166d3349</id>
-    <title>How To Make Your Design System AI-Ready — Smashing Magazine</title>
-    <link rel="alternate" href="https://bsky.app/profile/kazuhitokidachi.bsky.social/post/3mnw2pkwwzk2g"/>
-    <published>2026-06-10T06:15:20+00:00</published>
-    <updated>2026-06-10T06:15:20+00:00</updated>
-    <author><name>kazuhitokidachi.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <summary>Smashing Magazine article on making design systems AI-ready—core design-system topic directly tied to AI workflows.</summary>
-    <content type="html"><![CDATA[<p>Smashing Magazine article on making design systems AI-ready—core design-system topic directly tied to AI workflows.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/kazuhitokidachi.bsky.social/post/3mnw2pkwwzk2g">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
