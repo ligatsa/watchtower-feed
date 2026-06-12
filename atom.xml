@@ -5,8 +5,67 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-11T19:45:48+00:00</updated>
+  <updated>2026-06-12T01:50:41+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a379f6e5699c87bb</id>
+    <title>Made a plugin that audits your file against your design system in one click!</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u3hppc/made_a_plugin_that_audits_your_file_against_your/"/>
+    <published>2026-06-12T01:36:14+00:00</published>
+    <updated>2026-06-12T01:36:14+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>Figma plugin auto-audits designs against design system rules, catching inconsistencies in one click—real design-ops tool.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin auto-audits designs against design system rules, catching inconsistencies in one click—real design-ops tool.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u3hppc/made_a_plugin_that_audits_your_file_against_your/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b625177ca93a47b2</id>
+    <title>.nesse caso o Design Ops é ainda mais importante porque ele pode gerar templates de specs, fazer a governança do Design …</title>
+    <link rel="alternate" href="https://bsky.app/profile/designerantifa.bsky.social/post/3mo27ihrm622o"/>
+    <published>2026-06-11T21:51:29.872Z</published>
+    <updated>2026-06-11T21:51:29.872Z</updated>
+    <author><name>designerantifa.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <summary>Portuguese Design Ops post suggesting Figma AI + Tokens Studio + Storybook + Claude + Cursor + GitHub workflow; clear design-system pipeline.</summary>
+    <content type="html"><![CDATA[<p>Portuguese Design Ops post suggesting Figma AI + Tokens Studio + Storybook + Claude + Cursor + GitHub workflow; clear design-system pipeline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/designerantifa.bsky.social/post/3mo27ihrm622o">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:fa292b5bd9373f87</id>
+    <title>Introducing annotations in v0.
+
+Click elements in your preview, add comments, then send them all to the agent as a singl…</title>
+    <link rel="alternate" href="https://x.com/v0/status/2065182747740746039"/>
+    <published>2026-06-11T21:21:50+00:00</published>
+    <updated>2026-06-11T21:21:50+00:00</updated>
+    <author><name>v0</name></author>
+    <category term="v0"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>v0 annotations feature lets designers click, comment, and send feedback as single prompt to agent—direct design-to-code workflow improvement.</summary>
+    <content type="html"><![CDATA[<p>v0 annotations feature lets designers click, comment, and send feedback as single prompt to agent—direct design-to-code workflow improvement.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2065182747740746039">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:616ac894608ac0f3</id>
+    <title>I built a pipeline that reads your Figma file and deploys it as production HTML – this page was designed in Figma and rendered with zero dev involvement</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u39eqa/i_built_a_pipeline_that_reads_your_figma_file_and/"/>
+    <published>2026-06-11T19:47:45+00:00</published>
+    <updated>2026-06-11T19:47:45+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="agent-sdk"/>
+    <category term="figma-make"/>
+    <summary>Unima: Figma-to-production-HTML pipeline with design-native CMS, animation engine, and agent skill—full design-system automation with working examples.</summary>
+    <content type="html"><![CDATA[<p>Unima: Figma-to-production-HTML pipeline with design-native CMS, animation engine, and agent skill—full design-system automation with working examples.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u39eqa/i_built_a_pipeline_that_reads_your_figma_file_and/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0a2b5c6cf4c2a4c1</id>
     <title>One-shot with Claude Fable 5, and this subscription plan UI is live (based on my design using Figma MCP). https://t.co/w…</title>
@@ -790,53 +849,5 @@ Modern service layouts designed for agencies, SaaS products, healthcare platform
     <category term="ui-craft"/>
     <summary>Cursor&#x27;s visual editor (Dec 2025)—click-to-prompt-to-live-code iteration makes Figma-to-code optional; design engineer workflow shift.</summary>
     <content type="html"><![CDATA[<p>Cursor&#x27;s visual editor (Dec 2025)—click-to-prompt-to-live-code iteration makes Figma-to-code optional; design engineer workflow shift.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mnwsbafd3m2o">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:11e1ea21dcc5798d</id>
-    <title>PullMD v3: I let Claude design the MarkItDown integration, and it argued for keeping three of our own converters instead</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u20aon/pullmd_v3_i_let_claude_design_the_markitdown/"/>
-    <published>2026-06-10T12:06:57+00:00</published>
-    <updated>2026-06-10T12:06:57+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="mcp"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <summary>MCP server for clean Markdown conversion with Claude Code integration; Claude designed the architecture for MarkItDown integration.</summary>
-    <content type="html"><![CDATA[<p>MCP server for clean Markdown conversion with Claude Code integration; Claude designed the architecture for MarkItDown integration.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u20aon/pullmd_v3_i_let_claude_design_the_markitdown/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:386aba4f3f0fc95c</id>
-    <title>The best AI design tool right now still does not replace Figma</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u1zs4q/the_best_ai_design_tool_right_now_still_does_not/"/>
-    <published>2026-06-10T11:43:24+00:00</published>
-    <updated>2026-06-10T11:43:24+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Thoughtful analysis of AI design tools vs. Figma&#x27;s team-collaboration value; clear design perspective on tooling tradeoffs.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful analysis of AI design tools vs. Figma&#x27;s team-collaboration value; clear design perspective on tooling tradeoffs.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u1zs4q/the_best_ai_design_tool_right_now_still_does_not/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:039df5fbefde0f80</id>
-    <title>spans and divs are not links</title>
-    <link rel="alternate" href="https://www.reddit.com/r/Frontend/comments/1u1zeij/spans_and_divs_are_not_links/"/>
-    <published>2026-06-10T11:25:11+00:00</published>
-    <updated>2026-06-10T11:25:11+00:00</updated>
-    <author><name>reddit/r/Frontend</name></author>
-    <category term="ui-craft"/>
-    <summary>Accessibility best practice: use semantic &lt;a&gt; tags instead of spans/divs for links.</summary>
-    <content type="html"><![CDATA[<p>Accessibility best practice: use semantic &lt;a&gt; tags instead of spans/divs for links.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1u1zeij/spans_and_divs_are_not_links/">Read on reddit/r/Frontend →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3bf950eabadb07a1</id>
-    <title>I launched ScrollStudio turn any video into a scroll-driven web animation (free demo)</title>
-    <link rel="alternate" href="https://www.reddit.com/r/Frontend/comments/1u1xf3e/i_launched_scrollstudio_turn_any_video_into_a/"/>
-    <published>2026-06-10T09:39:31+00:00</published>
-    <updated>2026-06-10T09:39:31+00:00</updated>
-    <author><name>reddit/r/Frontend</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>ScrollStudio tool automates scroll-driven animations from video; tangible UI/motion artifact.</summary>
-    <content type="html"><![CDATA[<p>ScrollStudio tool automates scroll-driven animations from video; tangible UI/motion artifact.</p><p><strong>Source:</strong> reddit/r/Frontend · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/Frontend/comments/1u1xf3e/i_launched_scrollstudio_turn_any_video_into_a/">Read on reddit/r/Frontend →</a></p>]]></content>
   </entry>
 </feed>
