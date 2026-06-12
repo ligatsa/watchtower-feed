@@ -5,8 +5,64 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-12T01:50:41+00:00</updated>
+  <updated>2026-06-12T07:56:15+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5ead91608e0000ce</id>
+    <title>Boneyard: skeleton screens for your UI</title>
+    <link rel="alternate" href="https://boneyard.vercel.app/overview"/>
+    <published>2026-06-12T07:45:13+00:00</published>
+    <updated>2026-06-12T07:45:13+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <category term="tool"/>
+    <summary>Skeleton-screen auto-extraction tool (Vercel) solves real UI-polish friction; design-adjacent frontend tooling with clear production value.</summary>
+    <content type="html"><![CDATA[<p>Skeleton-screen auto-extraction tool (Vercel) solves real UI-polish friction; design-adjacent frontend tooling with clear production value.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://boneyard.vercel.app/overview">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:258659940eed59fc</id>
+    <title>Need better slider interactions in your app? 🚀
+
+Explore #Shadcn #SliderComponents designed for ratings, controls, settin…</title>
+    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mo34yrfqpc2g"/>
+    <published>2026-06-12T06:39:35.352Z</published>
+    <updated>2026-06-12T06:39:35.352Z</updated>
+    <author><name>shadcnspace.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="component"/>
+    <summary>Shadcn slider component variations (rating, volume, equalizer) with clear visual examples—solid design-component reference, matches Steven&#x27;s shadcn taste.</summary>
+    <content type="html"><![CDATA[<p>Shadcn slider component variations (rating, volume, equalizer) with clear visual examples—solid design-component reference, matches Steven&#x27;s shadcn taste.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mo34yrfqpc2g">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:416d0c1f20533e00</id>
+    <title>Design system help: should I rebuild it or keep designing?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u3msyb/design_system_help_should_i_rebuild_it_or_keep/"/>
+    <published>2026-06-12T05:55:30+00:00</published>
+    <updated>2026-06-12T05:55:30+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <summary>Design-system maintenance &amp; structure question in production Figma—matches Steven&#x27;s design-systems MCP / refactor interest; real pain point.</summary>
+    <content type="html"><![CDATA[<p>Design-system maintenance &amp; structure question in production Figma—matches Steven&#x27;s design-systems MCP / refactor interest; real pain point.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u3msyb/design_system_help_should_i_rebuild_it_or_keep/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:222fd6b2af60670d</id>
+    <title>Stop guessing tokens and start shipping. 🚀
+
+We’re sharing the exact AI-powered workflow we used to redesign our homepage…</title>
+    <link rel="alternate" href="https://bsky.app/profile/atlassian.bsky.social/post/3mo2opmq3b323"/>
+    <published>2026-06-12T02:23:55.944152556Z</published>
+    <updated>2026-06-12T02:23:55.944152556Z</updated>
+    <author><name>atlassian.bsky.social</name></author>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="anthropic"/>
+    <summary>Atlassian&#x27;s Figma→code redesign workflow (extraction, ADS mapping, a11y fixes); concrete AI-powered design-to-code technique with real homepage artifact.</summary>
+    <content type="html"><![CDATA[<p>Atlassian&#x27;s Figma→code redesign workflow (extraction, ADS mapping, a11y fixes); concrete AI-powered design-to-code technique with real homepage artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/atlassian.bsky.social/post/3mo2opmq3b323">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:a379f6e5699c87bb</id>
     <title>Made a plugin that audits your file against your design system in one click!</title>
@@ -740,6 +796,19 @@ I just open the web page and narra…</title>
     <content type="html"><![CDATA[<p>Claude-powered conversational prototyping via live HTML rendering; novel hybrid design-conversation workflow with visual proof.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/ridd_design/status/2064732078261080324">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:84eb16ee1bde9b4a</id>
+    <title>I built a free plugin that puts 5,446 curated colors + WCAG contrast checks inside Figma</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u2577e/i_built_a_free_plugin_that_puts_5446_curated/"/>
+    <published>2026-06-10T15:19:07+00:00</published>
+    <updated>2026-06-10T15:19:07+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="design-system"/>
+    <summary>Figma plugin for 5.4k colors + WCAG contrast checks, brand-scale generator, multi-format export—solid design-system tooling.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin for 5.4k colors + WCAG contrast checks, brand-scale generator, multi-format export—solid design-system tooling.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u2577e/i_built_a_free_plugin_that_puts_5446_curated/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:3f7adbd54da3e570</id>
     <title>Your design system can now talk to your AI tools.
 
@@ -784,70 +853,5 @@ Modern service layouts designed for agencies, SaaS products, healthcare platform
     <category term="prototype"/>
     <summary>10+ production-ready shadcn service sections &amp; blocks for agencies, SaaS, healthcare—direct design-to-code craft with concrete layouts.</summary>
     <content type="html"><![CDATA[<p>10+ production-ready shadcn service sections &amp; blocks for agencies, SaaS, healthcare—direct design-to-code craft with concrete layouts.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mnwuvjq4pc2q">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:62979db876edfe21</id>
-    <title>Swiss design was built on grids, type specs, and strict geometry. Müller-Brockmann, Billi, Hofmann turned typography int…</title>
-    <link rel="alternate" href="https://bsky.app/profile/timzinin.bsky.social/post/3mnwuombxpy2v"/>
-    <published>2026-06-10T14:00:03.000Z</published>
-    <updated>2026-06-10T14:00:03.000Z</updated>
-    <author><name>timzinin.bsky.social</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Swiss design formal system (grids, typography, geometry) packaged as AI skill—maps design doctrine to AI prompts, strong taste signal.</summary>
-    <content type="html"><![CDATA[<p>Swiss design formal system (grids, typography, geometry) packaged as AI skill—maps design doctrine to AI prompts, strong taste signal.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/timzinin.bsky.social/post/3mnwuombxpy2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0d810e3f75d9b5e9</id>
-    <title>Olha a integração da Claude com o Figma tá uma coisa assim sensacional, eu adiantei 80% de um trabalho aqui que so tenho…</title>
-    <link rel="alternate" href="https://bsky.app/profile/vitorinodemais.bsky.social/post/3mnwucku4bk2q"/>
-    <published>2026-06-10T13:53:21.398Z</published>
-    <updated>2026-06-10T13:53:21.398Z</updated>
-    <author><name>vitorinodemais.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="technique"/>
-    <summary>Claude-Figma integration workflow accelerated design handoff; concrete testimonial of AI-enabled design craft (80% speedup).</summary>
-    <content type="html"><![CDATA[<p>Claude-Figma integration workflow accelerated design handoff; concrete testimonial of AI-enabled design craft (80% speedup).</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/vitorinodemais.bsky.social/post/3mnwucku4bk2q">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d757b36b09810381</id>
-    <title>alisaitteke/photoshop-mcp — MCP server for Adobe Photoshop automation - Control Photoshop from AI assistants with 50+ tools for design, image editin</title>
-    <link rel="alternate" href="https://github.com/alisaitteke/photoshop-mcp"/>
-    <published>2026-06-10T13:32:56Z</published>
-    <updated>2026-06-10T13:32:56Z</updated>
-    <author><name>alisaitteke</name></author>
-    <category term="mcp"/>
-    <category term="plugin"/>
-    <category term="adobe"/>
-    <summary>Photoshop MCP with 50+ design automation tools—direct AI control of pro design software, 91 stars, established design craft.</summary>
-    <content type="html"><![CDATA[<p>Photoshop MCP with 50+ design automation tools—direct AI control of pro design software, 91 stars, established design craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/alisaitteke/photoshop-mcp">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:68fca3649a10f2ed</id>
-    <title>UI for interactive wayfinding inside a Hospital</title>
-    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1u222yd/ui_for_interactive_wayfinding_inside_a_hospital/"/>
-    <published>2026-06-10T13:21:58+00:00</published>
-    <updated>2026-06-10T13:21:58+00:00</updated>
-    <author><name>reddit/r/UI_Design</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Hospital wayfinding touch UI with animation refinement; real design problem with working prototype, legitimate feedback request.</summary>
-    <content type="html"><![CDATA[<p>Hospital wayfinding touch UI with animation refinement; real design problem with working prototype, legitimate feedback request.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1u222yd/ui_for_interactive_wayfinding_inside_a_hospital/">Read on reddit/r/UI_Design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ecb7628d0928a33c</id>
-    <title>Cursor&#x27;s visual editor (Dec 2025): click a web element, prompt the change, iterate in live code. The Figma-to-code step …</title>
-    <link rel="alternate" href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mnwsbafd3m2o"/>
-    <published>2026-06-10T13:16:49.114Z</published>
-    <updated>2026-06-10T13:16:49.114Z</updated>
-    <author><name>aifoundersczech.bsky.social</name></author>
-    <category term="cursor"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Cursor&#x27;s visual editor (Dec 2025)—click-to-prompt-to-live-code iteration makes Figma-to-code optional; design engineer workflow shift.</summary>
-    <content type="html"><![CDATA[<p>Cursor&#x27;s visual editor (Dec 2025)—click-to-prompt-to-live-code iteration makes Figma-to-code optional; design engineer workflow shift.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mnwsbafd3m2o">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
