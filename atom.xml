@@ -5,8 +5,75 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-12T20:07:37+00:00</updated>
+  <updated>2026-06-13T02:11:26+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b38f85d727d409a0</id>
+    <title>The friction has always been translation. Someone designs something in one system, someone else prompts in another, and …</title>
+    <link rel="alternate" href="https://bsky.app/profile/cevenio.bsky.social/post/3mo56fgovuf22"/>
+    <published>2026-06-13T02:09:53.372828Z</published>
+    <updated>2026-06-13T02:09:53.372828Z</updated>
+    <author><name>cevenio.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="mcp"/>
+    <summary>Design tokens as machine-readable source of truth close the AI-to-design loop, eliminating translation friction between systems.</summary>
+    <content type="html"><![CDATA[<p>Design tokens as machine-readable source of truth close the AI-to-design loop, eliminating translation friction between systems.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/cevenio.bsky.social/post/3mo56fgovuf22">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b9ea2be55247e60f</id>
+    <title>🔥 AI落地页接单小技巧：用 Bolt.new 的「Figma to Code」功能，把客户设计稿秒转代码，收费不变效率翻倍。
+
+———
+
+🔥 AI landing page pro tip: Use Bolt.new&#x27;s Figma-to…</title>
+    <link rel="alternate" href="https://bsky.app/profile/lexi34c.bsky.social/post/3mo55vfqve62i"/>
+    <published>2026-06-13T02:00:55.000Z</published>
+    <updated>2026-06-13T02:00:55.000Z</updated>
+    <author><name>lexi34c.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="bolt"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Bolt.new&#x27;s Figma-to-Code feature enables instant design-to-code workflow for landing pages, doubling efficiency without scope creep.</summary>
+    <content type="html"><![CDATA[<p>Bolt.new&#x27;s Figma-to-Code feature enables instant design-to-code workflow for landing pages, doubling efficiency without scope creep.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/lexi34c.bsky.social/post/3mo55vfqve62i">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:79f5597042b0a10c</id>
+    <title>Claude Code（Fable 5）で動画制作の精度が、めちゃくちゃ上がりました。
+
+この縦型ショート、動画編集ソフトを一切使わずClaude Code で生成しています。
+
+工夫した点👇
+
+・編集ではなく「宣言」。文言や色、アニメをス…</title>
+    <link rel="alternate" href="https://x.com/masahirochaen/status/2065611863505920097"/>
+    <published>2026-06-13T01:47:00+00:00</published>
+    <updated>2026-06-13T01:47:00+00:00</updated>
+    <author><name>masahirochaen</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="animation"/>
+    <summary>Claude Code generates full vertical video shorts with declarative animation scripts, synced narration, and procedural UI—no editing software needed.</summary>
+    <content type="html"><![CDATA[<p>Claude Code generates full vertical video shorts with declarative animation scripts, synced narration, and procedural UI—no editing software needed.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/masahirochaen/status/2065611863505920097">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:39af7040ef035a9c</id>
+    <title>Figma Capture + Claude Fable 5 = clone any competitor&#x27;s landing page in minutes 🤯
+
+Figma just dropped a Chrome extension…</title>
+    <link rel="alternate" href="https://x.com/mikefutia/status/2065537778516205856"/>
+    <published>2026-06-12T20:52:36+00:00</published>
+    <updated>2026-06-12T20:52:36+00:00</updated>
+    <author><name>mikefutia</name></author>
+    <category term="figma"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Figma Capture + Claude Code workflow for rebuilding competitor landing pages in brand—real design-to-code artifact with Fable 5.</summary>
+    <content type="html"><![CDATA[<p>Figma Capture + Claude Code workflow for rebuilding competitor landing pages in brand—real design-to-code artifact with Fable 5.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/mikefutia/status/2065537778516205856">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:ecb2e033b96726f7</id>
     <title>Claude can do (almost) any job for you.
@@ -813,56 +880,5 @@ Install it in seconds and give Cursor an infinite multiplayer can…</title>
     <category term="ui-craft"/>
     <summary>Direct request for mobile design skills; Steven installed impeccable—high relevance for design tool recommendations.</summary>
     <content type="html"><![CDATA[<p>Direct request for mobile design skills; Steven installed impeccable—high relevance for design tool recommendations.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u29p5y/best_design_skills_for_mobile_apps/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1dfe6cde5d671123</id>
-    <title>Claude Fable 5 built an entire Backrooms escape game from scratch</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u29a22/claude_fable_5_built_an_entire_backrooms_escape/"/>
-    <published>2026-06-10T17:42:25+00:00</published>
-    <updated>2026-06-10T17:42:25+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Claude Fable 5 built a playable Backrooms escape game with maze generation and UI—real AI-driven interactive prototype with screenshot and working link.</summary>
-    <content type="html"><![CDATA[<p>Claude Fable 5 built a playable Backrooms escape game with maze generation and UI—real AI-driven interactive prototype with screenshot and working link.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u29a22/claude_fable_5_built_an_entire_backrooms_escape/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5f13df62d251fde7</id>
-    <title>iOS 26/27 inspired bottom navbar, made using Flutter</title>
-    <link rel="alternate" href="https://www.reddit.com/r/UI_Design/comments/1u299jo/ios_2627_inspired_bottom_navbar_made_using_flutter/"/>
-    <published>2026-06-10T17:41:56+00:00</published>
-    <updated>2026-06-10T17:41:56+00:00</updated>
-    <author><name>reddit/r/UI_Design</name></author>
-    <category term="ui-craft"/>
-    <category term="design"/>
-    <summary>iOS 26/27-inspired bottom navbar in Flutter with color-reactive edge design; clean UI pattern but not AI-built or design-system focused.</summary>
-    <content type="html"><![CDATA[<p>iOS 26/27-inspired bottom navbar in Flutter with color-reactive edge design; clean UI pattern but not AI-built or design-system focused.</p><p><strong>Source:</strong> reddit/r/UI_Design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/UI_Design/comments/1u299jo/ios_2627_inspired_bottom_navbar_made_using_flutter/">Read on reddit/r/UI_Design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e01a9a6eb5a7954c</id>
-    <title>Claude Fable 5 just one-shotted this Monopoly game in Bolt 🤯 https://t.co/YrvLanRVva</title>
-    <link rel="alternate" href="https://x.com/boltdotnew/status/2064763226684854516"/>
-    <published>2026-06-10T17:34:49+00:00</published>
-    <updated>2026-06-10T17:34:49+00:00</updated>
-    <author><name>boltdotnew</name></author>
-    <category term="bolt"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Claude Fable 5 one-shot a fully playable Monopoly game in Bolt with live link—real AI-built interactive game with polished UI.</summary>
-    <content type="html"><![CDATA[<p>Claude Fable 5 one-shot a fully playable Monopoly game in Bolt with live link—real AI-built interactive game with polished UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/boltdotnew/status/2064763226684854516">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8bd9ad478d42ab33</id>
-    <title>Wanna play? 
-http://monopoly.bolt.host/</title>
-    <link rel="alternate" href="https://x.com/boltdotnew/status/2064763227863400577"/>
-    <published>2026-06-10T17:34:49+00:00</published>
-    <updated>2026-06-10T17:34:49+00:00</updated>
-    <author><name>boltdotnew</name></author>
-    <category term="bolt"/>
-    <category term="prototype"/>
-    <summary>Live playable Monopoly game built by Claude in Bolt; demonstrates AI-crafted game UI and interactive design.</summary>
-    <content type="html"><![CDATA[<p>Live playable Monopoly game built by Claude in Bolt; demonstrates AI-crafted game UI and interactive design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/boltdotnew/status/2064763227863400577">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
