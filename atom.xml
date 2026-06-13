@@ -5,8 +5,82 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-13T08:15:30+00:00</updated>
+  <updated>2026-06-13T14:19:53+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2bbea891f4defb1f</id>
+    <title>I tested Fable on 2 x UI and 1 x complex UX project. 
+And I was pretty shocked, but not for the reason you may think.
+
+T…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065796581165822446"/>
+    <published>2026-06-13T14:01:00+00:00</published>
+    <updated>2026-06-13T14:01:00+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Designer tests Fable on real UI/UX projects; offers nuanced take on AI&#x27;s actual role for professional designers vs. slop risk.</summary>
+    <content type="html"><![CDATA[<p>Designer tests Fable on real UI/UX projects; offers nuanced take on AI&#x27;s actual role for professional designers vs. slop risk.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2065796581165822446">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:606746c16ef77934</id>
+    <title>Template design for clients from Figma Design, delivery in Figma Buzz vs. Canva</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u4omqu/template_design_for_clients_from_figma_design/"/>
+    <published>2026-06-13T11:35:04+00:00</published>
+    <updated>2026-06-13T11:35:04+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</summary>
+    <content type="html"><![CDATA[<p>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u4omqu/template_design_for_clients_from_figma_design/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:95f90d9bd9f7f606</id>
+    <title>“What computers can’t do” — and what designers should</title>
+    <link rel="alternate" href="https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4"/>
+    <published>2026-06-13T09:26:57+00:00</published>
+    <updated>2026-06-13T09:26:57+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="technique"/>
+    <summary>Essay on what AI can&#x27;t do in design and designer responsibilities; thoughtful framing of human role vs. agent execution.</summary>
+    <content type="html"><![CDATA[<p>Essay on what AI can&#x27;t do in design and designer responsibilities; thoughtful framing of human role vs. agent execution.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:fd767d1bbe9bb5de</id>
+    <title>What’s the most accurate AI model to work with Figma MCP?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u4lh2j/whats_the_most_accurate_ai_model_to_work_with/"/>
+    <published>2026-06-13T08:28:41+00:00</published>
+    <updated>2026-06-13T08:28:41+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="claude-code"/>
+    <summary>User testing Figma MCP with AI models for design refinement workflow—concrete design-tool usage, light substance.</summary>
+    <content type="html"><![CDATA[<p>User testing Figma MCP with AI models for design refinement workflow—concrete design-tool usage, light substance.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u4lh2j/whats_the_most_accurate_ai_model_to_work_with/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a587f8e926e76722</id>
+    <title>Codexの激強プラグイン『Product Design』を進化させて、『Product Launch』プラグインを作ってみた。
+
+➊ アイデア入力
+↓
+❷ Codex Image2がアプリのUI、LP、
+広告バナー、プロモ動画の素材画像、…</title>
+    <link rel="alternate" href="https://x.com/yoshio_nocode/status/2065706764050608239"/>
+    <published>2026-06-13T08:04:06+00:00</published>
+    <updated>2026-06-13T08:04:06+00:00</updated>
+    <author><name>yoshio_nocode</name></author>
+    <category term="figma-make"/>
+    <category term="claude-code"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Product Launch plugin pipeline: idea→AI-generated UI/LP/video assets→code implementation with Claude &amp; Figma—real design-to-code artifact.</summary>
+    <content type="html"><![CDATA[<p>Product Launch plugin pipeline: idea→AI-generated UI/LP/video assets→code implementation with Claude &amp; Figma—real design-to-code artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/yoshio_nocode/status/2065706764050608239">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:05f51ef9e709265b</id>
     <title>figma lets you paste live code into the canvas as editable frames now. they say code is for converging, canvas for diver…</title>
@@ -809,77 +883,5 @@ For example, if a design team builds a design agent…</title>
     <category term="prototype"/>
     <summary>12-min tutorial on building 3D websites with AI—design/motion craft tutorial with video, light depth.</summary>
     <content type="html"><![CDATA[<p>12-min tutorial on building 3D websites with AI—design/motion craft tutorial with video, light depth.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/boltdotnew/status/2064835277085135291">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6ed566661587abef</id>
-    <title>RT @miggi: A thread of @figma agent prompt examples / screen recordings I helped bring to life to get you started on aut…</title>
-    <link rel="alternate" href="https://x.com/figma/status/2064834707720950064"/>
-    <published>2026-06-10T22:18:51+00:00</published>
-    <updated>2026-06-10T22:18:51+00:00</updated>
-    <author><name>figma</name></author>
-    <category term="figma"/>
-    <category term="agent-sdk"/>
-    <category term="anthropic"/>
-    <summary>Figma agent prompt examples with screen recordings—official Figma automation tooling for design workflows.</summary>
-    <content type="html"><![CDATA[<p>Figma agent prompt examples with screen recordings—official Figma automation tooling for design workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/figma/status/2064834707720950064">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:454a3cc22205bbfc</id>
-    <title>Lots of people asked how I used Fable to edit its own launch video so I made a video about that!
-
-TLDR it wrote a lot of…</title>
-    <link rel="alternate" href="https://x.com/trq212/status/2064826394589442448"/>
-    <published>2026-06-10T21:45:49+00:00</published>
-    <updated>2026-06-10T21:45:49+00:00</updated>
-    <author><name>trq212</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="technique"/>
-    <category term="claude-code"/>
-    <category term="animation"/>
-    <summary>Video showing Fable + Figma MCP used to edit launch video via code, transcription, ffmpeg, colorgrading, Remotion UI—real design-to-motion workflow.</summary>
-    <content type="html"><![CDATA[<p>Video showing Fable + Figma MCP used to edit launch video via code, transcription, ffmpeg, colorgrading, Remotion UI—real design-to-motion workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/trq212/status/2064826394589442448">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e07dfc1e03c6a916</id>
-    <title>We are excited to see what you build with
-@cursor_ai and MagicPath. Having a native canvas running inside of Cursor&#x27;s br…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2064817094579908638"/>
-    <published>2026-06-10T21:08:52+00:00</published>
-    <updated>2026-06-10T21:08:52+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="cursor"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>MagicPath plugin for Cursor with canvas, design system, and image generation—light substance, tool announcement without artifact demo.</summary>
-    <content type="html"><![CDATA[<p>MagicPath plugin for Cursor with canvas, design system, and image generation—light substance, tool announcement without artifact demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2064817094579908638">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cf4733cec8663f67</id>
-    <title>MagicPath is now an official plugin for @cursor_ai.  
-
-Install it in seconds and give Cursor an infinite multiplayer can…</title>
-    <link rel="alternate" href="https://x.com/MagicPathAI/status/2064816830913364252"/>
-    <published>2026-06-10T21:07:49+00:00</published>
-    <updated>2026-06-10T21:07:49+00:00</updated>
-    <author><name>MagicPathAI</name></author>
-    <category term="cursor"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>MagicPath official Cursor plugin for interactive UI and design system integration—announcement without deep build story.</summary>
-    <content type="html"><![CDATA[<p>MagicPath official Cursor plugin for interactive UI and design system integration—announcement without deep build story.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2064816830913364252">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:eec2e01b3cd22b67</id>
-    <title>RT @marckohlbrugge: trying some different brand directions with the help of the new UI .sh brand-kit skill https://t.co/…</title>
-    <link rel="alternate" href="https://x.com/adamwathan/status/2064776317908791809"/>
-    <published>2026-06-10T18:26:50+00:00</published>
-    <updated>2026-06-10T18:26:50+00:00</updated>
-    <author><name>adamwathan</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Brand-kit design skill for brand exploration; live tool application shown.</summary>
-    <content type="html"><![CDATA[<p>Brand-kit design skill for brand exploration; live tool application shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/adamwathan/status/2064776317908791809">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
