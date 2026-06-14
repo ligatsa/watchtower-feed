@@ -5,8 +5,36 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-14T02:28:06+00:00</updated>
+  <updated>2026-06-14T08:32:15+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:eca16d3dbfda6bee</id>
+    <title>The new Figma Chrome Extension is insanely gooooood!</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u5dx0y/the_new_figma_chrome_extension_is_insanely/"/>
+    <published>2026-06-14T06:45:53+00:00</published>
+    <updated>2026-06-14T06:45:53+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="tool"/>
+    <summary>Figma Chrome Extension for static-to-design capture; strong tool for design-to-code workflows, honest limits on interactive apps.</summary>
+    <content type="html"><![CDATA[<p>Figma Chrome Extension for static-to-design capture; strong tool for design-to-code workflows, honest limits on interactive apps.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5dx0y/the_new_figma_chrome_extension_is_insanely/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:304dcfc818e488bf</id>
+    <title>Before Fable 5 was pulled, we used it to prompt this landing page.
+
+It was ahead of its time. https://t.co/wXVFCto2wh</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2066035231782740092"/>
+    <published>2026-06-14T05:49:18+00:00</published>
+    <updated>2026-06-14T05:49:18+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="prototype"/>
+    <category term="ai-design"/>
+    <category term="landing-page"/>
+    <summary>Landing page built with Fable prompt-to-design; light but shows real AI→design artifact with visual proof.</summary>
+    <content type="html"><![CDATA[<p>Landing page built with Fable prompt-to-design; light but shows real AI→design artifact with visual proof.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MengTo/status/2066035231782740092">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:6182cc92a37f5870</id>
     <title>RT @joelbqz: input morph
@@ -149,6 +177,19 @@ T…</title>
     <category term="ui-craft"/>
     <summary>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</summary>
     <content type="html"><![CDATA[<p>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u4omqu/template_design_for_clients_from_figma_design/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:bf1c3d76ad6a4b76</id>
+    <title>Taste Lab</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/taste-lab"/>
+    <published>2026-06-13T10:49:00-07:00</published>
+    <updated>2026-06-13T10:49:00-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="skill"/>
+    <summary>Extract design DNA from websites—brand-to-design-system pipeline, directly relevant to taste skill workflow.</summary>
+    <content type="html"><![CDATA[<p>Extract design DNA from websites—brand-to-design-system pipeline, directly relevant to taste skill workflow.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/taste-lab">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:95f90d9bd9f7f606</id>
@@ -842,47 +883,5 @@ The &quot;taller&quot; tooltips don&#x27;t fit in the viewport below the link so
     <category term="ui-craft"/>
     <summary>Design analysis of interface control &amp; glass effects from WWDC 2026 perspective—discipline thinking.</summary>
     <content type="html"><![CDATA[<p>Design analysis of interface control &amp; glass effects from WWDC 2026 perspective—discipline thinking.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/liquid-glass-who-gets-to-decide-how-an-interface-looks-a0abe75ae21e?sk=c2ed9d75243ed7219989e32dd0f340b6">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:aee7f9300bfa81f6</id>
-    <title>Building glass for the web</title>
-    <link rel="alternate" href="https://aave.com/design/building-glass-for-the-web"/>
-    <published>2026-06-11T06:29:22+00:00</published>
-    <updated>2026-06-11T06:29:22+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <category term="technique"/>
-    <summary>Cross-browser glass effect technique with component family design—concrete visual craft &amp; pattern.</summary>
-    <content type="html"><![CDATA[<p>Cross-browser glass effect technique with component family design—concrete visual craft &amp; pattern.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://aave.com/design/building-glass-for-the-web">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7b205ea2feed5c17</id>
-    <title>UI skills for design engineers</title>
-    <link rel="alternate" href="https://www.ui-skills.com/"/>
-    <published>2026-06-11T06:26:35+00:00</published>
-    <updated>2026-06-11T06:26:35+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <summary>Curated UI skills registry for design engineers covering accessibility, motion, and interface quality.</summary>
-    <content type="html"><![CDATA[<p>Curated UI skills registry for design engineers covering accessibility, motion, and interface quality.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://www.ui-skills.com/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c4eba9962062dc2c</id>
-    <title>This is wild. A Claude Code team member just share how they edited Fable’s entire launch video using Fable itself.
-
-No v…</title>
-    <link rel="alternate" href="https://x.com/VaibhavSisinty/status/2064948885810982974"/>
-    <published>2026-06-11T05:52:33+00:00</published>
-    <updated>2026-06-11T05:52:33+00:00</updated>
-    <author><name>VaibhavSisinty</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="agent-sdk"/>
-    <category term="technique"/>
-    <summary>Claude Code team built entire launch video using Fable (transcription, ffmpeg, color grading, Figma MCP, Remotion)—concrete AI-aided production design workflow.</summary>
-    <content type="html"><![CDATA[<p>Claude Code team built entire launch video using Fable (transcription, ffmpeg, color grading, Figma MCP, Remotion)—concrete AI-aided production design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/VaibhavSisinty/status/2064948885810982974">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
