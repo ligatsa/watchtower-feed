@@ -5,8 +5,36 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-13T20:23:55+00:00</updated>
+  <updated>2026-06-14T02:28:06+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6182cc92a37f5870</id>
+    <title>RT @joelbqz: input morph
+
+fork it: https://v0.link/mQrZGfj https://t.co/Sfp1sj2hnu</title>
+    <link rel="alternate" href="https://x.com/v0/status/2065962881963688134"/>
+    <published>2026-06-14T01:01:49+00:00</published>
+    <updated>2026-06-14T01:01:49+00:00</updated>
+    <author><name>v0</name></author>
+    <category term="v0"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Input morphing UI component built in v0 with fork link and visual demo.</summary>
+    <content type="html"><![CDATA[<p>Input morphing UI component built in v0 with fork link and visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/v0/status/2065962881963688134">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1919f8562f6776a6</id>
+    <title>itmeo/webgradients — 180 linear gradients in CSS3, Figma, Sketch and PSD formats — free for personal and commercial use</title>
+    <link rel="alternate" href="https://github.com/itmeo/webgradients"/>
+    <published>2026-06-13T21:50:04Z</published>
+    <updated>2026-06-13T21:50:04Z</updated>
+    <author><name>itmeo</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>180 ready-made gradients in CSS, Figma, Sketch formats; useful design resource but static library, not a craft technique or AI-enabled tool.</summary>
+    <content type="html"><![CDATA[<p>180 ready-made gradients in CSS, Figma, Sketch formats; useful design resource but static library, not a craft technique or AI-enabled tool.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/itmeo/webgradients">Read on github →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:18050c874cba5909</id>
     <title>I need your feedback on my Figma Plugin</title>
@@ -856,33 +884,5 @@ No v…</title>
     <category term="technique"/>
     <summary>Claude Code team built entire launch video using Fable (transcription, ffmpeg, color grading, Figma MCP, Remotion)—concrete AI-aided production design workflow.</summary>
     <content type="html"><![CDATA[<p>Claude Code team built entire launch video using Fable (transcription, ffmpeg, color grading, Figma MCP, Remotion)—concrete AI-aided production design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/VaibhavSisinty/status/2064948885810982974">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2f401e071b02995b</id>
-    <title>Claude-based demo builder built with /goal</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u2pv6k/claudebased_demo_builder_built_with_goal/"/>
-    <published>2026-06-11T05:17:33+00:00</published>
-    <updated>2026-06-11T05:17:33+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Claude Code tool for building interactive web app demos with animation; concrete prototype and build story.</summary>
-    <content type="html"><![CDATA[<p>Claude Code tool for building interactive web app demos with animation; concrete prototype and build story.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2pv6k/claudebased_demo_builder_built_with_goal/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2f7481fce1d0b611</id>
-    <title>What is the best way to handoff a Figma document to build a prototype?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u2n5gr/what_is_the_best_way_to_handoff_a_figma_document/"/>
-    <published>2026-06-11T03:01:58+00:00</published>
-    <updated>2026-06-11T03:01:58+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="figma"/>
-    <category term="claude-code"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Real design-to-code workflow question: Figma → Claude Code prototype matching with MCP, solid practical design+AI angle.</summary>
-    <content type="html"><![CDATA[<p>Real design-to-code workflow question: Figma → Claude Code prototype matching with MCP, solid practical design+AI angle.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2n5gr/what_is_the_best_way_to_handoff_a_figma_document/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
 </feed>
