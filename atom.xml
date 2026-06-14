@@ -5,8 +5,33 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-14T14:35:43+00:00</updated>
+  <updated>2026-06-14T20:40:17+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:26657d6bb2854575</id>
+    <title>I built a large-scale text replacement engine inside Figma Design (Plugin). Looking for feedback.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u5qf4k/i_built_a_largescale_text_replacement_engine/"/>
+    <published>2026-06-14T16:58:50+00:00</published>
+    <updated>2026-06-14T16:58:50+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Figma plugin (Variate) for bulk text replacement in design; solves a real design workflow pain, has screenshot.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin (Variate) for bulk text replacement in design; solves a real design workflow pain, has screenshot.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5qf4k/i_built_a_largescale_text_replacement_engine/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:91b20515a843a2cf</id>
+    <title>Blog Redesign 4 and an AI-First Design System</title>
+    <link rel="alternate" href="https://bsky.app/profile/pericak.bsky.social/post/3mob5b3pflr2b"/>
+    <published>2026-06-14T16:00:10.312020Z</published>
+    <updated>2026-06-14T16:00:10.312020Z</updated>
+    <author><name>pericak.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="designer-post"/>
+    <summary>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</summary>
+    <content type="html"><![CDATA[<p>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/pericak.bsky.social/post/3mob5b3pflr2b">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:f190274c10d966dd</id>
     <title>🆕 pbakaus/impeccable ext-v1.2.0 — The design language that makes your AI harness better at design.</title>
@@ -20,6 +45,24 @@
     <category term="claude-code"/>
     <summary>pbakaus/impeccable v1.2.0 — design language skill for AI harnesses, directly enables better Claude design outputs.</summary>
     <content type="html"><![CDATA[<p>pbakaus/impeccable v1.2.0 — design language skill for AI harnesses, directly enables better Claude design outputs.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:feaac5d1af8bcde5</id>
+    <title>So this was made in http://aura.build using Fable 5 when it was available: 
+
+https://neon-oiran.aura.build
+
+It&#x27;s insanel…</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2066165296239686122"/>
+    <published>2026-06-14T14:26:08+00:00</published>
+    <updated>2026-06-14T14:26:08+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Aura.build (Claude Code) rebuilt high-fidelity anime RPG site with one-shot prompt; shows AI-to-React-design craft at Stripe/Linear polish level.</summary>
+    <content type="html"><![CDATA[<p>Aura.build (Claude Code) rebuilt high-fidelity anime RPG site with one-shot prompt; shows AI-to-React-design craft at Stripe/Linear polish level.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2066165296239686122">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:dd344b8cb79271b6</id>
@@ -36,6 +79,25 @@
     <content type="html"><![CDATA[<p>Design-to-code parity problem (Figma→iOS) with real friction; user seeking MCP/skill solutions for fidelity.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5l1tc/how_to_solve_small_problems_in_figma_generating/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:87ab1c3e311fac79</id>
+    <title>【保存版】
+競合 LP を自ブランドに変換する Figma × Claude Code (Fable 5) のワークフローが実用段階に来た😳
+
+Figma MCP で構造を丸ごと読んでから再構築する 5 つの工程はこれ👇
+https://t…</title>
+    <link rel="alternate" href="https://x.com/ClaudeCode_UT/status/2066128576005743020"/>
+    <published>2026-06-14T12:00:13+00:00</published>
+    <updated>2026-06-14T12:00:13+00:00</updated>
+    <author><name>ClaudeCode_UT</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Figma MCP + Claude Code workflow: capture competitor LP → rebuild as brand variant with color/type/copy + auto-gen product shots in 15min/$2; production-ready design-to-code pipeline.</summary>
+    <content type="html"><![CDATA[<p>Figma MCP + Claude Code workflow: capture competitor LP → rebuild as brand variant with color/type/copy + auto-gen product shots in 15min/$2; production-ready design-to-code pipeline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/ClaudeCode_UT/status/2066128576005743020">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:4a04c8ab281a566e</id>
     <title>I used to spend hours in Canva designing social media graphics. Now I don&#x27;t open Canva at all. Instead, I built my own c…</title>
     <link rel="alternate" href="https://bsky.app/profile/lizontheweb.bsky.social/post/3moap2u2w6q2r"/>
@@ -47,6 +109,23 @@
     <category term="agent-sdk"/>
     <summary>Built custom AI content rendering system replacing Canva; 87 templates, automated branded social graphics.</summary>
     <content type="html"><![CDATA[<p>Built custom AI content rendering system replacing Canva; 87 templates, automated branded social graphics.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/lizontheweb.bsky.social/post/3moap2u2w6q2r">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2534b3cfc6e61025</id>
+    <title>ONE VIETNAMESE GUY FOUND THE PART OF CLAUDE MOST PEOPLE STILL HAVEN&#x27;T TOUCHED
+
+Everyone is still typing prompts.
+
+He is …</title>
+    <link rel="alternate" href="https://x.com/0xTria/status/2066064597501534400"/>
+    <published>2026-06-14T07:46:00+00:00</published>
+    <updated>2026-06-14T07:46:00+00:00</updated>
+    <author><name>0xTria</name></author>
+    <category term="skill"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Design skill adoption unlocks AI-craft workflows; positioning skills (design, dev, SEO, video) as repeatable processes vs. chat.</summary>
+    <content type="html"><![CDATA[<p>Design skill adoption unlocks AI-craft workflows; positioning skills (design, dev, SEO, video) as repeatable processes vs. chat.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/0xTria/status/2066064597501534400">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:eca16d3dbfda6bee</id>
@@ -820,70 +899,5 @@ The &quot;taller&quot; tooltips don&#x27;t fit in the viewport below the link so
     <category term="design-system"/>
     <summary>Version control &amp; branching workflow challenge in Claude Design—concrete design-tool workflow question, light but real design surface.</summary>
     <content type="html"><![CDATA[<p>Version control &amp; branching workflow challenge in Claude Design—concrete design-tool workflow question, light but real design surface.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2x7ax/version_control_in_claude_design/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:92faa926c3994edd</id>
-    <title>Redesigned a Pre-Launch Landing page</title>
-    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1u2wwcz/redesigned_a_prelaunch_landing_page/"/>
-    <published>2026-06-11T11:53:21+00:00</published>
-    <updated>2026-06-11T11:53:21+00:00</updated>
-    <author><name>reddit/r/web_design</name></author>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Landing page redesign with visual improvements; real UI artifact shown, light design substance.</summary>
-    <content type="html"><![CDATA[<p>Landing page redesign with visual improvements; real UI artifact shown, light design substance.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1u2wwcz/redesigned_a_prelaunch_landing_page/">Read on reddit/r/web_design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f34fbd9e7a5557cc</id>
-    <title>Figma launched a native AI design agent embedded in the canvas — not a sidebar chat, not a plugin, but an agent with you…</title>
-    <link rel="alternate" href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mnz5p7wwe323"/>
-    <published>2026-06-11T11:46:49.012Z</published>
-    <updated>2026-06-11T11:46:49.012Z</updated>
-    <author><name>aifoundersczech.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="agent-sdk"/>
-    <category term="anthropic"/>
-    <summary>Figma launches native AI design agent in canvas with design-system context—direct enablement of AI-driven design at volume.</summary>
-    <content type="html"><![CDATA[<p>Figma launches native AI design agent in canvas with design-system context—direct enablement of AI-driven design at volume.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mnz5p7wwe323">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f09a4f2c44e3f0f9</id>
-    <title>Figma spustila nativního AI designového agenta přímo v canvasu — ne postranní chat, ne plugin, ale agent s vaším design …</title>
-    <link rel="alternate" href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mnz3zorj4w2t"/>
-    <published>2026-06-11T11:16:52.622Z</published>
-    <updated>2026-06-11T11:16:52.622Z</updated>
-    <author><name>aifounders-cz.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="agent-sdk"/>
-    <category term="anthropic"/>
-    <summary>Figma native AI designového agenta v canvasu s design-systémem; stejný obsah jako [5], přímé zapnutí AI pro design.</summary>
-    <content type="html"><![CDATA[<p>Figma native AI designového agenta v canvasu s design-systémem; stejný obsah jako [5], přímé zapnutí AI pro design.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mnz3zorj4w2t">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c13d6ba69e02352e</id>
-    <title>Design systems have always needed to explain more than just what exists. They need to explain how to use what exists, wh…</title>
-    <link rel="alternate" href="https://bsky.app/profile/mariusz.cc/post/3mnys5grxeq2p"/>
-    <published>2026-06-11T08:20:00.774Z</published>
-    <updated>2026-06-11T08:20:00.774Z</updated>
-    <author><name>mariusz.cc</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Design system maturity framework—clear guidance on documentation, flexibility, and maintenance; solid craft.</summary>
-    <content type="html"><![CDATA[<p>Design system maturity framework—clear guidance on documentation, flexibility, and maintenance; solid craft.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/mariusz.cc/post/3mnys5grxeq2p">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:56c0bdea4e1ee93a</id>
-    <title>I asked Fable 5 in Claude Code to explain the Riemann Hypothesis to anyone. Two prompts later: a full interactive site + a video scored with music composed from the zeta zeros</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u2rv2i/i_asked_fable_5_in_claude_code_to_explain_the/"/>
-    <published>2026-06-11T07:09:57+00:00</published>
-    <updated>2026-06-11T07:09:57+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Interactive educational site + video built in Claude Code with visual polish; math content but shows UI craft.</summary>
-    <content type="html"><![CDATA[<p>Interactive educational site + video built in Claude Code with visual polish; math content but shows UI craft.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2rv2i/i_asked_fable_5_in_claude_code_to_explain_the/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
 </feed>
