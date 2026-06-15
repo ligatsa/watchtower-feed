@@ -644,7 +644,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong id="itemCount">974</strong> shown</span>
-        <span>updated 2026-06-15T18:31:33+00:00</span>
+        <span>updated 2026-06-15T18:47:26+00:00</span>
         <span>min score 6</span>
       </div>
       <input id="search" class="search" type="search" autocomplete="off"
@@ -26920,6 +26920,30 @@ It contains …</a>
       }, { threshold: 0 });
       entries.forEach(function (el) { pastObserver.observe(el); });
     }
+
+    // End-of-feed case: the last screenful never scrolls above the top, so the
+    // observer above can't catch it. When you reach the bottom of the feed,
+    // mark every entry still visible (the trailing items you've reached) read.
+    function markVisibleAtBottom() {
+      var atBottom = (window.innerHeight + window.scrollY)
+        >= (document.documentElement.scrollHeight - 4);
+      if (!atBottom) return;
+      var vh = window.innerHeight, changed = false;
+      entries.forEach(function (el) {
+        if (el.classList.contains('is-hidden')) return;       // respect active filter
+        var r = el.getBoundingClientRect();
+        if (r.bottom > 0 && r.top < vh && !read.has(el.dataset.id)) {
+          setRead(el, true); changed = true;                  // visible at the bottom → read
+        }
+      });
+      if (changed) refreshViewCounts();
+    }
+    var bottomTick = false;
+    window.addEventListener('scroll', function () {
+      if (bottomTick) return;
+      bottomTick = true;
+      requestAnimationFrame(function () { bottomTick = false; markVisibleAtBottom(); });
+    }, { passive: true });
 
     // Track read on link click + on explicit mark-read button
     entries.forEach(function (el) {
