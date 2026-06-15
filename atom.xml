@@ -5,21 +5,63 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-15T03:01:40+00:00</updated>
+  <updated>2026-06-15T09:06:15+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b9d7ea9360eb0991</id>
-    <title>🆕 pbakaus/impeccable skill-v3.6.0 — The design language that makes your AI harness better at design.</title>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:10707d9cdbd41413</id>
+    <title>🆕 pbakaus/impeccable cli-v3.0.1 — The design language that makes your AI harness better at design.</title>
     <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-06-15T02:58:37.296360+00:00</published>
-    <updated>2026-06-15T02:58:37.296360+00:00</updated>
+    <published>2026-06-15T09:02:44.233511+00:00</published>
+    <updated>2026-06-15T09:02:44.233511+00:00</updated>
     <author><name>pbakaus</name></author>
     <category term="skill"/>
     <category term="design-system"/>
     <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>pbakaus/impeccable v3.6.0 — design-language skill that directly improves AI harness output quality; core anchor in Steven&#x27;s taste.</summary>
-    <content type="html"><![CDATA[<p>pbakaus/impeccable v3.6.0 — design-language skill that directly improves AI harness output quality; core anchor in Steven&#x27;s taste.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+    <category term="claude-code"/>
+    <summary>Design language for AI agents to produce better UI—pbakaus&#x27; impeccable v3.0.1 directly enables anti-slop craft.</summary>
+    <content type="html"><![CDATA[<p>Design language for AI agents to produce better UI—pbakaus&#x27; impeccable v3.0.1 directly enables anti-slop craft.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0df4f5d5a4f802a1</id>
+    <title>html.to.design — New Chrome extension feature</title>
+    <link rel="alternate" href="https://bit.ly/side-div6"/>
+    <published>2026-06-15T08:02:00+00:00</published>
+    <updated>2026-06-15T08:02:00+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Browser→Figma code-capture extension; concrete design-to-component workflow enabler.</summary>
+    <content type="html"><![CDATA[<p>Browser→Figma code-capture extension; concrete design-to-component workflow enabler.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://bit.ly/side-div6">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0b148c073f0772f0</id>
+    <title>Most teams use AI to generate screens.
+Our designers used it to reshape the system behind the screens.
+🔗 Explore how Arb…</title>
+    <link rel="alternate" href="https://bsky.app/profile/arbisoft.bsky.social/post/3mocrap2rur2g"/>
+    <published>2026-06-15T07:30:34.097869032Z</published>
+    <updated>2026-06-15T07:30:34.097869032Z</updated>
+    <author><name>arbisoft.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>Design-system reshaping via AI; team approach to using AI for systems over screens.</summary>
+    <content type="html"><![CDATA[<p>Design-system reshaping via AI; team approach to using AI for systems over screens.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/arbisoft.bsky.social/post/3mocrap2rur2g">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9db756ebf43928b7</id>
+    <title>Interactive bento – designed with Claude https://t.co/fqk1K6e4au</title>
+    <link rel="alternate" href="https://x.com/growthflo/status/2066385154205970869"/>
+    <published>2026-06-15T04:59:46+00:00</published>
+    <updated>2026-06-15T04:59:46+00:00</updated>
+    <author><name>growthflo</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Interactive bento UI designed with Claude—concrete prototype with visual result.</summary>
+    <content type="html"><![CDATA[<p>Interactive bento UI designed with Claude—concrete prototype with visual result.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/growthflo/status/2066385154205970869">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:26657d6bb2854575</id>
@@ -859,45 +901,5 @@ A diferença …</title>
     <category term="technique"/>
     <summary>Retweet showing Fable 5 + skill comparison for issue creation—hints at design skill impact but lacks concrete detail or artifact.</summary>
     <content type="html"><![CDATA[<p>Retweet showing Fable 5 + skill comparison for issue creation—hints at design skill impact but lacks concrete detail or artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/shadcn/status/2065060725371129939">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:03a4bb9f03b30931</id>
-    <title>Blast Arena: a Bomberman-style browser game built entirely with Claude Code</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u2ydq1/blast_arena_a_bombermanstyle_browser_game_built/"/>
-    <published>2026-06-11T12:59:15+00:00</published>
-    <updated>2026-06-11T12:59:15+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="frontend"/>
-    <summary>Bomberman game built with Claude Code with playable Vercel link—real frontend artifact, but game dev not design-system or UI-craft focused.</summary>
-    <content type="html"><![CDATA[<p>Bomberman game built with Claude Code with playable Vercel link—real frontend artifact, but game dev not design-system or UI-craft focused.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2ydq1/blast_arena_a_bombermanstyle_browser_game_built/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:11ad4f489fffde6c</id>
-    <title>Anchor pos &amp; interest invokers are awesome!
-
-The &quot;taller&quot; tooltips don&#x27;t fit in the viewport below the link so the posit…</title>
-    <link rel="alternate" href="https://bsky.app/profile/una.im/post/3mnzaxq7prs2x"/>
-    <published>2026-06-11T12:45:16.043Z</published>
-    <updated>2026-06-11T12:45:16.043Z</updated>
-    <author><name>una.im</name></author>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>Una Buluç demos CSS anchor positioning + popovers for smart tooltip placement—concrete UI technique with video, progressive enhancement.</summary>
-    <content type="html"><![CDATA[<p>Una Buluç demos CSS anchor positioning + popovers for smart tooltip placement—concrete UI technique with video, progressive enhancement.</p><p><strong>Source:</strong> bluesky_user · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/una.im/post/3mnzaxq7prs2x">Read on bluesky_user →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fb5acf62fad19865</id>
-    <title>Version control in Claude design</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u2x7ax/version_control_in_claude_design/"/>
-    <published>2026-06-11T12:06:59+00:00</published>
-    <updated>2026-06-11T12:06:59+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Version control &amp; branching workflow challenge in Claude Design—concrete design-tool workflow question, light but real design surface.</summary>
-    <content type="html"><![CDATA[<p>Version control &amp; branching workflow challenge in Claude Design—concrete design-tool workflow question, light but real design surface.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u2x7ax/version_control_in_claude_design/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
   </entry>
 </feed>
