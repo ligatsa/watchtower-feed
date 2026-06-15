@@ -5,8 +5,157 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-15T18:47:26+00:00</updated>
+  <updated>2026-06-15T21:15:19+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:03df5d0efd58de8b</id>
+    <title>You can now import design systems from your design.md files, as well as Tailwind and directly from any link.
+
+And any de…</title>
+    <link rel="alternate" href="https://x.com/MagicPathAI/status/2066607881470787597"/>
+    <published>2026-06-15T19:44:49+00:00</published>
+    <updated>2026-06-15T19:44:49+00:00</updated>
+    <author><name>MagicPathAI</name></author>
+    <category term="design-system"/>
+    <category term="agent-sdk"/>
+    <category term="figma-make"/>
+    <summary>Design-system import from design.md, Tailwind, and external agent skill integration—borderline yes, design-system workflow angle present.</summary>
+    <content type="html"><![CDATA[<p>Design-system import from design.md, Tailwind, and external agent skill integration—borderline yes, design-system workflow angle present.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MagicPathAI/status/2066607881470787597">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4db326942e63e87b</id>
+    <title>just published this on YT if you want to see a behind-the-scenes of how I design/build with @conductor_build + @paper 
+
+…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2066575905351159973"/>
+    <published>2026-06-15T17:37:45+00:00</published>
+    <updated>2026-06-15T17:37:45+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Behind-the-scenes video of design/build workflow with Conductor and Paper; concrete UI design practice documented.</summary>
+    <content type="html"><![CDATA[<p>Behind-the-scenes video of design/build workflow with Conductor and Paper; concrete UI design practice documented.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2066575905351159973">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d94b12831bf9de48</id>
+    <title>Updated this Family-inspired trash interaction with Motion’s new `arc()` api https://t.co/wxRuQxtH16</title>
+    <link rel="alternate" href="https://x.com/emilkowalski/status/2066569521603740127"/>
+    <published>2026-06-15T17:12:23+00:00</published>
+    <updated>2026-06-15T17:12:23+00:00</updated>
+    <author><name>emilkowalski</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="prototype"/>
+    <summary>Polished motion interaction demo using Motion arc() API—Emil-style animation craft, working prototype with media.</summary>
+    <content type="html"><![CDATA[<p>Polished motion interaction demo using Motion arc() API—Emil-style animation craft, working prototype with media.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/emilkowalski/status/2066569521603740127">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:dcd0d114a2cd8d70</id>
+    <title>RT @felixhhaas: You can now just draw your changes in Lovable https://t.co/TrXsIeQbfy</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2066568965590007940"/>
+    <published>2026-06-15T17:10:11+00:00</published>
+    <updated>2026-06-15T17:10:11+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="technique"/>
+    <summary>Lovable adds draw-to-code UI generation—direct visual input to live changes, a core design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Lovable adds draw-to-code UI generation—direct visual input to live changes, a core design-to-code workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2066568965590007940">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:41fa36a05a12221a</id>
+    <title>RT @rauchg: v0 commits to shipping the best skills by default. 
+
+Our goal is to give you the equivalent of a @vercel pro…</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2066567557578940493"/>
+    <published>2026-06-15T17:04:35+00:00</published>
+    <updated>2026-06-15T17:04:35+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="v0"/>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>v0 skill registry launch enables designers to compose design tools from pre-built, vetted AI components.</summary>
+    <content type="html"><![CDATA[<p>v0 skill registry launch enables designers to compose design tools from pre-built, vetted AI components.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/shadcn/status/2066567557578940493">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e828bc5e7827fba9</id>
+    <title>v0 commits to shipping the best skills by default. 
+
+Our goal is to give you the equivalent of a @vercel product enginee…</title>
+    <link rel="alternate" href="https://x.com/rauchg/status/2066567117562868009"/>
+    <published>2026-06-15T17:02:50+00:00</published>
+    <updated>2026-06-15T17:02:50+00:00</updated>
+    <author><name>rauchg</name></author>
+    <category term="v0"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>v0 skills.sh registry + team skill composition—infrastructure for shareable, reusable design-focused AI prompts.</summary>
+    <content type="html"><![CDATA[<p>v0 skills.sh registry + team skill composition—infrastructure for shareable, reusable design-focused AI prompts.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/rauchg/status/2066567117562868009">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e37cad446f19ed58</id>
+    <title>“An unowned design system does not stay frozen in a good state, things change all the time, and the gap between the syst…</title>
+    <link rel="alternate" href="https://bsky.app/profile/pixelflips.com/post/3modpuy77ss2b"/>
+    <published>2026-06-15T16:38:47.263Z</published>
+    <updated>2026-06-15T16:38:47.263Z</updated>
+    <author><name>pixelflips.com</name></author>
+    <category term="design-system"/>
+    <category term="analysis"/>
+    <summary>Design system ownership &amp; drift problem statement with AI angle—thoughtful but no concrete tool or fix shown.</summary>
+    <content type="html"><![CDATA[<p>Design system ownership &amp; drift problem statement with AI angle—thoughtful but no concrete tool or fix shown.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/pixelflips.com/post/3modpuy77ss2b">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ac0394f027d7553f</id>
+    <title>You can now use skills in v0.
+
+Attach one from the prompt bar, and the agent uses it in every generation.
+
+Pull them fro…</title>
+    <link rel="alternate" href="https://x.com/v0/status/2066555389622284288"/>
+    <published>2026-06-15T16:16:14+00:00</published>
+    <updated>2026-06-15T16:16:14+00:00</updated>
+    <author><name>v0</name></author>
+    <category term="v0"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>v0 skill attachment to prompt bar for persistent design-agent behavior—direct design workflow enabler.</summary>
+    <content type="html"><![CDATA[<p>v0 skill attachment to prompt bar for persistent design-agent behavior—direct design workflow enabler.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2066555389622284288">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5dc5a333f81d2b23</id>
+    <title>progressively enhanced css scroll-driven parallax animation 👨‍🍳
+
+3 columns use the same @​keyframes driven by container …</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2066545559096205471"/>
+    <published>2026-06-15T15:37:10+00:00</published>
+    <updated>2026-06-15T15:37:10+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="frontend"/>
+    <category term="technique"/>
+    <summary>CSS scroll-driven parallax animation technique with responsive calc() — solid frontend craft, light visual substance.</summary>
+    <content type="html"><![CDATA[<p>CSS scroll-driven parallax animation technique with responsive calc() — solid frontend craft, light visual substance.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2066545559096205471">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:25b6ebbbdb3f65e0</id>
+    <title>THIS DESIGNER MAKES $2,000 A SITE ON CLAUDE-BUILT CLIENT WORK, AND HE JUST DROPPED THE 5 HACKS BEHIND IT
+
+He builds bran…</title>
+    <link rel="alternate" href="https://x.com/undefinedKi/status/2066539374930792520"/>
+    <published>2026-06-15T15:12:36+00:00</published>
+    <updated>2026-06-15T15:12:36+00:00</updated>
+    <author><name>undefinedKi</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Designer workflow for building branded client sites with Claude Code, design skills, and anti-AI-slop techniques like CLAUDE.md &amp; screenshot loops.</summary>
+    <content type="html"><![CDATA[<p>Designer workflow for building branded client sites with Claude Code, design skills, and anti-AI-slop techniques like CLAUDE.md &amp; screenshot loops.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/undefinedKi/status/2066539374930792520">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:2d697079dca75812</id>
     <title>RT @emilfagerholm: introducing a new way to build with lovable
@@ -62,6 +211,23 @@ Shift between four modes to annotate, select elements, edit text, and add commen
     <category term="prototype"/>
     <summary>Lovable&#x27;s 4-mode toolbar (annotate, select, edit, comment) brings designer workflows into code-generation UX.</summary>
     <content type="html"><![CDATA[<p>Lovable&#x27;s 4-mode toolbar (annotate, select, edit, comment) brings designer workflows into code-generation UX.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2066536196788957198">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2e8fa60d817dd460</id>
+    <title>The website that inspires you today can be a 404 tomorrow. Redesigned, taken down, gone.  
+
+As a web designer, those sit…</title>
+    <link rel="alternate" href="https://x.com/eugeneniidesign/status/2066510342939722179"/>
+    <published>2026-06-15T13:17:14+00:00</published>
+    <updated>2026-06-15T13:17:14+00:00</updated>
+    <author><name>eugeneniidesign</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="designer-post"/>
+    <summary>SiteSnap tool captures inspiration websites, syncs them to Figma canvas; landing page built with Figma + MCP — concrete design workflow artifact.</summary>
+    <content type="html"><![CDATA[<p>SiteSnap tool captures inspiration websites, syncs them to Figma canvas; landing page built with Figma + MCP — concrete design workflow artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/eugeneniidesign/status/2066510342939722179">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:c40a7bbe55738fa4</id>
@@ -742,166 +908,5 @@ Clients &quot;vibe-designing&quot; produc…</title>
     <category term="analysis"/>
     <summary>Thoughtful take on why design studios close: AI commoditizes shallow aesthetics, forcing agencies toward strategy—relevant to AI&#x27;s effect on design discipline.</summary>
     <content type="html"><![CDATA[<p>Thoughtful take on why design studios close: AI commoditizes shallow aesthetics, forcing agencies toward strategy—relevant to AI&#x27;s effect on design discipline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2065416074280014083">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5da0c913de3c1c82</id>
-    <title>The 10 fastest growing GitHub repos this week:
-
-1. last30days-skill (+12.4K stars)
-AI agent skill that researches any to…</title>
-    <link rel="alternate" href="https://x.com/sharbel/status/2065401238062002573"/>
-    <published>2026-06-12T11:50:03+00:00</published>
-    <updated>2026-06-12T11:50:03+00:00</updated>
-    <author><name>sharbel</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="anti-slop"/>
-    <summary>Taste-Skill (#4) stops AI design slop; research/token tools (#1-2) are noise for Steven&#x27;s craft focus.</summary>
-    <content type="html"><![CDATA[<p>Taste-Skill (#4) stops AI design slop; research/token tools (#1-2) are noise for Steven&#x27;s craft focus.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/sharbel/status/2065401238062002573">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:79a5c5cd19b635e3</id>
-    <title>I tested Opus 4.8 on professional UX design workflows. (not UI) for a real client project.
-
-In parallel, I did all the r…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065367093550145818"/>
-    <published>2026-06-12T09:34:22+00:00</published>
-    <updated>2026-06-12T09:34:22+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <category term="claude-code"/>
-    <summary>Real client UX workflow stress-test on Opus 4.8 reveals AI limits (20% structure accuracy, over-specification) but shows speed value (2h vs 2-3d) and edge-case generation—honest teardown for design practice.</summary>
-    <content type="html"><![CDATA[<p>Real client UX workflow stress-test on Opus 4.8 reveals AI limits (20% structure accuracy, over-specification) but shows speed value (2h vs 2-3d) and edge-case generation—honest teardown for design practice.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2065367093550145818">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5ead91608e0000ce</id>
-    <title>Boneyard: skeleton screens for your UI</title>
-    <link rel="alternate" href="https://boneyard.vercel.app/overview"/>
-    <published>2026-06-12T07:45:13+00:00</published>
-    <updated>2026-06-12T07:45:13+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="ui-craft"/>
-    <category term="frontend"/>
-    <category term="tool"/>
-    <summary>Skeleton-screen auto-extraction tool (Vercel) solves real UI-polish friction; design-adjacent frontend tooling with clear production value.</summary>
-    <content type="html"><![CDATA[<p>Skeleton-screen auto-extraction tool (Vercel) solves real UI-polish friction; design-adjacent frontend tooling with clear production value.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://boneyard.vercel.app/overview">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:258659940eed59fc</id>
-    <title>Need better slider interactions in your app? 🚀
-
-Explore #Shadcn #SliderComponents designed for ratings, controls, settin…</title>
-    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mo34yrfqpc2g"/>
-    <published>2026-06-12T06:39:35.352Z</published>
-    <updated>2026-06-12T06:39:35.352Z</updated>
-    <author><name>shadcnspace.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="component"/>
-    <summary>Shadcn slider component variations (rating, volume, equalizer) with clear visual examples—solid design-component reference, matches Steven&#x27;s shadcn taste.</summary>
-    <content type="html"><![CDATA[<p>Shadcn slider component variations (rating, volume, equalizer) with clear visual examples—solid design-component reference, matches Steven&#x27;s shadcn taste.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mo34yrfqpc2g">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:416d0c1f20533e00</id>
-    <title>Design system help: should I rebuild it or keep designing?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u3msyb/design_system_help_should_i_rebuild_it_or_keep/"/>
-    <published>2026-06-12T05:55:30+00:00</published>
-    <updated>2026-06-12T05:55:30+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <summary>Design-system maintenance &amp; structure question in production Figma—matches Steven&#x27;s design-systems MCP / refactor interest; real pain point.</summary>
-    <content type="html"><![CDATA[<p>Design-system maintenance &amp; structure question in production Figma—matches Steven&#x27;s design-systems MCP / refactor interest; real pain point.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u3msyb/design_system_help_should_i_rebuild_it_or_keep/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:222fd6b2af60670d</id>
-    <title>Stop guessing tokens and start shipping. 🚀
-
-We’re sharing the exact AI-powered workflow we used to redesign our homepage…</title>
-    <link rel="alternate" href="https://bsky.app/profile/atlassian.bsky.social/post/3mo2opmq3b323"/>
-    <published>2026-06-12T02:23:55.944152556Z</published>
-    <updated>2026-06-12T02:23:55.944152556Z</updated>
-    <author><name>atlassian.bsky.social</name></author>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="anthropic"/>
-    <summary>Atlassian&#x27;s Figma→code redesign workflow (extraction, ADS mapping, a11y fixes); concrete AI-powered design-to-code technique with real homepage artifact.</summary>
-    <content type="html"><![CDATA[<p>Atlassian&#x27;s Figma→code redesign workflow (extraction, ADS mapping, a11y fixes); concrete AI-powered design-to-code technique with real homepage artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/atlassian.bsky.social/post/3mo2opmq3b323">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a379f6e5699c87bb</id>
-    <title>Made a plugin that audits your file against your design system in one click!</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u3hppc/made_a_plugin_that_audits_your_file_against_your/"/>
-    <published>2026-06-12T01:36:14+00:00</published>
-    <updated>2026-06-12T01:36:14+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin auto-audits designs against design system rules, catching inconsistencies in one click—real design-ops tool.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin auto-audits designs against design system rules, catching inconsistencies in one click—real design-ops tool.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u3hppc/made_a_plugin_that_audits_your_file_against_your/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b625177ca93a47b2</id>
-    <title>.nesse caso o Design Ops é ainda mais importante porque ele pode gerar templates de specs, fazer a governança do Design …</title>
-    <link rel="alternate" href="https://bsky.app/profile/designerantifa.bsky.social/post/3mo27ihrm622o"/>
-    <published>2026-06-11T21:51:29.872Z</published>
-    <updated>2026-06-11T21:51:29.872Z</updated>
-    <author><name>designerantifa.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <summary>Portuguese Design Ops post suggesting Figma AI + Tokens Studio + Storybook + Claude + Cursor + GitHub workflow; clear design-system pipeline.</summary>
-    <content type="html"><![CDATA[<p>Portuguese Design Ops post suggesting Figma AI + Tokens Studio + Storybook + Claude + Cursor + GitHub workflow; clear design-system pipeline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/designerantifa.bsky.social/post/3mo27ihrm622o">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fa292b5bd9373f87</id>
-    <title>Introducing annotations in v0.
-
-Click elements in your preview, add comments, then send them all to the agent as a singl…</title>
-    <link rel="alternate" href="https://x.com/v0/status/2065182747740746039"/>
-    <published>2026-06-11T21:21:50+00:00</published>
-    <updated>2026-06-11T21:21:50+00:00</updated>
-    <author><name>v0</name></author>
-    <category term="v0"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>v0 annotations feature lets designers click, comment, and send feedback as single prompt to agent—direct design-to-code workflow improvement.</summary>
-    <content type="html"><![CDATA[<p>v0 annotations feature lets designers click, comment, and send feedback as single prompt to agent—direct design-to-code workflow improvement.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2065182747740746039">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:616ac894608ac0f3</id>
-    <title>I built a pipeline that reads your Figma file and deploys it as production HTML – this page was designed in Figma and rendered with zero dev involvement</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u39eqa/i_built_a_pipeline_that_reads_your_figma_file_and/"/>
-    <published>2026-06-11T19:47:45+00:00</published>
-    <updated>2026-06-11T19:47:45+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <category term="agent-sdk"/>
-    <category term="figma-make"/>
-    <summary>Unima: Figma-to-production-HTML pipeline with design-native CMS, animation engine, and agent skill—full design-system automation with working examples.</summary>
-    <content type="html"><![CDATA[<p>Unima: Figma-to-production-HTML pipeline with design-native CMS, animation engine, and agent skill—full design-system automation with working examples.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u39eqa/i_built_a_pipeline_that_reads_your_figma_file_and/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:0a2b5c6cf4c2a4c1</id>
-    <title>One-shot with Claude Fable 5, and this subscription plan UI is live (based on my design using Figma MCP). https://t.co/w…</title>
-    <link rel="alternate" href="https://x.com/disarto_max/status/2065120098197672269"/>
-    <published>2026-06-11T17:12:54+00:00</published>
-    <updated>2026-06-11T17:12:54+00:00</updated>
-    <author><name>disarto_max</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="claude-code"/>
-    <summary>Live subscription UI built with Claude + Figma MCP in one shot; concrete design→code artifact with production UI.</summary>
-    <content type="html"><![CDATA[<p>Live subscription UI built with Claude + Figma MCP in one shot; concrete design→code artifact with production UI.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/disarto_max/status/2065120098197672269">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
