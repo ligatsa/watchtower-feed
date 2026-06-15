@@ -5,8 +5,22 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-14T20:40:17+00:00</updated>
+  <updated>2026-06-15T03:01:40+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b9d7ea9360eb0991</id>
+    <title>🆕 pbakaus/impeccable skill-v3.6.0 — The design language that makes your AI harness better at design.</title>
+    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
+    <published>2026-06-15T02:58:37.296360+00:00</published>
+    <updated>2026-06-15T02:58:37.296360+00:00</updated>
+    <author><name>pbakaus</name></author>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="anthropic"/>
+    <summary>pbakaus/impeccable v3.6.0 — design-language skill that directly improves AI harness output quality; core anchor in Steven&#x27;s taste.</summary>
+    <content type="html"><![CDATA[<p>pbakaus/impeccable v3.6.0 — design-language skill that directly improves AI harness output quality; core anchor in Steven&#x27;s taste.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:26657d6bb2854575</id>
     <title>I built a large-scale text replacement engine inside Figma Design (Plugin). Looking for feedback.</title>
@@ -31,20 +45,6 @@
     <category term="designer-post"/>
     <summary>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</summary>
     <content type="html"><![CDATA[<p>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/pericak.bsky.social/post/3mob5b3pflr2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f190274c10d966dd</id>
-    <title>🆕 pbakaus/impeccable ext-v1.2.0 — The design language that makes your AI harness better at design.</title>
-    <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-06-14T14:33:15.837349+00:00</published>
-    <updated>2026-06-14T14:33:15.837349+00:00</updated>
-    <author><name>pbakaus</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>pbakaus/impeccable v1.2.0 — design language skill for AI harnesses, directly enables better Claude design outputs.</summary>
-    <content type="html"><![CDATA[<p>pbakaus/impeccable v1.2.0 — design language skill for AI harnesses, directly enables better Claude design outputs.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:feaac5d1af8bcde5</id>
