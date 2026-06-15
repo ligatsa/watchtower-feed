@@ -24,7 +24,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
   /* impeccable · two-pane triage console · register: product
@@ -49,7 +49,7 @@
     --color-focus:      oklch(0.55 0.17 256);
     --color-shadow:     oklch(0.30 0.04 258 / 0.18);  /* soft cool shadow */
 
-    --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
     --font-body:    'Outfit', system-ui, sans-serif;
     --font-mono:    'JetBrains Mono', ui-monospace, monospace;
 
@@ -59,8 +59,9 @@
     --space-xl: 3rem; --space-2xl: 4.5rem; --space-3xl: 7rem;
 
     /* fixed type scale (product register) */
-    --text-xs: 0.6875rem; --text-sm: 0.8125rem; --text-md: 0.9375rem;
-    --text-lg: 1.0625rem; --text-wordmark: 1.6rem;
+    /* Fewer steps, each ≥1.25× the last → clear title › body › meta hierarchy. */
+    --text-xs: 0.6875rem; --text-sm: 0.875rem;
+    --text-lg: 1.25rem;   --text-wordmark: 1.6rem;
 
     --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
     --dur: 160ms;
@@ -517,7 +518,7 @@
       padding: var(--space-sm) var(--space-md);
     }
     .brand .subtitle { display: none; }            /* drop tagline on mobile */
-    .brand h1 { font-size: 1.3rem; }
+    .brand h1 { font-size: var(--text-lg); }
 
     /* Views = primary nav: one horizontal row, big tap targets, scrollable. */
     .views {
@@ -643,7 +644,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong id="itemCount">974</strong> shown</span>
-        <span>updated 2026-06-15T15:10:39+00:00</span>
+        <span>updated 2026-06-15T18:31:33+00:00</span>
         <span>min score 6</span>
       </div>
       <input id="search" class="search" type="search" autocomplete="off"
@@ -26896,6 +26897,28 @@ It contains …</a>
       saveJSON(K.READ, fromSet(read));
       el.classList.toggle('is-read', isRead);
       scheduleSync();   // read state now syncs across devices
+    }
+
+    // ── Auto-mark-as-read on scroll ──
+    // Once an entry has scrolled fully ABOVE the top of the viewport (you've
+    // scrolled past it), mark it read. We deliberately do NOT call applyFilters
+    // here, so a just-read item dims in place rather than vanishing and shifting
+    // the page out from under you mid-scroll. The Unread tab count still ticks
+    // down, and read-state syncs (debounced) like any other read.
+    if ('IntersectionObserver' in window) {
+      var pastObserver = new IntersectionObserver(function (obs) {
+        var changed = false;
+        obs.forEach(function (o) {
+          var topEdge = o.rootBounds ? o.rootBounds.top : 0;
+          // not visible AND its bottom is at/above the viewport top → scrolled past
+          if (!o.isIntersecting && o.boundingClientRect.bottom <= topEdge + 1) {
+            var el = o.target;
+            if (!read.has(el.dataset.id)) { setRead(el, true); changed = true; }
+          }
+        });
+        if (changed) refreshViewCounts();
+      }, { threshold: 0 });
+      entries.forEach(function (el) { pastObserver.observe(el); });
     }
 
     // Track read on link click + on explicit mark-read button
