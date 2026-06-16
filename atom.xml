@@ -5,21 +5,143 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-16T09:23:58+00:00</updated>
+  <updated>2026-06-16T15:28:53+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3d706589cb6a680d</id>
-    <title>🆕 pbakaus/impeccable cli-v3.0.2 — The design language that makes your AI harness better at design.</title>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d266d06cd6bce1b7</id>
+    <title>🆕 pbakaus/impeccable skill-v3.7.1 — The design language that makes your AI harness better at design.</title>
     <link rel="alternate" href="https://github.com/pbakaus/impeccable"/>
-    <published>2026-06-16T09:20:37.548166+00:00</published>
-    <updated>2026-06-16T09:20:37.548166+00:00</updated>
+    <published>2026-06-16T15:25:04.908085+00:00</published>
+    <updated>2026-06-16T15:25:04.908085+00:00</updated>
     <author><name>pbakaus</name></author>
     <category term="skill"/>
-    <category term="design-system"/>
     <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>pbakaus/impeccable v3.0.2 — design language for AI harnesses; proven anti-slop tool Steven actively uses.</summary>
-    <content type="html"><![CDATA[<p>pbakaus/impeccable v3.0.2 — design language for AI harnesses; proven anti-slop tool Steven actively uses.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <summary>pbakaus/impeccable v3.7.1 — the flagship design-language skill Steven already installed; directly enables Claude to produce better UI/UX.</summary>
+    <content type="html"><![CDATA[<p>pbakaus/impeccable v3.7.1 — the flagship design-language skill Steven already installed; directly enables Claude to produce better UI/UX.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e92e329956bbbf1f</id>
+    <title>It&#x27;s out: 
+https://michalmalewicz.medium.com/claude-fable-5-real-ux-ui-design-test-87696215b703</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066892922121785456"/>
+    <published>2026-06-16T14:37:28+00:00</published>
+    <updated>2026-06-16T14:37:28+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Michal Malewicz&#x27;s Claude Fable 5 test — deep UX/UI design analysis of where AI succeeds and fails in pro workflows.</summary>
+    <content type="html"><![CDATA[<p>Michal Malewicz&#x27;s Claude Fable 5 test — deep UX/UI design analysis of where AI succeeds and fails in pro workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/michalmalewicz/status/2066892922121785456">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:bc5ba61e6db630f8</id>
+    <title>You can now read a FULL, super detailed (almost 4000 words with diagrams and flows) breakdown of where I think AI does f…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066892781658710087"/>
+    <published>2026-06-16T14:36:54+00:00</published>
+    <updated>2026-06-16T14:36:54+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>4000-word breakdown: where AI fits (or doesn&#x27;t) in pro UX design; landing pages critique + real workflow insights.</summary>
+    <content type="html"><![CDATA[<p>4000-word breakdown: where AI fits (or doesn&#x27;t) in pro UX design; landing pages critique + real workflow insights.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/michalmalewicz/status/2066892781658710087">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e0f8ec52f1f4048d</id>
+    <title>Get started: http://lovable.dev/mcp</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2066888192083562730"/>
+    <published>2026-06-16T14:18:40+00:00</published>
+    <updated>2026-06-16T14:18:40+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="mcp"/>
+    <category term="lovable"/>
+    <category term="prototype"/>
+    <summary>Lovable MCP server now available — lets designers/devs build without leaving their client; concrete design×code tool.</summary>
+    <content type="html"><![CDATA[<p>Lovable MCP server now available — lets designers/devs build without leaving their client; concrete design×code tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2066888192083562730">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cdc781bb9f94ab5e</id>
+    <title>Lovable’s MCP server is now available to all users.
+
+Build without leaving your client of choice. Tell us which ones are…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2066888107232805377"/>
+    <published>2026-06-16T14:18:20+00:00</published>
+    <updated>2026-06-16T14:18:20+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="mcp"/>
+    <category term="lovable"/>
+    <summary>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</summary>
+    <content type="html"><![CDATA[<p>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2066888107232805377">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ac82316c80f717d0</id>
+    <title>The AI+UX laziness trap in complex processes. 
+
+Save this as a reminder. 
+
+When you work on a multi-step process, and yo…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066874568778613050"/>
+    <published>2026-06-16T13:24:32+00:00</published>
+    <updated>2026-06-16T13:24:32+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</summary>
+    <content type="html"><![CDATA[<p>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2066874568778613050">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:31aa87bde9811ef7</id>
+    <title>🔥 AI落地页接单小技巧：用 Bolt.new 的「Figma to Code」功能，把客户设计稿秒转代码，收费不变效率翻倍。
+
+———
+
+🔥 AI landing page pro tip: Use Bolt.new&#x27;s Figma-to…</title>
+    <link rel="alternate" href="https://bsky.app/profile/lexi34c.bsky.social/post/3mofqseemaq2k"/>
+    <published>2026-06-16T12:00:31.000Z</published>
+    <updated>2026-06-16T12:00:31.000Z</updated>
+    <author><name>lexi34c.bsky.social</name></author>
+    <category term="bolt"/>
+    <category term="figma"/>
+    <category term="technique"/>
+    <category term="design-to-code"/>
+    <summary>Bolt.new Figma-to-Code workflow for landing page delivery; concrete design→code technique with client friction reduction.</summary>
+    <content type="html"><![CDATA[<p>Bolt.new Figma-to-Code workflow for landing page delivery; concrete design→code technique with client friction reduction.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/lexi34c.bsky.social/post/3mofqseemaq2k">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9dc816df64a3a104</id>
+    <title>Claude におしゃれな UI を作らせる「frontend-design Skill」が1週間前に更新されていて、AIにアイデアを出させる際のコツが沢山含まれていたのでシェア。
+
+Skill のテーマと AI の振る舞いについて
+テーマ…</title>
+    <link rel="alternate" href="https://x.com/suna_gaku/status/2066836495240171543"/>
+    <published>2026-06-16T10:53:15+00:00</published>
+    <updated>2026-06-16T10:53:15+00:00</updated>
+    <author><name>suna_gaku</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>Deep teardown of frontend-design Skill: anti-slop prompt architecture, theme-driven AI behavior, rigorous design principles, self-critique loops—exemplary design-skill craft matching Steven&#x27;s taste.</summary>
+    <content type="html"><![CDATA[<p>Deep teardown of frontend-design Skill: anti-slop prompt architecture, theme-driven AI behavior, rigorous design principles, self-critique loops—exemplary design-skill craft matching Steven&#x27;s taste.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/suna_gaku/status/2066836495240171543">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:30e34201c99baa80</id>
+    <title>Screenshot -&gt; React component in seconds. That&#x27;s Claude Design by mikesheehan54. It generates Tailwind, Figma components…</title>
+    <link rel="alternate" href="https://bsky.app/profile/timzinin.bsky.social/post/3mofk2wme4t2b"/>
+    <published>2026-06-16T10:00:01.000Z</published>
+    <updated>2026-06-16T10:00:01.000Z</updated>
+    <author><name>timzinin.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="design-to-code"/>
+    <category term="figma"/>
+    <category term="technique"/>
+    <summary>Claude Design tool converts screenshots to React + Tailwind + Figma components—direct design-to-code workflow Steven actively tracks.</summary>
+    <content type="html"><![CDATA[<p>Claude Design tool converts screenshots to React + Tailwind + Figma components—direct design-to-code workflow Steven actively tracks.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/timzinin.bsky.social/post/3mofk2wme4t2b">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:354c1dfb34cee61c</id>
@@ -756,116 +878,5 @@ Just copy, paste, an…</title>
     <category term="prototype"/>
     <summary>50+ shadcn blocks inspired by COSS UI; free copy-paste components, no AI craft story.</summary>
     <content type="html"><![CDATA[<p>50+ shadcn blocks inspired by COSS UI; free copy-paste components, no AI craft story.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/bhidesvelte.bsky.social/post/3mo6nhquozs2g">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d7d65cdac67f9777</id>
-    <title>In light of what happened, I&#x27;m doubling down on skills like /improve. 
-
-A frontier model got pulled. If it happened once…</title>
-    <link rel="alternate" href="https://x.com/shadcn/status/2065826989769163068"/>
-    <published>2026-06-13T16:01:50+00:00</published>
-    <updated>2026-06-13T16:01:50+00:00</updated>
-    <author><name>shadcn</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <summary>shadcn&#x27;s /improve skill: drain frontier model intelligence now, build plan backlog for cheaper/open-source execution later—strong design-agent philosophy.</summary>
-    <content type="html"><![CDATA[<p>shadcn&#x27;s /improve skill: drain frontier model intelligence now, build plan backlog for cheaper/open-source execution later—strong design-agent philosophy.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2065826989769163068">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:37b387c3ba974ac5</id>
-    <title>Michael-Obele/shadcn-svelte-mcp — Mastra MCP server and tooling for the shadcn-svelte component docs and developer utilities.</title>
-    <link rel="alternate" href="https://github.com/Michael-Obele/shadcn-svelte-mcp"/>
-    <published>2026-06-13T15:37:15Z</published>
-    <updated>2026-06-13T15:37:15Z</updated>
-    <author><name>Michael-Obele</name></author>
-    <category term="mcp"/>
-    <category term="shadcn"/>
-    <category term="figma"/>
-    <summary>MCP server for shadcn-svelte docs and component utilities—design-component registry integration.</summary>
-    <content type="html"><![CDATA[<p>MCP server for shadcn-svelte docs and component utilities—design-component registry integration.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/Michael-Obele/shadcn-svelte-mcp">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b02c9df26b0b2660</id>
-    <title>THIS DESIGNER JUST SHOWED THE FULL WORKFLOW FOR BUILDING $10,000-LOOKING APPS WITH AI, AND HE NEVER WROTE A LINE OF PROD…</title>
-    <link rel="alternate" href="https://x.com/undefinedKi/status/2065818700368761053"/>
-    <published>2026-06-13T15:28:53+00:00</published>
-    <updated>2026-06-13T15:28:53+00:00</updated>
-    <author><name>undefinedKi</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Full workflow: front-end design skill + interview + plan approval → production app in 30min; anti-slop, real-app deployment, designer-first.</summary>
-    <content type="html"><![CDATA[<p>Full workflow: front-end design skill + interview + plan approval → production app in 30min; anti-slop, real-app deployment, designer-first.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/undefinedKi/status/2065818700368761053">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c07c806812994dd1</id>
-    <title>I did get to use Fable and tested it for UX/UI design. Here&#x27;s a video: 
-https://x.com/michalmalewicz/status/206579658116…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065809562964304316"/>
-    <published>2026-06-13T14:52:35+00:00</published>
-    <updated>2026-06-13T14:52:35+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Designer tests Fable for UX/UI work with video proof—concrete design tool evaluation matching Steven&#x27;s Claude design interests.</summary>
-    <content type="html"><![CDATA[<p>Designer tests Fable for UX/UI work with video proof—concrete design tool evaluation matching Steven&#x27;s Claude design interests.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2065809562964304316">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2bbea891f4defb1f</id>
-    <title>I tested Fable on 2 x UI and 1 x complex UX project. 
-And I was pretty shocked, but not for the reason you may think.
-
-T…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065796581165822446"/>
-    <published>2026-06-13T14:01:00+00:00</published>
-    <updated>2026-06-13T14:01:00+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Designer tests Fable on real UI/UX projects; offers nuanced take on AI&#x27;s actual role for professional designers vs. slop risk.</summary>
-    <content type="html"><![CDATA[<p>Designer tests Fable on real UI/UX projects; offers nuanced take on AI&#x27;s actual role for professional designers vs. slop risk.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2065796581165822446">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:606746c16ef77934</id>
-    <title>Template design for clients from Figma Design, delivery in Figma Buzz vs. Canva</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u4omqu/template_design_for_clients_from_figma_design/"/>
-    <published>2026-06-13T11:35:04+00:00</published>
-    <updated>2026-06-13T11:35:04+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</summary>
-    <content type="html"><![CDATA[<p>Designer shares systems-thinking approach to building client templates in Figma with Buzz delivery; design-system technique.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u4omqu/template_design_for_clients_from_figma_design/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:bf1c3d76ad6a4b76</id>
-    <title>Taste Lab</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/taste-lab"/>
-    <published>2026-06-13T10:49:00-07:00</published>
-    <updated>2026-06-13T10:49:00-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="skill"/>
-    <summary>Extract design DNA from websites—brand-to-design-system pipeline, directly relevant to taste skill workflow.</summary>
-    <content type="html"><![CDATA[<p>Extract design DNA from websites—brand-to-design-system pipeline, directly relevant to taste skill workflow.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 7/10</p><p><a href="https://www.producthunt.com/products/taste-lab">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:95f90d9bd9f7f606</id>
-    <title>“What computers can’t do” — and what designers should</title>
-    <link rel="alternate" href="https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4"/>
-    <published>2026-06-13T09:26:57+00:00</published>
-    <updated>2026-06-13T09:26:57+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <summary>Essay on what AI can&#x27;t do in design and designer responsibilities; thoughtful framing of human role vs. agent execution.</summary>
-    <content type="html"><![CDATA[<p>Essay on what AI can&#x27;t do in design and designer responsibilities; thoughtful framing of human role vs. agent execution.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
   </entry>
 </feed>
