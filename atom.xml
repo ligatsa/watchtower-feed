@@ -5,8 +5,164 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-16T15:28:53+00:00</updated>
+  <updated>2026-06-16T21:33:21+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e7b5291079280441</id>
+    <title>Taking Figma Design Screens and translating that into Flutter code - what is the best /most efficient route to take?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u7nm4j/taking_figma_design_screens_and_translating_that/"/>
+    <published>2026-06-16T19:31:28+00:00</published>
+    <updated>2026-06-16T19:31:28+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="figma-make"/>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <summary>Designer seeking Figma-to-Flutter workflow with Claude; concrete design-to-code pipeline challenge with clear UI translation need.</summary>
+    <content type="html"><![CDATA[<p>Designer seeking Figma-to-Flutter workflow with Claude; concrete design-to-code pipeline challenge with clear UI translation need.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u7nm4j/taking_figma_design_screens_and_translating_that/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:28a5b25277d0ca81</id>
+    <title>Without a design system, AI accelerates inconsistency; with one, it accelerates quality and alignment. The difference is…</title>
+    <link rel="alternate" href="https://bsky.app/profile/regoremor.bsky.social/post/3mogfgbu2fn22"/>
+    <published>2026-06-16T18:09:35.637Z</published>
+    <updated>2026-06-16T18:09:35.637Z</updated>
+    <author><name>regoremor.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="analysis"/>
+    <summary>Thoughtful take on design systems + AI acceleration; emphasizes structure over automation slop.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful take on design systems + AI acceleration; emphasizes structure over automation slop.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/regoremor.bsky.social/post/3mogfgbu2fn22">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:50b83dd3085d8473</id>
+    <title>2 months ago I said I&#x27;d debate @BrettFromDJ to the death ☠️
+
+thankfully this episode isn&#x27;t that lol
+
+it&#x27;s the story of h…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2066934315049476173"/>
+    <published>2026-06-16T17:21:57+00:00</published>
+    <updated>2026-06-16T17:21:57+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <summary>Designer&#x27;s journey learning to build with AI; narrative on visual→code workflow and discipline.</summary>
+    <content type="html"><![CDATA[<p>Designer&#x27;s journey learning to build with AI; narrative on visual→code workflow and discipline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2066934315049476173">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:be617a1c6c661cec</id>
+    <title>Same goes for this onboarding screen from http://animations.dev. The UI controls are least important, so they come in la…</title>
+    <link rel="alternate" href="https://x.com/emilkowalski/status/2066934179959337440"/>
+    <published>2026-06-16T17:21:24+00:00</published>
+    <updated>2026-06-16T17:21:24+00:00</updated>
+    <author><name>emilkowalski</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="animation"/>
+    <summary>Emil-style animation/stagger technique for onboarding UI; concrete design preference with visual example.</summary>
+    <content type="html"><![CDATA[<p>Emil-style animation/stagger technique for onboarding UI; concrete design preference with visual example.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/emilkowalski/status/2066934179959337440">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3a4567463358683a</id>
+    <title>Much can be attributed to shadcn-svelte integration and AI agents 😁, but I hope it still is a cognitive decision for the…</title>
+    <link rel="alternate" href="https://bsky.app/profile/techniq.dev/post/3mogbedytlc2x"/>
+    <published>2026-06-16T16:56:52.905Z</published>
+    <updated>2026-06-16T16:56:52.905Z</updated>
+    <author><name>techniq.dev</name></author>
+    <category term="shadcn"/>
+    <category term="agent-sdk"/>
+    <category term="ui-craft"/>
+    <summary>shadcn-svelte + AI agents enabling craft; mentions cognitive design decision-making in the loop.</summary>
+    <content type="html"><![CDATA[<p>shadcn-svelte + AI agents enabling craft; mentions cognitive design decision-making in the loop.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/techniq.dev/post/3mogbedytlc2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:268c0eae58eb6937</id>
+    <title>https://figma.bot/MCPserver4</title>
+    <link rel="alternate" href="https://x.com/figma/status/2066923339474751916"/>
+    <published>2026-06-16T16:38:20+00:00</published>
+    <updated>2026-06-16T16:38:20+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="anthropic"/>
+    <summary>Figma announces MCP server launch—direct integration for design-to-code workflows.</summary>
+    <content type="html"><![CDATA[<p>Figma announces MCP server launch—direct integration for design-to-code workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/figma/status/2066923339474751916">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b8634701c9c2d9c6</id>
+    <title>Updates to the Figma MCP server:
+
+→ Generate and edit decks in Figma Slides
+→ Build boards with data in FigJam
+→ Roundtr…</title>
+    <link rel="alternate" href="https://x.com/figma/status/2066923337889305038"/>
+    <published>2026-06-16T16:38:19+00:00</published>
+    <updated>2026-06-16T16:38:19+00:00</updated>
+    <author><name>figma</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <summary>Figma MCP server now handles Slides, FigJam, Make roundtrip, custom fonts, and image exports—production-ready design automation.</summary>
+    <content type="html"><![CDATA[<p>Figma MCP server now handles Slides, FigJam, Make roundtrip, custom fonts, and image exports—production-ready design automation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 10/10</p><p><a href="https://x.com/figma/status/2066923337889305038">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:df57bba6beed318a</id>
+    <title>This is partially because more and more AI-coded sites are using shadcn/ui component library (and some icons I&#x27;m using) …</title>
+    <link rel="alternate" href="https://bsky.app/profile/purpleheartdev.bsky.social/post/3mog7r3edxc2u"/>
+    <published>2026-06-16T16:28:15.706Z</published>
+    <updated>2026-06-16T16:28:15.706Z</updated>
+    <author><name>purpleheartdev.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <summary>Designer critiques AI-coded sites overusing shadcn/ui for lack of consistency and polish—taste / anti-slop observation.</summary>
+    <content type="html"><![CDATA[<p>Designer critiques AI-coded sites overusing shadcn/ui for lack of consistency and polish—taste / anti-slop observation.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/purpleheartdev.bsky.social/post/3mog7r3edxc2u">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3c4460f54ee21e0c</id>
+    <title>Built a figma plugin that generates patterns from any node 🎨</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u7i2cu/built_a_figma_plugin_that_generates_patterns_from/"/>
+    <published>2026-06-16T16:15:35+00:00</published>
+    <updated>2026-06-16T16:15:35+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Figma plugin (Snapattern) that auto-generates patterns from any node—concrete design tool with clear UI value.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin (Snapattern) that auto-generates patterns from any node—concrete design tool with clear UI value.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u7i2cu/built_a_figma_plugin_that_generates_patterns_from/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9823d9868785b505</id>
+    <title>I’ve been experimenting with Claude to create landing page design concepts like this one. I strip out the obvious AI tro…</title>
+    <link rel="alternate" href="https://bsky.app/profile/blazegrid.bsky.social/post/3mog6ovkdis2b"/>
+    <published>2026-06-16T16:09:08.760Z</published>
+    <updated>2026-06-16T16:09:08.760Z</updated>
+    <author><name>blazegrid.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Designer shares Claude-generated landing page concepts with AI-slop removal and custom polish—real artifact with craft discipline.</summary>
+    <content type="html"><![CDATA[<p>Designer shares Claude-generated landing page concepts with AI-slop removal and custom polish—real artifact with craft discipline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/blazegrid.bsky.social/post/3mog6ovkdis2b">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:99585b9d05d26f90</id>
+    <title>I built the Figma plugin I always wished I had. 🛠️✨
+
+Introducing Pager: The fastest way to standardize and organize your…</title>
+    <link rel="alternate" href="https://bsky.app/profile/farhadhassan.bsky.social/post/3mog56m4jzc2p"/>
+    <published>2026-06-16T15:42:08.257Z</published>
+    <updated>2026-06-16T15:42:08.257Z</updated>
+    <author><name>farhadhassan.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>New Figma plugin (Pager) for page standardization and organization with reusable templates.</summary>
+    <content type="html"><![CDATA[<p>New Figma plugin (Pager) for page standardization and organization with reusable templates.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/farhadhassan.bsky.social/post/3mog56m4jzc2p">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:d266d06cd6bce1b7</id>
     <title>🆕 pbakaus/impeccable skill-v3.7.1 — The design language that makes your AI harness better at design.</title>
@@ -299,6 +455,18 @@ I usually use https://www.diceui…</title>
     <category term="analysis"/>
     <summary>Pattern toolkit for designing human control over AI with concrete autonomy patterns and UI controls.</summary>
     <content type="html"><![CDATA[<p>Pattern toolkit for designing human control over AI with concrete autonomy patterns and UI controls.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 8/10</p><p><a href="https://uxdesign.cc/the-autonomy-dial-a-pattern-toolkit-for-designing-human-control-over-ai-12bfbe23ca70?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ab4416dd561b5ac8</id>
+    <title>HTML Deployer</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/html-deployer-2"/>
+    <published>2026-06-15T22:00:14-07:00</published>
+    <updated>2026-06-15T22:00:14-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="frontend"/>
+    <category term="claude-code"/>
+    <summary>Deploy HTML from AI chat to published sites; light design-to-code tie but minimal substance.</summary>
+    <content type="html"><![CDATA[<p>Deploy HTML from AI chat to published sites; light design-to-code tie but minimal substance.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/html-deployer-2">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:d5a1689491324d4f</id>
@@ -689,194 +857,17 @@ Our designers used it to reshape the system behind the screens.
     <content type="html"><![CDATA[<p>Interactive bento UI designed with Claude—concrete prototype with visual result.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/growthflo/status/2066385154205970869">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26657d6bb2854575</id>
-    <title>I built a large-scale text replacement engine inside Figma Design (Plugin). Looking for feedback.</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u5qf4k/i_built_a_largescale_text_replacement_engine/"/>
-    <published>2026-06-14T16:58:50+00:00</published>
-    <updated>2026-06-14T16:58:50+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin (Variate) for bulk text replacement in design; solves a real design workflow pain, has screenshot.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin (Variate) for bulk text replacement in design; solves a real design workflow pain, has screenshot.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5qf4k/i_built_a_largescale_text_replacement_engine/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:91b20515a843a2cf</id>
-    <title>Blog Redesign 4 and an AI-First Design System</title>
-    <link rel="alternate" href="https://bsky.app/profile/pericak.bsky.social/post/3mob5b3pflr2b"/>
-    <published>2026-06-14T16:00:10.312020Z</published>
-    <updated>2026-06-14T16:00:10.312020Z</updated>
-    <author><name>pericak.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="designer-post"/>
-    <summary>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</summary>
-    <content type="html"><![CDATA[<p>Blog redesign + AI-first design system claimed; borderline—concrete visual/design claim but no artifact, details, or build story linked.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/pericak.bsky.social/post/3mob5b3pflr2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:feaac5d1af8bcde5</id>
-    <title>So this was made in http://aura.build using Fable 5 when it was available: 
-
-https://neon-oiran.aura.build
-
-It&#x27;s insanel…</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2066165296239686122"/>
-    <published>2026-06-14T14:26:08+00:00</published>
-    <updated>2026-06-14T14:26:08+00:00</updated>
-    <author><name>MengTo</name></author>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:315ca2b95e8cd0f0</id>
+    <title>chihebnabil/lovable-boilerplate — A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and</title>
+    <link rel="alternate" href="https://github.com/chihebnabil/lovable-boilerplate"/>
+    <published>2026-06-14T21:03:36Z</published>
+    <updated>2026-06-14T21:03:36Z</updated>
+    <author><name>chihebnabil</name></author>
+    <category term="lovable"/>
+    <category term="frontend"/>
     <category term="claude-code"/>
-    <category term="prototype"/>
     <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Aura.build (Claude Code) rebuilt high-fidelity anime RPG site with one-shot prompt; shows AI-to-React-design craft at Stripe/Linear polish level.</summary>
-    <content type="html"><![CDATA[<p>Aura.build (Claude Code) rebuilt high-fidelity anime RPG site with one-shot prompt; shows AI-to-React-design craft at Stripe/Linear polish level.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2066165296239686122">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:dd344b8cb79271b6</id>
-    <title>How to solve small problems in Figma generating UIKit or SwiftUI</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u5l1tc/how_to_solve_small_problems_in_figma_generating/"/>
-    <published>2026-06-14T13:22:14+00:00</published>
-    <updated>2026-06-14T13:22:14+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="mcp"/>
-    <category term="technique"/>
-    <summary>Design-to-code parity problem (Figma→iOS) with real friction; user seeking MCP/skill solutions for fidelity.</summary>
-    <content type="html"><![CDATA[<p>Design-to-code parity problem (Figma→iOS) with real friction; user seeking MCP/skill solutions for fidelity.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5l1tc/how_to_solve_small_problems_in_figma_generating/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:87ab1c3e311fac79</id>
-    <title>【保存版】
-競合 LP を自ブランドに変換する Figma × Claude Code (Fable 5) のワークフローが実用段階に来た😳
-
-Figma MCP で構造を丸ごと読んでから再構築する 5 つの工程はこれ👇
-https://t…</title>
-    <link rel="alternate" href="https://x.com/ClaudeCode_UT/status/2066128576005743020"/>
-    <published>2026-06-14T12:00:13+00:00</published>
-    <updated>2026-06-14T12:00:13+00:00</updated>
-    <author><name>ClaudeCode_UT</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Figma MCP + Claude Code workflow: capture competitor LP → rebuild as brand variant with color/type/copy + auto-gen product shots in 15min/$2; production-ready design-to-code pipeline.</summary>
-    <content type="html"><![CDATA[<p>Figma MCP + Claude Code workflow: capture competitor LP → rebuild as brand variant with color/type/copy + auto-gen product shots in 15min/$2; production-ready design-to-code pipeline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/ClaudeCode_UT/status/2066128576005743020">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4a04c8ab281a566e</id>
-    <title>I used to spend hours in Canva designing social media graphics. Now I don&#x27;t open Canva at all. Instead, I built my own c…</title>
-    <link rel="alternate" href="https://bsky.app/profile/lizontheweb.bsky.social/post/3moap2u2w6q2r"/>
-    <published>2026-06-14T11:46:10.945Z</published>
-    <updated>2026-06-14T11:46:10.945Z</updated>
-    <author><name>lizontheweb.bsky.social</name></author>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="agent-sdk"/>
-    <summary>Built custom AI content rendering system replacing Canva; 87 templates, automated branded social graphics.</summary>
-    <content type="html"><![CDATA[<p>Built custom AI content rendering system replacing Canva; 87 templates, automated branded social graphics.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/lizontheweb.bsky.social/post/3moap2u2w6q2r">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2534b3cfc6e61025</id>
-    <title>ONE VIETNAMESE GUY FOUND THE PART OF CLAUDE MOST PEOPLE STILL HAVEN&#x27;T TOUCHED
-
-Everyone is still typing prompts.
-
-He is …</title>
-    <link rel="alternate" href="https://x.com/0xTria/status/2066064597501534400"/>
-    <published>2026-06-14T07:46:00+00:00</published>
-    <updated>2026-06-14T07:46:00+00:00</updated>
-    <author><name>0xTria</name></author>
-    <category term="skill"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Design skill adoption unlocks AI-craft workflows; positioning skills (design, dev, SEO, video) as repeatable processes vs. chat.</summary>
-    <content type="html"><![CDATA[<p>Design skill adoption unlocks AI-craft workflows; positioning skills (design, dev, SEO, video) as repeatable processes vs. chat.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/0xTria/status/2066064597501534400">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:eca16d3dbfda6bee</id>
-    <title>The new Figma Chrome Extension is insanely gooooood!</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u5dx0y/the_new_figma_chrome_extension_is_insanely/"/>
-    <published>2026-06-14T06:45:53+00:00</published>
-    <updated>2026-06-14T06:45:53+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="ui-craft"/>
-    <category term="tool"/>
-    <summary>Figma Chrome Extension for static-to-design capture; strong tool for design-to-code workflows, honest limits on interactive apps.</summary>
-    <content type="html"><![CDATA[<p>Figma Chrome Extension for static-to-design capture; strong tool for design-to-code workflows, honest limits on interactive apps.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u5dx0y/the_new_figma_chrome_extension_is_insanely/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:304dcfc818e488bf</id>
-    <title>Before Fable 5 was pulled, we used it to prompt this landing page.
-
-It was ahead of its time. https://t.co/wXVFCto2wh</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2066035231782740092"/>
-    <published>2026-06-14T05:49:18+00:00</published>
-    <updated>2026-06-14T05:49:18+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="prototype"/>
-    <category term="ai-design"/>
-    <category term="landing-page"/>
-    <summary>Landing page built with Fable prompt-to-design; light but shows real AI→design artifact with visual proof.</summary>
-    <content type="html"><![CDATA[<p>Landing page built with Fable prompt-to-design; light but shows real AI→design artifact with visual proof.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MengTo/status/2066035231782740092">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6182cc92a37f5870</id>
-    <title>RT @joelbqz: input morph
-
-fork it: https://v0.link/mQrZGfj https://t.co/Sfp1sj2hnu</title>
-    <link rel="alternate" href="https://x.com/v0/status/2065962881963688134"/>
-    <published>2026-06-14T01:01:49+00:00</published>
-    <updated>2026-06-14T01:01:49+00:00</updated>
-    <author><name>v0</name></author>
-    <category term="v0"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Input morphing UI component built in v0 with fork link and visual demo.</summary>
-    <content type="html"><![CDATA[<p>Input morphing UI component built in v0 with fork link and visual demo.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/v0/status/2065962881963688134">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1919f8562f6776a6</id>
-    <title>itmeo/webgradients — 180 linear gradients in CSS3, Figma, Sketch and PSD formats — free for personal and commercial use</title>
-    <link rel="alternate" href="https://github.com/itmeo/webgradients"/>
-    <published>2026-06-13T21:50:04Z</published>
-    <updated>2026-06-13T21:50:04Z</updated>
-    <author><name>itmeo</name></author>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>180 ready-made gradients in CSS, Figma, Sketch formats; useful design resource but static library, not a craft technique or AI-enabled tool.</summary>
-    <content type="html"><![CDATA[<p>180 ready-made gradients in CSS, Figma, Sketch formats; useful design resource but static library, not a craft technique or AI-enabled tool.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 6/10</p><p><a href="https://github.com/itmeo/webgradients">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:18050c874cba5909</id>
-    <title>I need your feedback on my Figma Plugin</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u4vi3s/i_need_your_feedback_on_my_figma_plugin/"/>
-    <published>2026-06-13T16:35:26+00:00</published>
-    <updated>2026-06-13T16:35:26+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="plugin"/>
-    <category term="figma"/>
-    <summary>Figma rename plugin covering 7 modes (find/replace, templates, case conversion, cleanup)—solid plugin, light substance.</summary>
-    <content type="html"><![CDATA[<p>Figma rename plugin covering 7 modes (find/replace, templates, case conversion, cleanup)—solid plugin, light substance.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u4vi3s/i_need_your_feedback_on_my_figma_plugin/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a2ccfff28678d13a</id>
-    <title>New Project: Svelte Particles 
-
-50+ Useful Shadcn Blocks. Inspired from COSS UI
-
-Free &amp; open source
-Just copy, paste, an…</title>
-    <link rel="alternate" href="https://bsky.app/profile/bhidesvelte.bsky.social/post/3mo6nhquozs2g"/>
-    <published>2026-06-13T16:12:17.193Z</published>
-    <updated>2026-06-13T16:12:17.193Z</updated>
-    <author><name>bhidesvelte.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="prototype"/>
-    <summary>50+ shadcn blocks inspired by COSS UI; free copy-paste components, no AI craft story.</summary>
-    <content type="html"><![CDATA[<p>50+ shadcn blocks inspired by COSS UI; free copy-paste components, no AI craft story.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/bhidesvelte.bsky.social/post/3mo6nhquozs2g">Read on bluesky →</a></p>]]></content>
+    <summary>React boilerplate bridging Lovable no-code AI UI generation to clean, structured code; integrates GitHub Copilot for AI-assisted design-to-code.</summary>
+    <content type="html"><![CDATA[<p>React boilerplate bridging Lovable no-code AI UI generation to clean, structured code; integrates GitHub Copilot for AI-assisted design-to-code.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/chihebnabil/lovable-boilerplate">Read on github →</a></p>]]></content>
   </entry>
 </feed>
