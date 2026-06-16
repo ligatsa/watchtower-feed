@@ -5,8 +5,70 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-15T21:15:19+00:00</updated>
+  <updated>2026-06-16T03:19:34+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:aaa2def4bda55dfe</id>
+    <title>Show Reddit: maps.tomake.design — Generate maps blazing fast (CartoDB, OpenFreeMap, Photon etc...)</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u71eu5/show_reddit_mapstomakedesign_generate_maps/"/>
+    <published>2026-06-16T02:48:19+00:00</published>
+    <updated>2026-06-16T02:48:19+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <summary>Figma plugin for fast map generation (CartoDB, OpenFreeMap). Real tool with video demo, light design utility.</summary>
+    <content type="html"><![CDATA[<p>Figma plugin for fast map generation (CartoDB, OpenFreeMap). Real tool with video demo, light design utility.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u71eu5/show_reddit_mapstomakedesign_generate_maps/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0481d1e96a93df19</id>
+    <title>Best practices for setting up variable Code Syntax?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u6wzxg/best_practices_for_setting_up_variable_code_syntax/"/>
+    <published>2026-06-15T23:28:42+00:00</published>
+    <updated>2026-06-15T23:28:42+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <summary>Figma design-to-dev workflow question on variable code syntax; practical design-system handoff concern.</summary>
+    <content type="html"><![CDATA[<p>Figma design-to-dev workflow question on variable code syntax; practical design-system handoff concern.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u6wzxg/best_practices_for_setting_up_variable_code_syntax/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:44e7d8023209cc0b</id>
+    <title>The board is not the game</title>
+    <link rel="alternate" href="https://uxdesign.cc/the-board-is-not-the-game-fad30735adfe?source=rss----138adf9c44c---4"/>
+    <published>2026-06-15T22:18:47+00:00</published>
+    <updated>2026-06-15T22:18:47+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Thoughtful piece on AI product UX gaps — emphasizes systems thinking over isolated screens.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful piece on AI product UX gaps — emphasizes systems thinking over isolated screens.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/the-board-is-not-the-game-fad30735adfe?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:adf58a129f8853e0</id>
+    <title>The autonomy dial: a pattern toolkit for designing human control over AI</title>
+    <link rel="alternate" href="https://uxdesign.cc/the-autonomy-dial-a-pattern-toolkit-for-designing-human-control-over-ai-12bfbe23ca70?source=rss----138adf9c44c---4"/>
+    <published>2026-06-15T22:18:24+00:00</published>
+    <updated>2026-06-15T22:18:24+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Pattern toolkit for designing human control over AI with concrete autonomy patterns and UI controls.</summary>
+    <content type="html"><![CDATA[<p>Pattern toolkit for designing human control over AI with concrete autonomy patterns and UI controls.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 8/10</p><p><a href="https://uxdesign.cc/the-autonomy-dial-a-pattern-toolkit-for-designing-human-control-over-ai-12bfbe23ca70?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d5a1689491324d4f</id>
+    <title>I used Figma a few years ago, then stopped using it for a while.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u6ucvs/i_used_figma_a_few_years_ago_then_stopped_using/"/>
+    <published>2026-06-15T21:42:16+00:00</published>
+    <updated>2026-06-15T21:42:16+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Figma onboarding guide for non-designers covering Auto Layout, components, variables, and handoff workflow.</summary>
+    <content type="html"><![CDATA[<p>Figma onboarding guide for non-designers covering Auto Layout, components, variables, and handoff workflow.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u6ucvs/i_used_figma_a_few_years_ago_then_stopped_using/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:03df5d0efd58de8b</id>
     <title>You can now import design systems from your design.md files, as well as Tailwind and directly from any link.
@@ -828,85 +890,5 @@ A skill is a folder of instructions …</title>
     <category term="anthropic"/>
     <summary>Skills overview: Frontend Design (521K), Design Taste (128K), Impeccable Design (54K) and others for Claude specialization.</summary>
     <content type="html"><![CDATA[<p>Skills overview: Frontend Design (521K), Design Taste (128K), Impeccable Design (54K) and others for Claude specialization.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/charliejhills/status/2065476030249537956">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:140ab794abb79158</id>
-    <title>How to Make Your Design System AI-Ready, by @vitalyf@mastodon.be (@smashingmag@mastodon.social):
-
-https://www.smashingma…</title>
-    <link rel="alternate" href="https://bsky.app/profile/frontenddogma.com/post/3mo45yxtapg25"/>
-    <published>2026-06-12T16:30:14.622089Z</published>
-    <updated>2026-06-12T16:30:14.622089Z</updated>
-    <author><name>frontenddogma.com</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <summary>Smashing Magazine on design-system AI-readiness: structures tokens, components, and patterns to work with AI agents.</summary>
-    <content type="html"><![CDATA[<p>Smashing Magazine on design-system AI-readiness: structures tokens, components, and patterns to work with AI agents.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/frontenddogma.com/post/3mo45yxtapg25">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e36524e1816a2eab</id>
-    <title>good news: AI design-slop is now easy to avoid (if you know what you&#x27;re doing).
-
-you just need to do these 3 things:
-
-1.…</title>
-    <link rel="alternate" href="https://x.com/itsolelehmann/status/2065453971477836072"/>
-    <published>2026-06-12T15:19:35+00:00</published>
-    <updated>2026-06-12T15:19:35+00:00</updated>
-    <author><name>itsolelehmann</name></author>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <category term="anti-slop"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Three concrete techniques to avoid AI design-slop: reference libraries, design-system markdown, Figma extraction—actionable taste guidance.</summary>
-    <content type="html"><![CDATA[<p>Three concrete techniques to avoid AI design-slop: reference libraries, design-system markdown, Figma extraction—actionable taste guidance.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/itsolelehmann/status/2065453971477836072">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2542d8dc13707fc4</id>
-    <title>Yes I tested Fable on ux and ui design. 
-
-Yes, video is almost done. 
-
-But my takeaway will be rather unique here. I put…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065440649814425620"/>
-    <published>2026-06-12T14:26:39+00:00</published>
-    <updated>2026-06-12T14:26:39+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Real-world UX/UI design test of Fable AI with workflow depth—video and article coming on practical AI design results.</summary>
-    <content type="html"><![CDATA[<p>Real-world UX/UI design test of Fable AI with workflow depth—video and article coming on practical AI design results.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2065440649814425620">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2f364f7da4e54023</id>
-    <title>Two years ago I released my first Figma plugin with AI coding assistance. Today I am the lead design engineer at Weeve, …</title>
-    <link rel="alternate" href="https://bsky.app/profile/dylandeheer.bsky.social/post/3mo3vitelxa2j"/>
-    <published>2026-06-12T13:58:03.826696Z</published>
-    <updated>2026-06-12T13:58:03.826696Z</updated>
-    <author><name>dylandeheer.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <summary>Design engineer shares journey from releasing first Figma AI plugin to leading design at Weeve—concrete proof of AI-assisted design tooling impact.</summary>
-    <content type="html"><![CDATA[<p>Design engineer shares journey from releasing first Figma AI plugin to leading design at Weeve—concrete proof of AI-assisted design tooling impact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/dylandeheer.bsky.social/post/3mo3vitelxa2j">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e4c415f0f3ee6481</id>
-    <title>Design studios keep closing. 
-What does it mean?
-
-Is it because AI is taking the work? 
-
-Clients &quot;vibe-designing&quot; produc…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2065416074280014083"/>
-    <published>2026-06-12T12:49:00+00:00</published>
-    <updated>2026-06-12T12:49:00+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <summary>Thoughtful take on why design studios close: AI commoditizes shallow aesthetics, forcing agencies toward strategy—relevant to AI&#x27;s effect on design discipline.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful take on why design studios close: AI commoditizes shallow aesthetics, forcing agencies toward strategy—relevant to AI&#x27;s effect on design discipline.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2065416074280014083">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
