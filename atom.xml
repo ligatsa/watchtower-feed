@@ -5,8 +5,62 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-17T03:37:18+00:00</updated>
+  <updated>2026-06-17T09:41:56+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7e534d977a2cf8fc</id>
+    <title>The AI design revolution just hit a new milestone. Anthropic just launched Claude Design, and honestly? This might be th…</title>
+    <link rel="alternate" href="https://bsky.app/profile/eddieho.bsky.social/post/3mohxs6olzj2x"/>
+    <published>2026-06-17T09:11:01.938123Z</published>
+    <updated>2026-06-17T09:11:01.938123Z</updated>
+    <author><name>eddieho.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="anthropic"/>
+    <summary>Claude Design launch reaction — endorsement of major design tool, light substance but clear relevance.</summary>
+    <content type="html"><![CDATA[<p>Claude Design launch reaction — endorsement of major design tool, light substance but clear relevance.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/eddieho.bsky.social/post/3mohxs6olzj2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e826296fb8fedefb</id>
+    <title>Every frame perfect</title>
+    <link rel="alternate" href="https://tonsky.me/blog/every-frame-perfect/"/>
+    <published>2026-06-17T06:33:50+00:00</published>
+    <updated>2026-06-17T06:33:50+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Deep dive on animation precision and trust—Steven&#x27;s taste: motion craft and design discipline critique.</summary>
+    <content type="html"><![CDATA[<p>Deep dive on animation precision and trust—Steven&#x27;s taste: motion craft and design discipline critique.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://tonsky.me/blog/every-frame-perfect/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d1b78a005cb74219</id>
+    <title>What Figma made visible</title>
+    <link rel="alternate" href="https://blog.murphytrueman.com/what-figma-made-visible/"/>
+    <published>2026-06-17T06:31:17+00:00</published>
+    <updated>2026-06-17T06:31:17+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="figma"/>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Essay on Figma&#x27;s impact on design discipline and practitioner visibility—Steven&#x27;s design-theory interest.</summary>
+    <content type="html"><![CDATA[<p>Essay on Figma&#x27;s impact on design discipline and practitioner visibility—Steven&#x27;s design-theory interest.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://blog.murphytrueman.com/what-figma-made-visible/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6005f7eec72f1ba1</id>
+    <title>This frontend design skill will take your design work to a whole new level.
+
+Anthropic recently updated &quot;Frontend Design…</title>
+    <link rel="alternate" href="https://x.com/aiedge_/status/2067102493776150698"/>
+    <published>2026-06-17T04:30:14+00:00</published>
+    <updated>2026-06-17T04:30:14+00:00</updated>
+    <author><name>aiedge_</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="anthropic"/>
+    <category term="ui-craft"/>
+    <summary>Anthropic&#x27;s official Frontend Design skill update—direct hit on Steven&#x27;s top interest (Claude design skills, 500+ stars/official).</summary>
+    <content type="html"><![CDATA[<p>Anthropic&#x27;s official Frontend Design skill update—direct hit on Steven&#x27;s top interest (Claude design skills, 500+ stars/official).</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/aiedge_/status/2067102493776150698">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:f73882863a621d6f</id>
     <title>🆕 pbakaus/impeccable cli-v3.0.3 — The design language that makes your AI harness better at design.</title>
@@ -20,6 +74,22 @@
     <category term="claude"/>
     <summary>pbakaus/impeccable CLI v3.0.3: Design language framework that trains AI harnesses to avoid slop and build authentic, styleful UIs.</summary>
     <content type="html"><![CDATA[<p>pbakaus/impeccable CLI v3.0.3: Design language framework that trains AI harnesses to avoid slop and build authentic, styleful UIs.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/pbakaus/impeccable">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5380b323c8640620</id>
+    <title>早速 Claude に frontend-design Skill 使わせて ToDo アプリ作ってみた。
+
+自分が作りたいものは決まっていて、ToC向けでもないので凝った UI にはならなかったけど、おしゃれで「これ使いたいな」と思わせて…</title>
+    <link rel="alternate" href="https://x.com/suna_gaku/status/2067071151516627282"/>
+    <published>2026-06-17T02:25:41+00:00</published>
+    <updated>2026-06-17T02:25:41+00:00</updated>
+    <author><name>suna_gaku</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Real Todo app built with Claude&#x27;s frontend-design skill—artifact-driven, direct design-agent success story.</summary>
+    <content type="html"><![CDATA[<p>Real Todo app built with Claude&#x27;s frontend-design skill—artifact-driven, direct design-agent success story.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/suna_gaku/status/2067071151516627282">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:67f5ad3d816f4ee0</id>
@@ -382,6 +452,19 @@ Build without leaving your client of choice. Tell us which ones are…</title>
     <category term="lovable"/>
     <summary>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</summary>
     <content type="html"><![CDATA[<p>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2066888107232805377">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:c7ec5e46e10b7a74</id>
+    <title>idmly</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/idmly"/>
+    <published>2026-06-16T13:51:00-07:00</published>
+    <updated>2026-06-16T13:51:00-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>HTML/CSS to InDesign conversion—direct design-to-code workflow for print/publishing.</summary>
+    <content type="html"><![CDATA[<p>HTML/CSS to InDesign conversion—direct design-to-code workflow for print/publishing.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/idmly">Read on producthunt →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:ac82316c80f717d0</id>
@@ -781,97 +864,5 @@ He builds bran…</title>
     <category term="designer-post"/>
     <summary>Designer workflow for building branded client sites with Claude Code, design skills, and anti-AI-slop techniques like CLAUDE.md &amp; screenshot loops.</summary>
     <content type="html"><![CDATA[<p>Designer workflow for building branded client sites with Claude Code, design skills, and anti-AI-slop techniques like CLAUDE.md &amp; screenshot loops.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/undefinedKi/status/2066539374930792520">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2d697079dca75812</id>
-    <title>RT @emilfagerholm: introducing a new way to build with lovable
-
-instead of writing prompts, just draw directly on your a…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066536629230031032"/>
-    <published>2026-06-15T15:01:41+00:00</published>
-    <updated>2026-06-15T15:01:41+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Lovable ships direct-draw UI editing—sketch changes on canvas, AI builds them. Core design-to-code workflow innovation.</summary>
-    <content type="html"><![CDATA[<p>Lovable ships direct-draw UI editing—sketch changes on canvas, AI builds them. Core design-to-code workflow innovation.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Lovable/status/2066536629230031032">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9d1991bc224a6e87</id>
-    <title>Select elements: Choose which specific text boxes or visual elements to edit. You can now drag or hold ⌘/ctrl to select …</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066536205479469322"/>
-    <published>2026-06-15T15:00:00+00:00</published>
-    <updated>2026-06-15T15:00:00+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Multi-select and element targeting in Lovable&#x27;s new UI editor—precision control for annotating design changes.</summary>
-    <content type="html"><![CDATA[<p>Multi-select and element targeting in Lovable&#x27;s new UI editor—precision control for annotating design changes.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2066536205479469322">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2c36c525395e1ada</id>
-    <title>Draw on and annotate your project: Lovable will be able to see exactly where and how you’d like to make changes. https:/…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066536203214622952"/>
-    <published>2026-06-15T14:59:59+00:00</published>
-    <updated>2026-06-15T14:59:59+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Annotation mode lets designers draw directly on prototypes for AI-powered edits—closes designer intent gap.</summary>
-    <content type="html"><![CDATA[<p>Annotation mode lets designers draw directly on prototypes for AI-powered edits—closes designer intent gap.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2066536203214622952">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f309f3ad73cb30c3</id>
-    <title>Introducing Lovable’s new toolbar.
-
-Shift between four modes to annotate, select elements, edit text, and add comments. …</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066536196788957198"/>
-    <published>2026-06-15T14:59:58+00:00</published>
-    <updated>2026-06-15T14:59:58+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Lovable&#x27;s 4-mode toolbar (annotate, select, edit, comment) brings designer workflows into code-generation UX.</summary>
-    <content type="html"><![CDATA[<p>Lovable&#x27;s 4-mode toolbar (annotate, select, edit, comment) brings designer workflows into code-generation UX.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2066536196788957198">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2e8fa60d817dd460</id>
-    <title>The website that inspires you today can be a 404 tomorrow. Redesigned, taken down, gone.  
-
-As a web designer, those sit…</title>
-    <link rel="alternate" href="https://x.com/eugeneniidesign/status/2066510342939722179"/>
-    <published>2026-06-15T13:17:14+00:00</published>
-    <updated>2026-06-15T13:17:14+00:00</updated>
-    <author><name>eugeneniidesign</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <category term="designer-post"/>
-    <summary>SiteSnap tool captures inspiration websites, syncs them to Figma canvas; landing page built with Figma + MCP — concrete design workflow artifact.</summary>
-    <content type="html"><![CDATA[<p>SiteSnap tool captures inspiration websites, syncs them to Figma canvas; landing page built with Figma + MCP — concrete design workflow artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/eugeneniidesign/status/2066510342939722179">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c40a7bbe55738fa4</id>
-    <title>Issue 253
-
-•  A day inside Figma&#x27;s product team
-• How to articulate
-• New community profiles
-• Apple&#x27;s Design Principles…</title>
-    <link rel="alternate" href="https://bsky.app/profile/figmalion.bsky.social/post/3moddoeroxn2n"/>
-    <published>2026-06-15T13:00:20.563974Z</published>
-    <updated>2026-06-15T13:00:20.563974Z</updated>
-    <author><name>figmalion.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="figma-make"/>
-    <category term="analysis"/>
-    <summary>Figmalion newsletter Issue 253: Claude Code designer teardown + custom Figma MCP skills—solid design+AI curation.</summary>
-    <content type="html"><![CDATA[<p>Figmalion newsletter Issue 253: Claude Code designer teardown + custom Figma MCP skills—solid design+AI curation.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/figmalion.bsky.social/post/3moddoeroxn2n">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
