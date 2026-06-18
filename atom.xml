@@ -5,8 +5,56 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-18T03:54:11+00:00</updated>
+  <updated>2026-06-18T09:58:01+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a30014dadc94495e</id>
+    <title>`shadcn/improve` : utiliser le modèle le plus capable pour auditer une codebase et rédiger des plans d&#x27;implémentation dé…</title>
+    <link rel="alternate" href="https://bsky.app/profile/camilleroux.com/post/3mok5lpyst32l"/>
+    <published>2026-06-18T08:00:07+02:00</published>
+    <updated>2026-06-18T08:00:07+02:00</updated>
+    <author><name>camilleroux.com</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <summary>shadcn tool for AI-driven codebase audits and multi-tier implementation planning; design-adjacent dev skill.</summary>
+    <content type="html"><![CDATA[<p>shadcn tool for AI-driven codebase audits and multi-tier implementation planning; design-adjacent dev skill.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/camilleroux.com/post/3mok5lpyst32l">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:54494387caf1ebfc</id>
+    <title>Claude Design si aggiorna: ora parla con Claude Code e spaventa Figma
+
+Claude Design è il nuovo strumento di intelligenz…</title>
+    <link rel="alternate" href="https://bsky.app/profile/infotelematico.bsky.social/post/3mok6honc6s24"/>
+    <published>2026-06-18T06:15:44Z</published>
+    <updated>2026-06-18T06:15:44Z</updated>
+    <author><name>infotelematico.bsky.social</name></author>
+    <category term="anthropic"/>
+    <category term="figma-make"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <summary>Claude Design update now syncs with Claude Code and imports design systems; direct enabler of design-to-code workflow.</summary>
+    <content type="html"><![CDATA[<p>Claude Design update now syncs with Claude Code and imports design systems; direct enabler of design-to-code workflow.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/infotelematico.bsky.social/post/3mok6honc6s24">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:10c9e1d4aa0b0769</id>
+    <title>Figma should be nervous
+
+Claude Design now imports design system from repos, design files, or codebases
+
+• checks design…</title>
+    <link rel="alternate" href="https://bsky.app/profile/toolfolio.bsky.social/post/3mojzdk2t3l24"/>
+    <published>2026-06-18T04:43:55+00:00</published>
+    <updated>2026-06-18T04:43:55+00:00</updated>
+    <author><name>toolfolio.bsky.social</name></author>
+    <category term="anthropic"/>
+    <category term="figma-make"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Claude Design now imports design systems, audits components, syncs bidirectionally with Code, exports; major design-to-code pipeline.</summary>
+    <content type="html"><![CDATA[<p>Claude Design now imports design systems, audits components, syncs bidirectionally with Code, exports; major design-to-code pipeline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/toolfolio.bsky.social/post/3mojzdk2t3l24">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:cec82c91d5bc0cf2</id>
     <title>💡 具体的に何が変わったのか。Claude DesignがCanva、Figmaなど主要ツールへの直接出力に対応。修正・改善が秒速で反映される。もうツール間の行き来は過去の話。</title>
@@ -64,6 +112,21 @@ pretty soon we&#x27;ll be iterating in fully interactive code directl…</title>
     <category term="technique"/>
     <summary>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</summary>
     <content type="html"><![CDATA[<p>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2067410003049201833">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1c56616e88d61939</id>
+    <title>Claude Design 과 Claude Code 가 드디어 &#x27;완전히&#x27; 연결됐습니다. 클로드 디자인 나온 첫날부터 써본 입장에서, 그 때부터 궁금했던 것이 왜 바로 Claude Code 와 API 레벨의 연동이 안되…</title>
+    <link rel="alternate" href="https://x.com/Gonnector/status/2067396096394207651"/>
+    <published>2026-06-17T23:56:54+00:00</published>
+    <updated>2026-06-17T23:56:54+00:00</updated>
+    <author><name>Gonnector</name></author>
+    <category term="claude-code"/>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="animation"/>
+    <category term="design-system"/>
+    <summary>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</summary>
+    <content type="html"><![CDATA[<p>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Gonnector/status/2067396096394207651">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:1f966610d08a90ce</id>
@@ -165,6 +228,23 @@ We generated 12 landing pages with Kimi K2.7 Code and Claude Fable 5. K…</titl
     <category term="claude-code"/>
     <summary>Landing page generation workflow using design MCP with open-source vs. closed models—practical design+AI technique with cost comparison.</summary>
     <content type="html"><![CDATA[<p>Landing page generation workflow using design MCP with open-source vs. closed models—practical design+AI technique with cost comparison.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/togethercompute/status/2067311720197173610">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7cd90c8165ba2d05</id>
+    <title>The product designer who writes production code is a lethal weapon.
+
+Instead of handing off static Figma mockups and hop…</title>
+    <link rel="alternate" href="https://x.com/designloomco/status/2067303814596575669"/>
+    <published>2026-06-17T17:50:12+00:00</published>
+    <updated>2026-06-17T17:50:12+00:00</updated>
+    <author><name>designloomco</name></author>
+    <category term="ui-craft"/>
+    <category term="figma"/>
+    <category term="claude-code"/>
+    <category term="cursor"/>
+    <category term="prototype"/>
+    <summary>Designer-developer ships full production app (LensStack) solo: Figma → Claude/Cursor → live utility with vector logic and cinematic craft documented.</summary>
+    <content type="html"><![CDATA[<p>Designer-developer ships full production app (LensStack) solo: Figma → Claude/Cursor → live utility with vector logic and cinematic craft documented.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/designloomco/status/2067303814596575669">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:a2c9960083797aec</id>
@@ -612,6 +692,21 @@ UI Skills CLI works with Claude …</title>
     <content type="html"><![CDATA[<p>10 new animated shadcn-svelte components with open-source tooling—solid UI component work, light substance.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/bhidesvelte.bsky.social/post/3mogrn6ljmc2h">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:fd0b0d6b658acda3</id>
+    <title>Locofy: design-to-code agents</title>
+    <link rel="alternate" href="https://www.producthunt.com/products/locofy-ai"/>
+    <published>2026-06-16T19:52:53-07:00</published>
+    <updated>2026-06-16T19:52:53-07:00</updated>
+    <author><name>producthunt</name></author>
+    <category term="figma"/>
+    <category term="design-to-code"/>
+    <category term="agent-sdk"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <summary>Figma-to-code agent bridging design and Cursor/Claude—direct match to Steven&#x27;s design→code workflow.</summary>
+    <content type="html"><![CDATA[<p>Figma-to-code agent bridging design and Cursor/Claude—direct match to Steven&#x27;s design→code workflow.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 8/10</p><p><a href="https://www.producthunt.com/products/locofy-ai">Read on producthunt →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:287aa1ff5b871b13</id>
     <title>A REAL ESTATE AGENCY BUILT A $10,000-LOOKING SITE WHERE THE BUILDINGS ASSEMBLE THEMSELVES AS YOU SCROLL. HERE&#x27;S THE EXAC…</title>
     <link rel="alternate" href="https://x.com/undefinedKi/status/2066967611469082778"/>
@@ -797,89 +892,5 @@ Introducing Pager: The fastest way to standardize and organize your…</title>
     <category term="ui-craft"/>
     <summary>New Figma plugin (Pager) for page standardization and organization with reusable templates.</summary>
     <content type="html"><![CDATA[<p>New Figma plugin (Pager) for page standardization and organization with reusable templates.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/farhadhassan.bsky.social/post/3mog56m4jzc2p">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e92e329956bbbf1f</id>
-    <title>It&#x27;s out: 
-https://michalmalewicz.medium.com/claude-fable-5-real-ux-ui-design-test-87696215b703</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066892922121785456"/>
-    <published>2026-06-16T14:37:28+00:00</published>
-    <updated>2026-06-16T14:37:28+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Michal Malewicz&#x27;s Claude Fable 5 test — deep UX/UI design analysis of where AI succeeds and fails in pro workflows.</summary>
-    <content type="html"><![CDATA[<p>Michal Malewicz&#x27;s Claude Fable 5 test — deep UX/UI design analysis of where AI succeeds and fails in pro workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/michalmalewicz/status/2066892922121785456">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:bc5ba61e6db630f8</id>
-    <title>You can now read a FULL, super detailed (almost 4000 words with diagrams and flows) breakdown of where I think AI does f…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066892781658710087"/>
-    <published>2026-06-16T14:36:54+00:00</published>
-    <updated>2026-06-16T14:36:54+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>4000-word breakdown: where AI fits (or doesn&#x27;t) in pro UX design; landing pages critique + real workflow insights.</summary>
-    <content type="html"><![CDATA[<p>4000-word breakdown: where AI fits (or doesn&#x27;t) in pro UX design; landing pages critique + real workflow insights.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/michalmalewicz/status/2066892781658710087">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:e0f8ec52f1f4048d</id>
-    <title>Get started: http://lovable.dev/mcp</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066888192083562730"/>
-    <published>2026-06-16T14:18:40+00:00</published>
-    <updated>2026-06-16T14:18:40+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="mcp"/>
-    <category term="lovable"/>
-    <category term="prototype"/>
-    <summary>Lovable MCP server now available — lets designers/devs build without leaving their client; concrete design×code tool.</summary>
-    <content type="html"><![CDATA[<p>Lovable MCP server now available — lets designers/devs build without leaving their client; concrete design×code tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2066888192083562730">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cdc781bb9f94ab5e</id>
-    <title>Lovable’s MCP server is now available to all users.
-
-Build without leaving your client of choice. Tell us which ones are…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2066888107232805377"/>
-    <published>2026-06-16T14:18:20+00:00</published>
-    <updated>2026-06-16T14:18:20+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="mcp"/>
-    <category term="lovable"/>
-    <summary>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</summary>
-    <content type="html"><![CDATA[<p>Lovable&#x27;s MCP server launch — design-to-code workflow multiplier; builds without client friction.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2066888107232805377">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c7ec5e46e10b7a74</id>
-    <title>idmly</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/idmly"/>
-    <published>2026-06-16T13:51:00-07:00</published>
-    <updated>2026-06-16T13:51:00-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>HTML/CSS to InDesign conversion—direct design-to-code workflow for print/publishing.</summary>
-    <content type="html"><![CDATA[<p>HTML/CSS to InDesign conversion—direct design-to-code workflow for print/publishing.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/idmly">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ac82316c80f717d0</id>
-    <title>The AI+UX laziness trap in complex processes. 
-
-Save this as a reminder. 
-
-When you work on a multi-step process, and yo…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2066874568778613050"/>
-    <published>2026-06-16T13:24:32+00:00</published>
-    <updated>2026-06-16T13:24:32+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</summary>
-    <content type="html"><![CDATA[<p>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2066874568778613050">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
