@@ -5,8 +5,91 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-17T21:50:18+00:00</updated>
+  <updated>2026-06-18T03:54:11+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cec82c91d5bc0cf2</id>
+    <title>💡 具体的に何が変わったのか。Claude DesignがCanva、Figmaなど主要ツールへの直接出力に対応。修正・改善が秒速で反映される。もうツール間の行き来は過去の話。</title>
+    <link rel="alternate" href="https://bsky.app/profile/shibataku-ai.bsky.social/post/3mojtmf7u4t2v"/>
+    <published>2026-06-18T03:01:32.259730+00:00</published>
+    <updated>2026-06-18T03:01:32.259730+00:00</updated>
+    <author><name>shibataku-ai.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <category term="anthropic"/>
+    <summary>Claude Design now outputs directly to Figma, Canva with live sync—eliminates tool-switching friction for design workflows.</summary>
+    <content type="html"><![CDATA[<p>Claude Design now outputs directly to Figma, Canva with live sync—eliminates tool-switching friction for design workflows.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/shibataku-ai.bsky.social/post/3mojtmf7u4t2v">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4f899f7524eb9a8e</id>
+    <title>Patterne Figma Plugin Demo #2
+Grid+, Tunnel, Hexagon
+
+signalsupply.co/patterne</title>
+    <link rel="alternate" href="https://bsky.app/profile/rizalrenaldi.com/post/3mojtfayxtk2x"/>
+    <published>2026-06-18T02:57:33.022Z</published>
+    <updated>2026-06-18T02:57:33.022Z</updated>
+    <author><name>rizalrenaldi.com</name></author>
+    <category term="figma"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <summary>Patterne Figma plugin demo with generative grid/pattern tools; solid design plugin but minimal substance beyond preview.</summary>
+    <content type="html"><![CDATA[<p>Patterne Figma plugin demo with generative grid/pattern tools; solid design plugin but minimal substance beyond preview.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/rizalrenaldi.com/post/3mojtfayxtk2x">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:52a52f4481e39792</id>
+    <title>Claude Design. Is it new? Anyone tried it?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u8ths4/claude_design_is_it_new_anyone_tried_it/"/>
+    <published>2026-06-18T02:01:51+00:00</published>
+    <updated>2026-06-18T02:01:51+00:00</updated>
+    <author><name>reddit/r/ClaudeAI</name></author>
+    <category term="claude-design"/>
+    <summary>First-look post on Claude Design launch—mentions the tool but lacks depth, workflow, or artifact showing design capability.</summary>
+    <content type="html"><![CDATA[<p>First-look post on Claude Design launch—mentions the tool but lacks depth, workflow, or artifact showing design capability.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u8ths4/claude_design_is_it_new_anyone_tried_it/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:23740f15cdba69b4</id>
+    <title>both v0 and Claude Design introduced layer lists today
+
+pretty soon we&#x27;ll be iterating in fully interactive code directl…</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2067410003049201833"/>
+    <published>2026-06-18T00:52:10+00:00</published>
+    <updated>2026-06-18T00:52:10+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="claude-design"/>
+    <category term="v0"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</summary>
+    <content type="html"><![CDATA[<p>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2067410003049201833">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1f966610d08a90ce</id>
+    <title>A2UI under the hood: Designing for the new era of radically adaptive UI</title>
+    <link rel="alternate" href="https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe?source=rss----138adf9c44c---4"/>
+    <published>2026-06-17T22:59:32+00:00</published>
+    <updated>2026-06-17T22:59:32+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Thoughtful piece on AI-driven adaptive UI design patterns and their constraints.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful piece on AI-driven adaptive UI design patterns and their constraints.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3c2e6f7eccc9f3fa</id>
+    <title>I&#x27;m having trouble understanding how to identify the semantic tokens my already existing design system needs. Is there a general checklist I can follow to help me generate the inventory I need?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u8o4ke/im_having_trouble_understanding_how_to_identify/"/>
+    <published>2026-06-17T22:04:05+00:00</published>
+    <updated>2026-06-17T22:04:05+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <summary>Design-system semantic token audit question with practical design-systems relevance.</summary>
+    <content type="html"><![CDATA[<p>Design-system semantic token audit question with practical design-systems relevance.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u8o4ke/im_having_trouble_understanding_how_to_identify/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:2c38a88baf0f1808</id>
     <title>Go from prototype to app with one click.
@@ -798,100 +881,5 @@ When you work on a multi-step process, and yo…</title>
     <category term="technique"/>
     <summary>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</summary>
     <content type="html"><![CDATA[<p>Michal Malewicz on AI+UX laziness trap in multi-step processes — tactical design discipline reminder for AI-assisted work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2066874568778613050">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:31aa87bde9811ef7</id>
-    <title>🔥 AI落地页接单小技巧：用 Bolt.new 的「Figma to Code」功能，把客户设计稿秒转代码，收费不变效率翻倍。
-
-———
-
-🔥 AI landing page pro tip: Use Bolt.new&#x27;s Figma-to…</title>
-    <link rel="alternate" href="https://bsky.app/profile/lexi34c.bsky.social/post/3mofqseemaq2k"/>
-    <published>2026-06-16T12:00:31.000Z</published>
-    <updated>2026-06-16T12:00:31.000Z</updated>
-    <author><name>lexi34c.bsky.social</name></author>
-    <category term="bolt"/>
-    <category term="figma"/>
-    <category term="technique"/>
-    <category term="design-to-code"/>
-    <summary>Bolt.new Figma-to-Code workflow for landing page delivery; concrete design→code technique with client friction reduction.</summary>
-    <content type="html"><![CDATA[<p>Bolt.new Figma-to-Code workflow for landing page delivery; concrete design→code technique with client friction reduction.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/lexi34c.bsky.social/post/3mofqseemaq2k">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9dc816df64a3a104</id>
-    <title>Claude におしゃれな UI を作らせる「frontend-design Skill」が1週間前に更新されていて、AIにアイデアを出させる際のコツが沢山含まれていたのでシェア。
-
-Skill のテーマと AI の振る舞いについて
-テーマ…</title>
-    <link rel="alternate" href="https://x.com/suna_gaku/status/2066836495240171543"/>
-    <published>2026-06-16T10:53:15+00:00</published>
-    <updated>2026-06-16T10:53:15+00:00</updated>
-    <author><name>suna_gaku</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="technique"/>
-    <category term="designer-post"/>
-    <summary>Deep teardown of frontend-design Skill: anti-slop prompt architecture, theme-driven AI behavior, rigorous design principles, self-critique loops—exemplary design-skill craft matching Steven&#x27;s taste.</summary>
-    <content type="html"><![CDATA[<p>Deep teardown of frontend-design Skill: anti-slop prompt architecture, theme-driven AI behavior, rigorous design principles, self-critique loops—exemplary design-skill craft matching Steven&#x27;s taste.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/suna_gaku/status/2066836495240171543">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:30e34201c99baa80</id>
-    <title>Screenshot -&gt; React component in seconds. That&#x27;s Claude Design by mikesheehan54. It generates Tailwind, Figma components…</title>
-    <link rel="alternate" href="https://bsky.app/profile/timzinin.bsky.social/post/3mofk2wme4t2b"/>
-    <published>2026-06-16T10:00:01.000Z</published>
-    <updated>2026-06-16T10:00:01.000Z</updated>
-    <author><name>timzinin.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="design-to-code"/>
-    <category term="figma"/>
-    <category term="technique"/>
-    <summary>Claude Design tool converts screenshots to React + Tailwind + Figma components—direct design-to-code workflow Steven actively tracks.</summary>
-    <content type="html"><![CDATA[<p>Claude Design tool converts screenshots to React + Tailwind + Figma components—direct design-to-code workflow Steven actively tracks.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/timzinin.bsky.social/post/3mofk2wme4t2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:354c1dfb34cee61c</id>
-    <title>Turn any photo or video into ASCII, dither &amp;amp; pixel art — free, no signup, runs entirely in your browser.
-→ http://as…</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2066792563580043352"/>
-    <published>2026-06-16T07:58:40+00:00</published>
-    <updated>2026-06-16T07:58:40+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>ASCII Magic v1.0 launch — free in-browser tool for photo-to-ASCII/pixel-art with real effect controls; solid visual craft artifact.</summary>
-    <content type="html"><![CDATA[<p>ASCII Magic v1.0 launch — free in-browser tool for photo-to-ASCII/pixel-art with real effect controls; solid visual craft artifact.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/kail_designs/status/2066792563580043352">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:210fd3fc215af344</id>
-    <title>ASCII Magic v1.0 is live⚡
-Here&#x27;s what go shipped in this massive update:
-
-◆ Dither engine  - 11 algorithms + 16 palettes…</title>
-    <link rel="alternate" href="https://x.com/kail_designs/status/2066790925226193041"/>
-    <published>2026-06-16T07:52:10+00:00</published>
-    <updated>2026-06-16T07:52:10+00:00</updated>
-    <author><name>kail_designs</name></author>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <summary>ASCII Magic v1.0 full feature teardown — dither engine, presets, blur, palettes, crop; thoughtful visual-effects design tool launch.</summary>
-    <content type="html"><![CDATA[<p>ASCII Magic v1.0 full feature teardown — dither engine, presets, blur, palettes, crop; thoughtful visual-effects design tool launch.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/kail_designs/status/2066790925226193041">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b67c2673facb57dc</id>
-    <title>I made a tiny multiplayer shooter inside Figma Make. ⚔️</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u75ybb/i_made_a_tiny_multiplayer_shooter_inside_figma/"/>
-    <published>2026-06-16T06:48:04+00:00</published>
-    <updated>2026-06-16T06:48:04+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma-make"/>
-    <category term="prototype"/>
-    <category term="figma"/>
-    <summary>Multiplayer shooter built in Figma Make; real interactive prototype demonstrating Figma&#x27;s design-to-playable-artifact capability.</summary>
-    <content type="html"><![CDATA[<p>Multiplayer shooter built in Figma Make; real interactive prototype demonstrating Figma&#x27;s design-to-playable-artifact capability.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u75ybb/i_made_a_tiny_multiplayer_shooter_inside_figma/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
   </entry>
 </feed>
