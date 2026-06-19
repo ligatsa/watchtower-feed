@@ -41,8 +41,8 @@
     --color-ink:        oklch(0.26 0.018 258);   /* cool near-black */
     --color-ink-2:      oklch(0.46 0.015 258);   /* secondary */
     --color-ink-3:      oklch(0.58 0.012 258);   /* tertiary: meta, labels */
-    --color-rule:       oklch(0.90 0.010 250);   /* hairline */
-    --color-rule-soft:  oklch(0.94 0.007 250);   /* fainter hairline */
+    --color-rule:       oklch(0.26 0.018 258 / 0.10);  /* hairline — ink at low alpha, not a solid gray */
+    --color-rule-soft:  oklch(0.26 0.018 258 / 0.06);  /* fainter hairline */
     --color-accent:     oklch(0.55 0.17 256);    /* cobalt-indigo */
     --color-accent-2:   oklch(0.47 0.18 258);    /* deeper: hover */
     --color-accent-ink: oklch(0.99 0.01 250);    /* text on accent fills */
@@ -82,8 +82,8 @@
     --color-ink:        oklch(0.94 0.010 250);   /* cool near-white */
     --color-ink-2:      oklch(0.74 0.014 252);   /* secondary */
     --color-ink-3:      oklch(0.60 0.016 255);   /* tertiary: meta, labels */
-    --color-rule:       oklch(0.33 0.018 258);   /* hairline */
-    --color-rule-soft:  oklch(0.27 0.016 258);   /* fainter hairline */
+    --color-rule:       oklch(0.94 0.010 250 / 0.14);  /* hairline — light ink at low alpha on dark */
+    --color-rule-soft:  oklch(0.94 0.010 250 / 0.08);  /* fainter hairline */
     --color-accent:     oklch(0.72 0.15 256);    /* lifted cobalt — pops on dark */
     --color-accent-2:   oklch(0.78 0.14 256);    /* exclude / error, visible on dark */
     --color-accent-ink: oklch(0.16 0.02 258);    /* dark text on accent fills */
@@ -188,7 +188,6 @@
   .views button.active {
     background: var(--color-paper-3);
     color: var(--color-accent);
-    font-weight: 600;
   }
   .views button .ct {
     font-family: var(--font-mono);
@@ -223,7 +222,7 @@
     text-align: left;
   }
   .chip:hover { background: var(--color-paper-3); color: var(--color-ink); }
-  .chip.active { background: var(--color-paper-3); color: var(--color-accent); font-weight: 600; }
+  .chip.active { background: var(--color-paper-3); color: var(--color-accent); }
   .chip .ct {
     font-family: var(--font-mono);
     font-size: var(--text-xs);
@@ -357,6 +356,7 @@
     line-height: 1.3;
     letter-spacing: -0.01em;
     overflow-wrap: anywhere;
+    text-wrap: balance;
   }
   .entry .title a {
     color: var(--color-ink);
@@ -371,6 +371,7 @@
     line-height: 1.5;
     margin-top: var(--space-3xs);
     max-width: 66ch;
+    text-wrap: pretty;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -644,7 +645,7 @@
     <header class="streamhead">
       <div class="streamhead-meta">
         <span><strong id="itemCount">1101</strong> shown</span>
-        <span>updated 2026-06-19T03:28:36+00:00</span>
+        <span>updated 2026-06-19T05:38:25+00:00</span>
         <span>min score 6</span>
       </div>
       <input id="search" class="search" type="search" autocomplete="off"
