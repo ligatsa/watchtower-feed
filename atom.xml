@@ -5,8 +5,107 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-19T09:32:31+00:00</updated>
+  <updated>2026-06-19T15:37:17+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5110fec527ed468b</id>
+    <title>Looking back, it’s fascinating how many people were able to create a close clone of this within hours.   
+
+Code has beco…</title>
+    <link rel="alternate" href="https://x.com/emilkowalski/status/2067994090692661712"/>
+    <published>2026-06-19T15:33:07+00:00</published>
+    <updated>2026-06-19T15:33:07+00:00</updated>
+    <author><name>emilkowalski</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Emil reflects on AI-accelerated interaction design; Opus 4.8 enabled rapid prototyping of complex micro-interactions.</summary>
+    <content type="html"><![CDATA[<p>Emil reflects on AI-accelerated interaction design; Opus 4.8 enabled rapid prototyping of complex micro-interactions.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/emilkowalski/status/2067994090692661712">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2c34cda6c44d4388</id>
+    <title>&quot;I think our models will be good enough by the end of the year to do design&quot;
+
+@meaghaneschoi from Anthropic shares what …</title>
+    <link rel="alternate" href="https://x.com/ridd_design/status/2067993123159257438"/>
+    <published>2026-06-19T15:29:16+00:00</published>
+    <updated>2026-06-19T15:29:16+00:00</updated>
+    <author><name>ridd_design</name></author>
+    <category term="anthropic"/>
+    <category term="designer-post"/>
+    <category term="analysis"/>
+    <summary>Anthropic&#x27;s Meaghan Eschoi on near-term LLM design capabilities; signals architectural shift in how models support design work.</summary>
+    <content type="html"><![CDATA[<p>Anthropic&#x27;s Meaghan Eschoi on near-term LLM design capabilities; signals architectural shift in how models support design work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/ridd_design/status/2067993123159257438">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2deb769a35c9d119</id>
+    <title>&quot;You can produce a lot of considered-looking work without any of it being considered.&quot; - @murphytrueman.com 
+This line s…</title>
+    <link rel="alternate" href="https://bsky.app/profile/caff.bsky.social/post/3monmtjo57s2t"/>
+    <published>2026-06-19T15:10:54.625Z</published>
+    <updated>2026-06-19T15:10:54.625Z</updated>
+    <author><name>caff.bsky.social</name></author>
+    <category term="designer-post"/>
+    <category term="analysis"/>
+    <summary>Critical take on AI-generated design slop; argues taste and intent matter more than tool output.</summary>
+    <content type="html"><![CDATA[<p>Critical take on AI-generated design slop; argues taste and intent matter more than tool output.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/caff.bsky.social/post/3monmtjo57s2t">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5e4f80433ae6b88b</id>
+    <title>Redesign skill
+
+Use /redesign, a built-in skill, to evaluate and improve existing designs. Lovable helps you choose the …</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2067972807493923162"/>
+    <published>2026-06-19T14:08:33+00:00</published>
+    <updated>2026-06-19T14:08:33+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="ui-craft"/>
+    <category term="skill"/>
+    <summary>Lovable&#x27;s /redesign skill evaluates and iterates existing designs; concrete design-to-code workflow feature.</summary>
+    <content type="html"><![CDATA[<p>Lovable&#x27;s /redesign skill evaluates and iterates existing designs; concrete design-to-code workflow feature.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2067972807493923162">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cd84b2c72e253ed3</id>
+    <title>Annotate your design
+
+Draw directly on your design, circle what should move, cross out what should go. Lovable reads the…</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2067972810723434823"/>
+    <published>2026-06-19T14:08:33+00:00</published>
+    <updated>2026-06-19T14:08:33+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Lovable annotation tool: draw markup directly on designs, AI builds to spec; sketch-to-code technique.</summary>
+    <content type="html"><![CDATA[<p>Lovable annotation tool: draw markup directly on designs, AI builds to spec; sketch-to-code technique.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2067972810723434823">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a4c055816b58d309</id>
+    <title>4 design features worth knowing ↓</title>
+    <link rel="alternate" href="https://x.com/Lovable/status/2067972801441538219"/>
+    <published>2026-06-19T14:08:31+00:00</published>
+    <updated>2026-06-19T14:08:31+00:00</updated>
+    <author><name>Lovable</name></author>
+    <category term="lovable"/>
+    <category term="ui-craft"/>
+    <summary>Lovable design features overview; light promotion without concrete artifact or deep technique.</summary>
+    <content type="html"><![CDATA[<p>Lovable design features overview; light promotion without concrete artifact or deep technique.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/Lovable/status/2067972801441538219">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:21102ed5844f29f2</id>
+    <title>Been redesigning great apps — Vercel, GitHub, Chrome. This week: Figma.
+One question drove every decision: what does a d…</title>
+    <link rel="alternate" href="https://bsky.app/profile/sampraise-44.bsky.social/post/3monalrelcc2b"/>
+    <published>2026-06-19T11:31:49.220Z</published>
+    <updated>2026-06-19T11:31:49.220Z</updated>
+    <author><name>sampraise-44.bsky.social</name></author>
+    <category term="analysis"/>
+    <category term="ui-craft"/>
+    <category term="designer-post"/>
+    <summary>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</summary>
+    <content type="html"><![CDATA[<p>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/sampraise-44.bsky.social/post/3monalrelcc2b">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:bcc631f1720c67c1</id>
     <title>Just improved the hero section:
@@ -772,108 +871,5 @@ Instead of handing off static Figma mockups and hop…</title>
     <category term="ui-craft"/>
     <summary>shadcn preset styling improvements—minor UI craft enhancement for component theming.</summary>
     <content type="html"><![CDATA[<p>shadcn preset styling improvements—minor UI craft enhancement for component theming.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/shadcn/status/2067302842889535917">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f4a874e19e258476</id>
-    <title>PRD --&gt; Flow Diagram --&gt; LoFi Prototype (HTML) 
-(Client access and client comments out of the box)
-
-I built a tool that …</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2067302768486805707"/>
-    <published>2026-06-17T17:46:03+00:00</published>
-    <updated>2026-06-17T17:46:03+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>PRD→Flow→LoFi HTML prototype tool with manual node editing to avoid AI slop—novel design workflow tested on production projects.</summary>
-    <content type="html"><![CDATA[<p>PRD→Flow→LoFi HTML prototype tool with manual node editing to avoid AI slop—novel design workflow tested on production projects.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2067302768486805707">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fdd22c04b669da5e</id>
-    <title>Figma&#x27;s official MCP needs a paid seat — so I built a free, open-source, local one</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u8gw0n/figmas_official_mcp_needs_a_paid_seat_so_i_built/"/>
-    <published>2026-06-17T17:35:46+00:00</published>
-    <updated>2026-06-17T17:35:46+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Open-source local Figma MCP alternative to paid official tool—removes paywall, enables batch layer creation for AI agent design work.</summary>
-    <content type="html"><![CDATA[<p>Open-source local Figma MCP alternative to paid official tool—removes paywall, enables batch layer creation for AI agent design work.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u8gw0n/figmas_official_mcp_needs_a_paid_seat_so_i_built/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7956ffd8efafcd9a</id>
-    <title>I built an open-source Figma plugin that builds screens using your real design system components and tokens</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u8fdky/i_built_an_opensource_figma_plugin_that_builds/"/>
-    <published>2026-06-17T16:40:26+00:00</published>
-    <updated>2026-06-17T16:40:26+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Open-source Figma plugin that generates screens from real design-system components and tokens—solves AI-slop problem via design-system fidelity.</summary>
-    <content type="html"><![CDATA[<p>Open-source Figma plugin that generates screens from real design-system components and tokens—solves AI-slop problem via design-system fidelity.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u8fdky/i_built_an_opensource_figma_plugin_that_builds/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d46f1396658ef868</id>
-    <title>feeeeeling this animation on the new @taste_ai_ website 😍 https://t.co/IQVo68eaSb</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2067268340138344850"/>
-    <published>2026-06-17T15:29:14+00:00</published>
-    <updated>2026-06-17T15:29:14+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="ui-craft"/>
-    <category term="animation"/>
-    <category term="taste"/>
-    <summary>Animation praise on Taste AI website; Steven has strong taste-ai engagement history and this shows polished motion work.</summary>
-    <content type="html"><![CDATA[<p>Animation praise on Taste AI website; Steven has strong taste-ai engagement history and this shows polished motion work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/ridd_design/status/2067268340138344850">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:52408d0fb6890d3d</id>
-    <title>made a free chrome extension that records your figma prototype to clean video, one click, no screen recorder</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u8cvlr/made_a_free_chrome_extension_that_records_your/"/>
-    <published>2026-06-17T15:10:25+00:00</published>
-    <updated>2026-06-17T15:10:25+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="prototype"/>
-    <category term="tool"/>
-    <summary>Chrome extension to record Figma prototypes cleanly; practical design tooling that solves real prototype-to-video workflow pain.</summary>
-    <content type="html"><![CDATA[<p>Chrome extension to record Figma prototypes cleanly; practical design tooling that solves real prototype-to-video workflow pain.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u8cvlr/made_a_free_chrome_extension_that_records_your/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6d224682704004a3</id>
-    <title>Agentic AI, design systems &amp; Figma: a practical guide uxdesign.cc/agentic-ai-d...</title>
-    <link rel="alternate" href="https://bsky.app/profile/uxcollective.bsky.social/post/3moija4e45h2k"/>
-    <published>2026-06-17T14:23:03.189Z</published>
-    <updated>2026-06-17T14:23:03.189Z</updated>
-    <author><name>uxcollective.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <category term="agent-sdk"/>
-    <category term="technique"/>
-    <summary>UX Design Collective article on agentic AI with design systems and Figma; promises practical guide bridging agents and design workflow.</summary>
-    <content type="html"><![CDATA[<p>UX Design Collective article on agentic AI with design systems and Figma; promises practical guide bridging agents and design workflow.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/uxcollective.bsky.social/post/3moija4e45h2k">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d5d899ab36ce038d</id>
-    <title>Go deeper in the side panels:
-
-• Layers with your full hierarchy
-• Properties for fonts, color, radius, and shadows
-• An…</title>
-    <link rel="alternate" href="https://x.com/v0/status/2067244517066203615"/>
-    <published>2026-06-17T13:54:35+00:00</published>
-    <updated>2026-06-17T13:54:35+00:00</updated>
-    <author><name>v0</name></author>
-    <category term="v0"/>
-    <category term="ui-craft"/>
-    <category term="design-system"/>
-    <summary>v0 ships deep design-mode side panels (layers, properties, inspector) — direct UI-craft agent feature for production design work.</summary>
-    <content type="html"><![CDATA[<p>v0 ships deep design-mode side panels (layers, properties, inspector) — direct UI-craft agent feature for production design work.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/v0/status/2067244517066203615">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
