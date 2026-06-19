@@ -5,8 +5,38 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-18T22:07:08+00:00</updated>
+  <updated>2026-06-19T02:32:32+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7dc3987fcf99765d</id>
+    <title>Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burni…</title>
+    <link rel="alternate" href="https://bsky.app/profile/foxmental.bsky.social/post/3mom6fsqbet2b"/>
+    <published>2026-06-19T01:20:00.618Z</published>
+    <updated>2026-06-19T01:20:00.618Z</updated>
+    <author><name>foxmental.bsky.social</name></author>
+    <category term="anthropic"/>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>Anthropic&#x27;s Claude Design overhaul enables design system imports and code round-trips—direct expansion of AI design capability Steven follows.</summary>
+    <content type="html"><![CDATA[<p>Anthropic&#x27;s Claude Design overhaul enables design system imports and code round-trips—direct expansion of AI design capability Steven follows.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/foxmental.bsky.social/post/3mom6fsqbet2b">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4099a46a1689ead0</id>
+    <title>Just submitted my entry for the #ConfigMakeathon! 🌍 
+
+I built the Climate Migration Map using Figma Make&#x27;s AI to prototy…</title>
+    <link rel="alternate" href="https://bsky.app/profile/visaint7.bsky.social/post/3molyu2fyjs25"/>
+    <published>2026-06-18T23:40:37.610Z</published>
+    <updated>2026-06-18T23:40:37.610Z</updated>
+    <author><name>visaint7.bsky.social</name></author>
+    <category term="figma-make"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="frontend"/>
+    <summary>Figma Make used to prototype Climate Migration Map layout, deployed as live React/Vite app—real design-to-code artifact.</summary>
+    <content type="html"><![CDATA[<p>Figma Make used to prototype Climate Migration Map layout, deployed as live React/Vite app—real design-to-code artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/visaint7.bsky.social/post/3molyu2fyjs25">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:df5666a642713161</id>
     <title>Agentic AI in supply chain only works when the agent operates inside hard constraints.
@@ -836,34 +866,5 @@ Frontend-design skill büyük bir güncelleme aldı. Claude UI üretirken gen…
     <category term="analysis"/>
     <summary>Deep dive on animation precision and trust—Steven&#x27;s taste: motion craft and design discipline critique.</summary>
     <content type="html"><![CDATA[<p>Deep dive on animation precision and trust—Steven&#x27;s taste: motion craft and design discipline critique.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://tonsky.me/blog/every-frame-perfect/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d1b78a005cb74219</id>
-    <title>What Figma made visible</title>
-    <link rel="alternate" href="https://blog.murphytrueman.com/what-figma-made-visible/"/>
-    <published>2026-06-17T06:31:17+00:00</published>
-    <updated>2026-06-17T06:31:17+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="figma"/>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Essay on Figma&#x27;s impact on design discipline and practitioner visibility—Steven&#x27;s design-theory interest.</summary>
-    <content type="html"><![CDATA[<p>Essay on Figma&#x27;s impact on design discipline and practitioner visibility—Steven&#x27;s design-theory interest.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://blog.murphytrueman.com/what-figma-made-visible/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6005f7eec72f1ba1</id>
-    <title>This frontend design skill will take your design work to a whole new level.
-
-Anthropic recently updated &quot;Frontend Design…</title>
-    <link rel="alternate" href="https://x.com/aiedge_/status/2067102493776150698"/>
-    <published>2026-06-17T04:30:14+00:00</published>
-    <updated>2026-06-17T04:30:14+00:00</updated>
-    <author><name>aiedge_</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="anthropic"/>
-    <category term="ui-craft"/>
-    <summary>Anthropic&#x27;s official Frontend Design skill update—direct hit on Steven&#x27;s top interest (Claude design skills, 500+ stars/official).</summary>
-    <content type="html"><![CDATA[<p>Anthropic&#x27;s official Frontend Design skill update—direct hit on Steven&#x27;s top interest (Claude design skills, 500+ stars/official).</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/aiedge_/status/2067102493776150698">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
