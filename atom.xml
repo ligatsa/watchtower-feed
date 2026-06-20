@@ -5,7 +5,7 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-19T21:41:34+00:00</updated>
+  <updated>2026-06-20T03:45:37+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:67f030f064db14e9</id>
@@ -224,6 +224,24 @@ One question drove every decision: what does a d…</title>
     <category term="designer-post"/>
     <summary>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</summary>
     <content type="html"><![CDATA[<p>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/sampraise-44.bsky.social/post/3monalrelcc2b">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a4f6d4cc8bce98a7</id>
+    <title>Introducing Hallmark!
+
+An open source design skill to make beautiful UIs and landing pages by default.
+
+Works in Claude …</title>
+    <link rel="alternate" href="https://x.com/Oluwaphilemon1/status/2067929858961818048"/>
+    <published>2026-06-19T11:17:53+00:00</published>
+    <updated>2026-06-19T11:17:53+00:00</updated>
+    <author><name>Oluwaphilemon1</name></author>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <summary>Hallmark v1 launched—open-source design skill for Claude Code/Cursor to build beautiful UIs by default, anti-AI-slop craft tool.</summary>
+    <content type="html"><![CDATA[<p>Hallmark v1 launched—open-source design skill for Claude Code/Cursor to build beautiful UIs by default, anti-AI-slop craft tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Oluwaphilemon1/status/2067929858961818048">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:bcc631f1720c67c1</id>
@@ -860,18 +878,5 @@ pretty soon we&#x27;ll be iterating in fully interactive code directl…</title>
     <category term="design-system"/>
     <summary>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</summary>
     <content type="html"><![CDATA[<p>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Gonnector/status/2067396096394207651">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1f966610d08a90ce</id>
-    <title>A2UI under the hood: Designing for the new era of radically adaptive UI</title>
-    <link rel="alternate" href="https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe?source=rss----138adf9c44c---4"/>
-    <published>2026-06-17T22:59:32+00:00</published>
-    <updated>2026-06-17T22:59:32+00:00</updated>
-    <author><name>uxcollective</name></author>
-    <category term="analysis"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Thoughtful piece on AI-driven adaptive UI design patterns and their constraints.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful piece on AI-driven adaptive UI design patterns and their constraints.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
   </entry>
 </feed>
