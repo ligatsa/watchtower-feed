@@ -5,8 +5,53 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-20T03:45:37+00:00</updated>
+  <updated>2026-06-20T09:49:40+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a7d89e13c64e24a5</id>
+    <title>Small component. Better UX. 
+
+9 Shadcn Badge Components for statuses, notifications, labels, and dashboard interfaces.
+
+…</title>
+    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mopjy5bv4k27"/>
+    <published>2026-06-20T09:25:07.661Z</published>
+    <updated>2026-06-20T09:25:07.661Z</updated>
+    <author><name>shadcnspace.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <summary>9 shadcn badge components for UI patterns; light substance but solid design component tie.</summary>
+    <content type="html"><![CDATA[<p>9 shadcn badge components for UI patterns; light substance but solid design component tie.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mopjy5bv4k27">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1798b228186156f6</id>
+    <title>I recently did the Openloop website design.
+
+AI generated all these illustrations &amp;amp; backgrounds.
+7 years of design t…</title>
+    <link rel="alternate" href="https://x.com/rudraHQ/status/2068238841505571116"/>
+    <published>2026-06-20T07:45:40+00:00</published>
+    <updated>2026-06-20T07:45:40+00:00</updated>
+    <author><name>rudraHQ</name></author>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Real website design (Openloop) with AI-generated assets; 7 years taste applied to AI outputs.</summary>
+    <content type="html"><![CDATA[<p>Real website design (Openloop) with AI-generated assets; 7 years taste applied to AI outputs.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/rudraHQ/status/2068238841505571116">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8fcd9c8b7c5b2c86</id>
+    <title>Anthropic launched Claude Design the same month Figma dropped 50% YTD and 85% over 5 years. Cursor and Claude Code regen…</title>
+    <link rel="alternate" href="https://bsky.app/profile/therobertta.bsky.social/post/3mooxzxbsnp27"/>
+    <published>2026-06-20T04:04:00.883286Z</published>
+    <updated>2026-06-20T04:04:00.883286Z</updated>
+    <author><name>therobertta.bsky.social</name></author>
+    <category term="analysis"/>
+    <category term="anthropic"/>
+    <category term="figma"/>
+    <summary>Thoughtful market analysis of Claude Design &amp; Figma impact on design tools; design discipline impact.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful market analysis of Claude Design &amp; Figma impact on design tools; design discipline impact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/therobertta.bsky.social/post/3mooxzxbsnp27">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:67f030f064db14e9</id>
     <title>RT @jh3yy: one way w/ css 🪄
@@ -836,47 +881,5 @@ signalsupply.co/patterne</title>
     <category term="ui-craft"/>
     <summary>Patterne Figma plugin demo with generative grid/pattern tools; solid design plugin but minimal substance beyond preview.</summary>
     <content type="html"><![CDATA[<p>Patterne Figma plugin demo with generative grid/pattern tools; solid design plugin but minimal substance beyond preview.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/rizalrenaldi.com/post/3mojtfayxtk2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:52a52f4481e39792</id>
-    <title>Claude Design. Is it new? Anyone tried it?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/ClaudeAI/comments/1u8ths4/claude_design_is_it_new_anyone_tried_it/"/>
-    <published>2026-06-18T02:01:51+00:00</published>
-    <updated>2026-06-18T02:01:51+00:00</updated>
-    <author><name>reddit/r/ClaudeAI</name></author>
-    <category term="claude-design"/>
-    <summary>First-look post on Claude Design launch—mentions the tool but lacks depth, workflow, or artifact showing design capability.</summary>
-    <content type="html"><![CDATA[<p>First-look post on Claude Design launch—mentions the tool but lacks depth, workflow, or artifact showing design capability.</p><p><strong>Source:</strong> reddit/r/ClaudeAI · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/ClaudeAI/comments/1u8ths4/claude_design_is_it_new_anyone_tried_it/">Read on reddit/r/ClaudeAI →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:23740f15cdba69b4</id>
-    <title>both v0 and Claude Design introduced layer lists today
-
-pretty soon we&#x27;ll be iterating in fully interactive code directl…</title>
-    <link rel="alternate" href="https://x.com/ridd_design/status/2067410003049201833"/>
-    <published>2026-06-18T00:52:10+00:00</published>
-    <updated>2026-06-18T00:52:10+00:00</updated>
-    <author><name>ridd_design</name></author>
-    <category term="claude-design"/>
-    <category term="v0"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</summary>
-    <content type="html"><![CDATA[<p>Observation that v0 and Claude Design both added layer lists, blurring design-tool/coding-tool boundary—concrete design-to-code moment.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/ridd_design/status/2067410003049201833">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1c56616e88d61939</id>
-    <title>Claude Design 과 Claude Code 가 드디어 &#x27;완전히&#x27; 연결됐습니다. 클로드 디자인 나온 첫날부터 써본 입장에서, 그 때부터 궁금했던 것이 왜 바로 Claude Code 와 API 레벨의 연동이 안되…</title>
-    <link rel="alternate" href="https://x.com/Gonnector/status/2067396096394207651"/>
-    <published>2026-06-17T23:56:54+00:00</published>
-    <updated>2026-06-17T23:56:54+00:00</updated>
-    <author><name>Gonnector</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="mcp"/>
-    <category term="animation"/>
-    <category term="design-system"/>
-    <summary>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</summary>
-    <content type="html"><![CDATA[<p>Claude Design &amp; Claude Code now fully integrated via MCP; SVG/object editing, motion/animation support, new export targets—a major leap for AI-native design workflow.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Gonnector/status/2067396096394207651">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
