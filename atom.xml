@@ -5,8 +5,53 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-20T15:53:47+00:00</updated>
+  <updated>2026-06-20T21:57:22+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:7f660de4ddfa48cd</id>
+    <title>UN DEV SE HARTÓ DE QUE SU IA ESCRIBIERA 500 LÍNEAS DONDE BASTABAN 5, Y CREÓ ESTO
+
+Le pides algo sencillo a tu agente de …</title>
+    <link rel="alternate" href="https://x.com/robiartec/status/2068447812920967290"/>
+    <published>2026-06-20T21:36:03+00:00</published>
+    <updated>2026-06-20T21:36:03+00:00</updated>
+    <author><name>robiartec</name></author>
+    <category term="claude-code"/>
+    <category term="plugin"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Ponytail plugin enforces lean code generation in Claude Code, Cursor, Copilot—80-94% code reduction via constraint design.</summary>
+    <content type="html"><![CDATA[<p>Ponytail plugin enforces lean code generation in Claude Code, Cursor, Copilot—80-94% code reduction via constraint design.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/robiartec/status/2068447812920967290">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6985bb86c93c365e</id>
+    <title>I made 3 Claude Code skills for mobile MVP design, Figma MCP, and SwiftUI</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1ub7djc/i_made_3_claude_code_skills_for_mobile_mvp_design/"/>
+    <published>2026-06-20T20:59:25+00:00</published>
+    <updated>2026-06-20T20:59:25+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="skill"/>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="prototype"/>
+    <category term="claude-code"/>
+    <summary>Three production Claude Code skills for mobile→Figma→SwiftUI workflows, directly Steven&#x27;s installed taste.</summary>
+    <content type="html"><![CDATA[<p>Three production Claude Code skills for mobile→Figma→SwiftUI workflows, directly Steven&#x27;s installed taste.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 9/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1ub7djc/i_made_3_claude_code_skills_for_mobile_mvp_design/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a473549514a1ce71</id>
+    <title>VoltAgent/awesome-claude-design — Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI i</title>
+    <link rel="alternate" href="https://github.com/VoltAgent/awesome-claude-design"/>
+    <published>2026-06-20T17:54:18Z</published>
+    <updated>2026-06-20T17:54:18Z</updated>
+    <author><name>VoltAgent</name></author>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <category term="skill"/>
+    <category term="figma"/>
+    <summary>2.7k-star repo of 68 design-system prompts for Claude Design scaffolding—matches Steven&#x27;s registry/taste-skill anchor.</summary>
+    <content type="html"><![CDATA[<p>2.7k-star repo of 68 design-system prompts for Claude Design scaffolding—matches Steven&#x27;s registry/taste-skill anchor.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/VoltAgent/awesome-claude-design">Read on github →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:d9809cf51cd4d97a</id>
     <title>New #Drupal module: AI Figma (2026-06-20) #PHP. See https://www.drupal.org/project/ai_figma</title>
@@ -838,45 +883,5 @@ Claude Code Figma MCPで作る&quot;自分専用AIエージェントチーム&qu
     <category term="anthropic"/>
     <summary>Claude Code Artifacts live preview &amp; share—core design prototyping feature enabling real-time collaborative UI/code iteration.</summary>
     <content type="html"><![CDATA[<p>Claude Code Artifacts live preview &amp; share—core design prototyping feature enabling real-time collaborative UI/code iteration.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 8/10</p><p><a href="https://www.producthunt.com/products/claude-redesigned">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3bf9541d9b120428</id>
-    <title>Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burni…</title>
-    <link rel="alternate" href="https://bsky.app/profile/lunamothryu.bsky.social/post/3mokozdruoc2r"/>
-    <published>2026-06-18T11:11:58.054Z</published>
-    <updated>2026-06-18T11:11:58.054Z</updated>
-    <author><name>lunamothryu.bsky.social</name></author>
-    <category term="anthropic"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <summary>Anthropic Claude Design major update: design system imports, code round-trips, token fix—core feature launch for design.</summary>
-    <content type="html"><![CDATA[<p>Anthropic Claude Design major update: design system imports, code round-trips, token fix—core feature launch for design.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/lunamothryu.bsky.social/post/3mokozdruoc2r">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b34169447c48efbe</id>
-    <title>Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burni…</title>
-    <link rel="alternate" href="https://bsky.app/profile/lunamoth.bsky.social/post/3mokog3dlhk2b"/>
-    <published>2026-06-18T11:01:11.663Z</published>
-    <updated>2026-06-18T11:01:11.663Z</updated>
-    <author><name>lunamoth.bsky.social</name></author>
-    <category term="anthropic"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <summary>Duplicate of item 10: Claude Design overhaul with design system imports and code round-trips.</summary>
-    <content type="html"><![CDATA[<p>Duplicate of item 10: Claude Design overhaul with design system imports and code round-trips.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/lunamoth.bsky.social/post/3mokog3dlhk2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5a05d28b4e4d3147</id>
-    <title>What does it mean for AI in design? 
-It&#x27;s NOT yet there. You can technically make &quot;pretty dribbble shots&quot; but without sk…</title>
-    <link rel="alternate" href="https://x.com/michalmalewicz/status/2067547964994724028"/>
-    <published>2026-06-18T10:00:22+00:00</published>
-    <updated>2026-06-18T10:00:22+00:00</updated>
-    <author><name>michalmalewicz</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <summary>Thoughtful design criticism: AI design skill gap beyond pretty Dribbble shots—taste, intent, conversion.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful design criticism: AI design skill gap beyond pretty Dribbble shots—taste, intent, conversion.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/michalmalewicz/status/2067547964994724028">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
