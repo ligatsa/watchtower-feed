@@ -5,8 +5,79 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-21T04:01:24+00:00</updated>
+  <updated>2026-06-21T10:05:40+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0ff7e939f470d49d</id>
+    <title>🆕 southleft/figma-console-mcp v1.32.0 — Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.</title>
+    <link rel="alternate" href="https://github.com/southleft/figma-console-mcp"/>
+    <published>2026-06-21T10:02:30.081702+00:00</published>
+    <updated>2026-06-21T10:02:30.081702+00:00</updated>
+    <author><name>southleft</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="design-system"/>
+    <category term="anthropic"/>
+    <summary>Figma MCP v1.32.0 from southleft — design-system-as-API for AI extraction, creation, debugging. Direct Figma integration.</summary>
+    <content type="html"><![CDATA[<p>Figma MCP v1.32.0 from southleft — design-system-as-API for AI extraction, creation, debugging. Direct Figma integration.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 10/10</p><p><a href="https://github.com/southleft/figma-console-mcp">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:468bbb4105379edc</id>
+    <title>pulkitxm/claude-directory — Open-source gallery of 347 AI-generated UI experiments built with Claude (Fable 5) — landing pages, hero sections, GLSL </title>
+    <link rel="alternate" href="https://github.com/pulkitxm/claude-directory"/>
+    <published>2026-06-21T09:42:34Z</published>
+    <updated>2026-06-21T09:42:34Z</updated>
+    <author><name>pulkitxm</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <category term="frontend"/>
+    <summary>347 Claude-built UI experiments (landing pages, hero sections, animations, 3D). Real gallery of AI-generated craft.</summary>
+    <content type="html"><![CDATA[<p>347 Claude-built UI experiments (landing pages, hero sections, animations, 3D). Real gallery of AI-generated craft.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/pulkitxm/claude-directory">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:536c8fe4d1840df6</id>
+    <title>Instead of Linear Gradient Use Layer Blur to achieve soft transition</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1ubl2uq/instead_of_linear_gradient_use_layer_blur_to/"/>
+    <published>2026-06-21T08:52:34+00:00</published>
+    <updated>2026-06-21T08:52:34+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Figma technique: layer blur for soft exponential transitions vs linear gradients. Concrete craft insight.</summary>
+    <content type="html"><![CDATA[<p>Figma technique: layer blur for soft exponential transitions vs linear gradients. Concrete craft insight.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1ubl2uq/instead_of_linear_gradient_use_layer_blur_to/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2cc5213ef7e4b68d</id>
+    <title>Claude Design 2026: la actualización que arregla los tokens
+
+¿Claude Design te quemaba los tokens? La actualización 2026…</title>
+    <link rel="alternate" href="https://bsky.app/profile/donwebmedia.bsky.social/post/3morwqaubd72s"/>
+    <published>2026-06-21T08:18:40.492622Z</published>
+    <updated>2026-06-21T08:18:40.492622Z</updated>
+    <author><name>donwebmedia.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="figma-make"/>
+    <category term="anthropic"/>
+    <category term="design-system"/>
+    <summary>Claude Design 2026 update: GitHub imports, /design-sync with Claude Code, token optimization. Direct Anthropic feature announcement.</summary>
+    <content type="html"><![CDATA[<p>Claude Design 2026 update: GitHub imports, /design-sync with Claude Code, token optimization. Direct Anthropic feature announcement.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/donwebmedia.bsky.social/post/3morwqaubd72s">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:701cc0521ce636af</id>
+    <title>Imagine asking someone how their job hunt is going and they flip open a laptop to this. A web app that shows exactly whe…</title>
+    <link rel="alternate" href="https://bsky.app/profile/blazegrid.bsky.social/post/3mort6lnnbs2p"/>
+    <published>2026-06-21T07:15:07.211Z</published>
+    <updated>2026-06-21T07:15:07.211Z</updated>
+    <author><name>blazegrid.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="claude-code"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Job-hunt tracker app: designed in Figma, prototyped in browser with Claude. Real design→code artifact with build story.</summary>
+    <content type="html"><![CDATA[<p>Job-hunt tracker app: designed in Figma, prototyped in browser with Claude. Real design→code artifact with build story.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/blazegrid.bsky.social/post/3mort6lnnbs2p">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:0ef4dcd299f764a5</id>
     <title>Has anyone had success using Figma&#x27;s new AI features?</title>
@@ -655,69 +726,5 @@ If…</title>
     <category term="anthropic"/>
     <summary>Claude Design design-system import feature ships—locks visual consistency across UI generation; directly enables production-grade design system workflows.</summary>
     <content type="html"><![CDATA[<p>Claude Design design-system import feature ships—locks visual consistency across UI generation; directly enables production-grade design system workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/free_ai_guides/status/2067681884424053210">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f5a54b54941a24a3</id>
-    <title>How to make Claude Code follow your design system in Figma uxdesign.cc/how-to-make-...</title>
-    <link rel="alternate" href="https://bsky.app/profile/uxcollective.bsky.social/post/3molhdbxd5r2k"/>
-    <published>2026-06-18T18:27:01.466Z</published>
-    <updated>2026-06-18T18:27:01.466Z</updated>
-    <author><name>uxcollective.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <summary>Technique for Claude Code to respect Figma design systems—direct design-to-code workflow guidance.</summary>
-    <content type="html"><![CDATA[<p>Technique for Claude Code to respect Figma design systems—direct design-to-code workflow guidance.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/uxcollective.bsky.social/post/3molhdbxd5r2k">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:4f9abb06f0c4d7cb</id>
-    <title>Website to canvas</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u9dvvi/website_to_canvas/"/>
-    <published>2026-06-18T18:14:24+00:00</published>
-    <updated>2026-06-18T18:14:24+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="prototype"/>
-    <summary>Figma website-to-canvas import now on free tier—useful design-to-code feature, light substance.</summary>
-    <content type="html"><![CDATA[<p>Figma website-to-canvas import now on free tier—useful design-to-code feature, light substance.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u9dvvi/website_to_canvas/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:014d64d1c2635f52</id>
-    <title>Anthropic has updated Claude Design with design system controls, Claude Code integration and new features aimed at impro…</title>
-    <link rel="alternate" href="https://bsky.app/profile/pureainews.bsky.social/post/3molfvj7szh2s"/>
-    <published>2026-06-18T18:01:24.292927249Z</published>
-    <updated>2026-06-18T18:01:24.292927249Z</updated>
-    <author><name>pureainews.bsky.social</name></author>
-    <category term="anthropic"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <category term="figma-make"/>
-    <summary>Claude Design update with design-system controls and Code integration—major design-AI workflow announcement.</summary>
-    <content type="html"><![CDATA[<p>Claude Design update with design-system controls and Code integration—major design-AI workflow announcement.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/pureainews.bsky.social/post/3molfvj7szh2s">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:6a0151bcee47c32f</id>
-    <title>made a free figma plugin that erases stuff from images. 3K daily active users. what should i build next?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u9d3us/made_a_free_figma_plugin_that_erases_stuff_from/"/>
-    <published>2026-06-18T17:46:07+00:00</published>
-    <updated>2026-06-18T17:46:07+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <summary>Free Figma plugin for image object removal with 3K DAU—useful design tool, light depth.</summary>
-    <content type="html"><![CDATA[<p>Free Figma plugin for image object removal with 3K DAU—useful design tool, light depth.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u9d3us/made_a_free_figma_plugin_that_erases_stuff_from/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2d9a13f2731738be</id>
-    <title>AI Wireframe Tools That Stay Useful Beyond the First Draft?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1u9bf5v/ai_wireframe_tools_that_stay_useful_beyond_the/"/>
-    <published>2026-06-18T16:44:17+00:00</published>
-    <updated>2026-06-18T16:44:17+00:00</updated>
-    <author><name>reddit/r/FigmaDesign</name></author>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <summary>Thoughtful thread on AI wireframe tool limitations in real iterative design workflows; Steven&#x27;s pain point.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful thread on AI wireframe tool limitations in real iterative design workflows; Steven&#x27;s pain point.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1u9bf5v/ai_wireframe_tools_that_stay_useful_beyond_the/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
   </entry>
 </feed>
