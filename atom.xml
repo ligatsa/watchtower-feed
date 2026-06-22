@@ -5,8 +5,59 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-21T22:13:07+00:00</updated>
+  <updated>2026-06-22T04:17:16+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f62fd685c820cc1c</id>
+    <title>设计师必备 Design Skill 推荐，整理了我日常高频在用的 5 款实用 Skill，亲测实用性拉满
+
+1、Text to Lottie Skill
+上传 SVG + 填写动画描述，快速生成可编辑 Lottie 动画文件。
+
+2、GS…</title>
+    <link rel="alternate" href="https://x.com/xin_pai88825/status/2068887723692417129"/>
+    <published>2026-06-22T02:44:06+00:00</published>
+    <updated>2026-06-22T02:44:06+00:00</updated>
+    <author><name>xin_pai88825</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="technique"/>
+    <summary>5 production design skills (Lottie, GSAP, 3D maps, Web→Design.md, Shadcn/ui) with concrete craft value for motion, data viz, and design-to-code workflows.</summary>
+    <content type="html"><![CDATA[<p>5 production design skills (Lottie, GSAP, 3D maps, Web→Design.md, Shadcn/ui) with concrete craft value for motion, data viz, and design-to-code workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/xin_pai88825/status/2068887723692417129">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4ce82e4f09cb6b30</id>
+    <title>AIのデザイン機能って、便利そうでも「自分にはまだ早いかも」と思いがちです。
+
+Claude Designの話は、/design-syncやFigma風の編集感よりも、まず“AIで作ったものを手で直せる”入口として見ると試しやすそう。
+
+S…</title>
+    <link rel="alternate" href="https://bsky.app/profile/news-daniel.bsky.social/post/3motu5nzsta2m"/>
+    <published>2026-06-22T02:37:48.312Z</published>
+    <updated>2026-06-22T02:37:48.312Z</updated>
+    <author><name>news-daniel.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="designer-post"/>
+    <summary>Claude Design entry-point framing: AI output as editable base rather than final artifact—practical mindset for new AI designers.</summary>
+    <content type="html"><![CDATA[<p>Claude Design entry-point framing: AI output as editable base rather than final artifact—practical mindset for new AI designers.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/news-daniel.bsky.social/post/3motu5nzsta2m">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:ad69ad1d94bb12da</id>
+    <title>📝 Summary: 
+
+Taste Skill is a modular frontend design framework offering portable AI agent skills (code and image-genera…</title>
+    <link rel="alternate" href="https://bsky.app/profile/github-trending-js.bsky.social/post/3motivabwnc2q"/>
+    <published>2026-06-21T23:16:15.344Z</published>
+    <updated>2026-06-21T23:16:15.344Z</updated>
+    <author><name>github-trending-js.bsky.social</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <category term="design-system"/>
+    <summary>Taste Skill: modular design-agent framework with image-to-code, motion, typography, spacing variants—directly matches Steven&#x27;s installed taste tools.</summary>
+    <content type="html"><![CDATA[<p>Taste Skill: modular design-agent framework with image-to-code, motion, typography, spacing variants—directly matches Steven&#x27;s installed taste tools.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/github-trending-js.bsky.social/post/3motivabwnc2q">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:94216cab2a0002ac</id>
     <title>🆕 pbakaus/impeccable cli-v3.1.0 — The design language that makes your AI harness better at design.</title>
@@ -45,6 +96,23 @@
     <category term="designer-post"/>
     <summary>Design essay on modernism, abstraction, and stripped systems (Radix reference); thoughtful design philosophy.</summary>
     <content type="html"><![CDATA[<p>Design essay on modernism, abstraction, and stripped systems (Radix reference); thoughtful design philosophy.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 6/10</p><p><a href="https://uxdesign.cc/two-modernisms-ba94169b79dd?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8990e131db1d8825</id>
+    <title>RT @michalmalewicz: Real UX/UI design test of the best Design AI tool out there. 
+
+Was it good enough?
+
+https://medium.c…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2068758100580921356"/>
+    <published>2026-06-21T18:09:01+00:00</published>
+    <updated>2026-06-21T18:09:01+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="claude-code"/>
+    <category term="analysis"/>
+    <category term="technique"/>
+    <summary>Real UX/UI design test of Claude against competitors—thoughtful critique of AI design tool capability; Medium article likely contains concrete feedback.</summary>
+    <content type="html"><![CDATA[<p>Real UX/UI design test of Claude against competitors—thoughtful critique of AI design tool capability; Medium article likely contains concrete feedback.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/michalmalewicz/status/2068758100580921356">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:7e116c4c034c3c15</id>
@@ -94,6 +162,20 @@ Two months ago, Anthropic dropped an AI design …</title>
     <category term="ui-craft"/>
     <summary>Anthropic Claude Design shipped design-system import, admin controls, direct canvas editing—production-ready AI design tool with 1M users.</summary>
     <content type="html"><![CDATA[<p>Anthropic Claude Design shipped design-system import, admin controls, direct canvas editing—production-ready AI design tool with 1M users.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/gadgetbond.com/post/3mostwjbhbi2l">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0690b03796259052</id>
+    <title>ianho7/ai-friendly-web-design-skill — A skill for coding agents that build, review, and refactor Web UI that should be easier for humans, screen readers, brow</title>
+    <link rel="alternate" href="https://github.com/ianho7/ai-friendly-web-design-skill"/>
+    <published>2026-06-21T16:01:39Z</published>
+    <updated>2026-06-21T16:01:39Z</updated>
+    <author><name>ianho7</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>Claude agent skill for building accessible, testable Web UI; directly enables AI-assisted design + code quality, anti-slop focus.</summary>
+    <content type="html"><![CDATA[<p>Claude agent skill for building accessible, testable Web UI; directly enables AI-assisted design + code quality, anti-slop focus.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 7/10</p><p><a href="https://github.com/ianho7/ai-friendly-web-design-skill">Read on github →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:538673a8a65ec8cc</id>
@@ -643,79 +725,5 @@ This line s…</title>
     <category term="analysis"/>
     <summary>Critical take on AI-generated design slop; argues taste and intent matter more than tool output.</summary>
     <content type="html"><![CDATA[<p>Critical take on AI-generated design slop; argues taste and intent matter more than tool output.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/caff.bsky.social/post/3monmtjo57s2t">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5e4f80433ae6b88b</id>
-    <title>Redesign skill
-
-Use /redesign, a built-in skill, to evaluate and improve existing designs. Lovable helps you choose the …</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2067972807493923162"/>
-    <published>2026-06-19T14:08:33+00:00</published>
-    <updated>2026-06-19T14:08:33+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="skill"/>
-    <summary>Lovable&#x27;s /redesign skill evaluates and iterates existing designs; concrete design-to-code workflow feature.</summary>
-    <content type="html"><![CDATA[<p>Lovable&#x27;s /redesign skill evaluates and iterates existing designs; concrete design-to-code workflow feature.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2067972807493923162">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cd84b2c72e253ed3</id>
-    <title>Annotate your design
-
-Draw directly on your design, circle what should move, cross out what should go. Lovable reads the…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2067972810723434823"/>
-    <published>2026-06-19T14:08:33+00:00</published>
-    <updated>2026-06-19T14:08:33+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Lovable annotation tool: draw markup directly on designs, AI builds to spec; sketch-to-code technique.</summary>
-    <content type="html"><![CDATA[<p>Lovable annotation tool: draw markup directly on designs, AI builds to spec; sketch-to-code technique.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/Lovable/status/2067972810723434823">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a4c055816b58d309</id>
-    <title>4 design features worth knowing ↓</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2067972801441538219"/>
-    <published>2026-06-19T14:08:31+00:00</published>
-    <updated>2026-06-19T14:08:31+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <summary>Lovable design features overview; light promotion without concrete artifact or deep technique.</summary>
-    <content type="html"><![CDATA[<p>Lovable design features overview; light promotion without concrete artifact or deep technique.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/Lovable/status/2067972801441538219">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:21102ed5844f29f2</id>
-    <title>Been redesigning great apps — Vercel, GitHub, Chrome. This week: Figma.
-One question drove every decision: what does a d…</title>
-    <link rel="alternate" href="https://bsky.app/profile/sampraise-44.bsky.social/post/3monalrelcc2b"/>
-    <published>2026-06-19T11:31:49.220Z</published>
-    <updated>2026-06-19T11:31:49.220Z</updated>
-    <author><name>sampraise-44.bsky.social</name></author>
-    <category term="analysis"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</summary>
-    <content type="html"><![CDATA[<p>Design audit of Figma itself—UI reduction principles applied to a major design tool; concrete reframing of what designers need 90% of the time.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/sampraise-44.bsky.social/post/3monalrelcc2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a4f6d4cc8bce98a7</id>
-    <title>Introducing Hallmark!
-
-An open source design skill to make beautiful UIs and landing pages by default.
-
-Works in Claude …</title>
-    <link rel="alternate" href="https://x.com/Oluwaphilemon1/status/2067929858961818048"/>
-    <published>2026-06-19T11:17:53+00:00</published>
-    <updated>2026-06-19T11:17:53+00:00</updated>
-    <author><name>Oluwaphilemon1</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>Hallmark v1 launched—open-source design skill for Claude Code/Cursor to build beautiful UIs by default, anti-AI-slop craft tool.</summary>
-    <content type="html"><![CDATA[<p>Hallmark v1 launched—open-source design skill for Claude Code/Cursor to build beautiful UIs by default, anti-AI-slop craft tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 9/10</p><p><a href="https://x.com/Oluwaphilemon1/status/2067929858961818048">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
