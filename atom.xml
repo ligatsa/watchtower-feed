@@ -5,21 +5,104 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-22T16:26:12+00:00</updated>
+  <updated>2026-06-22T22:31:01+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f194b98282c4468b</id>
-    <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.6.0 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:95d349e9594d517e</id>
+    <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.6.2 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
     <link rel="alternate" href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"/>
-    <published>2026-06-22T16:22:43.259485+00:00</published>
-    <updated>2026-06-22T16:22:43.259485+00:00</updated>
+    <published>2026-06-22T22:27:20.172590+00:00</published>
+    <updated>2026-06-22T22:27:20.172590+00:00</updated>
     <author><name>nextlevelbuilder</name></author>
     <category term="skill"/>
     <category term="ui-craft"/>
     <category term="claude-code"/>
-    <category term="anti-slop"/>
-    <summary>Design skill for multi-platform UI/UX with 95k stars—directly in Steven&#x27;s installed taste stack (ui-ux-pro-max-skill).</summary>
-    <content type="html"><![CDATA[<p>Design skill for multi-platform UI/UX with 95k stars—directly in Steven&#x27;s installed taste stack (ui-ux-pro-max-skill).</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">Read on github_watched →</a></p>]]></content>
+    <category term="agent-sdk"/>
+    <summary>Design skill v2.6.2 for professional UI/UX across platforms—matches Steven&#x27;s installed taste (ui-ux-pro-max-skill), high stars, antigravity/Claude agent skill.</summary>
+    <content type="html"><![CDATA[<p>Design skill v2.6.2 for professional UI/UX across platforms—matches Steven&#x27;s installed taste (ui-ux-pro-max-skill), high stars, antigravity/Claude agent skill.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:2145b26f45aacf1d</id>
+    <title>here&#x27;s a flip from webgl → svg 
+
+it&#x27;s not 1:1 parity, but it&#x27;s cool to mess with all different options and &quot;create your …</title>
+    <link rel="alternate" href="https://x.com/jh3yy/status/2069182114075979975"/>
+    <published>2026-06-22T22:13:54+00:00</published>
+    <updated>2026-06-22T22:13:54+00:00</updated>
+    <author><name>jh3yy</name></author>
+    <category term="technique"/>
+    <category term="frontend"/>
+    <summary>WebGL-to-SVG effect library with glass-morphism controls (SDF, chromatic aberration)—neat interactive technique, not a design artifact or tool.</summary>
+    <content type="html"><![CDATA[<p>WebGL-to-SVG effect library with glass-morphism controls (SDF, chromatic aberration)—neat interactive technique, not a design artifact or tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2069182114075979975">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b5a9e348ea90f3f3</id>
+    <title>In any existing design, populating your marketing website with beautiful visuals is just 3 super simple steps:
+
+- Add Co…</title>
+    <link rel="alternate" href="https://bsky.app/profile/pixelcave-john.bsky.social/post/3movn2sbsk223"/>
+    <published>2026-06-22T19:36:16.448Z</published>
+    <updated>2026-06-22T19:36:16.448Z</updated>
+    <author><name>pixelcave-john.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <summary>CodedVisuals shadcn registry + skill pipeline for auto-populating marketing visuals—design-to-code automation, matches Steven&#x27;s registries/shadcn taste.</summary>
+    <content type="html"><![CDATA[<p>CodedVisuals shadcn registry + skill pipeline for auto-populating marketing visuals—design-to-code automation, matches Steven&#x27;s registries/shadcn taste.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/pixelcave-john.bsky.social/post/3movn2sbsk223">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1b86dcd7bf353ffa</id>
+    <title>Design Agent: Better currently for recommendations than actions?</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1ucqqzx/design_agent_better_currently_for_recommendations/"/>
+    <published>2026-06-22T17:17:12+00:00</published>
+    <updated>2026-06-22T17:17:12+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="analysis"/>
+    <summary>Figma Design Agent user review: audit &amp; analysis feedback on screens—concrete design evaluation workflow shown.</summary>
+    <content type="html"><![CDATA[<p>Figma Design Agent user review: audit &amp; analysis feedback on screens—concrete design evaluation workflow shown.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1ucqqzx/design_agent_better_currently_for_recommendations/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:40228443fc481af8</id>
+    <title>Working on a VERY interesting design analysis video/article. 
+
+Video on Wednesday. Article likely Tomorrow. https://t.co…</title>
+    <link rel="alternate" href="https://x.com/michalmalewicz/status/2069099985061208135"/>
+    <published>2026-06-22T16:47:33+00:00</published>
+    <updated>2026-06-22T16:47:33+00:00</updated>
+    <author><name>michalmalewicz</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Upcoming design analysis video/article from Michal Malewicz; strong author signal but no artifact yet—teaser only.</summary>
+    <content type="html"><![CDATA[<p>Upcoming design analysis video/article from Michal Malewicz; strong author signal but no artifact yet—teaser only.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/michalmalewicz/status/2069099985061208135">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e2be04c230f67730</id>
+    <title>The organizational cost of low taste</title>
+    <link rel="alternate" href="https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34?source=rss----138adf9c44c---4"/>
+    <published>2026-06-22T16:46:04+00:00</published>
+    <updated>2026-06-22T16:46:04+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="designer-post"/>
+    <category term="design-system"/>
+    <summary>Essay on taste &amp; organizational design systems—thoughtful design discipline perspective tied to AI impact.</summary>
+    <content type="html"><![CDATA[<p>Essay on taste &amp; organizational design systems—thoughtful design discipline perspective tied to AI impact.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f18ff224c06e43d5</id>
+    <title>I just did a refactor of the UI on my project and am routing my react CSS component library through Figma, have you set …</title>
+    <link rel="alternate" href="https://bsky.app/profile/hobostewball.bsky.social/post/3movdcw3ulc2z"/>
+    <published>2026-06-22T16:41:51.466Z</published>
+    <updated>2026-06-22T16:41:51.466Z</updated>
+    <author><name>hobostewball.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="design-system"/>
+    <category term="frontend"/>
+    <summary>React CSS library synced through Figma with AI workflow; real design-to-code pipeline question &amp; pain point shared.</summary>
+    <content type="html"><![CDATA[<p>React CSS library synced through Figma with AI workflow; real design-to-code pipeline question &amp; pain point shared.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/hobostewball.bsky.social/post/3movdcw3ulc2z">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:8a09eec71adac160</id>
@@ -638,93 +721,5 @@ Le pides algo sencillo a tu agente de …</title>
     <category term="plugin"/>
     <summary>Drupal module bridging AI + Figma; concrete design-to-code integration, though minimal context given.</summary>
     <content type="html"><![CDATA[<p>Drupal module bridging AI + Figma; concrete design-to-code integration, though minimal context given.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/drupal-news.bsky.social/post/3moq4p53hmk2q">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:48d690b7b239f248</id>
-    <title>Tailwind Weekly 219 🔥
-
-🛠️ uish goes local-first with a full lineup of new skills
-📚 Animations that actually feel good + …</title>
-    <link rel="alternate" href="https://bsky.app/profile/tailwindweekly.bsky.social/post/3mopwt7n6tx2o"/>
-    <published>2026-06-20T13:15:00.937067Z</published>
-    <updated>2026-06-20T13:15:00.937067Z</updated>
-    <author><name>tailwindweekly.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <summary>Tailwind Weekly covers local-first design skills, animations, shadcn components, and vector AI—aligned with Steven&#x27;s taste.</summary>
-    <content type="html"><![CDATA[<p>Tailwind Weekly covers local-first design skills, animations, shadcn components, and vector AI—aligned with Steven&#x27;s taste.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/tailwindweekly.bsky.social/post/3mopwt7n6tx2o">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:7ece33527d141466</id>
-    <title>Figma + Claude Code + OpenSource = OpenPencil
-¡Un editor de diseño con IA de código abierto!
-
-Abre archivos .fig, funcio…</title>
-    <link rel="alternate" href="https://bsky.app/profile/midu.dev/post/3mopw4uqstr2s"/>
-    <published>2026-06-20T13:02:31.138Z</published>
-    <updated>2026-06-20T13:02:31.138Z</updated>
-    <author><name>midu.dev</name></author>
-    <category term="figma"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Open-source Figma editor with Claude Code integration, local-first, exports to Tailwind/JSX—direct design-to-code pipeline.</summary>
-    <content type="html"><![CDATA[<p>Open-source Figma editor with Claude Code integration, local-first, exports to Tailwind/JSX—direct design-to-code pipeline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/midu.dev/post/3mopw4uqstr2s">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:edcfac901078b651</id>
-    <title>shadcn-docs-nuxt is an open-source docs template built with Nuxt Content &amp; shadcn-vue by @ztl-uwu.bsky.social 📦️ - madew…</title>
-    <link rel="alternate" href="https://bsky.app/profile/madewithvuejs.com/post/3mopqtwhrlk2r"/>
-    <published>2026-06-20T11:28:02.286Z</published>
-    <updated>2026-06-20T11:28:02.286Z</updated>
-    <author><name>madewithvuejs.com</name></author>
-    <category term="shadcn"/>
-    <category term="design-system"/>
-    <category term="frontend"/>
-    <summary>shadcn-vue docs template—useful design-system-adjacent frontend component reference.</summary>
-    <content type="html"><![CDATA[<p>shadcn-vue docs template—useful design-system-adjacent frontend component reference.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/madewithvuejs.com/post/3mopqtwhrlk2r">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c70dfeef5ab0c720</id>
-    <title>Alai 2.0</title>
-    <link rel="alternate" href="https://www.producthunt.com/products/alai"/>
-    <published>2026-06-20T11:25:40-07:00</published>
-    <updated>2026-06-20T11:25:40-07:00</updated>
-    <author><name>producthunt</name></author>
-    <category term="ui-craft"/>
-    <summary>AI design partner for presentations and social posts—borderline design surface but lacks concrete artifact or workflow detail.</summary>
-    <content type="html"><![CDATA[<p>AI design partner for presentations and social posts—borderline design surface but lacks concrete artifact or workflow detail.</p><p><strong>Source:</strong> producthunt · <strong>Score:</strong> 6/10</p><p><a href="https://www.producthunt.com/products/alai">Read on producthunt →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:f22344ab6e9a6b33</id>
-    <title>今日のZennトレンド
-
-Claude Design がclaudeアプリに対応したので触ってみた
-Claudeアプリに搭載されたClaude Designの検証記録です。
-新規デザイン作成とデザインシステム構築の2機能を試した結果、リデザ…</title>
-    <link rel="alternate" href="https://bsky.app/profile/dailyzenntrends.bsky.social/post/3moppv7tecu2v"/>
-    <published>2026-06-20T11:10:52.116581+00:00</published>
-    <updated>2026-06-20T11:10:52.116581+00:00</updated>
-    <author><name>dailyzenntrends.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="figma"/>
-    <category term="technique"/>
-    <summary>Claude Design hands-on review: design-system integration, code-to-design quality, Figma handoff workflow—exactly Steven&#x27;s taste.</summary>
-    <content type="html"><![CDATA[<p>Claude Design hands-on review: design-system integration, code-to-design quality, Figma handoff workflow—exactly Steven&#x27;s taste.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/dailyzenntrends.bsky.social/post/3moppv7tecu2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c7324d411bd27bf8</id>
-    <title>A useful shift for teams generating UI with AI: Anthropic&#x27;s Claude Design now builds against your real design system ins…</title>
-    <link rel="alternate" href="https://bsky.app/profile/ins-aisolutions.bsky.social/post/3mopoqibcn72f"/>
-    <published>2026-06-20T10:50:19.345630+00:00</published>
-    <updated>2026-06-20T10:50:19.345630+00:00</updated>
-    <author><name>ins-aisolutions.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <summary>Claude Design now applies real design tokens &amp; components automatically—direct design-system integration win for AI-generated UI.</summary>
-    <content type="html"><![CDATA[<p>Claude Design now applies real design tokens &amp; components automatically—direct design-system integration win for AI-generated UI.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/ins-aisolutions.bsky.social/post/3mopoqibcn72f">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
