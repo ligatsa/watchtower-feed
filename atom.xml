@@ -5,8 +5,104 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-24T04:57:00+00:00</updated>
+  <updated>2026-06-24T11:01:30+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1c3299e425c3eef1</id>
+    <title>Anthropic spustil Claude Design pod Anthropic Labs: generování designu, výstup kódu a správa brand identity v jednom wor…</title>
+    <link rel="alternate" href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mozfgnk2bv2f"/>
+    <published>2026-06-24T07:30:22.861Z</published>
+    <updated>2026-06-24T07:30:22.861Z</updated>
+    <author><name>aifounders-cz.bsky.social</name></author>
+    <category term="anthropic"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>Anthropic Claude Design launch: design generation → production code + brand control pipeline.</summary>
+    <content type="html"><![CDATA[<p>Anthropic Claude Design launch: design generation → production code + brand control pipeline.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mozfgnk2bv2f">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e652759ece830147</id>
+    <title>Anthropic launched Claude Design under Anthropic Labs: design generation + code output + brand control in one pipeline.
+…</title>
+    <link rel="alternate" href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mozfgkswpd2h"/>
+    <published>2026-06-24T07:30:20.017Z</published>
+    <updated>2026-06-24T07:30:20.017Z</updated>
+    <author><name>aifoundersczech.bsky.social</name></author>
+    <category term="anthropic"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <summary>Claude Design under Anthropic Labs enables design-to-code handoff with brand fidelity.</summary>
+    <content type="html"><![CDATA[<p>Claude Design under Anthropic Labs enables design-to-code handoff with brand fidelity.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mozfgkswpd2h">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:1494cd853fbfa057</id>
+    <title>Вышел бесплатный OpenPencil — аналог Claude Design для
+
+локального запуска Инструмент работает с файлами.fig от Figma, п…</title>
+    <link rel="alternate" href="https://bsky.app/profile/aibiznes.bsky.social/post/3mozfektusw2h"/>
+    <published>2026-06-24T07:29:13.152574+00:00</published>
+    <updated>2026-06-24T07:29:13.152574+00:00</updated>
+    <author><name>aibiznes.bsky.social</name></author>
+    <category term="mcp"/>
+    <category term="figma"/>
+    <category term="ui-craft"/>
+    <category term="cursor"/>
+    <summary>OpenPencil: free local Claude Design alternative; Figma .fig support, Cursor/Claude Code integration.</summary>
+    <content type="html"><![CDATA[<p>OpenPencil: free local Claude Design alternative; Figma .fig support, Cursor/Claude Code integration.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/aibiznes.bsky.social/post/3mozfektusw2h">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5e602586c9faf1ef</id>
+    <title>Figma Agent generuje designové varianty přímo na canvas — bez přepínání nástrojů. Pro středně pokročilé designéry: jak h…</title>
+    <link rel="alternate" href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mozc3hxfol2f"/>
+    <published>2026-06-24T06:30:26.685Z</published>
+    <updated>2026-06-24T06:30:26.685Z</updated>
+    <author><name>aifounders-cz.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <summary>Figma Agent generates design variants on-canvas; tutorial on integration and output evaluation.</summary>
+    <content type="html"><![CDATA[<p>Figma Agent generates design variants on-canvas; tutorial on integration and output evaluation.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mozc3hxfol2f">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f2b8ca664a3041f7</id>
+    <title>Consistency, but in excellence not appearance</title>
+    <link rel="alternate" href="https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"/>
+    <published>2026-06-24T05:27:43+00:00</published>
+    <updated>2026-06-24T05:27:43+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Essay on design consistency: visual systems, automated rules vs. contextual quality — thoughtful discipline commentary.</summary>
+    <content type="html"><![CDATA[<p>Essay on design consistency: visual systems, automated rules vs. contextual quality — thoughtful discipline commentary.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:d22ad5a3e9158402</id>
+    <title>InkField | 墨域</title>
+    <link rel="alternate" href="https://ileivoivm.github.io/inkField/"/>
+    <published>2026-06-24T05:24:42+00:00</published>
+    <updated>2026-06-24T05:24:42+00:00</updated>
+    <author><name>sidebar</name></author>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Interactive drawing system that preserves gesture history; novel interaction model with visual polish potential.</summary>
+    <content type="html"><![CDATA[<p>Interactive drawing system that preserves gesture history; novel interaction model with visual polish potential.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 6/10</p><p><a href="https://ileivoivm.github.io/inkField/">Read on sidebar →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:980d5d022d1e2275</id>
+    <title>@corndogjpn2 试试 baoyu-design skill，是将 Claude Design 以 Skill 的形式在���地运行，这样本地就可以直接设计、版本管理、和项目代码互动
+
+https://t.co/POuwOWSuwe</title>
+    <link rel="alternate" href="https://x.com/dotey/status/2069646513349816796"/>
+    <published>2026-06-24T04:59:15+00:00</published>
+    <updated>2026-06-24T04:59:15+00:00</updated>
+    <author><name>dotey</name></author>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <summary>Local design skill for Claude Design workflow with version control &amp; code integration—direct design+AI craft enabler.</summary>
+    <content type="html"><![CDATA[<p>Local design skill for Claude Design workflow with version control &amp; code integration—direct design+AI craft enabler.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/dotey/status/2069646513349816796">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:e2d56a1678dd42f5</id>
     <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.6.3 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
@@ -576,108 +672,5 @@ Video on Wednesday. Article likely Tomorrow. https://t.co…</title>
     <category term="analysis"/>
     <summary>Thoughtful take on design systems + AI vision/execution split—design-adjacent reflection without concrete artifact.</summary>
     <content type="html"><![CDATA[<p>Thoughtful take on design systems + AI vision/execution split—design-adjacent reflection without concrete artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/regoremor.bsky.social/post/3mov7hylpue2m">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:551251a8cce4ab35</id>
-    <title>I do 90% of my prompting with a screenshot.
-
-To add context:
-
-- I use Wispr Flow to dictate for 1–2 minutes, describing …</title>
-    <link rel="alternate" href="https://x.com/MengTo/status/2069080448291188787"/>
-    <published>2026-06-22T15:29:55+00:00</published>
-    <updated>2026-06-22T15:29:55+00:00</updated>
-    <author><name>MengTo</name></author>
-    <category term="technique"/>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <summary>Screenshot-first prompting workflow + skill/runbook pipeline for UI—matches Steven&#x27;s taste for structured AI design craft.</summary>
-    <content type="html"><![CDATA[<p>Screenshot-first prompting workflow + skill/runbook pipeline for UI—matches Steven&#x27;s taste for structured AI design craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MengTo/status/2069080448291188787">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8f99c0079ace8552</id>
-    <title>Has web design become more about decisions than design?</title>
-    <link rel="alternate" href="https://www.reddit.com/r/web_design/comments/1ucnowu/has_web_design_become_more_about_decisions_than/"/>
-    <published>2026-06-22T15:26:34+00:00</published>
-    <updated>2026-06-22T15:26:34+00:00</updated>
-    <author><name>reddit/r/web_design</name></author>
-    <category term="designer-post"/>
-    <category term="analysis"/>
-    <summary>Thoughtful take on AI commoditizing visuals, shifting design focus to UX decisions and business goals.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful take on AI commoditizing visuals, shifting design focus to UX decisions and business goals.</p><p><strong>Source:</strong> reddit/r/web_design · <strong>Score:</strong> 6/10</p><p><a href="https://www.reddit.com/r/web_design/comments/1ucnowu/has_web_design_become_more_about_decisions_than/">Read on reddit/r/web_design →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:246dd17a5a0c04f5</id>
-    <title>create animated text shimmers w/ background-clip 👇
-
-.txt {
-background-clip: text;
-color: #0000;
-background: var(--gradie…</title>
-    <link rel="alternate" href="https://x.com/jh3yy/status/2069041022307291495"/>
-    <published>2026-06-22T12:53:15+00:00</published>
-    <updated>2026-06-22T12:53:15+00:00</updated>
-    <author><name>jh3yy</name></author>
-    <category term="technique"/>
-    <category term="frontend"/>
-    <summary>CSS technique for animated text shimmers using background-clip—solid micro-technique for UI craft.</summary>
-    <content type="html"><![CDATA[<p>CSS technique for animated text shimmers using background-clip—solid micro-technique for UI craft.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/jh3yy/status/2069041022307291495">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:59c799af65ced5fd</id>
-    <title>🚨 SOMEONE JUST BUILT a Claude Code skill called /brag that turns any side project into a fire ~20-second launch video in…</title>
-    <link rel="alternate" href="https://x.com/Arcane_Aii/status/2069039170451091878"/>
-    <published>2026-06-22T12:45:53+00:00</published>
-    <updated>2026-06-22T12:45:53+00:00</updated>
-    <author><name>Arcane_Aii</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="agent-sdk"/>
-    <summary>Claude Code skill that auto-generates polished launch videos from projects—useful design/marketing tool for builders.</summary>
-    <content type="html"><![CDATA[<p>Claude Code skill that auto-generates polished launch videos from projects—useful design/marketing tool for builders.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Arcane_Aii/status/2069039170451091878">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:582f82260a2f475c</id>
-    <title>The update follows a recent Claude Design release that added design-system controls, code integration, direct canvas edi…</title>
-    <link rel="alternate" href="https://bsky.app/profile/techpresso.bsky.social/post/3mouw33o2bx2s"/>
-    <published>2026-06-22T12:44:49.919319Z</published>
-    <updated>2026-06-22T12:44:49.919319Z</updated>
-    <author><name>techpresso.bsky.social</name></author>
-    <category term="anthropic"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Claude Design update adding design-system controls, code integration, canvas editing, and export—direct design workflow enablement.</summary>
-    <content type="html"><![CDATA[<p>Claude Design update adding design-system controls, code integration, canvas editing, and export—direct design workflow enablement.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/techpresso.bsky.social/post/3mouw33o2bx2s">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9879eca7fd77a12a</id>
-    <title>Step 5 → Share with stakeholders. Feed their feedback back into Claude. Repeat.
-
-See the guide with prompts in on our bl…</title>
-    <link rel="alternate" href="https://bsky.app/profile/fractionalteams.bsky.social/post/3moun37mqzs2j"/>
-    <published>2026-06-22T10:03:50.558469687Z</published>
-    <updated>2026-06-22T10:03:50.558469687Z</updated>
-    <author><name>fractionalteams.bsky.social</name></author>
-    <category term="figma-make"/>
-    <category term="claude-code"/>
-    <category term="prototype"/>
-    <category term="technique"/>
-    <summary>Step-by-step workflow for Claude + Figma Make product discovery with stakeholder feedback loops and iterative refinement.</summary>
-    <content type="html"><![CDATA[<p>Step-by-step workflow for Claude + Figma Make product discovery with stakeholder feedback loops and iterative refinement.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/fractionalteams.bsky.social/post/3moun37mqzs2j">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:80aa751623dffe58</id>
-    <title>Step 3 → Ask Claude to translate those stories into Figma Make prompts. Frame dimensions, navigation patterns, component…</title>
-    <link rel="alternate" href="https://bsky.app/profile/fractionalteams.bsky.social/post/3moun37dwsf2o"/>
-    <published>2026-06-22T10:03:50.269627966Z</published>
-    <updated>2026-06-22T10:03:50.269627966Z</updated>
-    <author><name>fractionalteams.bsky.social</name></author>
-    <category term="figma-make"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Claude translates user stories into Figma Make prompts with design specs; refinement-focused workflow beats regeneration.</summary>
-    <content type="html"><![CDATA[<p>Claude translates user stories into Figma Make prompts with design specs; refinement-focused workflow beats regeneration.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/fractionalteams.bsky.social/post/3moun37dwsf2o">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
