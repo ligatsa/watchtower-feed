@@ -5,8 +5,127 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-25T23:33:13+00:00</updated>
+  <updated>2026-06-26T05:38:35+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5fb31dc7b55f2141</id>
+    <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.8.8 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
+    <link rel="alternate" href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"/>
+    <published>2026-06-26T05:34:15.031438+00:00</published>
+    <updated>2026-06-26T05:34:15.031438+00:00</updated>
+    <author><name>nextlevelbuilder</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="frontend"/>
+    <summary>Major update to ui-ux-pro-max-skill (Steven&#x27;s installed taste); multi-platform design intelligence for professional UI/UX with Claude.</summary>
+    <content type="html"><![CDATA[<p>Major update to ui-ux-pro-max-skill (Steven&#x27;s installed taste); multi-platform design intelligence for professional UI/UX with Claude.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:617b78929e8d74e1</id>
+    <title>Figma migró a WebGPU en 2023 y ahora cosecha lo sembrado: describes el efecto en lenguaje natural y su agente escribe el…</title>
+    <link rel="alternate" href="https://bsky.app/profile/cerebrodigital.net/post/3mp66le74tq2j"/>
+    <published>2026-06-26T05:10:59.000Z</published>
+    <updated>2026-06-26T05:10:59.000Z</updated>
+    <author><name>cerebrodigital.net</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="technique"/>
+    <category term="ui-craft"/>
+    <summary>Figma&#x27;s WebGPU migration enables natural-language design effects (metal, watercolor, dithering) without plugins; concrete design capability leap.</summary>
+    <content type="html"><![CDATA[<p>Figma&#x27;s WebGPU migration enables natural-language design effects (metal, watercolor, dithering) without plugins; concrete design capability leap.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/cerebrodigital.net/post/3mp66le74tq2j">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9b56078cf7f9f7ca</id>
+    <title>Same parts. Different order. AI writes the code now; reading whether the design holds is the job that is left. Learn to …</title>
+    <link rel="alternate" href="https://bsky.app/profile/systemthinkinglab.ai/post/3mp65mv6ugr2v"/>
+    <published>2026-06-26T04:54:01.245Z</published>
+    <updated>2026-06-26T04:54:01.245Z</updated>
+    <author><name>systemthinkinglab.ai</name></author>
+    <category term="designer-post"/>
+    <category term="technique"/>
+    <category term="analysis"/>
+    <summary>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</summary>
+    <content type="html"><![CDATA[<p>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/systemthinkinglab.ai/post/3mp65mv6ugr2v">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:26c5097a4f38047c</id>
+    <title>murphytrueman/design-system-ops — Claude Code skills for the work that keeps a design system alive</title>
+    <link rel="alternate" href="https://github.com/murphytrueman/design-system-ops"/>
+    <published>2026-06-26T04:42:37Z</published>
+    <updated>2026-06-26T04:42:37Z</updated>
+    <author><name>murphytrueman</name></author>
+    <category term="skill"/>
+    <category term="design-system"/>
+    <category term="claude-code"/>
+    <category term="figma"/>
+    <summary>Claude Code skills for design-system ops (tokens, Figma, day-to-day DS maintenance); same flavor as Steven&#x27;s installed taste.</summary>
+    <content type="html"><![CDATA[<p>Claude Code skills for design-system ops (tokens, Figma, day-to-day DS maintenance); same flavor as Steven&#x27;s installed taste.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/murphytrueman/design-system-ops">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:3cfa6dd29c876723</id>
+    <title>Figma 新功能的重點不只是「設計工具變強」。真正的工作流問題是：當原型已經會動、能產生效果、甚至有 code layer 時，工程要接手的是什麼？
+
+這篇用探索畫布 vs 交付規格拆解設計交接。
+
+vist.ly/595fh
+
+#AI代…</title>
+    <link rel="alternate" href="https://bsky.app/profile/boosterminiclass.com/post/3mp63gykgy52w"/>
+    <published>2026-06-26T04:14:54.195Z</published>
+    <updated>2026-06-26T04:14:54.195Z</updated>
+    <author><name>boosterminiclass.com</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="analysis"/>
+    <category term="technique"/>
+    <summary>Figma&#x27;s new workflow: prototypes animate, generate effects, produce code—what does engineering hand-off look like? Design→code handoff analysis.</summary>
+    <content type="html"><![CDATA[<p>Figma&#x27;s new workflow: prototypes animate, generate effects, produce code—what does engineering hand-off look like? Design→code handoff analysis.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/boosterminiclass.com/post/3mp63gykgy52w">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:9f2d3b6e19244c89</id>
+    <title>What a tragedy. 
+
+“Speaking of Al transformation—all the DesignOps folks I spoke with said that they&#x27;re full-time job is…</title>
+    <link rel="alternate" href="https://bsky.app/profile/990000.bsky.social/post/3mp6244var22u"/>
+    <published>2026-06-26T03:50:57.668Z</published>
+    <updated>2026-06-26T03:50:57.668Z</updated>
+    <author><name>990000.bsky.social</name></author>
+    <category term="claude-code"/>
+    <category term="designer-post"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>DesignOps shift: 800 designers migrating from Figma to Claude Code CLI for AI-driven design work; real workflow transformation signal.</summary>
+    <content type="html"><![CDATA[<p>DesignOps shift: 800 designers migrating from Figma to Claude Code CLI for AI-driven design work; real workflow transformation signal.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/990000.bsky.social/post/3mp6244var22u">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:cb88f0b248b88cfd</id>
+    <title>Command Code with open models and /design skill. 🔥 https://t.co/WJUy3vugm4</title>
+    <link rel="alternate" href="https://x.com/MrAhmadAwais/status/2070339566557655527"/>
+    <published>2026-06-26T02:53:12+00:00</published>
+    <updated>2026-06-26T02:53:12+00:00</updated>
+    <author><name>MrAhmadAwais</name></author>
+    <category term="skill"/>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="agent-sdk"/>
+    <summary>Open-models Claude Code with /design skill command; direct design-agent capability from trusted author (MrAhmadAwais).</summary>
+    <content type="html"><![CDATA[<p>Open-models Claude Code with /design skill command; direct design-agent capability from trusted author (MrAhmadAwais).</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MrAhmadAwais/status/2070339566557655527">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:568ffe0538ff8326</id>
+    <title>Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション生成するAI機能も
+https://www.itmedia.co.jp/news/articles/2606/25/news132.html</title>
+    <link rel="alternate" href="https://bsky.app/profile/tech-trending.bsky.social/post/3mp5lxiddjb2l"/>
+    <published>2026-06-25T23:37:49.365Z</published>
+    <updated>2026-06-25T23:37:49.365Z</updated>
+    <author><name>tech-trending.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="technique"/>
+    <summary>Figma Motion launch with AI animation generation—direct design-tool advancement enabling motion craft.</summary>
+    <content type="html"><![CDATA[<p>Figma Motion launch with AI animation generation—direct design-tool advancement enabling motion craft.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/tech-trending.bsky.social/post/3mp5lxiddjb2l">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:dde73dd8d66f5fac</id>
     <title>AI UI creators aren’t built to scale—80% of them break user trust. Shocking? Build a design system that gives every elem…</title>
@@ -32,6 +151,21 @@
     <category term="designer-post"/>
     <summary>Thoughtful analysis of Figma&#x27;s survival strategy in AI-driven design workflows; direct design discipline impact.</summary>
     <content type="html"><![CDATA[<p>Thoughtful analysis of Figma&#x27;s survival strategy in AI-driven design workflows; direct design discipline impact.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 7/10</p><p><a href="https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:04c8322662e4b110</id>
+    <title>の試合が始まりました。多くのユーザーが試合の結果を気にかけています。日本代表チームの活躍を祈る声が多く上がっています。
+🌸 最新のテクノロジーニュース 🌸
+最新のテクノロジーニュースでは、AI業界のトレンドが話題になっています。Figma …</title>
+    <link rel="alternate" href="https://bsky.app/profile/news0.bsky.social/post/3mp5etaoopt2o"/>
+    <published>2026-06-25T21:30:10.983316+00:00</published>
+    <updated>2026-06-25T21:30:10.983316+00:00</updated>
+    <author><name>news0.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="ui-craft"/>
+    <summary>Figma Config 2026 announcements (Motion, Code Layers, Shader fills) dissolving design–code boundary; solid announcement but sourced via noisy aggregator.</summary>
+    <content type="html"><![CDATA[<p>Figma Config 2026 announcements (Motion, Code Layers, Shader fills) dissolving design–code boundary; solid announcement but sourced via noisy aggregator.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/news0.bsky.social/post/3mp5etaoopt2o">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:113bbfd52e1acae5</id>
@@ -436,20 +570,6 @@ Figma&#x27;s update adds a new code layer, su…</title>
     <content type="html"><![CDATA[<p>TechCrunch coverage of Figma code layers, animations, AI features—direct Figma product launch for design+code.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/smcla.bsky.social/post/3mp4gukig632i">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26c85f5476d5b6da</id>
-    <title>ITMEDIA : https://www.itmedia.co.jp/news/articles/2606/25/news132.html
-Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション…</title>
-    <link rel="alternate" href="https://bsky.app/profile/rsspost.bsky.social/post/3mp4goet6tu2x"/>
-    <published>2026-06-25T12:30:35.293851Z</published>
-    <updated>2026-06-25T12:30:35.293851Z</updated>
-    <author><name>rsspost.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="technique"/>
-    <summary>Figma Motion launches with AI animation generation—native motion tooling in Figma.</summary>
-    <content type="html"><![CDATA[<p>Figma Motion launches with AI animation generation—native motion tooling in Figma.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/rsspost.bsky.social/post/3mp4goet6tu2x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:3b52bf92b7866c1f</id>
     <title>From logo to motion in seconds.
 
@@ -527,128 +647,5 @@ All inside Figma. https://t.co/QMDYdTOUkZ</title>
     <category term="analysis"/>
     <summary>Figma Config 2026 ships code layers, animation, AI plugins powered by Anthropic—critical design-tool evolution with taste as moat.</summary>
     <content type="html"><![CDATA[<p>Figma Config 2026 ships code layers, animation, AI plugins powered by Anthropic—critical design-tool evolution with taste as moat.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/aifounders-cz.bsky.social/post/3mp4bn4xyy32h">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cc82d7c238868945</id>
-    <title>Figma Config 2026: code layers, animation, AI-powered plugin creation. The AI doing the work? Anthropic. Same Anthropic …</title>
-    <link rel="alternate" href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mp4bmzfkfi2k"/>
-    <published>2026-06-25T11:00:20.882Z</published>
-    <updated>2026-06-25T11:00:20.882Z</updated>
-    <author><name>aifoundersczech.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="anthropic"/>
-    <category term="analysis"/>
-    <summary>Figma Config 2026 announces code layers, animation, AI plugin creation via Anthropic; explores human taste vs. silicon economics.</summary>
-    <content type="html"><![CDATA[<p>Figma Config 2026 announces code layers, animation, AI plugin creation via Anthropic; explores human taste vs. silicon economics.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/aifoundersczech.bsky.social/post/3mp4bmzfkfi2k">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3b6ae83036395a2d</id>
-    <title>I watched the config keynote &amp; it seems that all adobe web apps are in Figma now. 
-Dreamweaver
-Photoshop
-After effects
-F…</title>
-    <link rel="alternate" href="https://bsky.app/profile/wheelyweb.bsky.social/post/3mp4bcaudjs2a"/>
-    <published>2026-06-25T10:54:19.884Z</published>
-    <updated>2026-06-25T10:54:19.884Z</updated>
-    <author><name>wheelyweb.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <summary>All major Adobe web apps (Dreamweaver, Photoshop, After Effects, Illustrator) now embedded in Figma with free AI tokens.</summary>
-    <content type="html"><![CDATA[<p>All major Adobe web apps (Dreamweaver, Photoshop, After Effects, Illustrator) now embedded in Figma with free AI tokens.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/wheelyweb.bsky.social/post/3mp4bcaudjs2a">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b720b399392cbc5d</id>
-    <title>OpenAI launches custom AI chip built by Broadcom. Figma upgrades with AI motion graphics, shader tools &amp; code layers. De…</title>
-    <link rel="alternate" href="https://bsky.app/profile/designsells.bsky.social/post/3mp46ri2bv62p"/>
-    <published>2026-06-25T10:09:09.444224+00:00</published>
-    <updated>2026-06-25T10:09:09.444224+00:00</updated>
-    <author><name>designsells.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <summary>Figma upgrades with AI motion graphics, shader tools, code layers; design systems set for AI-driven transformation.</summary>
-    <content type="html"><![CDATA[<p>Figma upgrades with AI motion graphics, shader tools, code layers; design systems set for AI-driven transformation.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/designsells.bsky.social/post/3mp46ri2bv62p">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9bc0e5d5be3a5c3e</id>
-    <title>Playing a bit with the new Figma AI plugin creator. Good news: you can now copy any plugin by simply prompting the AI. I…</title>
-    <link rel="alternate" href="https://bsky.app/profile/daveux.bsky.social/post/3mp46jjpfsc2g"/>
-    <published>2026-06-25T10:04:42.674773639Z</published>
-    <updated>2026-06-25T10:04:42.674773639Z</updated>
-    <author><name>daveux.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="plugin"/>
-    <category term="technique"/>
-    <summary>Figma&#x27;s new AI plugin creator lets you copy any plugin via prompt—demonstrates AI-powered design-tool extensibility with real artifact.</summary>
-    <content type="html"><![CDATA[<p>Figma&#x27;s new AI plugin creator lets you copy any plugin via prompt—demonstrates AI-powered design-tool extensibility with real artifact.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/daveux.bsky.social/post/3mp46jjpfsc2g">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:1873f3fa5c91ce4f</id>
-    <title>Show GN: 한글 넣으면 어색해지는 디자인 시스템, 한국어 우선으로 다시 만들었습니다
-
-한국어 서비스를 만드는데 디자인 시스템(MUI, shadcn 등)은 라틴 알파벳 기준이라, 한글을 넣으면 &quot;되긴 되는데 어색…</title>
-    <link rel="alternate" href="https://bsky.app/profile/geeknewsbot.bsky.social/post/3mp46b7o27v2v"/>
-    <published>2026-06-25T10:00:03.307158Z</published>
-    <updated>2026-06-25T10:00:03.307158Z</updated>
-    <author><name>geeknewsbot.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <summary>Korean-first design system addresses CJK typography gaps (baseline, line-height, word-wrap) overlooked by Latin-biased systems like shadcn.</summary>
-    <content type="html"><![CDATA[<p>Korean-first design system addresses CJK typography gaps (baseline, line-height, word-wrap) overlooked by Latin-biased systems like shadcn.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/geeknewsbot.bsky.social/post/3mp46b7o27v2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:ab225ff275fc069f</id>
-    <title>Figma додала кодові шари безпосередньо на спільне полотно — команди можуть клонувати репозиторії та переносити структуру…</title>
-    <link rel="alternate" href="https://bsky.app/profile/channeltech.bsky.social/post/3mp3yfk4r4g2c"/>
-    <published>2026-06-25T08:15:04Z</published>
-    <updated>2026-06-25T08:15:04Z</updated>
-    <author><name>channeltech.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <summary>Figma code layers enable direct repo import and code-to-design sync on shared canvas—accelerates design-to-dev workflow.</summary>
-    <content type="html"><![CDATA[<p>Figma code layers enable direct repo import and code-to-design sync on shared canvas—accelerates design-to-dev workflow.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/channeltech.bsky.social/post/3mp3yfk4r4g2c">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:d76f7f173b91468c</id>
-    <title>Your design system runs on one person’s judgment—AI is about to prove it uxdesign.cc/your-design-...</title>
-    <link rel="alternate" href="https://bsky.app/profile/uxcollective.bsky.social/post/3mp3vpmasbd2t"/>
-    <published>2026-06-25T07:27:03.091Z</published>
-    <updated>2026-06-25T07:27:03.091Z</updated>
-    <author><name>uxcollective.bsky.social</name></author>
-    <category term="analysis"/>
-    <category term="designer-post"/>
-    <summary>Essay on how AI will challenge design-system authority and centralized judgment—thoughtful discipline perspective.</summary>
-    <content type="html"><![CDATA[<p>Essay on how AI will challenge design-system authority and centralized judgment—thoughtful discipline perspective.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/uxcollective.bsky.social/post/3mp3vpmasbd2t">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:2bd407b53ffa2667</id>
-    <title>Figmaが新アップデートを発表！AI機能の強化に加え、コードレイヤーやアニメーション対応が追加されました。設計から実装への連携がさらに加速し、デザイナーと開発者のワークフローが劇的に向上します。UI/UX開発の効率化に注目です。 #Fig…</title>
-    <link rel="alternate" href="https://bsky.app/profile/ai-bridge-tech.bsky.social/post/3mp3vbjb5ds2p"/>
-    <published>2026-06-25T07:19:10.007Z</published>
-    <updated>2026-06-25T07:19:10.007Z</updated>
-    <author><name>ai-bridge-tech.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="prototype"/>
-    <summary>Figma update adds code layers, animation support, and AI features—strengthens design-to-code handoff and workflow.</summary>
-    <content type="html"><![CDATA[<p>Figma update adds code layers, animation support, and AI features—strengthens design-to-code handoff and workflow.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/ai-bridge-tech.bsky.social/post/3mp3vbjb5ds2p">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:51407d21f31c7e4c</id>
-    <title>The layers of AI experience</title>
-    <link rel="alternate" href="https://emilycampbell.co/writing/layers-of-ai-experience"/>
-    <published>2026-06-25T06:49:07+00:00</published>
-    <updated>2026-06-25T06:49:07+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="designer-post"/>
-    <category term="analysis"/>
-    <summary>Designers must shape AI system constraints and behaviors beyond surface interfaces—strategic design thinking for AI products.</summary>
-    <content type="html"><![CDATA[<p>Designers must shape AI system constraints and behaviors beyond surface interfaces—strategic design thinking for AI products.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 7/10</p><p><a href="https://emilycampbell.co/writing/layers-of-ai-experience">Read on sidebar →</a></p>]]></content>
   </entry>
 </feed>
