@@ -5,8 +5,51 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-27T05:58:00+00:00</updated>
+  <updated>2026-06-27T12:03:14+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5b302aaaac2d3e68</id>
+    <title>an 18 minute video on how to fully utilise claude design as a beginner
+
+in this video you&#x27;ll learn about:
+
+- the new upg…</title>
+    <link rel="alternate" href="https://x.com/vikktorrrre/status/2070838271861571623"/>
+    <published>2026-06-27T11:54:52+00:00</published>
+    <updated>2026-06-27T11:54:52+00:00</updated>
+    <author><name>vikktorrrre</name></author>
+    <category term="claude-code"/>
+    <category term="technique"/>
+    <category term="designer-post"/>
+    <summary>18-min beginner walkthrough of Claude Design: interface, design systems, landing pages, MCPs, Claude Code integration, and export workflows.</summary>
+    <content type="html"><![CDATA[<p>18-min beginner walkthrough of Claude Design: interface, design systems, landing pages, MCPs, Claude Code integration, and export workflows.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/vikktorrrre/status/2070838271861571623">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0e8b1fb5593fb7cc</id>
+    <title>RT @orcdev: Shadcn just dropped brand new components... 👀
+
+and there&#x27;s one subtle addition I never expected to see in sh…</title>
+    <link rel="alternate" href="https://x.com/shadcn/status/2070785385723035846"/>
+    <published>2026-06-27T08:24:43+00:00</published>
+    <updated>2026-06-27T08:24:43+00:00</updated>
+    <author><name>shadcn</name></author>
+    <category term="shadcn"/>
+    <summary>shadcn/ui drops new components with a subtle undisclosed feature—real component launch, borderline substance without detail.</summary>
+    <content type="html"><![CDATA[<p>shadcn/ui drops new components with a subtle undisclosed feature—real component launch, borderline substance without detail.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/shadcn/status/2070785385723035846">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:53aa2e5bcf381914</id>
+    <title>vkhanhqui/figma-mcp-go — Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code</title>
+    <link rel="alternate" href="https://github.com/vkhanhqui/figma-mcp-go"/>
+    <published>2026-06-27T07:49:25Z</published>
+    <updated>2026-06-27T07:49:25Z</updated>
+    <author><name>vkhanhqui</name></author>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <category term="design-to-code"/>
+    <summary>High-stars Figma MCP with full read/write, text→design, design→code—exactly Steven&#x27;s top-tier MCP interest.</summary>
+    <content type="html"><![CDATA[<p>High-stars Figma MCP with full read/write, text→design, design→code—exactly Steven&#x27;s top-tier MCP interest.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/vkhanhqui/figma-mcp-go">Read on github →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:5b8ecad5a002a49f</id>
     <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.9.0 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
@@ -428,6 +471,22 @@ But it&#x27;s also AI you can put in your app, without an API…</title>
     <content type="html"><![CDATA[<p>Claude Code UX workflow: AI handles design-system variable setup, auto-layout, layer tidying from plain-text specs.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/panic.gay/post/3mp6ytqx5522z">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:b54c79d6cc449972</id>
+    <title>I&#x27;m shocked most people still create designs without knowing Claude can do almost everything for them.
+
+Here&#x27;s the compl…</title>
+    <link rel="alternate" href="https://x.com/shushant_l/status/2070492348430389708"/>
+    <published>2026-06-26T13:00:18+00:00</published>
+    <updated>2026-06-26T13:00:18+00:00</updated>
+    <author><name>shushant_l</name></author>
+    <category term="claude-code"/>
+    <category term="design-system"/>
+    <category term="prototype"/>
+    <category term="ui-craft"/>
+    <summary>Claude Design workflow guide covering websites, slides, prototypes, UI—solid design-system structure and brand-asset reuse.</summary>
+    <content type="html"><![CDATA[<p>Claude Design workflow guide covering websites, slides, prototypes, UI—solid design-system structure and brand-asset reuse.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/shushant_l/status/2070492348430389708">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:a4c8d8acb75b40df</id>
     <title>Pixel Painter Studio is a very cool Figma plugin if you want to do pixel art, but also, if you want to create patterns f…</title>
     <link rel="alternate" href="https://bsky.app/profile/stephaniewalter.bsky.social/post/3mp6x57x5v62b"/>
@@ -702,17 +761,17 @@ https://www.itmedia.co.jp/news/articles/2606/25/news132.html</title>
     <content type="html"><![CDATA[<p>Figma Motion launch with AI animation generation—direct design-tool advancement enabling motion craft.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/tech-trending.bsky.social/post/3mp5lxiddjb2l">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:dde73dd8d66f5fac</id>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:97e271894cc5abaf</id>
     <title>AI UI creators aren’t built to scale—80% of them break user trust. Shocking? Build a design system that gives every elem…</title>
-    <link rel="alternate" href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5h5cvv7r2q"/>
-    <published>2026-06-25T22:11:36.278Z</published>
-    <updated>2026-06-25T22:11:36.278Z</updated>
+    <link rel="alternate" href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5jqaz2zs2h"/>
+    <published>2026-06-25T22:57:59.429Z</published>
+    <updated>2026-06-25T22:57:59.429Z</updated>
     <author><name>kevin122-06.bsky.social</name></author>
     <category term="design-system"/>
     <category term="ui-craft"/>
     <category term="technique"/>
-    <summary>Design-system approach to scale AI UI creators and prevent slop — pixel-perfect guidelines and element specs.</summary>
-    <content type="html"><![CDATA[<p>Design-system approach to scale AI UI creators and prevent slop — pixel-perfect guidelines and element specs.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5h5cvv7r2q">Read on bluesky →</a></p>]]></content>
+    <summary>Design-system guidance for AI UI tools to maintain trust &amp; consistency; addresses anti-slop concern but lacks concrete artifact or live proof.</summary>
+    <content type="html"><![CDATA[<p>Design-system guidance for AI UI tools to maintain trust &amp; consistency; addresses anti-slop concern but lacks concrete artifact or live proof.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5jqaz2zs2h">Read on bluesky →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:e6233f4407e46798</id>
