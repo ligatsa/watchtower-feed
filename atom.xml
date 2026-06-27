@@ -5,8 +5,34 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-26T23:52:36+00:00</updated>
+  <updated>2026-06-27T05:58:00+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:5b8ecad5a002a49f</id>
+    <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.9.0 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
+    <link rel="alternate" href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"/>
+    <published>2026-06-27T05:53:38.278088+00:00</published>
+    <updated>2026-06-27T05:53:38.278088+00:00</updated>
+    <author><name>nextlevelbuilder</name></author>
+    <category term="skill"/>
+    <category term="ui-craft"/>
+    <category term="claude-code"/>
+    <category term="anti-ai-slop"/>
+    <summary>AI skill for professional multi-platform UI/UX design with 96k+ stars; directly in Steven&#x27;s installed taste.</summary>
+    <content type="html"><![CDATA[<p>AI skill for professional multi-platform UI/UX design with 96k+ stars; directly in Steven&#x27;s installed taste.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">Read on github_watched →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:0dbd06263e0d43b3</id>
+    <title>RT @MengTo: I recorded a 10-min tutorial on how to use Figma Motion and shaders. https://t.co/ehfIJyOvJq</title>
+    <link rel="alternate" href="https://x.com/MengTo/status/2070682244235374598"/>
+    <published>2026-06-27T01:34:53+00:00</published>
+    <updated>2026-06-27T01:34:53+00:00</updated>
+    <author><name>MengTo</name></author>
+    <category term="figma"/>
+    <category term="technique"/>
+    <summary>Figma Motion &amp; shaders tutorial video; clear design tooling angle, but minimal context on substance or anti-slop value.</summary>
+    <content type="html"><![CDATA[<p>Figma Motion &amp; shaders tutorial video; clear design tooling angle, but minimal context on substance or anti-slop value.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/MengTo/status/2070682244235374598">Read on x_getxapi →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:284bce95f08a31ef</id>
     <title>Mode vs Component Variant?</title>
@@ -569,20 +595,6 @@ Start here: Never move the reader against their intent.
     <category term="designer-post"/>
     <summary>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</summary>
     <content type="html"><![CDATA[<p>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2070394918720221522">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:5fb31dc7b55f2141</id>
-    <title>🆕 nextlevelbuilder/ui-ux-pro-max-skill v2.8.8 — An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</title>
-    <link rel="alternate" href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"/>
-    <published>2026-06-26T05:34:15.031438+00:00</published>
-    <updated>2026-06-26T05:34:15.031438+00:00</updated>
-    <author><name>nextlevelbuilder</name></author>
-    <category term="skill"/>
-    <category term="ui-craft"/>
-    <category term="claude-code"/>
-    <category term="frontend"/>
-    <summary>Major update to ui-ux-pro-max-skill (Steven&#x27;s installed taste); multi-platform design intelligence for professional UI/UX with Claude.</summary>
-    <content type="html"><![CDATA[<p>Major update to ui-ux-pro-max-skill (Steven&#x27;s installed taste); multi-platform design intelligence for professional UI/UX with Claude.</p><p><strong>Source:</strong> github_watched · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">Read on github_watched →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:617b78929e8d74e1</id>
