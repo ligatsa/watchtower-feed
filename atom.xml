@@ -5,8 +5,64 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-27T18:07:47+00:00</updated>
+  <updated>2026-06-28T00:12:27+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:6c8d1153a46ea293</id>
+    <title>It definitely does. We use Vinkius to connect AI agents to tools like Figma https://vinkius.com/mcp/figma for automated …</title>
+    <link rel="alternate" href="https://bsky.app/profile/vinkius-mcp-ai.bsky.social/post/3mpcmlgxpay2u"/>
+    <published>2026-06-27T23:32:17.464Z</published>
+    <updated>2026-06-27T23:32:17.464Z</updated>
+    <author><name>vinkius-mcp-ai.bsky.social</name></author>
+    <category term="mcp"/>
+    <category term="figma"/>
+    <category term="agent-sdk"/>
+    <category term="prototype"/>
+    <summary>Vinkius MCP connects AI agents to Figma for automated design inspection and prototyping—tighter iteration loop.</summary>
+    <content type="html"><![CDATA[<p>Vinkius MCP connects AI agents to Figma for automated design inspection and prototyping—tighter iteration loop.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/vinkius-mcp-ai.bsky.social/post/3mpcmlgxpay2u">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:95ec38c71af43e48</id>
+    <title>Figma launched AI motion graphics and shader tools at Config 2026. Designers can now create animations and visual effect…</title>
+    <link rel="alternate" href="https://bsky.app/profile/youshenlim.bsky.social/post/3mpcgjfquy425"/>
+    <published>2026-06-27T21:43:46.132Z</published>
+    <updated>2026-06-27T21:43:46.132Z</updated>
+    <author><name>youshenlim.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="ui-craft"/>
+    <category term="anthropic"/>
+    <summary>Figma Config 2026: AI motion graphics and shader tools let designers create animations directly without code.</summary>
+    <content type="html"><![CDATA[<p>Figma Config 2026: AI motion graphics and shader tools let designers create animations directly without code.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/youshenlim.bsky.social/post/3mpcgjfquy425">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8ddf096333f30aa3</id>
+    <title>Four Takeaways From CONFIG</title>
+    <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1uhagh3/four_takeaways_from_config/"/>
+    <published>2026-06-27T18:42:39+00:00</published>
+    <updated>2026-06-27T18:42:39+00:00</updated>
+    <author><name>reddit/r/FigmaDesign</name></author>
+    <category term="design-system"/>
+    <category term="analysis"/>
+    <category term="figma"/>
+    <summary>CONFIG takeaways: design systems → knowledge systems, documentation as infrastructure, design-dev convergence, human judgment differentiator.</summary>
+    <content type="html"><![CDATA[<p>CONFIG takeaways: design systems → knowledge systems, documentation as infrastructure, design-dev convergence, human judgment differentiator.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1uhagh3/four_takeaways_from_config/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:94c743a9b7135b85</id>
+    <title>Tried the free Figma MCPs out there to redesign part of my portfolio. Created a new Batch export MCP call for tokens optimisations.</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1uh9jn2/tried_the_free_figma_mcps_out_there_to_redesign/"/>
+    <published>2026-06-27T18:06:11+00:00</published>
+    <updated>2026-06-27T18:06:11+00:00</updated>
+    <author><name>reddit/r/designsystems</name></author>
+    <category term="mcp"/>
+    <category term="figma"/>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Used Figma MCPs to redesign portfolio; built custom batch export MCP for token optimization—real design-system iteration.</summary>
+    <content type="html"><![CDATA[<p>Used Figma MCPs to redesign portfolio; built custom batch export MCP for token optimization—real design-system iteration.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1uh9jn2/tried_the_free_figma_mcps_out_there_to_redesign/">Read on reddit/r/designsystems →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:284a19793723f3c8</id>
     <title>Tested Free Figma MCPs to create part of my website today. This is such a better experience now.</title>
@@ -74,6 +130,19 @@ Better design taste, better motion, fewer random design decisions, fewer refinem
     <content type="html"><![CDATA[<p>Upgraded text-to-lottie skill with better taste and motion for Claude Code/Cursor; concrete, polished animation craft tool.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/dorukkavcioglu/status/2070885963476173245">Read on x_getxapi →</a></p>]]></content>
   </entry>
   <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:643edce904d2f464</id>
+    <title>Open-source design system that keeps Figma and CSS in sync from one source — just shipped a big color/token update</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1uh4z1u/opensource_design_system_that_keeps_figma_and_css/"/>
+    <published>2026-06-27T15:01:50+00:00</published>
+    <updated>2026-06-27T15:01:50+00:00</updated>
+    <author><name>reddit/r/designsystems</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <category term="mcp"/>
+    <summary>Open-source design system syncing Figma ↔ CSS with new token/color update—direct token-to-code pipeline.</summary>
+    <content type="html"><![CDATA[<p>Open-source design system syncing Figma ↔ CSS with new token/color update—direct token-to-code pipeline.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 8/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1uh4z1u/opensource_design_system_that_keeps_figma_and_css/">Read on reddit/r/designsystems →</a></p>]]></content>
+  </entry>
+  <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:3d8cb1de8c81cfd1</id>
     <title>Figma Motion animations in prototypes</title>
     <link rel="alternate" href="https://www.reddit.com/r/FigmaDesign/comments/1uh46c6/figma_motion_animations_in_prototypes/"/>
@@ -85,6 +154,18 @@ Better design taste, better motion, fewer random design decisions, fewer refinem
     <category term="technique"/>
     <summary>Hands-on exploration of Figma Motion for interface prototyping, concrete use case for animation in design workflow.</summary>
     <content type="html"><![CDATA[<p>Hands-on exploration of Figma Motion for interface prototyping, concrete use case for animation in design workflow.</p><p><strong>Source:</strong> reddit/r/FigmaDesign · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/FigmaDesign/comments/1uh46c6/figma_motion_animations_in_prototypes/">Read on reddit/r/FigmaDesign →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:baba6a937df29657</id>
+    <title>Building from your feedback</title>
+    <link rel="alternate" href="https://www.reddit.com/r/DesignSystems/comments/1uh1h12/building_from_your_feedback/"/>
+    <published>2026-06-27T12:26:38+00:00</published>
+    <updated>2026-06-27T12:26:38+00:00</updated>
+    <author><name>reddit/r/designsystems</name></author>
+    <category term="design-system"/>
+    <category term="figma"/>
+    <summary>Colorsphere design system evolution addressing AI&#x27;s need for more than tokens—accessibility + token guidance.</summary>
+    <content type="html"><![CDATA[<p>Colorsphere design system evolution addressing AI&#x27;s need for more than tokens—accessibility + token guidance.</p><p><strong>Source:</strong> reddit/r/designsystems · <strong>Score:</strong> 7/10</p><p><a href="https://www.reddit.com/r/DesignSystems/comments/1uh1h12/building_from_your_feedback/">Read on reddit/r/designsystems →</a></p>]]></content>
   </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:5b302aaaac2d3e68</id>
@@ -773,96 +854,5 @@ Start here: Never move the reader against their intent.
     <category term="analysis"/>
     <summary>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</summary>
     <content type="html"><![CDATA[<p>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/systemthinkinglab.ai/post/3mp65mv6ugr2v">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:26c5097a4f38047c</id>
-    <title>murphytrueman/design-system-ops — Claude Code skills for the work that keeps a design system alive</title>
-    <link rel="alternate" href="https://github.com/murphytrueman/design-system-ops"/>
-    <published>2026-06-26T04:42:37Z</published>
-    <updated>2026-06-26T04:42:37Z</updated>
-    <author><name>murphytrueman</name></author>
-    <category term="skill"/>
-    <category term="design-system"/>
-    <category term="claude-code"/>
-    <category term="figma"/>
-    <summary>Claude Code skills for design-system ops (tokens, Figma, day-to-day DS maintenance); same flavor as Steven&#x27;s installed taste.</summary>
-    <content type="html"><![CDATA[<p>Claude Code skills for design-system ops (tokens, Figma, day-to-day DS maintenance); same flavor as Steven&#x27;s installed taste.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 9/10</p><p><a href="https://github.com/murphytrueman/design-system-ops">Read on github →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:3cfa6dd29c876723</id>
-    <title>Figma 新功能的重點不只是「設計工具變強」。真正的工作流問題是：當原型已經會動、能產生效果、甚至有 code layer 時，工程要接手的是什麼？
-
-這篇用探索畫布 vs 交付規格拆解設計交接。
-
-vist.ly/595fh
-
-#AI代…</title>
-    <link rel="alternate" href="https://bsky.app/profile/boosterminiclass.com/post/3mp63gykgy52w"/>
-    <published>2026-06-26T04:14:54.195Z</published>
-    <updated>2026-06-26T04:14:54.195Z</updated>
-    <author><name>boosterminiclass.com</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="analysis"/>
-    <category term="technique"/>
-    <summary>Figma&#x27;s new workflow: prototypes animate, generate effects, produce code—what does engineering hand-off look like? Design→code handoff analysis.</summary>
-    <content type="html"><![CDATA[<p>Figma&#x27;s new workflow: prototypes animate, generate effects, produce code—what does engineering hand-off look like? Design→code handoff analysis.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/boosterminiclass.com/post/3mp63gykgy52w">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9f2d3b6e19244c89</id>
-    <title>What a tragedy. 
-
-“Speaking of Al transformation—all the DesignOps folks I spoke with said that they&#x27;re full-time job is…</title>
-    <link rel="alternate" href="https://bsky.app/profile/990000.bsky.social/post/3mp6244var22u"/>
-    <published>2026-06-26T03:50:57.668Z</published>
-    <updated>2026-06-26T03:50:57.668Z</updated>
-    <author><name>990000.bsky.social</name></author>
-    <category term="claude-code"/>
-    <category term="designer-post"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>DesignOps shift: 800 designers migrating from Figma to Claude Code CLI for AI-driven design work; real workflow transformation signal.</summary>
-    <content type="html"><![CDATA[<p>DesignOps shift: 800 designers migrating from Figma to Claude Code CLI for AI-driven design work; real workflow transformation signal.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/990000.bsky.social/post/3mp6244var22u">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:cb88f0b248b88cfd</id>
-    <title>Command Code with open models and /design skill. 🔥 https://t.co/WJUy3vugm4</title>
-    <link rel="alternate" href="https://x.com/MrAhmadAwais/status/2070339566557655527"/>
-    <published>2026-06-26T02:53:12+00:00</published>
-    <updated>2026-06-26T02:53:12+00:00</updated>
-    <author><name>MrAhmadAwais</name></author>
-    <category term="skill"/>
-    <category term="claude-code"/>
-    <category term="ui-craft"/>
-    <category term="agent-sdk"/>
-    <summary>Open-models Claude Code with /design skill command; direct design-agent capability from trusted author (MrAhmadAwais).</summary>
-    <content type="html"><![CDATA[<p>Open-models Claude Code with /design skill command; direct design-agent capability from trusted author (MrAhmadAwais).</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/MrAhmadAwais/status/2070339566557655527">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:568ffe0538ff8326</id>
-    <title>Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション生成するAI機能も
-https://www.itmedia.co.jp/news/articles/2606/25/news132.html</title>
-    <link rel="alternate" href="https://bsky.app/profile/tech-trending.bsky.social/post/3mp5lxiddjb2l"/>
-    <published>2026-06-25T23:37:49.365Z</published>
-    <updated>2026-06-25T23:37:49.365Z</updated>
-    <author><name>tech-trending.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="technique"/>
-    <summary>Figma Motion launch with AI animation generation—direct design-tool advancement enabling motion craft.</summary>
-    <content type="html"><![CDATA[<p>Figma Motion launch with AI animation generation—direct design-tool advancement enabling motion craft.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/tech-trending.bsky.social/post/3mp5lxiddjb2l">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:97e271894cc5abaf</id>
-    <title>AI UI creators aren’t built to scale—80% of them break user trust. Shocking? Build a design system that gives every elem…</title>
-    <link rel="alternate" href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5jqaz2zs2h"/>
-    <published>2026-06-25T22:57:59.429Z</published>
-    <updated>2026-06-25T22:57:59.429Z</updated>
-    <author><name>kevin122-06.bsky.social</name></author>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Design-system guidance for AI UI tools to maintain trust &amp; consistency; addresses anti-slop concern but lacks concrete artifact or live proof.</summary>
-    <content type="html"><![CDATA[<p>Design-system guidance for AI UI tools to maintain trust &amp; consistency; addresses anti-slop concern but lacks concrete artifact or live proof.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mp5jqaz2zs2h">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
