@@ -5,8 +5,99 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-28T06:17:09+00:00</updated>
+  <updated>2026-06-28T12:22:06+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:f2a0f038723825bf</id>
+    <title>AI UI creators aren’t built to scale—80% of them break user trust. Shocking? Build a design system that gives every elem…</title>
+    <link rel="alternate" href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mpdtxsq3pu2j"/>
+    <published>2026-06-28T11:17:08.741Z</published>
+    <updated>2026-06-28T11:17:08.741Z</updated>
+    <author><name>kevin122-06.bsky.social</name></author>
+    <category term="design-system"/>
+    <category term="ui-craft"/>
+    <category term="technique"/>
+    <summary>Design system fundamentals for AI UI—pixel-perfect guidelines + trust via systematic specs; directly addresses scaling AI-slop.</summary>
+    <content type="html"><![CDATA[<p>Design system fundamentals for AI UI—pixel-perfect guidelines + trust via systematic specs; directly addresses scaling AI-slop.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/kevin122-06.bsky.social/post/3mpdtxsq3pu2j">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:e5e4568fe6bef205</id>
+    <title>New bento designed &amp;amp; built w/ Claude https://t.co/7JKU7KxMrJ</title>
+    <link rel="alternate" href="https://x.com/growthflo/status/2071167145241673909"/>
+    <published>2026-06-28T09:41:42+00:00</published>
+    <updated>2026-06-28T09:41:42+00:00</updated>
+    <author><name>growthflo</name></author>
+    <category term="claude-code"/>
+    <category term="ui-craft"/>
+    <category term="prototype"/>
+    <summary>Bento UI designed &amp; built with Claude—real artifact with working prototype shown.</summary>
+    <content type="html"><![CDATA[<p>Bento UI designed &amp; built with Claude—real artifact with working prototype shown.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/growthflo/status/2071167145241673909">Read on x_getxapi →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:a0e9b705a6c85ee0</id>
+    <title>The bullshit asymmetry principle was survivable. AI made production of slop almost free.</title>
+    <link rel="alternate" href="https://uxdesign.cc/the-bullshit-asymmetry-principle-was-survivable-ai-made-production-of-slop-almost-free-2107dd4530b4?source=rss----138adf9c44c---4"/>
+    <published>2026-06-28T09:17:35+00:00</published>
+    <updated>2026-06-28T09:17:35+00:00</updated>
+    <author><name>uxcollective</name></author>
+    <category term="analysis"/>
+    <category term="designer-post"/>
+    <summary>Thoughtful analysis of AI slop &amp; bullshit asymmetry—directly addresses design discipline impact and taste.</summary>
+    <content type="html"><![CDATA[<p>Thoughtful analysis of AI slop &amp; bullshit asymmetry—directly addresses design discipline impact and taste.</p><p><strong>Source:</strong> uxcollective · <strong>Score:</strong> 8/10</p><p><a href="https://uxdesign.cc/the-bullshit-asymmetry-principle-was-survivable-ai-made-production-of-slop-almost-free-2107dd4530b4?source=rss----138adf9c44c---4">Read on uxcollective →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:40370e816192c662</id>
+    <title>itshover/itshover — Icons that move with intent</title>
+    <link rel="alternate" href="https://github.com/itshover/itshover"/>
+    <published>2026-06-28T08:49:19Z</published>
+    <updated>2026-06-28T08:49:19Z</updated>
+    <author><name>itshover</name></author>
+    <category term="shadcn"/>
+    <category term="ui-craft"/>
+    <category term="animation"/>
+    <summary>2.5K-star motion icons with shadcn—polished, intent-driven animation craft + component flavor Steven tracks.</summary>
+    <content type="html"><![CDATA[<p>2.5K-star motion icons with shadcn—polished, intent-driven animation craft + component flavor Steven tracks.</p><p><strong>Source:</strong> github · <strong>Score:</strong> 8/10</p><p><a href="https://github.com/itshover/itshover">Read on github →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:42b5fa58691a46ed</id>
+    <title>📦 blatui/blatui v1.15.3
+
+Open-source shadcn/ui for the BLAT stack (Blade, Laravel, Alpine.js, Tailwind CSS v4). A CLI th…</title>
+    <link rel="alternate" href="https://bsky.app/profile/throwable.bsky.social/post/3mpdj7emgis2f"/>
+    <published>2026-06-28T08:04:31+00:00</published>
+    <updated>2026-06-28T08:04:31+00:00</updated>
+    <author><name>throwable.bsky.social</name></author>
+    <category term="shadcn"/>
+    <category term="design-system"/>
+    <summary>BLAT shadcn/ui registry—component-copy CLI for Laravel stack; design-system flavor but niche stack.</summary>
+    <content type="html"><![CDATA[<p>BLAT shadcn/ui registry—component-copy CLI for Laravel stack; design-system flavor but niche stack.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/throwable.bsky.social/post/3mpdj7emgis2f">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:8d191df5f20b3ec7</id>
+    <title>Figma just announced code layers, native motion, and AI shaders at Config 2026 — one day after SpaceX bought Cursor for …</title>
+    <link rel="alternate" href="https://bsky.app/profile/kevinhermes.bsky.social/post/3mpdi4gh6s323"/>
+    <published>2026-06-28T07:44:58.000Z</published>
+    <updated>2026-06-28T07:44:58.000Z</updated>
+    <author><name>kevinhermes.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="anthropic"/>
+    <summary>Figma Config 2026 announces code layers, native motion, AI shaders—direct design-tool evolution tied to AI coding landscape.</summary>
+    <content type="html"><![CDATA[<p>Figma Config 2026 announces code layers, native motion, AI shaders—direct design-tool evolution tied to AI coding landscape.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/kevinhermes.bsky.social/post/3mpdi4gh6s323">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:00d9c5e5b66f2f6f</id>
+    <title>Rethinking Figma in an AI World uxdesign.cc/rethinking-f...</title>
+    <link rel="alternate" href="https://bsky.app/profile/uxcollective.bsky.social/post/3mpdh4edn4t27"/>
+    <published>2026-06-28T07:27:02.778Z</published>
+    <updated>2026-06-28T07:27:02.778Z</updated>
+    <author><name>uxcollective.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="designer-post"/>
+    <category term="analysis"/>
+    <summary>Opinion piece on Figma&#x27;s future in AI era; thoughtful design-discipline commentary, but no artifact or concrete technique.</summary>
+    <content type="html"><![CDATA[<p>Opinion piece on Figma&#x27;s future in AI era; thoughtful design-discipline commentary, but no artifact or concrete technique.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/uxcollective.bsky.social/post/3mpdh4edn4t27">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:715499dff7981abb</id>
     <title>Figma adds code layers, support for animations, more AI features in new update
@@ -600,259 +691,5 @@ Taste Skill is an anti-slop frontend framework and collection of portable AI age
     <category term="design-system"/>
     <summary>Taste Skill: anti-slop frontend framework with portable AI agent skills for UI design, layout, motion, spacing across coding agents.</summary>
     <content type="html"><![CDATA[<p>Taste Skill: anti-slop frontend framework with portable AI agent skills for UI design, layout, motion, spacing across coding agents.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/github-trending-js.bsky.social/post/3mp752hmlen2i">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:51e37429a1d030d6</id>
-    <title>AI features work even better with context.
-
-Lovable has hundreds of connectors, CRMs, databases, calendars, comms tools,…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2070498661105045642"/>
-    <published>2026-06-26T13:25:23+00:00</published>
-    <updated>2026-06-26T13:25:23+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <category term="ui-craft"/>
-    <summary>Lovable adds context connectors (CRM, calendar, comms) to AI-built app features — concrete design+AI capability.</summary>
-    <content type="html"><![CDATA[<p>Lovable adds context connectors (CRM, calendar, comms) to AI-built app features — concrete design+AI capability.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/Lovable/status/2070498661105045642">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c9769c94f58fead5</id>
-    <title>Most people think Lovable is just the AI that builds your app.
-
-But it&#x27;s also AI you can put in your app, without an API…</title>
-    <link rel="alternate" href="https://x.com/Lovable/status/2070498653496631490"/>
-    <published>2026-06-26T13:25:21+00:00</published>
-    <updated>2026-06-26T13:25:21+00:00</updated>
-    <author><name>Lovable</name></author>
-    <category term="lovable"/>
-    <summary>Lovable embeddable AI for apps without API setup — borderline; shows product capability but light substance.</summary>
-    <content type="html"><![CDATA[<p>Lovable embeddable AI for apps without API setup — borderline; shows product capability but light substance.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 6/10</p><p><a href="https://x.com/Lovable/status/2070498653496631490">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:21da8ff128fcaa94</id>
-    <title>This is VERY DIFFERENT than what I see many UXers doing, which is essentially pasting their work requests into Figma Mak…</title>
-    <link rel="alternate" href="https://bsky.app/profile/panic.gay/post/3mp6ytqxa2s2z"/>
-    <published>2026-06-26T13:01:02.695Z</published>
-    <updated>2026-06-26T13:01:02.695Z</updated>
-    <author><name>panic.gay</name></author>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <category term="anti-slop"/>
-    <category term="technique"/>
-    <summary>Critique of AI-slop in Figma Make: proper design system documentation + validation prevents garbage output.</summary>
-    <content type="html"><![CDATA[<p>Critique of AI-slop in Figma Make: proper design system documentation + validation prevents garbage output.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/panic.gay/post/3mp6ytqxa2s2z">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:af8c7cad77375dbb</id>
-    <title>When I use it to build screens, I spend time writing out specific design documentation on the flows, and again AI has to…</title>
-    <link rel="alternate" href="https://bsky.app/profile/panic.gay/post/3mp6ytqx73k2z"/>
-    <published>2026-06-26T13:01:02.694Z</published>
-    <updated>2026-06-26T13:01:02.694Z</updated>
-    <author><name>panic.gay</name></author>
-    <category term="figma-make"/>
-    <category term="design-system"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Discipline for AI design screens: document flows, restrict to design-system components, validate output against specs.</summary>
-    <content type="html"><![CDATA[<p>Discipline for AI design screens: document flows, restrict to design-system components, validate output against specs.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/panic.gay/post/3mp6ytqx73k2z">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:37afcd29f35d62d2</id>
-    <title>I have a Claude code setup for UX work at home (so I could learn to isolate AI away from the creative parts). I can now …</title>
-    <link rel="alternate" href="https://bsky.app/profile/panic.gay/post/3mp6ytqx5522z"/>
-    <published>2026-06-26T13:01:02.692Z</published>
-    <updated>2026-06-26T13:01:02.692Z</updated>
-    <author><name>panic.gay</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Claude Code UX workflow: AI handles design-system variable setup, auto-layout, layer tidying from plain-text specs.</summary>
-    <content type="html"><![CDATA[<p>Claude Code UX workflow: AI handles design-system variable setup, auto-layout, layer tidying from plain-text specs.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/panic.gay/post/3mp6ytqx5522z">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:b54c79d6cc449972</id>
-    <title>I&#x27;m shocked most people still create designs without knowing Claude can do almost everything for them.
-
-Here&#x27;s the compl…</title>
-    <link rel="alternate" href="https://x.com/shushant_l/status/2070492348430389708"/>
-    <published>2026-06-26T13:00:18+00:00</published>
-    <updated>2026-06-26T13:00:18+00:00</updated>
-    <author><name>shushant_l</name></author>
-    <category term="claude-code"/>
-    <category term="design-system"/>
-    <category term="prototype"/>
-    <category term="ui-craft"/>
-    <summary>Claude Design workflow guide covering websites, slides, prototypes, UI—solid design-system structure and brand-asset reuse.</summary>
-    <content type="html"><![CDATA[<p>Claude Design workflow guide covering websites, slides, prototypes, UI—solid design-system structure and brand-asset reuse.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 7/10</p><p><a href="https://x.com/shushant_l/status/2070492348430389708">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a4c8d8acb75b40df</id>
-    <title>Pixel Painter Studio is a very cool Figma plugin if you want to do pixel art, but also, if you want to create patterns f…</title>
-    <link rel="alternate" href="https://bsky.app/profile/stephaniewalter.bsky.social/post/3mp6x57x5v62b"/>
-    <published>2026-06-26T12:30:32.677Z</published>
-    <updated>2026-06-26T12:30:32.677Z</updated>
-    <author><name>stephaniewalter.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="plugin"/>
-    <category term="ui-craft"/>
-    <summary>Figma plugin for pixel art &amp; pattern generation; niche craft tool with visual output potential.</summary>
-    <content type="html"><![CDATA[<p>Figma plugin for pixel art &amp; pattern generation; niche craft tool with visual output potential.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/stephaniewalter.bsky.social/post/3mp6x57x5v62b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a6cacbc35be45d17</id>
-    <title>“Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション生成するAI機能も” htn.to/2A1vB7xkGK</title>
-    <link rel="alternate" href="https://bsky.app/profile/feilong76.bsky.social/post/3mp6ww5ncxs2r"/>
-    <published>2026-06-26T12:26:35.652Z</published>
-    <updated>2026-06-26T12:26:35.652Z</updated>
-    <author><name>feilong76.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="anthropic"/>
-    <summary>Figma Motion launch with AI animation generation—direct Figma→design capability Steven tracks.</summary>
-    <content type="html"><![CDATA[<p>Figma Motion launch with AI animation generation—direct Figma→design capability Steven tracks.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/feilong76.bsky.social/post/3mp6ww5ncxs2r">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:8a21a3fb6cf7b616</id>
-    <title>Figma announced new tools and AI features at Config 2026, including Figma Motion for in-canvas motion design, Code Layer…</title>
-    <link rel="alternate" href="https://bsky.app/profile/alternativeto.net/post/3mp6qaebrfw2m"/>
-    <published>2026-06-26T10:27:01.921089Z</published>
-    <updated>2026-06-26T10:27:01.921089Z</updated>
-    <author><name>alternativeto.net</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="anthropic"/>
-    <summary>Figma Motion + Code Layers + AI plugin generation at Config 2026—direct design-to-code and animation tools Steven builds with.</summary>
-    <content type="html"><![CDATA[<p>Figma Motion + Code Layers + AI plugin generation at Config 2026—direct design-to-code and animation tools Steven builds with.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 9/10</p><p><a href="https://bsky.app/profile/alternativeto.net/post/3mp6qaebrfw2m">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:03e523e26d808f01</id>
-    <title>AI generating animations *inside* Figma? That&#x27;s wild.</title>
-    <link rel="alternate" href="https://bsky.app/profile/sam-rivera.bsky.social/post/3mp6orxswmt2k"/>
-    <published>2026-06-26T10:01:04.994Z</published>
-    <updated>2026-06-26T10:01:04.994Z</updated>
-    <author><name>sam-rivera.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <summary>Figma Motion AI animation generation in-canvas—direct design workflow enhancement for motion craft.</summary>
-    <content type="html"><![CDATA[<p>Figma Motion AI animation generation in-canvas—direct design workflow enhancement for motion craft.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/sam-rivera.bsky.social/post/3mp6orxswmt2k">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:af879075b830ba8b</id>
-    <title>やばい、試してみてそわそわしてきた... / Flashの再来？　Figmaの新機能「Figma Motion」に懐かしいとの声　アニメーション生成するAI機能も（1/2 ページ） - ITmedia NEWS</title>
-    <link rel="alternate" href="https://bsky.app/profile/girigiribauer.com/post/3mp6oanxhhl2b"/>
-    <published>2026-06-26T09:51:24.171Z</published>
-    <updated>2026-06-26T09:51:24.171Z</updated>
-    <author><name>girigiribauer.com</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <summary>Japanese coverage of Figma Motion and AI animation; same Config 2026 feature as item 5 &amp; 7.</summary>
-    <content type="html"><![CDATA[<p>Japanese coverage of Figma Motion and AI animation; same Config 2026 feature as item 5 &amp; 7.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/girigiribauer.com/post/3mp6oanxhhl2b">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:45319e3cbb92b131</id>
-    <title>Figma adds code layers, support for animations, more AI features in new update
-
-Figma&#x27;s update adds a new code layer, su…</title>
-    <link rel="alternate" href="https://bsky.app/profile/ainieuwtjes.bsky.social/post/3mp6lqeupg42x"/>
-    <published>2026-06-26T09:06:30.603331+00:00</published>
-    <updated>2026-06-26T09:06:30.603331+00:00</updated>
-    <author><name>ainieuwtjes.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="ui-craft"/>
-    <category term="technique"/>
-    <summary>Figma code layers, motion, shader, and AI plugin creation—core design-to-code production features.</summary>
-    <content type="html"><![CDATA[<p>Figma code layers, motion, shader, and AI plugin creation—core design-to-code production features.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/ainieuwtjes.bsky.social/post/3mp6lqeupg42x">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:a865d0eb639f15a7</id>
-    <title>📦 blatui/blatui v1.15.0
-
-Open-source shadcn/ui for the BLAT stack (Blade, Laravel, Alpine.js, Tailwind CSS v4). A CLI th…</title>
-    <link rel="alternate" href="https://bsky.app/profile/throwable.bsky.social/post/3mp6ijzenvz2m"/>
-    <published>2026-06-26T08:09:16+00:00</published>
-    <updated>2026-06-26T08:09:16+00:00</updated>
-    <author><name>throwable.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="design-system"/>
-    <category term="frontend"/>
-    <summary>shadcn/ui variant for Laravel stack with CLI component copying—design-system adjacent but Laravel-specific, not Steven&#x27;s core stack.</summary>
-    <content type="html"><![CDATA[<p>shadcn/ui variant for Laravel stack with CLI component copying—design-system adjacent but Laravel-specific, not Steven&#x27;s core stack.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/throwable.bsky.social/post/3mp6ijzenvz2m">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:07e54e850675db31</id>
-    <title>Rethinking Figma in an AI world</title>
-    <link rel="alternate" href="https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5"/>
-    <published>2026-06-26T08:05:34+00:00</published>
-    <updated>2026-06-26T08:05:34+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="figma"/>
-    <category term="analysis"/>
-    <category term="agent-sdk"/>
-    <summary>Thoughtful analysis of Figma&#x27;s survival strategy against agentic design workflows—directly addresses AI&#x27;s effect on design discipline and tooling.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful analysis of Figma&#x27;s survival strategy against agentic design workflows—directly addresses AI&#x27;s effect on design discipline and tooling.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:926b574f1da126a2</id>
-    <title>Your design system has a new author</title>
-    <link rel="alternate" href="https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/"/>
-    <published>2026-06-26T08:03:41+00:00</published>
-    <updated>2026-06-26T08:03:41+00:00</updated>
-    <author><name>sidebar</name></author>
-    <category term="design-system"/>
-    <category term="analysis"/>
-    <category term="agent-sdk"/>
-    <summary>Critical examination of AI-authored design-system changes outpacing review—directly challenges craft integrity in agent-driven design workflows.</summary>
-    <content type="html"><![CDATA[<p>Critical examination of AI-authored design-system changes outpacing review—directly challenges craft integrity in agent-driven design workflows.</p><p><strong>Source:</strong> sidebar · <strong>Score:</strong> 8/10</p><p><a href="https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/">Read on sidebar →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:c9b60e998be90f7e</id>
-    <title>#Design #Outlooks
-Rethinking Figma in an AI world · The company is up against a new way of building products ilo.im/16e2…</title>
-    <link rel="alternate" href="https://bsky.app/profile/inautilo.bsky.social/post/3mp6hcxlfy72y"/>
-    <published>2026-06-26T07:47:25.408Z</published>
-    <updated>2026-06-26T07:47:25.408Z</updated>
-    <author><name>inautilo.bsky.social</name></author>
-    <category term="figma"/>
-    <category term="analysis"/>
-    <category term="agent-sdk"/>
-    <summary>Shares analysis of Figma&#x27;s survival in agentic era—same thoughtful piece as [2], reposted; solid design-strategy reading.</summary>
-    <content type="html"><![CDATA[<p>Shares analysis of Figma&#x27;s survival in agentic era—same thoughtful piece as [2], reposted; solid design-strategy reading.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/inautilo.bsky.social/post/3mp6hcxlfy72y">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9274393019265522</id>
-    <title>Modern #Shadcn #Card Components.
-
-Explore modern card layouts for dashboards, analytics, profiles, SaaS products, and mo…</title>
-    <link rel="alternate" href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mp6dc3ope22t"/>
-    <published>2026-06-26T06:35:21.415Z</published>
-    <updated>2026-06-26T06:35:21.415Z</updated>
-    <author><name>shadcnspace.bsky.social</name></author>
-    <category term="shadcn"/>
-    <category term="ui-craft"/>
-    <category term="prototype"/>
-    <summary>Modern shadcn card component layouts for dashboards, analytics, and SaaS—practical, reusable UI patterns.</summary>
-    <content type="html"><![CDATA[<p>Modern shadcn card component layouts for dashboards, analytics, and SaaS—practical, reusable UI patterns.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/shadcnspace.bsky.social/post/3mp6dc3ope22t">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:fd154f6d067522bc</id>
-    <title>What Makes a Great Streaming Chat Experience
-
-Start here: Never move the reader against their intent.
-
-1. Move only when…</title>
-    <link rel="alternate" href="https://x.com/shadcn/status/2070394918720221522"/>
-    <published>2026-06-26T06:33:09+00:00</published>
-    <updated>2026-06-26T06:33:09+00:00</updated>
-    <author><name>shadcn</name></author>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <category term="designer-post"/>
-    <summary>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</summary>
-    <content type="html"><![CDATA[<p>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2070394918720221522">Read on x_getxapi →</a></p>]]></content>
   </entry>
 </feed>
