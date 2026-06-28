@@ -5,8 +5,35 @@
   <link rel="self" href="https://ligatsa.github.io/watchtower-feed/atom.xml"/>
   <link rel="alternate" href="https://ligatsa.github.io/watchtower-feed/"/>
   <id>tag:ligatsa.github.io,2026:watchtower</id>
-  <updated>2026-06-28T00:12:27+00:00</updated>
+  <updated>2026-06-28T06:17:09+00:00</updated>
   <generator uri="https://github.com/" version="1.0">watchtower</generator>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:715499dff7981abb</id>
+    <title>Figma adds code layers, support for animations, more AI features in new update
+
+Figma on Wednesday showed off an update …</title>
+    <link rel="alternate" href="https://bsky.app/profile/techpedo.bsky.social/post/3mpd6vzi4eq2h"/>
+    <published>2026-06-28T05:00:18Z</published>
+    <updated>2026-06-28T05:00:18Z</updated>
+    <author><name>techpedo.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="figma-make"/>
+    <category term="anthropic"/>
+    <summary>Figma announces code layers, motion/shader support, and AI-powered custom plugins — direct design platform enhancement.</summary>
+    <content type="html"><![CDATA[<p>Figma announces code layers, motion/shader support, and AI-powered custom plugins — direct design platform enhancement.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/techpedo.bsky.social/post/3mpd6vzi4eq2h">Read on bluesky →</a></p>]]></content>
+  </entry>
+  <entry>
+    <id>tag:ligatsa.github.io,2026:watchtower:item:4a88cd488ee0413f</id>
+    <title>An Interview with Figma CEO Dylan Field About Design and AI stratechery.com/2026/an-inte...</title>
+    <link rel="alternate" href="https://bsky.app/profile/clipsoflogic.bsky.social/post/3mpcyoxz5rm26"/>
+    <published>2026-06-28T03:09:00.426Z</published>
+    <updated>2026-06-28T03:09:00.426Z</updated>
+    <author><name>clipsoflogic.bsky.social</name></author>
+    <category term="figma"/>
+    <category term="analysis"/>
+    <summary>Figma CEO on design and AI strategy — thoughtful discipline perspective from design leadership.</summary>
+    <content type="html"><![CDATA[<p>Figma CEO on design and AI strategy — thoughtful discipline perspective from design leadership.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 7/10</p><p><a href="https://bsky.app/profile/clipsoflogic.bsky.social/post/3mpcyoxz5rm26">Read on bluesky →</a></p>]]></content>
+  </entry>
   <entry>
     <id>tag:ligatsa.github.io,2026:watchtower:item:6c8d1153a46ea293</id>
     <title>It definitely does. We use Vinkius to connect AI agents to tools like Figma https://vinkius.com/mcp/figma for automated …</title>
@@ -827,32 +854,5 @@ Start here: Never move the reader against their intent.
     <category term="designer-post"/>
     <summary>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</summary>
     <content type="html"><![CDATA[<p>Thoughtful UX principles for streaming chat: intent-driven scrolling, interaction signals, viewport placement—design craft applied to AI interfaces.</p><p><strong>Source:</strong> x_getxapi · <strong>Score:</strong> 8/10</p><p><a href="https://x.com/shadcn/status/2070394918720221522">Read on x_getxapi →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:617b78929e8d74e1</id>
-    <title>Figma migró a WebGPU en 2023 y ahora cosecha lo sembrado: describes el efecto en lenguaje natural y su agente escribe el…</title>
-    <link rel="alternate" href="https://bsky.app/profile/cerebrodigital.net/post/3mp66le74tq2j"/>
-    <published>2026-06-26T05:10:59.000Z</published>
-    <updated>2026-06-26T05:10:59.000Z</updated>
-    <author><name>cerebrodigital.net</name></author>
-    <category term="figma"/>
-    <category term="figma-make"/>
-    <category term="technique"/>
-    <category term="ui-craft"/>
-    <summary>Figma&#x27;s WebGPU migration enables natural-language design effects (metal, watercolor, dithering) without plugins; concrete design capability leap.</summary>
-    <content type="html"><![CDATA[<p>Figma&#x27;s WebGPU migration enables natural-language design effects (metal, watercolor, dithering) without plugins; concrete design capability leap.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 8/10</p><p><a href="https://bsky.app/profile/cerebrodigital.net/post/3mp66le74tq2j">Read on bluesky →</a></p>]]></content>
-  </entry>
-  <entry>
-    <id>tag:ligatsa.github.io,2026:watchtower:item:9b56078cf7f9f7ca</id>
-    <title>Same parts. Different order. AI writes the code now; reading whether the design holds is the job that is left. Learn to …</title>
-    <link rel="alternate" href="https://bsky.app/profile/systemthinkinglab.ai/post/3mp65mv6ugr2v"/>
-    <published>2026-06-26T04:54:01.245Z</published>
-    <updated>2026-06-26T04:54:01.245Z</updated>
-    <author><name>systemthinkinglab.ai</name></author>
-    <category term="designer-post"/>
-    <category term="technique"/>
-    <category term="analysis"/>
-    <summary>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</summary>
-    <content type="html"><![CDATA[<p>Framing shift: AI writes code, designer&#x27;s job is reading &amp; validating system integrity; conceptual design discipline insight.</p><p><strong>Source:</strong> bluesky · <strong>Score:</strong> 6/10</p><p><a href="https://bsky.app/profile/systemthinkinglab.ai/post/3mp65mv6ugr2v">Read on bluesky →</a></p>]]></content>
   </entry>
 </feed>
